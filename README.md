@@ -1,6 +1,6 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.0.0, sealed 2026-09-13. Fingerprint (Layer 3 policy hash): `e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f`. DOI: pending (filled at the v1.0.1-meta commit after the Zenodo deposit). License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
+By Erik Passoja. Version 1.0.0, sealed 2026-09-13. Fingerprint (Layer 3 policy hash): `e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f`. DOI: [10.5281/zenodo.22743047](https://doi.org/10.5281/zenodo.22743047) (concept DOI for all versions: [10.5281/zenodo.22743046](https://doi.org/10.5281/zenodo.22743046)). License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
 
 ## What this is
 

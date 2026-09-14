@@ -6,6 +6,7 @@ authors:
     given-names: Erik
     affiliation: Seventh Planet, Inc.
 version: 1.0.0
+doi: 10.5281/zenodo.22743047
 date-released: '2026-09-13'
 abstract: 'Layer 3 policy hash e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f. Verify with python3 compiled/verify.py.'
 license: CC-BY-ND-4.0
