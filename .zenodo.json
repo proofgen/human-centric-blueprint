@@ -1,0 +1,14 @@
+{
+  "title": "A Human-Centric Blueprint for Safe AI Ethics",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "publication_date": "2026-09-13",
+  "creators": [{"name": "Passoja, Erik", "affiliation": "Seventh Planet, Inc."}],
+  "description": "A written standard of conduct for machines: a Constitution of eleven articles above thirty-four principles, each a chapter with a technical appendix, with a compiled policy bundle a runtime loads. Version 1.0.0, sealed 2026-09-13. Layer 3 policy hash (fingerprint): e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f. Verify with python3 compiled/verify.py. At this version the bundle enforces the constitutional walls and the profile bar, the Universal Protocol's trigger, the consent test, and the co-requisite graph; no principle's metric bands are enforced yet (compiled/COVERAGE.yaml).",
+  "access_right": "open",
+  "license": "CC-BY-ND-4.0",
+  "keywords": ["AI ethics", "AI governance", "policy enforcement", "human rights"],
+  "related_identifiers": [{"identifier": "https://github.com/proofgen/human-centric-blueprint", "relation": "isSupplementTo", "scheme": "url"}],
+  "notes": "The text is licensed CC BY-ND 4.0; compiled/verify.py is licensed Apache 2.0. See LICENSE.md."
+}
