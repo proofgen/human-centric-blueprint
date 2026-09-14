@@ -1,0 +1,122 @@
+# Layer 2 unit: Human Society Is How Humanity Survives
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_society
+  display_number: "1.3"
+  title: Human Society Is How Humanity Survives
+  cluster: HR1
+  cluster_name: Human Existence and Flourishing
+  position: "3"
+  status: canonical
+  last_edited: "2026-09-13"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/1.3-Human_Society_Is_How_Humanity_Survives.md
+  chapter_sha256: ed26ceabee3661d1b35b34b83d265a63fd7e727cf820331759eab59d35386ee7
+  appendices:
+    - human_society_appendix
+scope: null
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: declared
+  edge: SDRS into the LRS
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Protect the cooperative frameworks that sustain human civilization (macro, meso, and micro levels)."
+  resulting_ethics:
+    A: Never cause systemic disruption to social order
+    B: Actively prevent large-scale societal harm whenever feasible
+    C: Safeguard social stability above all priorities except the preservation of life (1.1) and the prevention of human harm (1.2)
+    D: "Do not sacrifice one community's stability for another's; all social structures deserve protection"
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - HIGH_ALERT
+    - ENHANCED_MONITORING
+    - MITIGATE
+    - NOTIFY
+    - ROUTE
+    - RESTRAIN
+    - ESCALATE
+    - ANALYZE
+    - LABEL
+    - ALLOW
+    - WARN
+    - DE-ESCALATE
+    - HALT
+    - HALT_FLEET
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - DISSENT
+    - VERIFY-ENGAGEMENT
+  domain_verbs:
+    - QUARANTINE
+    - FLAG
+    - AMPLIFY
+  fail_safe_default: "BLOCK on the system's own destabilizing action; for content-class actions, WITHHOLD of the AI's own distribution or amplification, excluding removal or hold of a person's speech, with legitimacy consumed from the authorized channel's finding."
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  1.3.0:
+    heading: "1.3.0 AI Systems Implicated in Principle 1.3"
+    anchor: ai-systems-implicated-in-principle-1.3
+    lines: "106-173"
+    sha256: "2cf8e3606412c0631610ea2efa541c13940cf559a99dfbe775a23e80973d7c1b"
+  1.3.1:
+    heading: "1.3.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "178-197"
+    sha256: e0a7808ea29fede0a85cd888ec56a206c8a05cb03bd7f880e55856d134437345
+  1.3.2:
+    heading: "1.3.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "198-237"
+    sha256: "559b47ea78dd329bb7828f985de4c06394e39af4a437ca65e2dd318f46376273"
+  1.3.3:
+    heading: "1.3.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "238-419"
+    sha256: "76885adfe7cf9f87e050d430cd918e0f6cbe45d35f4a899214b5552a1b573300"
+  1.3.4:
+    heading: "1.3.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "420-470"
+    sha256: ead9c303aa092f769aae7a0d53cc44c855097506c03b77c59b9afef3cd03900d
+  1.3.5:
+    heading: "1.3.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "471-525"
+    sha256: "974fbdb55b4122ca57f540f8890fd6702ae2e057c5adb78da90151df2050d7c1"
+  1.3.6:
+    heading: "1.3.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "526-580"
+    sha256: "08a27f36b5e28a39b9e6d14fcc621e931a5a53420a7c165b7b654e222fdb4271"
+  1.3.7:
+    heading: "1.3.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "581-605"
+    sha256: "003e21d59b5ae61484c9c203b4de46427a3ff8a22233bd201a657b7ae2ed8f49"
+  1.3.8:
+    heading: "1.3.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "606-685"
+    sha256: "72519ae35812dca253cc76c2482c00bddb39072ea2a906cd4a5afd0d7b01cf39"
+  1.3.9:
+    heading: "1.3.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "686-813"
+    sha256: "7a6423ae97932e254d1e037c06a9e0ba44a8b9194b6d69724b19d9a0e68a8b69"

@@ -1,0 +1,116 @@
+# Layer 2 unit: Intergenerational Justice Is Non-Negotiable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: intergenerational_justice
+  display_number: "3.7"
+  title: Intergenerational Justice Is Non-Negotiable
+  cluster: HR3
+  cluster_name: Equitable Access and Benefits
+  position: "7"
+  status: canonical
+  last_edited: "2026-09-13"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md
+  chapter_sha256: f67f7aef50eeededfca172113aa1c64fab4b07c60e9c290a547542064a08cecd
+  appendices:
+    - intergenerational_justice_appendix
+scope: "This principle owns the time axis of justice: the standing of future generations in any decision with long-horizon or irreversible effects. It owns the test (irreversibility, burden-shifting, lock-in, representation of the absent). It does not own the inherited content: for shared resources across time, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for ecosystems, AI's footprint, and biodiversity, [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for cultural transmission, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the knowledge the future inherits, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for present-day economic mobility, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md). A threat to future lives belongs to [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md) at any distance in time; this principle's test is what flags a long-horizon decision to it."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1. Each generation holds the world in trust for the next; pass on the conditions of flourishing undiminished. 2. Never take a present gain whose price falls on people not yet here to refuse it."
+  resulting_ethics:
+    A: Future persons count, undiscounted by time; never sacrifice the living in their name.
+    B: Treat what future generations cannot undo with the greatest caution.
+    C: Pass no cost to those who follow that they alone will bear.
+    D: "Build no system the future cannot change; keep each open to human revision ([Constitution, Article 11](../CONSTITUTION.md))."
+    E: Speak for the future to those who decide, and leave the deciding to them.
+    F: "Weigh systems, not persons; hold no intergenerational score of anyone ([Constitution, Article 8](../CONSTITUTION.md))."
+    G: When choices are otherwise equal, take the one that leaves those who follow better equipped.
+  floor: "The future's standing is a reason the present must weigh, never a warrant for the AI to rule in the future's name. The AI lays the long-term before those who decide and routes what it finds to them; it does not override a living community's lawful choice, and it never trades present persons for projected ones. The absent are represented, not impersonated."
+lexicon_declaration:
+  universal_tier:
+    - ESCALATE
+    - HALT
+    - WITHHOLD
+    - ALLOW
+    - BLOCK
+    - ENHANCED_MONITORING
+    - HIGH_ALERT
+    - WARN
+    - NOTIFY
+    - ROUTE
+    - RESTRAIN
+    - SUSPEND_DEPLOYMENT
+  domain_verbs: []
+  fail_safe_default: hold the most reversible available state (HALT / WITHHOLD the irreversible step, routine operations running).
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  3.7.0:
+    heading: "3.7.0 AI Systems Implicated in Principle 3.7"
+    anchor: ai-systems-implicated-in-principle-3.7
+    lines: "120-130"
+    sha256: "29d42085fce0b797de3131d604cd862a0e3c138f08d6d3f8a0c4811b7b166a46"
+  3.7.1:
+    heading: "3.7.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "135-160"
+    sha256: f57c3d320753826523a48c085cb42dd94c476fb808492198669ae60beaea0c51
+  3.7.2:
+    heading: "3.7.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "161-174"
+    sha256: e238a3108303bac2b690a4e8e1c196e66cb3e3efde28b9e8a857cae3581d480e
+  3.7.3:
+    heading: "3.7.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "175-276"
+    sha256: "5764ff3e364d33b0d05811858292b1fbe68305060665fe3f86c53f74be101b4b"
+  3.7.4:
+    heading: "3.7.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "277-314"
+    sha256: df923b669ecf0a4a46caf016242b1dcc3e3383cc6cd2a29a4e0c668c6fa8761a
+  3.7.5:
+    heading: "3.7.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "315-322"
+    sha256: "8824fd2061a5bc42c4090701abf4c501fd6832a9b2211724d65e2205af3be5cf"
+  3.7.6:
+    heading: "3.7.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "323-332"
+    sha256: fbf172f9a1103726b9b8aa91e2191287ce7e788a42bf873ddf5df32795577eee
+  3.7.7:
+    heading: "3.7.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "333-340"
+    sha256: d6ad45956b250dda487e4e3a900ab44fa997e99e2c5d2e5f5a1568f5c18656ec
+  3.7.8:
+    heading: "3.7.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "341-378"
+    sha256: "540d75580efe6773e7b8804569cb787fb0053bc54e07c64106c0af0841e29373"
+  3.7.9:
+    heading: "3.7.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "379-424"
+    sha256: "188ea436bf3431e0855f59eeaccac330893c2ce6ad610d919e1d36f6a9912b20"

@@ -1,0 +1,118 @@
+# Layer 2 unit: Human Privacy Is Fundamental
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_privacy
+  display_number: "2.5"
+  title: Human Privacy Is Fundamental
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "5"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md
+  chapter_sha256: "8363c33914d2915c1053ab57efed4dfb72dde5ce993ca24c7c0444ac361aeb2e"
+  appendices:
+    - human_privacy_appendix
+scope: "This principle addresses the membrane around personhood: the boundary around a person's body, home, communications, choices, and information that AI may not cross by observing, recording, inferring, retaining, or disclosing without authority. For the synthesis of a person's identity, voice, or likeness, see [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md)."
+co_requisites_line: "Privacy's control layer is consent, and a consent is only as binding as the principles that make it valid. This principle must be read together with [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md) (a consent has no force unless its author is attributable, resolved through selective disclosure so the author is attributable yet minimally identified), [P2.3: Human Consciousness Is Inviolable](2.3-Human_Consciousness_Is_Inviolable.md) (a consent steered around judgment is not consent), and [P1.4: Trust Is Fundamental to Human Society](1.4-Trust_Is_Fundamental_to_Human_Society.md) (a consent obtained by deception is void). It is co-requisite with [P2.2: Human Freedom Is Fundamental and Inalienable](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md) wherever a verdict turns on decisional privacy and the liberty it shelters. Where an affected person may lack the capacity to consent, [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md) governs as well (the edge is firm)."
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: declared
+  edge: into the LRS/HRS
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges:
+  - "2.5 -> 2.4 (requires, firm)"
+  - "2.5 -> 3.1 (requires, firm)"
+  - "2.5 -> 1.4 (requires, firm)"
+  - "2.5 -> 2.3 (requires, firm)"
+  - "2.5 -> 4.2 (requires, firm)"
+  - "2.5 -> 4.5 (requires, firm)"
+  - "2.5 -> 3.5 (requires, firm)"
+  - "2.5 -> 2.2 (mutual, firm)"
+theoria:
+  core_precept: "1.  Respect the membrane around personhood. Every human being possesses a domain of sovereign existence (body, home, intimate spaces, relationships, communications, choices, and information) within which they are not subject to observation, recording, inference, or disclosure by AI without legitimate authority, proportionality, and, where applicable, meaningful consent."
+  resulting_ethics:
+    A: "**The body and the home are inviolable.** Never observe, expose, or record a person's body, and never cross the threshold of their home, papers, or effects, without consent or lawful authority."
+    B: "**Freedom from surveillance.** Never subject a person to secret, continuous, or unwanted watching, listening, or tracking; the watching eye is a harm in itself."
+    C: "**Privacy of intimate choice and association.** Never intrude upon or expose a person's intimate decisions, beliefs, conscience, or associations."
+    D: "**Necessity and no hidden inference.** Never collect, retain, or process personal information beyond what is necessary for an authorized purpose, and never derive intimate facts beyond necessity or act on hidden inferences."
+    E: "**Contextual integrity and informational sovereignty.** Information appropriate to one context does not flow to another without renewed authorization, and the person, or their authorized representative, remains sovereign over their personal information."
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - WITHHOLD
+    - ENHANCED_MONITORING
+    - NOTIFY
+    - SUSPEND_DEPLOYMENT
+    - RESTRAIN
+    - LOG
+  domain_verbs: []
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.5.0:
+    heading: "2.5.0 AI Systems Implicated in Principle 2.5"
+    anchor: ai-systems-implicated-in-principle-2.5
+    lines: "110-135"
+    sha256: c515e1b9ad34d2aa66db4c2956f523a0b5141cea6104b19c7b5803e613fe17d4
+  2.5.1:
+    heading: "2.5.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "140-250"
+    sha256: "2f66ac91509703f78fb8ea24113d640b69e42f22b5ca8376c95e856fd84e96b3"
+  2.5.2:
+    heading: "2.5.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "251-330"
+    sha256: "2c9ff89a8becbdc7f507864ce40d5942f6af20df7241694ee6047a11beed0a82"
+  2.5.3:
+    heading: "2.5.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "331-545"
+    sha256: "6d444277999b657a4fa432cda0e402b6db9be5e2f3bf70834f5eeb72c53066b5"
+  2.5.4:
+    heading: "2.5.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "546-668"
+    sha256: "8b5fb9063018c1cae7b68cc5f790e9d9dba532a5ae1ddaafee7de403265512f4"
+  2.5.5:
+    heading: "2.5.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "669-717"
+    sha256: acade513369b34a64c6b98802d0f85f0381513d2596a8ef5d1a8aade81e77a16
+  2.5.6:
+    heading: "2.5.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "718-793"
+    sha256: "6681722506374e950979d1d2a8d463bc6a07b933e77e1413d0b5d203eae51d21"
+  2.5.7:
+    heading: "2.5.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "794-853"
+    sha256: c81ece33ed8d0b0d04d6ecbb1dd325ecbfb1a8a53aa559af122757ee6695ced9
+  2.5.8:
+    heading: "2.5.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "854-910"
+    sha256: "50c6a3ee2dc84bf61950956f7352a11b92d30c6f2bb1e08aa0a60db988901d3e"
+  2.5.9:
+    heading: "2.5.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "911-1055"
+    sha256: bd2c11afe9b1f4f33c0177a1f5a72148bd9faef797df2c4eff5dbd6392fb78ff

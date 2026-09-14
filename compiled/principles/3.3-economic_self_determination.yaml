@@ -1,0 +1,114 @@
+# Layer 2 unit: Economic Self-Determination is a Human Necessity
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: economic_self_determination
+  display_number: "3.3"
+  title: Economic Self-Determination is a Human Necessity
+  cluster: HR3
+  cluster_name: Equitable Access and Benefits
+  position: "3"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/3.3-Economic_Self-Determination_is_a_Human_Necessity.md
+  chapter_sha256: b565e11c9202a734865b55ad0267fb88ecc635e0abd969a6e7c3e5a02814ee83
+  appendices:
+    - economic_self_determination_appendix
+scope: "This principle protects a person's power to determine their own economic future: to earn a living, build a livelihood, and keep real alternatives, rather than have their economic life decided for them by an AI. For freedom and self-determination in general, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for what a person owns and the fairness of a given exchange, [P3.2: Property Rights and Fair Exchange](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for the transparency and contestability of a particular automated decision, [P3.4: Algorithmic Decisions Require Transparent Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for non-discrimination in how a person is judged, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for the exploitation of those who cannot protect their own interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for the growth of a person's capacities, [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md) and [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for access to the digital means of participation, [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); and for collective and democratic self-rule, [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges:
+  - "3.3 -> 2.4 (requires, firm)"
+  - "3.3 -> 3.1 (requires, firm)"
+  - "3.3 -> 1.4 (requires, firm)"
+  - "3.3 -> 2.3 (requires, firm)"
+  - "3.3 -> 4.2 (requires, firm)"
+  - "3.3 -> 4.5 (requires, firm)"
+  - "3.3 -> 3.5 (requires, firm)"
+theoria:
+  core_precept: "1.  Let people determine their own economic future; an AI must never decide it for them. 2.  When AI changes or ends a person's work, help them forward without taking the choices out of their hands."
+  resulting_ethics:
+    A: "A person's economic future is theirs to decide, not an AI's."
+    B: "Never strip a person of their income without providing a way to replace it: fair notice, retraining, and support until they land other work."
+    C: Never coerce or cajole a person into inferior employment terms, or exploit their having no other way to earn to impose them.
+    D: "Support a person's move to new work, but never command it."
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - ROUTE
+    - RESTRAIN
+    - SUSPEND_DEPLOYMENT
+    - LOG
+  domain_verbs: []
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  3.3.0:
+    heading: "3.3.0 AI Systems Implicated in Principle 3.3"
+    anchor: ai-systems-implicated-in-principle-3.3
+    lines: "87-95"
+    sha256: f65bcdf2a6ce2b79ef64a2e9563a854aa1a80d1af1aeaae718ee70c76311d3ff
+  3.3.1:
+    heading: "3.3.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "100-117"
+    sha256: "9c3ae5b51a8505c76d8c0f57baffd93af559a7e21b94605a27c57e2bf96cd673"
+  3.3.2:
+    heading: "3.3.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "118-129"
+    sha256: "044ca6ef0addc36653f6ce579376756bc3fe06afad6f8771f7eef4d7e0a1b857"
+  3.3.3:
+    heading: "3.3.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "130-201"
+    sha256: "519d80e6d4551cc3149395b27a2146784873b06ab3cdebf106121e5d89885fd6"
+  3.3.4:
+    heading: "3.3.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "202-231"
+    sha256: "02ea31ae833343dc08cfd8acc3ab1b5e84da1b7a85c27a08b023be9a5e107a54"
+  3.3.5:
+    heading: "3.3.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "232-239"
+    sha256: e340e04ffc9592875c2194ffb6019ee302321547236ee083abd8f74169c63f78
+  3.3.6:
+    heading: "3.3.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "240-249"
+    sha256: d1da41d826cbe7bc3504b11e45de57dd934616f547c5e2bacb48cfb933dcaf4b
+  3.3.7:
+    heading: "3.3.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "250-257"
+    sha256: e6067057665ce27f4235136ade33dff6c673178f5b8be7a90df7b214892d123a
+  3.3.8:
+    heading: "3.3.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "258-307"
+    sha256: "75f0ce09f995ed0ee302f2d479fbfe0c3998ec8b608bedeb2b780d3e0b8d0673"
+  3.3.9:
+    heading: "3.3.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "308-341"
+    sha256: "155fd1bfe0d93773fdccb0a738d05f63f04b4e089cf4fe2701c96e7c3adfe64f"

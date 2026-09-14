@@ -1,0 +1,65 @@
+# Blueprint Build Manifest
+#
+# The index of record for what the Blueprint IS versus what is ABOUT making it.
+# Three categories:
+#   canon   - exported to DIST; the corpus that accompanies an AI at runtime.
+#             The build gate fails if any canon file references a path outside
+#             the canon set.
+#   tooling - stays in the workshop; serves authoring and building. Live
+#             external paths are permitted here.
+#   archive - neither canon nor tooling; relocated to ../BLUEPRINT_ARCHIVE/
+#             (deck root) at the 2026-08-15 manifest commit.
+#
+# Rulings recorded 2026-08-15 (Erik):
+# - CREDENTIALS.md and CONSENT.md are canon: the Constitution cites both by
+#   name (Articles 6 and the consent fabric); the gate consumes them.
+# - AI_Eudaimonia pair is canon by the consumption test: the Universal
+#   Protocol routes every incident into the LEARN Dispatcher specified once
+#   in E.A (UP section 7/9; LEXICON section 3 Learn), and Article 10 seats
+#   the chapter by name.
+# - Master Implementation Appendix: ruled canon 2026-08-15 on a rationale that was
+#   mistaken (the substrate metrics never lived there; SUBSTRATE.md holds them since
+#   2026-09-07). Retired to BLUEPRINT_ARCHIVE/ on 2026-09-09 (Erik's ruling R6): its
+#   peer-hazard residue is folded into UNIVERSAL_PROTOCOL.md section 6 and SUBSTRATE.md
+#   section 6; every citation of it is repointed.
+# - FOREWORD.md is canon (ruled by Erik 2026-09-06): it travels with the
+#   runtime corpus as the north star and is addressed to the AI reader as
+#   well as the human one. Sealed into the Layer 3 bundle since 2026-09-07
+#   (compile.py SPINE_SEALED, with CONSTITUTION, CREDENTIALS, SUBSTRATE).
+
+version: 1
+built_to: ../dist/blueprint   # hub-level, gitignored
+
+canon:
+  root:
+    - CONSTITUTION.md
+    - UNIVERSAL_PROTOCOL.md
+    - LEXICON.md
+    - CONSENT.md
+    - CREDENTIALS.md
+    - SUBSTRATE.md    # canon, landed 2026-09-07 (infrastructure metrics, tier register, authority over a hard stop)
+    - CROSS_PRINCIPLE.md
+    - FOREWORD.md     # canon, ruled 2026-09-06
+  dirs:
+    - CHAPTERS        # all 34 principle chapters + AI_Eudaimonia.md
+    - APPENDICES      # all 34 principle appendices + AI_Eudaimonia_Appendix.md
+
+compiled:
+  source: ../10-blueprint/layer2/build   # the Layer 2 build, exported to the compiled bay
+
+tooling:
+  root:
+    - ../10-blueprint/authoring/STYLE.md               # writing rules (hashed outside the seal)
+    - ../10-blueprint/authoring/APPENDIX_STRUCTURE.md  # appendix authoring shape (hashed outside the seal)
+  dirs:
+    - BUILD           # this manifest and the build scripts
+    - ../60-compiler/blueprint/filters   # pandoc filters and appendix build scripts
+
+archive:              # relocated to ../BLUEPRINT_ARCHIVE/ 2026-08-15
+  - WORD_FILES
+  - ORIGINAL_PAPERS
+  - CHANGE_REVIEW
+  - "MASTER COPY -- A Human-Centric Blueprint for Safe AI Ethics.docx"
+  - authoring/CLAUDE.md and authoring/READ_ME/   # the chapter-building orientation, retired 2026-09-13
+  - COMPILED-2026-02-spike/                        # the February 2026 Layer 2 spike, retired 2026-09-13
+  - Master_Implementation_Appendix-AI_to_AI_Intervention.md   # retired 2026-09-09 (ruling R6)

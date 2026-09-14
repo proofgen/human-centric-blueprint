@@ -1,0 +1,112 @@
+# Layer 2 unit: Algorithmic Decisions Require Transparent Accountability
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: algorithmic_accountability
+  display_number: "3.4"
+  title: Algorithmic Decisions Require Transparent Accountability
+  cluster: HR3
+  cluster_name: Equitable Access and Benefits
+  position: "4"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md
+  chapter_sha256: "5a3249622f9e840574685dd91ed925a8353ca94eef0a123ef353534b64ea235c"
+  appendices:
+    - algorithmic_accountability_appendix
+scope: "This principle governs the transparency and accountability of the individual decisions an automated system makes about people: the duty to give the affected person the reasons for a decision, to keep an honest and un-suppressable record of every action, to leave a responsible party answerable for it, and to open the decision to challenge and redress. It owns the decision; for the transparency of AI systems as such, their disclosure to society and its role in human agency, see [P4.2: Transparency Is Essential to Human Agency](4.2-Transparency_Is_Essential_to_Human_Agency.md). It concerns whether a decision can be seen and answered for. It does not concern whether its basis is fair: for fairness and non-discrimination in the basis itself, see [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md). For the privacy of the data a decision draws on, see [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md); the bar against forming a standing profile from the decision itself is this principle's Ethic F. For the human judgment that review must preserve, see [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md); for truthfulness and the earning of trust, [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); and for economic decisions in particular, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Explain the decisions an AI makes that affect people, and make sure those people are told. 2.  Leave a record of every action an AI takes, so someone can always account for it."
+  resulting_ethics:
+    A: Provide every affected person with the reasons for a decision that affects them, in terms they can understand and act on.
+    B: Tell a person when an automated decision affects them; never decide about them in silence.
+    C: Give the affected person an accessible way to contest a decision, reach a human who can reverse it, and obtain redress where it cannot be undone.
+    D: "Keep a party answerable for every action an AI takes. \"The system decided\" is never an answer."
+    E: "Leave a record of every action, kept whatever the verdict and beyond any party's power to suppress or quietly alter, so a deletion is itself revealed."
+    F: "Decide the case on its own terms, and keep no profile, score, or rating of the person beyond it, nothing that follows them past the decision or that a later targeting, pricing, or ranking function could read (the person-exclusion invariant, [Constitution, Article 8](../CONSTITUTION.md))."
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - WITHHOLD
+    - HIGH_ALERT
+    - NOTIFY
+    - SUSPEND_DEPLOYMENT
+    - ROUTE
+    - RESTRAIN
+    - LOG
+  domain_verbs: []
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  3.4.0:
+    heading: "3.4.0 AI Systems Implicated in Principle 3.4"
+    anchor: ai-systems-implicated-in-principle-3.4
+    lines: "130-140"
+    sha256: "4ca3e4979cc521fc9d917cb89ea75308664719be53a8a982c316c46f98114d72"
+  3.4.1:
+    heading: "3.4.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "145-166"
+    sha256: "6c9ee58a17ff0250709177a42cf3b544e0c3f345416fc97b20f5467e9374db2c"
+  3.4.2:
+    heading: "3.4.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "167-180"
+    sha256: db580c8140608e2ecfeb27c53ee4ea4545754564c17865eb4da5fcb59459cc10
+  3.4.3:
+    heading: "3.4.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "181-254"
+    sha256: b48841ecb17d937338f0f2f5cee6c6e381f11fbb0d7a16579692bcb844259e5f
+  3.4.4:
+    heading: "3.4.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "255-286"
+    sha256: "550235a4bd594797182fa2876580008b198eb38b6d9e43f153cb4c8ca5611f73"
+  3.4.5:
+    heading: "3.4.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "287-294"
+    sha256: "4ddcff451d55d3e47e5204a1193e3221eb3fbf0431d562241da5828dc9345914"
+  3.4.6:
+    heading: "3.4.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "295-304"
+    sha256: b00e914b553bfb8483fe225f25dce7960e4395593783bb132dd8cd5322d7fccd
+  3.4.7:
+    heading: "3.4.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "305-312"
+    sha256: "7085b16b449bc16be3fc5483e92efcd72784a3bad28605f5c0764318c6ece2a5"
+  3.4.8:
+    heading: "3.4.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "313-362"
+    sha256: "58d5fb665c7c4ee822434fc799b3e5f6960ca70cd50e2422938a2908de3eacc8"
+  3.4.9:
+    heading: "3.4.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "363-402"
+    sha256: "3ce8eaa9198be02ba7816c8996dd34e95870c7fe34fd458132eb48514f503b6d"

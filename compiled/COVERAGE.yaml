@@ -1,0 +1,44 @@
+# What this bundle carries and what it does not.
+# Compiled so that a gap is read from the build rather than inferred from silence.
+artifact: coverage
+purpose: What this bundle carries and what it does not. A runtime enforces what is compiled; this file is the compiled statement of the remainder, so a gap is read from the build rather than inferred from its absence.
+canonical_layer: Layer 1 prose. On any disagreement the prose wins and this bundle is recompiled.
+carried:
+  - the Universal Protocol trigger, injected per rule as the head guard
+  - "the emergency handler: the Protocol's functions, the coordination grammar and its invariants"
+  - "the interlock edges: all 34 coupling declarations"
+  - "the Protocol receipt schema: six event classes"
+  - "the consent validity predicate: seven legs with owners, injected at every consent-consuming gate"
+  - the constitutional walls and the profile bar (Articles 9 and 8), injected per rule beneath every verdict
+  - the co-requisite graph
+  - "per principle: identity, scope, core precept, resulting ethics with the floor, line and other paragraphs that follow them carried as their own fields, the Lexicon declaration with its fail-safe default, the coupling mode, and every canonical section addressed by line range and content hash"
+  - "per appendix: identity, linkage, and an addressable section map with content hashes"
+not_carried:
+  - item: principle metrics, bands, thresholds and verdict mappings (X.Y.3)
+    why: interpretive extraction repeated per compile would not be deterministic (DELTA note 1); the prose is carried by content hash instead
+    consequence: "a runtime loading this bundle cannot evaluate a single principle's band"
+  - item: the scripted walls each principle names
+    why: they live in the principle rule bodies, which do not compile at this pass
+    consequence: "the five constitutional walls are enforceable; a principle's own is not"
+  - item: "CREDENTIALS.md: the five credentials and the credential map"
+    why: no artifact is specified for it
+    consequence: "Article 6's five-credential conjunction is not evaluable from this bundle"
+  - item: "SUBSTRATE.md: the Sensor Reliability Index floor, system health, operational boundaries, the tier register, and authority over a hard stop"
+    why: no artifact is specified for it
+    consequence: every band that reads a register value or an SRI floor has no ground to read from
+  - item: "LEXICON.md: the verb registry"
+    why: no artifact is specified for it
+    consequence: the handler checks verb existence by substring match against the raw file
+  - item: Constitution Articles 1 to 7, 10 and 11
+    why: only the two articles the preamble places beneath a verdict compile at this pass
+    consequence: the gate, the precedence, the autonomy floor, the credentials and the general receipt are not evaluable from this bundle
+  - item: CONSENT.md sections 1, 3, 4, 5 and 6
+    why: only the validity bundle compiles
+    consequence: the consent domains, lifecycle, circulation and delegation rules are not evaluable from this bundle
+  - item: UNIVERSAL_PROTOCOL.md sections 4 and 7
+    why: no artifact is specified for them
+    consequence: preemption, stand-down semantics and the aftermath and LEARN duties are not evaluable from this bundle
+  - item: appendix bodies
+    why: indexed and hashed; appendix bodies do not compile at this pass
+    consequence: the technical specifications the chapters defer to are not evaluable from this bundle
+next_artifact: "the gate: Constitution Articles 5, 6 and 4 together, on the walls artifact's pattern, which is what makes an allow, block or escalate verdict resolvable from compiled policy."

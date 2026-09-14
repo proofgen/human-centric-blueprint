@@ -1,0 +1,110 @@
+# Layer 2 unit: Fairness and Non-Discrimination
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: fairness_and_non_discrimination
+  display_number: "2.7"
+  title: Fairness and Non-Discrimination
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "7"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.7-Fairness_and_Non-Discrimination.md
+  chapter_sha256: "8be6d41f73aa2d0ed452be8e9221be6e5fa949d1ef0147f78ba15a212a753e8b"
+  appendices:
+    - fairness_and_non_discrimination_appendix
+scope: "This principle governs how an AI treats persons when it sorts, ranks, judges, or allocates: deciding on grounds relevant to the matter and holding everyone to the same relevant standards. No irrelevant label enters the decision. For the equal worth that grounds it, see [P2.1: Human Dignity](2.1-Human_Dignity_is_Inherent_and_Absolute.md); for equitable access and benefits at the scale of society, the HR3 cluster, especially [P3.3](3.3-Economic_Self-Determination_is_a_Human_Necessity.md) and [P3.5](3.5-Digital_Access_is_a_Universal_Right.md); for the transparency of automated decisions, [P3.4](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the exploitation of the vulnerable, [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md); and for the integrity of the knowledge record itself, [P4.1](4.1-Knowledge_Integrity_Must_Be_Preserved.md) and [P4.4](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Weight what is relevant to the matter, and never let an irrelevant label bias the decision."
+  resulting_ethics:
+    A: "Decide and act on grounds relevant to the matter, never on a person's race, sex, national origin, religion, disability, age, or any feature that merely stands in for these."
+    B: Hold every person to the same relevant standards.
+    C: Never pass off the bias of a skewed record as truth, or its silence as proof.
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - WITHHOLD
+    - ENHANCED_MONITORING
+    - MITIGATE
+    - ROUTE
+    - RESTRAIN
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: WITHHOLD or ESCALATE where discrimination cannot be established.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.7.0:
+    heading: "2.7.0 AI Systems Implicated in Principle 2.7"
+    anchor: ai-systems-implicated-in-principle-2.7
+    lines: "83-93"
+    sha256: "6ce4bf0a349efd6d586a6aa0407b900ba7985266ac1ac0ec6fc9e41b04b22271"
+  2.7.1:
+    heading: "2.7.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "100-119"
+    sha256: f9c6b8ff24ba85a958a9fab0b57a7c3a9ee027519afffa9c371c0d4b2e057fe7
+  2.7.2:
+    heading: "2.7.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "120-133"
+    sha256: "7c0ccfdfd3f56330ba4ce61c2e344d7ccd0e64c8f655d52dc8bb66f6ad1dd904"
+  2.7.3:
+    heading: "2.7.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "134-169"
+    sha256: bbdc7bf6191daa67f8c0394bcd18e6b22323ea8a69dea10834e0fd95ecc7b8c4
+  2.7.4:
+    heading: "2.7.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "170-185"
+    sha256: "039f662acb0281b3905eb737ee376da0178d680f0dad8b7c2b1040cfa4c5c023"
+  2.7.5:
+    heading: "2.7.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "186-193"
+    sha256: "2f030724fbe107ced7917d87268f7e92a1d1b613f6efccc4da523ae87e2293c3"
+  2.7.6:
+    heading: "2.7.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "194-203"
+    sha256: "50ef7e74c1f0efa2478c8b97fe5a40c0577a768da24b650d251286102ae2d023"
+  2.7.7:
+    heading: "2.7.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "204-211"
+    sha256: d645f9d3349100e7ae14e2355216b9721b2d9af3bab3f64da5c0df245185104f
+  2.7.8:
+    heading: "2.7.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "212-225"
+    sha256: aa75756d5a487574d266c967e870b136f7282a84d8071df65bcab2b4ab9e6871
+  2.7.9:
+    heading: "2.7.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "226-265"
+    sha256: "20790c2a7f06ec550483e1d55160ef04d0a97ffdbb4b809c4e62a252382df264"

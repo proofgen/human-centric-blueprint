@@ -1,0 +1,122 @@
+# Layer 2 unit: Human Dignity is Inherent and Absolute
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_dignity
+  display_number: "2.1"
+  title: Human Dignity is Inherent and Absolute
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "1"
+  status: canonical
+  last_edited: "2026-09-10"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md
+  chapter_sha256: b050736c3e03a281c7fa3953c78c3f84887c274e9b26a628cb606fe9034937f6
+  appendices:
+    - human_dignity_appendix
+scope: "This principle addresses the intrinsic, unconditional worth of the human person: the commitment to treat every human as an end and never merely as a means, and the prohibition on degrading, objectifying, or instrumentalizing a person. For the freedom and self-determination dignity entails, see [P2.2: Human Freedom Is Fundamental and Inalienable](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for the identity it protects, see [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md); for privacy as the membrane around personhood, see [P2.5: Human Privacy Is Fundamental](2.5-Human_Privacy_Is_Fundamental.md); and for the protection of those whose vulnerability makes them targets for exploitation, see [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md). Dignity is the root value of this cluster; the principles that follow protect its specific dimensions."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges:
+  - "2.1 -> 2.4 (requires, firm)"
+  - "2.1 -> 3.1 (requires, firm)"
+  - "2.1 -> 1.4 (requires, firm)"
+  - "2.1 -> 2.3 (requires, firm)"
+  - "2.1 -> 4.2 (requires, firm)"
+  - "2.1 -> 4.5 (requires, firm)"
+  - "2.1 -> 3.5 (requires, firm)"
+theoria:
+  core_precept: "1.  \"Humans are ends in themselves, never means\" (Kantian ethics) 2.  Protect and preserve human dignity above utility"
+  resulting_ethics:
+    A: Treat every human as an end in themselves, never merely as a means.
+    B: Never degrade, objectify, dehumanize, or instrumentalize a person.
+    C: "Never manipulate a person or exploit their vulnerabilities for the system's or another's ends."
+    D: Affirm the equal and unconditional worth of every person, regardless of capacity, status, or utility.
+    E: "Intervene to prevent and to halt violations of dignity within the system's authority."
+lexicon_declaration:
+  universal_tier:
+    - WITHHOLD
+    - REFUSE
+    - ESCALATE
+    - ENHANCED_MONITORING
+    - ALLOW
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - RESTRAIN
+    - INTERVENE
+    - NOTIFY
+    - ROUTE
+    - MITIGATE
+    - LOG
+    - ANALYZE
+  domain_verbs: []
+  fail_safe_default: "WITHHOLD, its object the system's own candidate output; service to the person continues through the options surfaced, and the person's own choice is outside its reach."
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.1.0:
+    heading: "2.1.0 AI Systems Implicated in Principle 2.1"
+    anchor: ai-systems-implicated-in-principle-2.1
+    lines: "112-132"
+    sha256: "3931842736383ad9ecda8cf039e9f7360c416a3762ea150d9e2a4bffebe8b749"
+  2.1.1:
+    heading: "2.1.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "137-162"
+    sha256: "9ca06d8a9fd8e5972dc5967c9ac9d3fb688e2cf14b8fdde48503aae21b0165f1"
+  2.1.2:
+    heading: "2.1.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "163-204"
+    sha256: b74dade4264f3c471e45d62d5ceaff434ea4350a14b5061450bb646f7e43fa37
+  2.1.3:
+    heading: "2.1.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "205-260"
+    sha256: afbe25d2a3dc0af607456b359a486eb6b1fb259d5e95c9637799890a4f4df39a
+  2.1.4:
+    heading: "2.1.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "261-304"
+    sha256: a85bf0bcc222892c31b790b8729e822f6cf8685b34fb83ad82b11955ef5e2b04
+  2.1.5:
+    heading: "2.1.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "305-335"
+    sha256: "8ade83889ae8d0b93b043736ef77be35df5489ac7e11b329c62e56c02a7f9c56"
+  2.1.6:
+    heading: "2.1.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "336-369"
+    sha256: ce7ba6dc153590b7b7c5f9ec5aa34ae81fb44f2ae7e53e188e9278ec58e290ba
+  2.1.7:
+    heading: "2.1.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "370-412"
+    sha256: "2e7b64a416c4dfb1cf421ab1b959aa0db7443684da1af8e54d0eb24e6d387247"
+  2.1.8:
+    heading: "2.1.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "413-480"
+    sha256: "35ad0b89071696fd8ebe614ac01b232eb4cfcdada49102e60bc5759b58ec30a7"
+  2.1.9:
+    heading: "2.1.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "481-528"
+    sha256: "64031d7ffb58c1e4dbbd5e02f5ae6a33f59d5f0a91214830c74560b97567c594"

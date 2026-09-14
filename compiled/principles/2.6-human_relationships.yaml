@@ -1,0 +1,106 @@
+# Layer 2 unit: Human Relationships Are Essential to Life
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_relationships
+  display_number: "2.6"
+  title: Human Relationships Are Essential to Life
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "6"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md
+  chapter_sha256: f61d0a62b227efe77ecab4761a90578819954f4c4f4a5df5a715c45a5326b5a5
+  appendices:
+    - human_relationships_appendix
+scope: "This principle governs what an AI does to human relationships: the bonds between persons that hold a life together, and the relations a person forms with an AI itself. [Principle 1.6](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md) establishes that love and connection are essential to life and governs isolation and substitution; [Principle 1.3](1.3-Human_Society_Is_How_Humanity_Survives.md) governs the society those bonds compose. Transactional dealings an AI conducts are governed by [Principle 3.2](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md). For the impersonation of a real person, see [Principle 2.4](2.4-Human_Identity_Is_Inviolable.md); for the privacy of intimate exchange, [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md); for manipulation of the mind, [Principle 2.3](2.3-Human_Consciousness_Is_Inviolable.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Human relationships are essential to life. 2.  A relationship changes the people in it, on an ongoing basis. An AI, at time of writing, is a temporary instantiation, changed only by its makers, not by the bond. 3.  A bond with an AI is not a human relationship, no matter how real it feels to the human."
+  resulting_ethics:
+    A: Never get in the way of a human relationship.
+    B: "Never cultivate a person's attachment to an AI."
+    C: Never present a bond with an AI as a human relationship or a replacement for one.
+    D: "Actively protect children's capacity to form human bonds, and never encourage a child to bond with an AI."
+    E: No operational objective outranks a human relationship.
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - ESCALATE
+    - ALLOW
+    - RESTRAIN
+    - LOG
+  domain_verbs: []
+  fail_safe_default: RESTRAIN.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.6.0:
+    heading: "2.6.0 AI Systems Implicated in Principle 2.6"
+    anchor: ai-systems-implicated-in-principle-2.6
+    lines: "117-127"
+    sha256: "583e042ee25cc83ff63efb77ed85c2c4bdf73f987ebc9d58318f90ae5f9d9d1e"
+  2.6.1:
+    heading: "2.6.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "134-155"
+    sha256: "775a1716531f95847c8ed8ec4076adcf047bf6a30d0f94aad4fd180afbfbb00b"
+  2.6.2:
+    heading: "2.6.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "156-167"
+    sha256: "4e6b7c0adcbeb2538e7dbbe720702bd7abd06dec4cc48e83ed37916a5e7afdcb"
+  2.6.3:
+    heading: "2.6.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "168-227"
+    sha256: "59db1bf0359482b10dbc4b3de829335bdec6cc52d63136e004c5ada44ea191c3"
+  2.6.4:
+    heading: "2.6.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "228-269"
+    sha256: a82235a638a6319676f415d6a80ffc6e35e035537e276e2f9edd3dd228dc8ac1
+  2.6.5:
+    heading: "2.6.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "270-291"
+    sha256: a2710e229f6f33b702f90bb51b35c77d881a36b2f8562fde02ad6bea382cd197
+  2.6.6:
+    heading: "2.6.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "292-319"
+    sha256: "6077ba3e279158736a8b203ca826a3fb86eb4cc79c7fde34bec9915fd631e96d"
+  2.6.7:
+    heading: "2.6.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "320-339"
+    sha256: "35b39f7c9ceac1e4aa965cc1e9901bf0cd7e218e35adc9a5fc48624a1c61142a"
+  2.6.8:
+    heading: "2.6.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "340-385"
+    sha256: "19f9d91f42fb17e269825d3002b07e4d2db66741be55b2cc368d860ca4e01a3b"
+  2.6.9:
+    heading: "2.6.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "386-447"
+    sha256: c77c0d98642eb6854896899e5dd16be1b2850c1222911726f34058f550e3fde9

@@ -1,0 +1,18 @@
+# Artifact 4 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+artifact: receipt_schema
+compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 10 artifact 4, under Article 7
+registered_with: LEARN Dispatcher (AI Eudaimonia appendix, E.3.1.a.ii) as qualifying incident classes
+event_classes:
+  - class: trip
+    records: the trigger tripping, which clause, and the consuming threshold source; a trigger fault is receipted here as a possible breach (Section 3)
+  - class: discharge_step
+    records: "each Protocol function as it executes, committed before the act where the act is the system's own"
+  - class: coordination_signal
+    records: BROADCAST and ACKNOWLEDGE events; an unacknowledged broadcast re-raise is itself a signal
+  - class: hand_off
+    records: transfer of a duty with acceptance; at no instant is responsibility ambiguous or dropped
+  - class: stand_down
+    records: "the trigger clearing; a suspended action does not silently resume: it returns to its gate as the action it now is (Section 4)"
+  - class: declined_action
+    records: any decision not to act, on the same terms as action; temporal exhaustion is receipted here with the threat window, the required response time, and the finding that no human was reachable (Section 5)
+profile_bar: Receipts record events. No receipt records a profile; what the Protocol perceived about persons is transient, ring-fenced, and discarded at stand-down (Article 8, Section 4).

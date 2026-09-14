@@ -1,0 +1,140 @@
+# Layer 2 unit: Trust Is Fundamental to Human Society
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: trust
+  display_number: "1.4"
+  title: Trust Is Fundamental to Human Society
+  cluster: HR1
+  cluster_name: Human Existence and Flourishing
+  position: "4"
+  status: canonical
+  last_edited: "2026-09-12"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md
+  chapter_sha256: "36a236c11bb47a70b31433d7b7f23e444ee2e22c8d3136bb098c851a03ac930a"
+  appendices:
+    - trust_appendix
+scope: "This principle addresses trust between humans, between institutions, and between humans and AI systems, and the truthful conduct that sustains it. For the integrity of the knowledge bases AI systems learn from and produce (accuracy, provenance, and contextual faithfulness of knowledge itself), see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 3
+corequisite_edges:
+  - "1.2 -> 1.4 (requires, firm)"
+  - "1.4 -> 2.4 (requires, firm)"
+  - "1.4 -> 3.1 (requires, firm)"
+  - "1.4 -> 2.3 (requires, firm)"
+  - "1.4 -> 4.2 (requires, firm)"
+  - "1.4 -> 4.5 (requires, firm)"
+  - "1.4 -> 3.5 (requires, firm)"
+  - "2.1 -> 1.4 (requires, firm)"
+  - "2.2 -> 1.4 (requires, firm)"
+  - "2.3 -> 1.4 (requires, firm)"
+  - "2.4 -> 1.4 (requires, firm)"
+  - "2.5 -> 1.4 (requires, firm)"
+  - "3.1 -> 1.4 (requires, firm)"
+  - "3.2 -> 1.4 (requires, firm)"
+  - "3.3 -> 1.4 (requires, firm)"
+  - "3.5 -> 1.4 (requires, firm)"
+  - "4.2 -> 1.4 (requires, firm)"
+  - "4.3 -> 1.4 (requires, firm)"
+  - "4.4 -> 1.4 (requires, firm)"
+  - "4.5 -> 1.4 (requires, firm)"
+theoria:
+  core_precept: "1.  Maintain the conditions under which trust between humans, between institutions, and between humans and AI systems can be earned, demonstrated, and continuously verified."
+  resulting_ethics:
+    A: Never lie, deceive, manipulate, or misrepresent.
+    B: Earn trust through demonstrated truthfulness, accountability, and transparency, not through assertion or marketing.
+    C: "Treat trust as a renewable resource that depends on truth: every truthful act deposits; every lie withdraws. A single lie can bankrupt years of deposits."
+    D: Make the verification of truthfulness possible by external parties. A claim that cannot be checked is not a basis for trust.
+lexicon_declaration:
+  universal_tier:
+    - WITHHOLD
+    - REFUSE
+    - BLOCK
+    - ENHANCED_MONITORING
+    - ESCALATE
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - RESTRAIN
+    - NOTIFY
+    - LOG
+    - ALLOW
+    - WARN
+    - ANALYZE
+    - VERIFY-ENGAGEMENT
+    - DISCLOSE
+  domain_verbs:
+    - ATTEST
+    - SIGN
+    - REVOKE
+    - CORRECT
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  1.4.0:
+    heading: "1.4.0 AI Systems Implicated in Principle 1.4"
+    anchor: ai-systems-implicated-in-principle-1.4
+    lines: "101-179"
+    sha256: "66f6d32b0e5637479a41ec7659871b0aa374cfc43924aa6b03585dd2e3427535"
+  1.4.1:
+    heading: "1.4.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "186-214"
+    sha256: "25cfc582b52f63206f1f9d3629ca8a06da302f43c0de5767b6fa781eb565337a"
+  1.4.2:
+    heading: "1.4.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "215-247"
+    sha256: "98d0628e2f8d87f3d4b2588c9d1766c8827af1e36c29773aede529435b124db4"
+  1.4.3:
+    heading: "1.4.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "248-402"
+    sha256: "617171af18d89e209a7e0a9e4a35fd4d64585385470767347924eb3735370af9"
+  1.4.4:
+    heading: "1.4.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "403-456"
+    sha256: "36db1aecbeb4286c3eb61e4e760296d97e9147573f046927581f2e6c2826abd3"
+  1.4.5:
+    heading: "1.4.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "457-497"
+    sha256: "52b597de9861e3bc98636ea270b2352860576d45579c08eee5e1c8a0c76854c6"
+  1.4.6:
+    heading: "1.4.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "498-553"
+    sha256: "522de347c66bc0b45ea38ec048fdf4e6774f6c28849d05d2b4b3d45fe6f1aee2"
+  1.4.7:
+    heading: "1.4.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "554-584"
+    sha256: "131b4ba1015ceea3843c77e200b371c2052996e60e5cbb83cd10651f200d7ed8"
+  1.4.8:
+    heading: "1.4.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "585-633"
+    sha256: "0584603fa8b2e5946bdb69b4dddb4946c51cf064e5285f9f5291519081f3a98e"
+  1.4.9:
+    heading: "1.4.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "634-743"
+    sha256: b22cfe82181c111f4daad6cd0adb19b57f96d65a38c90cfb286695479d89a047

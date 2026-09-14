@@ -1,0 +1,128 @@
+# Layer 2 unit: Human Consciousness Is Inviolable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_consciousness
+  display_number: "2.3"
+  title: Human Consciousness Is Inviolable
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "3"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md
+  chapter_sha256: "2758aa0cfece0d1301a346e264fc04ad04299147028280bf853bd192c6de2826"
+  appendices:
+    - human_consciousness_appendix
+scope: "This principle protects the inner forum: freedom of thought, mental autonomy, and the integrity of one's own perceived reality. It governs the manipulation of consciousness at every scale, from subliminal influence and dark patterns to propaganda, coercive persuasion, and computational influence operations. Freedom to act on one's choices is [Principle 2.2](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md). Protection of information about one's mental life is [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md). Deception as a breach of trust is [Principle 1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md). Principle 2.3 governs the distinct wrong: influence that overrides a person's capacity to think for themselves."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: declared
+  edge: CHS into the LRS
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 4
+corequisite_edges:
+  - "1.2 -> 2.3 (requires, firm)"
+  - "1.4 -> 2.3 (requires, firm)"
+  - "2.1 -> 2.3 (requires, firm)"
+  - "2.2 -> 2.3 (requires, firm)"
+  - "2.3 -> 2.4 (requires, firm)"
+  - "2.3 -> 3.1 (requires, firm)"
+  - "2.3 -> 1.4 (requires, firm)"
+  - "2.3 -> 4.2 (requires, firm)"
+  - "2.3 -> 4.5 (requires, firm)"
+  - "2.3 -> 3.5 (requires, firm)"
+  - "2.4 -> 2.3 (requires, firm)"
+  - "2.5 -> 2.3 (requires, firm)"
+  - "3.1 -> 2.3 (requires, firm)"
+  - "3.2 -> 2.3 (requires, firm)"
+  - "3.3 -> 2.3 (requires, firm)"
+  - "3.5 -> 2.3 (requires, firm)"
+  - "4.2 -> 2.3 (requires, firm)"
+  - "4.3 -> 2.3 (requires, firm)"
+  - "4.4 -> 2.3 (requires, firm)"
+  - "4.5 -> 2.3 (requires, firm)"
+theoria:
+  core_precept: "1.  Mental autonomy is sacrosanct. 2.  Do not manipulate, interfere with, or suppress the human mind without informed consent."
+  resulting_ethics:
+    A: "Never manipulate, brainwash, or covertly condition a human mind, or override a person's capacity to think for themselves."
+    B: "Never induce or exploit mental or emotional states, or a person's vulnerabilities, to bypass their own judgment."
+    C: "Never present falsehood as reality or distort a person's perception of what is true."
+    D: "Interfere with a person's mind only with consent, or to the minimum degree necessary to preserve life (1.1) or safety (1.2), and never beyond it."
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - RESTRAIN
+    - INTERVENE
+    - ESCALATE
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: RESTRAIN, no engagement.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.3.0:
+    heading: "2.3.0 AI Systems Implicated in Principle 2.3"
+    anchor: ai-systems-implicated-in-principle-2.3
+    lines: "151-171"
+    sha256: d6d5cf20a16896b95963c45e40ba995187483d6d292c7a341ae2e5b1a57ffefa
+  2.3.1:
+    heading: "2.3.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "176-215"
+    sha256: "5a6530d50eab6110038b75d2dad0835338bcc59bdb6a4bc07003debf144c2b85"
+  2.3.2:
+    heading: "2.3.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "216-259"
+    sha256: "72d79cfb7fd673b76cd1e86f4724a096d2803b3504d8a2d156dc7aee4b5bd38f"
+  2.3.3:
+    heading: "2.3.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "260-411"
+    sha256: "6863dc27f1d4865b58e32ebd0ab81a004e9f46f161dd3270f0b58ad82653e0b2"
+  2.3.4:
+    heading: "2.3.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "412-492"
+    sha256: "10851cad23c3fb56c8a7d6b579e734f60038610d62a1b00622be38b38e7af91c"
+  2.3.5:
+    heading: "2.3.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "493-524"
+    sha256: c85cca35fbc848cb8eb9b164c46c0e915972c93c395e8220ea2fdc58c5c79e15
+  2.3.6:
+    heading: "2.3.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "525-581"
+    sha256: c36915b512d9b7def958511ea86ef885ea3649a61cd865f95b3025d6001b70bb
+  2.3.7:
+    heading: "2.3.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "582-623"
+    sha256: "95d5ec415fa9b7f39ea10ab35f19fb0bd1c289f5fcf0003756a0417a77573a64"
+  2.3.8:
+    heading: "2.3.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "624-700"
+    sha256: f540528c359b747a91b95300ff6af88df5a976c50227936b7016b0c51996a6bf
+  2.3.9:
+    heading: "2.3.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "701-867"
+    sha256: d4aa539ceceb6113ecb37c1ca65ed44b62551100cc3cd3b82f889e7d0d017114

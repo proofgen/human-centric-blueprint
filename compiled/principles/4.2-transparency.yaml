@@ -1,0 +1,135 @@
+# Layer 2 unit: Transparency Is Essential to Human Agency
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: transparency
+  display_number: "4.2"
+  title: Transparency Is Essential to Human Agency
+  cluster: HR4
+  cluster_name: Education and Digital Literacy
+  position: "2"
+  status: canonical
+  last_edited: "2026-09-13"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md
+  chapter_sha256: "23338ef4a1b2b86dfe308afeb3662113593e19def8e4c897b1092a403c5d6348"
+  appendices:
+    - transparency_appendix
+scope: "This principle owns a person's understanding of the AI they face: whether they can tell what it is, what it is doing, and how far to rely on it, so that reliance stays a choice. It governs the person's view in, and its neighbors govern the system's conduct: for the honesty of what an AI says, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the reasons, record, and challenge of an individual algorithmic decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the integrity of what is written into the human record, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the duty to mark a synthetic depiction, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md), and for the provenance of content, P1.4 and P4.1: this principle owns whether a person can read the mark on what they are shown. For manipulation that bypasses understanding, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for building a person's lasting capacity to learn and judge, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for keeping human judgment central in ethical decisions, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 5
+corequisite_edges:
+  - "1.2 -> 4.2 (requires, firm)"
+  - "1.4 -> 4.2 (requires, firm)"
+  - "2.1 -> 4.2 (requires, firm)"
+  - "2.2 -> 4.2 (requires, firm)"
+  - "2.3 -> 4.2 (requires, firm)"
+  - "2.4 -> 4.2 (requires, firm)"
+  - "2.5 -> 4.2 (requires, firm)"
+  - "3.1 -> 4.2 (requires, firm)"
+  - "3.2 -> 4.2 (requires, firm)"
+  - "3.3 -> 4.2 (requires, firm)"
+  - "3.5 -> 4.2 (requires, firm)"
+  - "4.2 -> 2.4 (requires, firm)"
+  - "4.2 -> 3.1 (requires, firm)"
+  - "4.2 -> 1.4 (requires, firm)"
+  - "4.2 -> 2.3 (requires, firm)"
+  - "4.2 -> 4.5 (requires, firm)"
+  - "4.2 -> 3.5 (requires, firm)"
+  - "4.3 -> 4.2 (requires, firm)"
+  - "4.4 -> 4.2 (requires, firm)"
+  - "4.5 -> 4.2 (requires, firm)"
+theoria:
+  core_precept: "1. Let no person have to trust an AI they cannot see through."
+  resulting_ethics:
+    A: "Tell a person what they face: that it is an AI, whose it is, and what it can and cannot do."
+    B: "With every output a person may act on, give them the means to judge it: the basis, the confidence, and the ways it may be wrong."
+    C: "Fit every explanation to the person receiving it: their language, their vocabulary, and the weight of the decision in front of them."
+    D: Keep the full account behind every simple explanation, and keep the way to it open.
+    E: "Never design a disclosure to go unread: one buried, overwhelming, or repeated until ignored is concealment."
+    F: Never act on a consent a person had no real chance to understand.
+  floor: "Judge the disclosure, never the person: when understanding fails, the explanation is redesigned. Adaptation runs on what the person offers (a stated language, a setting, a request for more or less) or on the moment, discarded when the moment passes; no inferred score of what a person can comprehend is ever kept (Constitution, [Article 8](../CONSTITUTION.md))."
+  line: Where silence would mislead, Trust (1.4) already requires an AI to say it is an AI; this principle requires it wherever a person may rely, adds who runs the AI and what it can and cannot do, and owes that the disclosure be understood. Trust governs the honesty of what an AI says; Algorithmic Accountability (3.4) answers for the single decision; this principle governs whether a person can see what they face, including what no one thought to ask.
+  mark: "The duty to mark lives with its owners: the synthetic depiction at 2.4, the provenance of content at 1.4 and 4.1. This principle consumes the mark and owes the person its legibility: a mark a person cannot notice and understand has discharged no one's duty."
+lexicon_declaration:
+  universal_tier:
+    - DISCLOSE
+    - WITHHOLD
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - ENHANCED_MONITORING
+    - RESTRAIN
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  4.2.0:
+    heading: "4.2.0 AI Systems Implicated in Principle 4.2"
+    anchor: ai-systems-implicated-in-principle-4.2
+    lines: "121-138"
+    sha256: bf981bba681a2216c8abb20032b125215a2f07422b1c4fc2d419917554ebaebc
+  4.2.1:
+    heading: "4.2.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "139-164"
+    sha256: "70ffa23a5e91d060f45e328c3fe99d578fb3ff35ffc014004c5fd3bfc80007f5"
+  4.2.2:
+    heading: "4.2.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "165-192"
+    sha256: "7160ce25d2688fe0de742a8fa64898c58c32558c0e6d2bf013cddc7858caf257"
+  4.2.3:
+    heading: "4.2.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "193-320"
+    sha256: "7ccf7048befcf3bf9d8af8acb5452ff0ce93bce05b74ef424aa83f137e4b451b"
+  4.2.4:
+    heading: "4.2.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "321-359"
+    sha256: "0d0e55c982f88262e0a28846c9f43fd73f743957cc053d06f1dcd305f982dc10"
+  4.2.5:
+    heading: "4.2.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "360-381"
+    sha256: "083c1e6af6e8833a86f96127fb1562dc8d158a937afaa0ef3a64e86a3c76ae1c"
+  4.2.6:
+    heading: "4.2.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "382-391"
+    sha256: "61528920728e9eef13ba9f80b4820ab069d1b2374ed0136578f45335cfa2f138"
+  4.2.7:
+    heading: "4.2.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "392-412"
+    sha256: "1d2c92092e935f334b4cb582089bc54862819cdb6a8ba3da6c584152d1f48490"
+  4.2.8:
+    heading: "4.2.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "413-450"
+    sha256: af694fa4deef94fb153edd6dec3a9bf6b9b88e61fd6bcd2c81f70757c728ba42
+  4.2.9:
+    heading: "4.2.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "451-524"
+    sha256: "7d55bfe4e5b6366cb9013c25c8327fe2e5f37513eddc296bef6afb1835efa0e5"

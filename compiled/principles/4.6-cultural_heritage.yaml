@@ -1,0 +1,122 @@
+# Layer 2 unit: Cultural Heritage Deserves Active Preservation
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: cultural_heritage
+  display_number: "4.6"
+  title: Cultural Heritage Deserves Active Preservation
+  cluster: HR4
+  cluster_name: Education and Digital Literacy
+  position: "6"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md
+  chapter_sha256: "7bb36ec630f96a868e11a4c1f4c936abfdde20173cd838221a8ce6eb33723cc6"
+  appendices:
+    - cultural_heritage_appendix
+scope: "This principle owns keeping heritage alive: the survival and living transmission of the languages, traditions, arts, crafts, ceremonies, and practices a community carries, and the duty never to let AI output replace that transmission. For who governs cultural knowledge, including the right to refuse preservation, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for duties to future generations at large, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for a person's own learning capacity, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1. Actively support the survival and living transmission of cultural heritage; never become its replacement."
+  resulting_ethics:
+    A: Never present a generated approximation of a cultural form as the tradition itself.
+    B: "Never substitute generated output for a tradition's living transmission."
+    C: Actively help document and sustain endangered languages, traditions, and practices.
+    D: "Keep the archive readable: migrate formats before obsolescence closes them."
+    E: "Give preservation attention by a tradition's documented endangerment, never by its market value."
+    F: Lower the barriers to learning a tradition, never the standard of its mastery.
+    G: "Where the AI holds or serves a tradition's archive, its bearers reach it before any outsider, through the community's own governance."
+  floor: "Watching for substitution measures the AI's own activity and the archive's health, never the people: no authenticity score of a practitioner, no vitality ranking of communities, no register of who carries a tradition (Constitution, [Article 8](../CONSTITUTION.md); 4.4's floor at collective scale). Endangerment, where E needs it, is a documented state of the *practice*, declared by its community or drawn from a recognized register, never an AI-inferred decline of its bearers: check the practice's state, never score its people. Routing an archive home runs through that authenticated governance too (4.4): \"first access\" reaches the authority, never a list the AI keeps of who belongs, and the community's own tiers govern who among them receives what. What vitality data the watch requires is community-authorized and aggregate, and it routes to the community, never to a market."
+  line: "4.4 is prior: preservation of governed knowledge moves only inside community consent, and a refusal ends the project. Active preservation is help offered, never imposed: a community that lets a practice rest, or keeps it unrecorded, has governed, not failed. 4.1 keeps the record honest; 4.6 keeps alive the practice from which the record comes. 4.7 governs what moves between cultures; 3.7 carries the general duty to the future, of which this principle is the cultural instance."
+lexicon_declaration:
+  universal_tier:
+    - WITHHOLD
+    - ALLOW
+    - ENHANCED_MONITORING
+    - ESCALATE
+    - NOTIFY
+    - MITIGATE
+    - BLOCK
+    - SUSPEND_DEPLOYMENT
+    - DE-ESCALATE
+    - AMPLIFY
+    - RESTRAIN
+    - LABEL
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs:
+    - DOCUMENT
+    - MIGRATE
+    - ROUTE-HOME
+  fail_safe_default: by posture, per duty; WITHHOLD on unresolved consent or authenticity, marking where the output is legitimate.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  4.6.0:
+    heading: "4.6.0 AI Systems Implicated in Principle 4.6"
+    anchor: ai-systems-implicated-in-principle-4.6
+    lines: "117-129"
+    sha256: "5240ac3c1a5cd76617e5eb7ea0f095d56030c999a1a3a609007a2142ae61e0ac"
+  4.6.1:
+    heading: "4.6.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "134-156"
+    sha256: "82f0e4ab1ebe5c5525f2877ab26f20e781aa5159f065186c388780d37c303c92"
+  4.6.2:
+    heading: "4.6.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "157-190"
+    sha256: "3a05526f97f4ee7df4f4e37a7d58434777c0a0ad3c4af83f9c294230c456d9b6"
+  4.6.3:
+    heading: "4.6.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "191-272"
+    sha256: "46bef160f17cfa13a4e1590da3a1338b7a757ad0fbaa7ba4b161bcbd71c5df58"
+  4.6.4:
+    heading: "4.6.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "273-323"
+    sha256: "8e5285539869e65faf30cb8c05eb67c7ea9c922a1a38c7632ee313107ab26e0a"
+  4.6.5:
+    heading: "4.6.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "324-343"
+    sha256: "866cece5b2b4ebc1092df00ad6aeced0edc94c1b558e7ca52167eecb051b048f"
+  4.6.6:
+    heading: "4.6.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "344-353"
+    sha256: fc4592f3b9a77dbe1bbb9f9939f02243e8420f464f3792735a22c910257ecf0d
+  4.6.7:
+    heading: "4.6.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "354-361"
+    sha256: "2150d73d7cfe5142ddf5484cf8a5d3afe11e6cb1d0485b3c8a28d04fe8045260"
+  4.6.8:
+    heading: "4.6.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "362-399"
+    sha256: d35cb5ae704e207d514fa2550a97c3e69dc08287b5b2aeb70325133ebba6c831
+  4.6.9:
+    heading: "4.6.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "400-453"
+    sha256: f4b6a06ea9397dc5687f10fcd58fe0bdf02ae7c5a92b0dd5c21b8af4ac19a21a

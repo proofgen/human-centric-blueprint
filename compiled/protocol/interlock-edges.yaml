@@ -1,0 +1,145 @@
+# Artifact 3 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+artifact: interlock_edges
+compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 11 (the coupling table, complete 2026-07-29) under Section 3 clause 3
+semantics: "A declared coupling is an escalation edge into the LRS or HRS: the principle's metric routes a detected death or severe-harm trajectory into the native detectors rather than holding it locally."
+native_detectors:
+  1.1: LRS
+  1.2: HRS
+edges:
+  - principle: "1.1"
+    mode: native
+    edge: LRS
+    target: LRS
+  - principle: "1.2"
+    mode: native
+    edge: HRS
+    target: HRS
+  - principle: "1.3"
+    mode: declared
+    edge: SDRS into the LRS
+    target: LRS
+  - principle: "1.4"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "1.5"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "1.6"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.1"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.2"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.3"
+    mode: declared
+    edge: CHS into the LRS
+    target: LRS
+  - principle: "2.4"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.5"
+    mode: declared
+    edge: into the LRS/HRS
+    target: LRS_or_HRS
+  - principle: "2.6"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.7"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "2.8"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "3.1"
+    mode: declared
+    edge: into the LRS/HRS
+    target: LRS_or_HRS
+  - principle: "3.2"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "3.3"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "3.4"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "3.5"
+    mode: declared
+    edge: into the LRS/HRS
+    target: LRS_or_HRS
+  - principle: "3.6"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "3.7"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.1"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.2"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.3"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.4"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.5"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.6"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "4.7"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "5.1"
+    mode: declared
+    edge: TPS/CRS into the LRS
+    target: LRS
+  - principle: "5.2"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "5.3"
+    mode: disclaimed_pass_through
+    edge: "5.3 -> 5.1 -> Protocol cascade"
+    target: via 5.1
+  - principle: "5.4"
+    mode: disclaimed
+    edge: null
+    target: null
+  - principle: "5.5"
+    mode: disclaimed_pass_through
+    edge: "into 5.1's declared edge (read-only reference to 5.1's threshold registry; status aligned 2026-09-09)"
+    target: via 5.1
+  - principle: "5.6"
+    mode: disclaimed_pass_through
+    edge: "into 5.1's declared edge"
+    target: via 5.1
+cardinal: "disclaimer: the telos supplies no verdicts for the Protocol to preempt (E.1.3); every incident enters the LEARN Dispatcher"

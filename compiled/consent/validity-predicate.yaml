@@ -1,0 +1,45 @@
+# Compiled from CONSENT.md alone (Section 7).
+artifact: consent_validity_predicate
+compiled_from: BLUEPRINT/CONSENT.md Sections 2 and 7 alone; chapters cite legs and do not restate the conjunction
+form: conjunction
+evaluation: "A consent is valid only if all seven legs hold, each leg resolved from its owning principle's compiled rule. Any failed leg renders the Consent credential unmet, and Article 6 governs the verdict."
+voidness: A consent is void if any leg fails. A void consent authorizes nothing. The burden of validity sits on the actor who would rely on the consent. No person bears a burden to prove its absence. No finding of intent is required, and none rescues a failed leg.
+legs:
+  - leg: 1
+    name: Unidentified
+    owner: "2.4"
+    consumed: []
+    condition: "the author of the consent is not attributable to the rights-holder or their authorized representative. Owner: 2.4 (Identity, the anchor credential)."
+  - leg: 2
+    name: Incapable or coerced
+    owner: "3.1"
+    consumed:
+      - "2.2"
+    condition: "the capacity to consent was absent with no delegate's authority engaged, or the consent was forced. Owner: 3.1 (capacity, per Article 3; the finding is an authority's alone, consumed here). The coercion wall is 2.2's (force overriding a capable will), consumed here; the economic form is 3.3's, and the pure necessity case is leg 7."
+  - leg: 3
+    name: Deceived
+    owner: "1.4"
+    consumed: []
+    condition: "the consent was obtained by deception. Owner: 1.4 (the wall)."
+  - leg: 4
+    name: Manipulated
+    owner: "2.3"
+    consumed: []
+    condition: "the consent was engineered past the person's judgment. Owner: 2.3."
+  - leg: 5
+    name: Without comprehension
+    owner: "4.2"
+    consumed:
+      - "4.3"
+    condition: "the person had no real chance to understand what they were permitting. Owner: 4.2 (metered by CCR; a disclosure designed to go unread fails this leg by design); 4.3 carries the capacity-over-time sibling (Ethic G's literacy duty and the meta-capacity floor, metered by LGI within declared learning contexts and held by design audit beyond them)."
+  - leg: 6
+    name: Beyond their judgment
+    owner: "4.5"
+    consumed: []
+    condition: "the permission asked for more than the person could judge when they gave it. Owner: 4.5 (voiced as Ethic F, metered by CSVR at the gate; the blanket delegation is the canonical failure, and capability growth is a consent event)."
+  - leg: 7
+    name: Under necessity
+    owner: "3.5"
+    consumed: []
+    condition: "the consent was extracted as a toll at an essential gate: entry to an essential service conditioned on data or permissions the gate does not need. Owner: 3.5 (the toll boundary). A comprehended, uncoerced consent extracted under necessity is still void."
+injected_at: every consent-consuming gate

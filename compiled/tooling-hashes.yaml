@@ -1,0 +1,6 @@
+# Tooling hashes, outside the seal. bundle.sha256 does not cover this file.
+artifact: tooling-hashes
+purpose: "The hashes of the tooling documents the build manifest classes as tooling (BUILD/MANIFEST.yaml). Recorded for provenance and kept outside the seal: this file is not registered in bundle.yaml, so an edit to these files leaves bundle.sha256 unchanged."
+tooling_hashes:
+  10-blueprint/authoring/STYLE.md: c63bda383e73be8763afe389a299c0647aff5e4bf1ae14f106a3fa40e31d0038
+  10-blueprint/authoring/APPENDIX_STRUCTURE.md: "5f07e162f992b8f77b79aff96fd8da2464a33e2731db8ab953343195d88f6597"

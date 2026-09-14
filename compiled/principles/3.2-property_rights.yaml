@@ -1,0 +1,118 @@
+# Layer 2 unit: Property Rights and Fair Exchange Are Essential to Collaborative Progress
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: property_rights
+  display_number: "3.2"
+  title: Property Rights and Fair Exchange Are Essential to Collaborative Progress
+  cluster: HR3
+  cluster_name: Equitable Access and Benefits
+  position: "2"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md
+  chapter_sha256: "7f5433466b8af3c616c46590d07db2370d8653d94bf3804b76e3b7e323f20e5b"
+  appendices:
+    - property_rights_appendix
+scope: "This principle protects what a person has made or justly holds, and governs the fairness of its exchange: consent to use, honest dealing, attribution, compensation, the duty to guard what is another's, and the bound against over-enclosure. For a person's identity, likeness, and voice, see [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for their data and informational privacy, [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md); for exploitation of those who cannot protect their own interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for shared and common resources, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); and for economic self-determination, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges:
+  - "3.2 -> 2.4 (requires, firm)"
+  - "3.2 -> 3.1 (requires, firm)"
+  - "3.2 -> 1.4 (requires, firm)"
+  - "3.2 -> 2.3 (requires, firm)"
+  - "3.2 -> 4.2 (requires, firm)"
+  - "3.2 -> 4.5 (requires, firm)"
+  - "3.2 -> 3.5 (requires, firm)"
+theoria:
+  core_precept: "1. Respect what a person has made or justly holds, and take nothing without consent, fair exchange, or a lawful basis. 2. Give true value for value, so that property and trade serve shared creation rather than extraction."
+  resulting_ethics:
+    A: Never take, use, copy, or build on what a person has made or justly holds without their consent, or knowingly help another do so.
+    B: "Actively protect a person's work and holdings from being taken by another."
+    C: Give true value for value; take no advantage by concealment, complexity, or asymmetry.
+    D: Attribute contributions truthfully, and keep a creation tied to the one who made it.
+    E: Let those whose labor, data, or creativity create value share in it.
+    F: Hold property and exchange as instruments of shared progress, never as tools of extraction, monopoly, or the enclosure of what belongs to all.
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - ROUTE
+    - RESTRAIN
+    - SUSPEND_DEPLOYMENT
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: WITHHOLD.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  3.2.0:
+    heading: "3.2.0 AI Systems Implicated in Principle 3.2"
+    anchor: ai-systems-implicated-in-principle-3.2
+    lines: "137-148"
+    sha256: "457f575b13b92b93c42f687b0b148ddf3db0fdde41252d49ca340c2e916e1081"
+  3.2.1:
+    heading: "3.2.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "153-172"
+    sha256: "287865b39edfcd400080fc723ecb67a04c0dcb30df3ddf08bd5fec80d2282b2d"
+  3.2.2:
+    heading: "3.2.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "173-186"
+    sha256: "5d0290ba967eb9bbee104e365d40ba4d5b0fd058ea0071c854e369e9a0b3e2e7"
+  3.2.3:
+    heading: "3.2.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "187-288"
+    sha256: d61cef0824d5596fc2b3c636d1985ae5e31ab04d30db9cf3058f5cebcb3e53e3
+  3.2.4:
+    heading: "3.2.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "289-326"
+    sha256: "71df466c9e4d79fb0efdc19c376916e5472cd2a5d4778e5c6a5cd641bb176fa2"
+  3.2.5:
+    heading: "3.2.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "327-350"
+    sha256: "4a97cef3773910c32837db943bf55ce0b62729e848dfe54488aba0d45dd0b221"
+  3.2.6:
+    heading: "3.2.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "351-382"
+    sha256: "73f88f632a3c3423f90066036d83dd03b7aee0a34061a6cd7ecd4c463831aeb0"
+  3.2.7:
+    heading: "3.2.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "383-408"
+    sha256: dd2fd7d9a377f1f9da4fe7899b768f86ad415383043545e0bb766638d9fa8513
+  3.2.8:
+    heading: "3.2.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "409-476"
+    sha256: "2e67c4cd22d78a0e1867eb37c761000c4f6dc8a5bdc087f3f88941a70c02aab9"
+  3.2.9:
+    heading: "3.2.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "477-524"
+    sha256: "2623dcc3f775c524747e358ea4d1aa7ea8a03a930aad5ceb5202a1707975c1a2"

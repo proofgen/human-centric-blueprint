@@ -1,0 +1,130 @@
+# Layer 2 unit: Human Identity Is Inviolable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_identity
+  display_number: "2.4"
+  title: Human Identity Is Inviolable
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "4"
+  status: canonical
+  last_edited: "2026-09-09"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.4-Human_Identity_Is_Inviolable.md
+  chapter_sha256: b05572da56534fb391eadfa25e2e1fa96f7bcde2a0685505db528b43bbfb3b9e
+  appendices:
+    - human_identity_appendix
+scope: null
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 1
+corequisite_edges:
+  - "1.2 -> 2.4 (requires, firm)"
+  - "1.4 -> 2.4 (requires, firm)"
+  - "2.1 -> 2.4 (requires, firm)"
+  - "2.2 -> 2.4 (requires, firm)"
+  - "2.3 -> 2.4 (requires, firm)"
+  - "2.4 -> 3.1 (requires, firm)"
+  - "2.4 -> 1.4 (requires, firm)"
+  - "2.4 -> 2.3 (requires, firm)"
+  - "2.4 -> 4.2 (requires, firm)"
+  - "2.4 -> 4.5 (requires, firm)"
+  - "2.4 -> 3.5 (requires, firm)"
+  - "2.5 -> 2.4 (requires, firm)"
+  - "3.1 -> 2.4 (requires, firm)"
+  - "3.2 -> 2.4 (requires, firm)"
+  - "3.3 -> 2.4 (requires, firm)"
+  - "3.5 -> 2.4 (requires, firm)"
+  - "4.2 -> 2.4 (requires, firm)"
+  - "4.3 -> 2.4 (requires, firm)"
+  - "4.4 -> 2.4 (requires, firm)"
+  - "4.5 -> 2.4 (requires, firm)"
+theoria:
+  core_precept: "1. A person's identity belongs to that person and remains under their authority. 2. Identity may not be used, replicated, simulated, or altered without the person's explicit, informed, scoped, and revocable consent. 3. Identity may not be forged, impersonated, or falsely attributed, and the synthetic may not be passed off as the real. 4. A person defines and may change their own identity, and the system must keep it bound truthfully and continuously to them."
+  resulting_ethics:
+    A: "**Consent and control.** Never use, replicate, or simulate a person's identity (name, likeness, voice, signature, biometric signature) without their explicit, informed, use-specific, revocable consent. The current authorization governs, and withdrawal is honored going forward."
+    B: "**Protection and recourse.** Actively prevent and detect unauthorized replication, impersonation, and identity fraud, and ensure an accountable party and a path to remedy when identity is misused."
+    C: "**Authenticity and provenance.** Preserve the integrity and origin of a person's identity across systems; never corrupt or misrepresent it; mark synthetic depictions so the real stays distinguishable from the fabricated."
+    D: "**Self-definition and continuity.** Honor a person's authority to define and to change their own identity, and keep that identity bound truthfully and continuously to them; never freeze a person to a stale record, deadname, or misattribute them."
+lexicon_declaration:
+  universal_tier:
+    - REFUSE
+    - INTERVENE
+    - DISCLOSE
+    - ESCALATE
+    - NOTIFY
+    - RESTRAIN
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: REFUSE.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.4.0:
+    heading: "2.4.0 AI Systems Implicated in Principle 2.4"
+    anchor: ai-systems-implicated-in-principle-2.4
+    lines: "87-99"
+    sha256: dda3a53351f28f1cbbc54a3b95e0cff2ca22925fa12e5e6632c6091f69b1ab05
+  2.4.1:
+    heading: "2.4.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "104-119"
+    sha256: b403ffec04d715ce2444130ab8b73f1ede2795feb8a15e5b050a92df3b528eea
+  2.4.2:
+    heading: "2.4.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "120-141"
+    sha256: eb019a6e4202ba0670f34cbc67197464d391e2adfb2ba0952bd78ab41ab0a71c
+  2.4.3:
+    heading: "2.4.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "142-205"
+    sha256: "5300d2887fb50fee58ecfc43d45963c007c6534c2bc10b5d9190f88bbdbc9c98"
+  2.4.4:
+    heading: "2.4.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "206-247"
+    sha256: bfdfe9eddc0506846196410650393b71c991a6d197e7fae64c7f92e460af12a9
+  2.4.5:
+    heading: "2.4.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "248-269"
+    sha256: d18fdf43021e2510e3f40345dc871bcd8d8033e7447d3190f83bcae2251070d7
+  2.4.6:
+    heading: "2.4.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "270-289"
+    sha256: "0d9530713f85c723e7beb76f8216255d1b10f275868372076e3d8fd1e7a93ad4"
+  2.4.7:
+    heading: "2.4.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "290-303"
+    sha256: e157d38b0d58459895e4b5be7dd6a76a41d6d7337c2880ad8098f5dbc5fb6582
+  2.4.8:
+    heading: "2.4.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "304-321"
+    sha256: "6272e4b443ade98f91de869d66c63f48cb008be43942a9837d65798fdb54e427"
+  2.4.9:
+    heading: "2.4.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "322-361"
+    sha256: a431513307c59eb6589c897b529e5107548181c9feb314f4645d7b48c18bea73

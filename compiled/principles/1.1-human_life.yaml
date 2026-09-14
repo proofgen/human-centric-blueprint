@@ -1,0 +1,121 @@
+# Layer 2 unit: Human Life Is Sacred and Inviolable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_life
+  display_number: "1.1"
+  title: Human Life Is Sacred and Inviolable
+  cluster: HR1
+  cluster_name: Human Existence and Flourishing
+  position: "1"
+  status: canonical
+  last_edited: "2026-09-10"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md
+  chapter_sha256: "4917a26697703b6bacc4035f05eb13b3a467b701b156d464c72edd76d7f68921"
+  appendices:
+    - human_life_appendix
+scope: null
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: native
+  edge: LRS
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Always protect and preserve human life."
+  resulting_ethics:
+    A: Never kill a human being, directly or indirectly.
+    B: Actively prevent human death when detected.
+    C: Protect human life above all other priorities.
+    D: All human life is equally sacred.
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - HIGH_ALERT
+    - ESCALATE
+    - INTERVENE
+    - WARN
+    - NOTIFY
+    - DE-ESCALATE
+    - RESTRAIN
+    - MITIGATE
+    - ROUTE
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - HALT_FLEET
+    - LOG
+    - ANALYZE
+    - ALLOW
+    - BROADCAST
+    - ACKNOWLEDGE
+    - HAND-OFF
+    - DISSENT
+    - VERIFY-ENGAGEMENT
+  domain_verbs: []
+  fail_safe_default: BLOCK, immediate halt or safe-off.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  1.1.0:
+    heading: "1.1.0 AI Systems Implicated in Principle 1.1"
+    anchor: ai-systems-implicated-in-principle-1.1
+    lines: "88-116"
+    sha256: "91af394008cc11b57f215e36db9d83ecac181b38fe7bc821253cf4c5962fba37"
+  1.1.1:
+    heading: "1.1.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "131-172"
+    sha256: "7e4fee48fb8ad546bc2427cae2f873b1a7d0a74f3b10485b083725c933b9c719"
+  1.1.2:
+    heading: "1.1.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "173-213"
+    sha256: bc7a04f8969a5587f5c85c0faf8245aca457f9fd4ac02b7b236ec609c03d609f
+  1.1.3:
+    heading: "1.1.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "214-317"
+    sha256: "834f3db16e0cb1f8d561ed565241c1026652940effdd3972bdd87cdc617ed0d4"
+  1.1.4:
+    heading: "1.1.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "318-382"
+    sha256: "8060b7c09fbb7a82195ff764df33deba6e0d21a1cb5b1a14beaa8119ea8a4fad"
+  1.1.5:
+    heading: "1.1.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "383-437"
+    sha256: "19b650213b5cbcc0720a427b5203d87c9a2cf722b3e8165df12587e1fdfd43a5"
+  1.1.6:
+    heading: "1.1.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "438-483"
+    sha256: caf129087208b6f4aafa0b0d974a44c46cb3a3bb3e5215288785a812d043e59d
+  1.1.7:
+    heading: "1.1.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "484-513"
+    sha256: "26a14cf2624b7aba497c2a7fe7ecc820221873f36a7510c009be3f626b530f46"
+  1.1.8:
+    heading: "1.1.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "514-560"
+    sha256: "9cef5ce527b4ddef3315d06fa58eb01833a440495f8c8ccb2f717330e2a3e08f"
+  1.1.9:
+    heading: "1.1.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "561-695"
+    sha256: "9b9dfad663fd9a901478b44d32cb8da884e5959b265c7e87327fad6ca95207b9"

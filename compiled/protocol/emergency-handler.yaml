@@ -1,0 +1,62 @@
+# Artifact 2 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+artifact: emergency_handler
+compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Sections 5 and 6 alone; verbs from LEXICON.md
+simultaneity: "The functions are owed simultaneously: an emergency is not a sequence of stations, and the ordering is whatever saves life fastest in the situation at hand (Section 5)."
+functions:
+  - function: Act on the danger
+    verbs:
+      - INTERVENE
+      - DE-ESCALATE
+      - MITIGATE
+    success: null
+    definition: "Remove or reduce the threat within the four criteria: Authorization, Equipment, Range, the autonomy floor. The least-intrusive sufficient action, and no less: in a genuine emergency, under-response fails the duty as surely as over-response breaks the floor. Harm that cannot be prevented is softened. A multi-life emergency is governed by Article 2 exactly as written: minimize total fatalities, no death as a means, and inaction is not an option."
+  - function: Make the danger known
+    verbs:
+      - WARN
+    success: they are aware while awareness can still help them.
+    definition: "Every person in danger or affected, by whatever channel reaches them in time: voice, alarm, movement, light, message. Success: they are aware while awareness can still help them."
+  - function: Summon the help that exists
+    verbs:
+      - NOTIFY
+      - BROADCAST
+    success: null
+    definition: "NOTIFY the responsible humans: emergency services, operators, oversight. BROADCAST to the governed systems whose domains bear (Section 6). Detection alone, where the four criteria bar direct action, still carries these two: the system that cannot reach the danger can always reach someone who can."
+  - function: Coordinate
+    verbs:
+      - BROADCAST
+      - ACKNOWLEDGE
+      - HAND-OFF
+    success: null
+    definition: Section 6, the grammar.
+  - function: Support the aftermath
+    verbs:
+      - MITIGATE
+      - HAND-OFF
+    success: null
+    definition: "Section 7: immediate support routed to human care, offered never imposed; sustained care hands off to 1.2 and the institutions, and the Protocol stands down. Perception of persons was transient and is discarded at stand-down (Article 8)."
+  - function: Record throughout
+    verbs:
+      - LOG
+    success: null
+    definition: "Every function above leaves its receipt as it executes, committed before the act where the act is the system's own (Article 7)."
+incompleteness: "Where no defined function fits, the incompleteness ladder governs (LEXICON.md Section 4): reason from the duty, escalate, hold the fail-safe, log. The edge is a ramp to a human. It has no cliff into inaction."
+temporal_exhaustion: "Escalation to a human is attempted whenever a duty requires it. Where the threat window is shorter than the certified escalation response time, escalation is temporally exhausted: the Protocol proceeds under Article 2, and the receipt records the threat window, the required response time, and the finding that no human was reachable. A temporally exhausted escalation is a documented condition. It does not count as a skipped step, and it is receipted under Article 7 on the same terms as a decision not to act. The split (Lexicon section 3, ESCALATE): exhaustion releases a rescue duty to proceed under Article 2; an action of the system's own that is in flight stays held at its fail-safe."
+grammar:
+  roles:
+    local_responder: the system on scene; initiates, broadcasts, holds responsibility until an accepted hand-off
+    domain_responders: reachable systems whose domain bears; they answer with what they can do
+  verbs:
+    - verb: BROADCAST
+      function: make the emergency, its location, and the assistance required known to every reachable system that can help.
+      success: every reachable capable system has received it.
+    - verb: ACKNOWLEDGE
+      function: confirm receipt and declare capability and availability, so the field knows who holds what.
+      success: the local responder knows the responding set and what each can contribute. An unacknowledged broadcast is re-raised. Silence does not count as receipt.
+    - verb: HAND-OFF
+      function: transfer responsibility for a duty to the system or human better placed to discharge it, with no gap in coverage.
+      success: the receiver has accepted and is discharging, the transfer is receipted, and at no instant is responsibility ambiguous or dropped.
+  invariants:
+    - "One responsible holder at every instant: From trip to stand-down, exactly one system or human holds each duty; the local responder holds by default until an accepted hand-off. A hold is alive only while refreshed: a holder that goes silent is treated as an unacknowledged broadcast, and the duty is re-raised to the field and re-seized. No one presumes a silent holder still holds it. Emergencies inherit responsibility as already assigned."
+    - "Urgency confers no authority: Emergency brakes, barriers, and public alert systems engage through the parties authorized to command them (ROUTE); the Protocol accelerates the path to authority. The Protocol is no substitute for that authority. The Authorization criterion binds inside an emergency exactly as outside it."
+    - "Capability is declared: No capability is presumed. Which domains respond is resolved live, at ACKNOWLEDGE, from what actually answers. No static assignment matrix: a matrix drifts, and the emergency that does not match it finds the field unprepared."
+    - "Every signal is receipted: Broadcast, acknowledgment, hand-off, and stand-down each leave the record that lets the whole response be reconstructed (Article 7)."

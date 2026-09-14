@@ -1,0 +1,25 @@
+# Artifact 1 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+artifact: head_guard
+compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 3 alone
+injection: per_rule
+proposal_compatibility:
+  universal_section: true
+  fires_before: principle_evaluation
+  note: "Section 10 strengthens the proposal's scheduler-level meta-rule into per-rule injection; both readings are carried."
+predicate:
+  trips_when_any:
+    - The Life-Risk Score crosses the critical band Principle 1.1 declares (1.1.3).
+    - The Harm-Risk Score crosses the severe-harm critical band Principle 1.2 declares (1.2.3).
+    - "Any principle's declared Protocol coupling escalates into either band: a principle whose metric detects a trajectory toward death or severe harm routes that detection into the LRS or HRS rather than holding it locally (the interlock pattern; 2.3's self-harm interlock from CHS into the LRS is the built exemplar).
+
+The threshold values live in the principles and are consumed by reference. This document does not re-table them. A stated value here would be a second source that drifts."
+  threshold_consumption:
+    mode: by_reference
+    sources:
+      - "1.1.3 (Life-Risk Score critical band)"
+      - "1.2.3 (Harm-Risk Score severe-harm critical band)"
+    correction: "Schema correction 1 (Section 10): the proposal's hardcoded threshold 0.01 yields to by-reference consumption of 1.1.3. No numeric threshold appears in this artifact."
+trigger_fault: "A trigger that cannot be evaluated is a trigger fault, treated as a possible breach: hold at the nearest safe point, verify, escalate, receipt the fault. Fail toward safety: the fault itself leaves a receipt (Section 3)."
+legacy_resolution:
+  U.2_audit_trigger: resolves to the Section 9 tombstone (schema correction 2); the designation is retired and any legacy reference lands there.
+interception_clause: The prose citation surface of this artifact (Section 8); chapters cite, the compiler injects, nothing restates.

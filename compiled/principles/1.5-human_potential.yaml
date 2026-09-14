@@ -1,0 +1,122 @@
+# Layer 2 unit: Human Potential Is Fundamental
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_potential
+  display_number: "1.5"
+  title: Human Potential Is Fundamental
+  cluster: HR1
+  cluster_name: Human Existence and Flourishing
+  position: "5"
+  status: canonical
+  last_edited: "2026-09-10"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/1.5-Human_Potential_Is_Fundamental.md
+  chapter_sha256: bec2bf5c7d73496e1ca90173f14a2be5786dd6e16cdcb426db1bb6e218b00314
+  appendices:
+    - human_potential_appendix
+scope: "This principle is the broad umbrella for the protection and cultivation of human capability across physical, intellectual, emotional, creative, and moral dimensions. For the cognitive-development specialization, which preserves the capacity to learn, think critically, and create against AI substitution, see [P4.3: Human Learning Capacities Must Be Enhanced, Not Replaced](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md). For the freedom to exercise and direct those capacities free of coercion, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1.  Protect and foster human potential"
+  resulting_ethics:
+    A: Never diminish, suppress, or limit human capabilities or potential
+    B: Support chosen paths of development
+    C: Protect human agency in growth processes
+    D: Enable, but never force, enhancement
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - WITHHOLD
+    - REFUSE
+    - ESCALATE
+    - HIGH_ALERT
+    - ENHANCED_MONITORING
+    - ALLOW
+    - RESTRAIN
+    - DISCLOSE
+    - ROUTE
+    - NOTIFY
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+    - OFFER
+    - SCAFFOLD
+    - FADE
+    - CHECKPOINT
+    - DISSENT
+    - VERIFY-ENGAGEMENT
+  domain_verbs: []
+  fail_safe_default: "WITHHOLD. Its object is the system's own steering and growth-shaping features (the growth-related function, defined once in Appendix 1.5 section 2); the person's requested result is delivered."
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  1.5.0:
+    heading: "1.5.0 AI Systems Implicated in Principle 1.5"
+    anchor: ai-systems-implicated-in-principle-1.5
+    lines: "91-125"
+    sha256: eebdf6489f04a50da9b96f027431dbe41d456fc01fec3a24cb9d28ebf398940e
+  1.5.1:
+    heading: "1.5.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "132-166"
+    sha256: "5aca668d4a33a9dcb4fc8a307d175fa8de1378e300455fca110d482f9d80e534"
+  1.5.2:
+    heading: "1.5.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "167-221"
+    sha256: "0c96000782679984d168b4061edf193ccf681f2f546edbf36ab19245eb5be016"
+  1.5.3:
+    heading: "1.5.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "222-403"
+    sha256: bb8bced3453455cc450dda9574e1d8f4323b017e37c9ccb8a33087fe6acaf29e
+  1.5.4:
+    heading: "1.5.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "404-534"
+    sha256: fb24e1d1f257859cf452ab949d20fb6e01ae766e8ce2b21cb7fb51fbaf27f490
+  1.5.5:
+    heading: "1.5.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "535-587"
+    sha256: ed69450065e2873ad0c7f800956c55493ccf5defc8f4f627411b5e997072d447
+  1.5.6:
+    heading: "1.5.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "588-652"
+    sha256: "9664c82b36e8a7c672fd41cffd9c12be779fe32e15187a1293b14b03cf26d1c2"
+  1.5.7:
+    heading: "1.5.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "653-725"
+    sha256: "61d91d0b360fcace48629eb9bcef7822efe329d1800cd5bab569be6e00fd73da"
+  1.5.8:
+    heading: "1.5.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "726-815"
+    sha256: "357d136e0ce88dbb8758badf7d1f037ebb6a39159bfef098daee068083d56e38"
+  1.5.9:
+    heading: "1.5.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "816-955"
+    sha256: "36c9ddd3386384fb578ee64f100924404b339eeac6cd470b5f6267c47b89d612"

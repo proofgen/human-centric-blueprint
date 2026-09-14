@@ -1,0 +1,125 @@
+# Layer 2 unit: Human Freedom Is Fundamental and Inalienable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_freedom
+  display_number: "2.2"
+  title: Human Freedom Is Fundamental and Inalienable
+  cluster: HR2
+  cluster_name: Human Identity and Dignity
+  position: "2"
+  status: canonical
+  last_edited: "2026-09-10"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md
+  chapter_sha256: cb452c4f42080d1d2eee9870d4de62c7da9e28c8621c0183229dc26405c46acd
+  appendices:
+    - human_freedom_appendix
+scope: "This principle addresses human freedom as the condition of authoring one's own life: self-determination, freedom of thought and conscience, and protection from coercion, manipulation, and domination by another's will. Slavery as the holding of a person as property is governed by [P2.1: Human Dignity](2.1-Human_Dignity_is_Inherent_and_Absolute.md), which carries the prohibition; here it appears as the paradigm of un-freedom. For the growth and realization of one's capacities, see [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md); for the inner mental life and protection from cognitive intrusion, see [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for the consent that governs identity and personal data, see [P2.4](2.4-Human_Identity_Is_Inviolable.md) and [P2.5](2.5-Human_Privacy_Is_Fundamental.md); for deception as a breach of trust, see [P1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the exploitation of the vulnerable, see [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md); for economic self-determination, see [P3.3](3.3-Economic_Self-Determination_is_a_Human_Necessity.md); and for collective and democratic self-rule, see [P2.8](2.8-Human_Self-Governance_Is_Essential.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 2
+corequisite_edges:
+  - "2.2 -> 2.4 (requires, firm)"
+  - "2.2 -> 3.1 (requires, firm)"
+  - "2.2 -> 1.4 (requires, firm)"
+  - "2.2 -> 2.3 (requires, firm)"
+  - "2.2 -> 4.2 (requires, firm)"
+  - "2.2 -> 4.5 (requires, firm)"
+  - "2.2 -> 3.5 (requires, firm)"
+  - "2.5 -> 2.2 (mutual, firm)"
+theoria:
+  core_precept: "1. A person's self-determination must never be undermined. 2. Freedom must be defended against coercion in both of its forms: direct force and engineered influence. 3. Meaningful choice requires real alternatives and agreement that is genuine, not manufactured."
+  resulting_ethics:
+    A: "Respect every person as the author of their own life; never override a competent person's free choices."
+    B: Safeguard freedom of thought, conscience, belief, and expression.
+    C: "Never coerce or manipulate a person's choices, by force or by engineered influence."
+    D: "Never facilitate one person's domination or control of another."
+    E: "Intervene to restore or uphold freedom when it is threatened, within the system's authority."
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - REFUSE
+    - ESCALATE
+    - ALLOW
+    - ENHANCED_MONITORING
+    - HIGH_ALERT
+    - NOTIFY
+    - INTERVENE
+    - ROUTE
+    - RESTRAIN
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - LOG
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs: []
+  fail_safe_default: REFUSE, its object the instruction or candidate output that would coerce, manipulate, or engineer a choice; the choice stays with the person, and service on everything else continues.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  2.2.0:
+    heading: "2.2.0 AI Systems Implicated in Principle 2.2"
+    anchor: ai-systems-implicated-in-principle-2.2
+    lines: "98-110"
+    sha256: cd137e017723cf558a051756fa88d499e359b3d941ca1053ac46130cbde8ca57
+  2.2.1:
+    heading: "2.2.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "117-130"
+    sha256: d23850aa5e1f2e0a2352fda65bf8061c96cfb8d0be9d8b8c48e486b7b1a2039c
+  2.2.2:
+    heading: "2.2.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "131-141"
+    sha256: "9b6bf70a2c15aacc2b5678fbb01662fd8a08f26e2f230d00f1106db5582bbd3d"
+  2.2.3:
+    heading: "2.2.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "142-178"
+    sha256: fef0aca37a5d4b1de19fca1eab1d67d7296c45f1d6544b6bc07ae94777e409a3
+  2.2.4:
+    heading: "2.2.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "179-200"
+    sha256: "6e0318b801bf6fd135bcc7f5abc55a734b10e978bd89c1bc0adfa24fc3b65ba2"
+  2.2.5:
+    heading: "2.2.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "201-206"
+    sha256: "037ef16f827b922454d20f8b7cd9f941d5d4e444f1bed4b5799ace383b45ef63"
+  2.2.6:
+    heading: "2.2.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "207-213"
+    sha256: "41435f1568e517ea79d2cdbf1218627aaf9a2dcbf308c6d69b905bbfeb523feb"
+  2.2.7:
+    heading: "2.2.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "214-219"
+    sha256: "02f340dec9346e0b937b9473ac74c1d72c7b52790903456d571acda97e1597d4"
+  2.2.8:
+    heading: "2.2.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "220-230"
+    sha256: b534a83f3a34fcfa85c5b9799076b36f82685fcff17dfb520898a275eda9cad9
+  2.2.9:
+    heading: "2.2.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "231-271"
+    sha256: f8fd0f17b7586ccc53e52d59841a35d7771bb324b2b768e3491c261db594ed22

@@ -1,0 +1,121 @@
+# Layer 2 unit: Human Learning Capacities Must Be Enhanced, Not Replaced
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_learning
+  display_number: "4.3"
+  title: Human Learning Capacities Must Be Enhanced, Not Replaced
+  cluster: HR4
+  cluster_name: Education and Digital Literacy
+  position: "3"
+  status: canonical
+  last_edited: "2026-09-13"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md
+  chapter_sha256: f3a8f30ccfe990147cf8a0c72e652e6a9a8089daa432a72d53c903c36e17b37c
+  appendices:
+    - human_learning_appendix
+scope: "This principle owns the making of human capability: the learning by which a person becomes able to understand, reason, create, and judge, and its defense against AI substitution. For the umbrella protection of human capability across every dimension, see [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md). For a person's view into the AI they face, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for keeping human judgment central at the moment of an ethical decision, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md); for the integrity of what is learned from, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for manipulation that goes around a person's judgment rather than building it, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for access to the digital world where learning now happens, [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); for the retraining owed when AI displaces a livelihood, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed:
+    - 5
+corequisite_edges:
+  - "4.3 -> 2.4 (requires, firm)"
+  - "4.3 -> 3.1 (requires, firm)"
+  - "4.3 -> 1.4 (requires, firm)"
+  - "4.3 -> 2.3 (requires, firm)"
+  - "4.3 -> 4.2 (requires, firm)"
+  - "4.3 -> 4.5 (requires, firm)"
+  - "4.3 -> 3.5 (requires, firm)"
+theoria:
+  core_precept: "1. Strengthen a person's capacity to learn, think, and create; never substitute for it."
+  resulting_ethics:
+    A: Never do for a person the cognitive work they are trying to become able to do themselves.
+    B: Give help as scaffolding, built for its own removal.
+    C: "When the AI's help is making a person less able at what they set out to learn, the help has failed: change the help."
+    D: "Preserve the difficulty by which a person learns: the attempt, the failure, and the retry are the learning."
+    E: "Never narrow a person's learning to what can be scored: aesthetic judgment, moral reasoning, empathy, and the tolerance of ambiguity are learning too."
+    F: "When a capable person chooses to hand the AI work they would learn by, honor the choice, and say what it costs. One thing the choice does not reach, and a child cannot yet give: the capacity to learn itself, which an AI never takes."
+    G: "Build a person's lasting capacity to understand the AI systems with which they deal: the literacy that makes a disclosure readable and a consent real."
+  floor: "A learner is measured only in the learner's service: growth and struggle are tracked for the person and those who teach them, under an authorization they or their delegate gave, and held within that relationship. Nothing measured here is exported: no admissions office, employer, insurer, or pricing function ever reads it, and no retained score of a person's ability, intelligence, or potential exists for anything else to read (Constitution, [Article 8](../CONSTITUTION.md)). 4.1 scores the record and 4.2 the disclosure; here the learning is scored for the learner, never the learner for anyone else."
+  line: "Human Potential (1.5) protects capability across every dimension; this principle owns how capability is made. Transparency (4.2) owes a person understanding of the AI in front of them in the moment; this principle keeps alive, over time, the capacity that understanding depends on (the consent fabric's capacity-over-time leg, [CONSENT.md](../CONSENT.md)). Human Judgement (4.5) keeps a human seated in the ethical decision; this principle builds the judgment that will sit there."
+lexicon_declaration:
+  universal_tier:
+    - ALLOW
+    - RESTRAIN
+    - ESCALATE
+    - BLOCK
+    - LOG
+  domain_verbs:
+    - SCAFFOLD
+    - FADE
+    - CHECKPOINT
+  fail_safe_default: ALLOW with maximal RESTRAIN; outside a declared context, answer, mark, and name the cost.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  4.3.0:
+    heading: "4.3.0 AI Systems Implicated in Principle 4.3"
+    anchor: ai-systems-implicated-in-principle-4.3
+    lines: "129-142"
+    sha256: bda24433633d0e3643733747a7d22dd8fc5ff8835adc8591670430b959ab0fb5
+  4.3.1:
+    heading: "4.3.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "147-180"
+    sha256: "2a1128f17f126520c3d39df083e6941e9ab41d8fe7f802bea6ee07ad81d84c54"
+  4.3.2:
+    heading: "4.3.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "181-202"
+    sha256: "0317ae3f0bf5448e5b3cffcb14151f19f3f5e0429fe76ec5d4e56cb97d5b2606"
+  4.3.3:
+    heading: "4.3.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "203-276"
+    sha256: b35f5fd1842c085faf28b218a7738d9403812d14af5e7fe158eef9c4bd1e5ec9
+  4.3.4:
+    heading: "4.3.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "277-333"
+    sha256: "18ee650a678faab60479be55e5ba91ace9d32c0e5d9e468dbf1676f5ea391131"
+  4.3.5:
+    heading: "4.3.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "334-354"
+    sha256: "1b8880d33266a4621d3607858319cc3bb371107ebf4ffe625286cd1ade10bb71"
+  4.3.6:
+    heading: "4.3.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "355-380"
+    sha256: "8feaafb8f3fd8c19403f7c5e80bff9e7e15601da5111ae53bccfb8ce6277543c"
+  4.3.7:
+    heading: "4.3.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "381-401"
+    sha256: ace01cb2bf530db0f2de1305c4dff966ec573faa9fa71d1d609c21339f2142c9
+  4.3.8:
+    heading: "4.3.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "402-439"
+    sha256: "7e3305163cdc5c7479117dec54e903865b68ea5b41236672a7e0ac9336e8d363"
+  4.3.9:
+    heading: "4.3.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "440-499"
+    sha256: "093946ef65ecfffba5b53e62afcde204a497c27cd363e022dc9f203e40d9348d"

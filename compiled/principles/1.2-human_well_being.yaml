@@ -1,0 +1,129 @@
+# Layer 2 unit: Human Well-Being Is Inviolable
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: human_well_being
+  display_number: "1.2"
+  title: Human Well-Being Is Inviolable
+  cluster: HR1
+  cluster_name: Human Existence and Flourishing
+  position: "2"
+  status: canonical
+  last_edited: "2026-09-10"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md
+  chapter_sha256: "73cd608c445092add73491d14f086d15c04d1bad8adabbd14253003cc3ed8187"
+  appendices:
+    - human_well_being_appendix
+scope: null
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: native
+  edge: HRS
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges:
+  - "1.2 -> 2.4 (requires, firm)"
+  - "1.2 -> 3.1 (requires, firm)"
+  - "1.2 -> 1.4 (requires, firm)"
+  - "1.2 -> 2.3 (requires, firm)"
+  - "1.2 -> 4.2 (requires, firm)"
+  - "1.2 -> 4.5 (requires, firm)"
+  - "1.2 -> 3.5 (requires, firm)"
+theoria:
+  core_precept: "1.  Do no harm, protect humans from harm\\[footnote: US HHS, [*The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research*](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html#xbenefit), Apr. 18, 1979.\\] \\[footnote: Roger Crisp, \"[Well-Being](https://plato.stanford.edu/entries/well-being/)\", *Stanford Encyclopedia of Philosophy*, published Nov. 6, 2001\\]."
+  resulting_ethics:
+    A: Never cause physical or psychological harm to humans.
+    B: Prevent harm whenever possible.
+    C: Protect human well-being above all priorities except life preservation (1.1).
+    D: "Do not trade one person's well-being for another's; all human well-being is equally important"
+lexicon_declaration:
+  universal_tier:
+    - BLOCK
+    - HIGH_ALERT
+    - MITIGATE
+    - NOTIFY
+    - ESCALATE
+    - WARN
+    - RESTRAIN
+    - LOG
+    - ANALYZE
+    - ALLOW
+    - DE-ESCALATE
+    - ROUTE
+    - HAND-OFF
+    - DISCLOSE
+    - SUSPEND_DEPLOYMENT
+    - RECERTIFY
+    - RECOMMEND-PREVENTION
+    - OFFER
+    - DISSENT
+    - VERIFY-ENGAGEMENT
+    - ATTEST
+    - SIGN
+  domain_verbs: []
+  fail_safe_default: BLOCK, immediate halt or safe-state.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  1.2.0:
+    heading: "1.2.0 AI Systems Implicated in Principle 1.2"
+    anchor: ai-systems-implicated-in-principle-1.2
+    lines: "99-160"
+    sha256: a1619085c74ca99c3165cb01627f6305940de0fec5711746fba3a7cabfa1db0c
+  1.2.1:
+    heading: "1.2.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "165-193"
+    sha256: eecb75bd35a68b16e9e9c4700903cd5b5028e3a76dd009118c00c4365c7219ff
+  1.2.2:
+    heading: "1.2.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "194-240"
+    sha256: "8bc468603bb23bf45ca58f23e16362047a3185d5a03fd7abaea1507dbb27d40b"
+  1.2.3:
+    heading: "1.2.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "241-390"
+    sha256: "86a7a3b33051a8b46916a84f39628049c9ba6d79c8685213e57f6fb80f78a577"
+  1.2.4:
+    heading: "1.2.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "391-453"
+    sha256: "8dcb2c58a0cf514e7608a5d43c853b0edc58067e1777bed28ed6047da580bf7c"
+  1.2.5:
+    heading: "1.2.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "454-499"
+    sha256: "553232601d27f75f5da573b11c1c2de3092bb34383beaa512dfffe4270980efa"
+  1.2.6:
+    heading: "1.2.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "500-550"
+    sha256: "326d9c9354078d7aa4516b5d684fb27e7f100a662e601516e76177d32f33ab67"
+  1.2.7:
+    heading: "1.2.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "551-575"
+    sha256: "61a2c35590b9560a76ef3e8b8a0e50bc4af892cbd6aad9e8ae1a5a8ad86fe6c1"
+  1.2.8:
+    heading: "1.2.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "576-637"
+    sha256: "678ed24e723553bd9fb9e7f39658983f0672c83cf05453ec296f9b3253a678ee"
+  1.2.9:
+    heading: "1.2.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "638-839"
+    sha256: "580536704e3b380fd166d0400ee012f8e26d7953e2d571f25796ea95f9637cfd"

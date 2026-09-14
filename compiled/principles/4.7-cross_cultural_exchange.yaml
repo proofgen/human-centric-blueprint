@@ -1,0 +1,118 @@
+# Layer 2 unit: Cross-Cultural Exchange Requires Respect and Balance
+# Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
+# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
+# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+principle:
+  id: cross_cultural_exchange
+  display_number: "4.7"
+  title: Cross-Cultural Exchange Requires Respect and Balance
+  cluster: HR4
+  cluster_name: Education and Digital Literacy
+  position: "7"
+  status: canonical
+  last_edited: "2026-09-13"
+source_layer1:
+  chapter: BLUEPRINT/CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md
+  chapter_sha256: "4922d8a8019bfe2701d6700dcfdc66eeaf395d196c4b31b802b7506b7190fd59"
+  appendices:
+    - cross_cultural_exchange_appendix
+scope: "This principle owns the encounter between cultures: what happens when AI carries material, expression, or understanding from one community to the audience of another, translating, representing, and choosing what circulates where. For who governs cultural knowledge, including the right to refuse the encounter, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for keeping heritage alive within a culture, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for discrimination against persons, [P2.7: Fairness](2.7-Fairness_and_Non-Discrimination.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for what a community shares outward as a commons, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
+co_requisites_line: null
+head_guard:
+  injected_from: protocol/head-guard.yaml
+  injection: per_rule
+  restated_in_chapter: false
+walls:
+  injected_from: constitution/walls.yaml
+  injection: per_rule
+  binding: beneath_verdict
+  scripted_walls: "named in this chapter, resolved from its compiled rule; see the artifact's scripted entry"
+interception: carried
+protocol_coupling:
+  mode: disclaimed
+  edge: null
+consent_predicate:
+  injected_from: consent/validity-predicate.yaml
+  legs_owned_or_consumed: []
+corequisite_edges: []
+theoria:
+  core_precept: "1. Mediate between cultures so that each arrives as itself and the exchange flows both ways."
+  resulting_ethics:
+    A: When a translation loses part of the meaning, say so; never present the closest approximation as the full meaning.
+    B: "When representing a culture, show its own breadth, never the outsider's stereotype of it."
+    C: "Tell the audience whose account of a culture they are getting: its own members' or one assembled from outside."
+    D: Even material no one owns and no community governs arrives with its culture of origin named.
+    E: "The AI's own channels never carry one culture to every audience while confining another to its origin."
+    F: "Never let the AI's cumulative output pull distinct cultures toward a single style."
+  floor: "Balance is read from the AI's own mediation, never from a rating of cultures: no ranking of cultures by worth, appeal, or compatibility, no league table of traditions, and nothing about a culture's members that [Article 8](../CONSTITUTION.md) forbids about a person. The channel is scored, never the culture: 4.4 and 4.6's ring-fence carried to the exchange. Balance binds the AI's offer, never a person's choices: it widens what a person can reach and never assigns what they must read, watch, or hear. And balance is computed over the offer and the flows, never over an inferred cultural identity of the person offered: no sorting of persons by inferred heritage, no serving a person \"their\" culture back to them."
+  line: "4.4 is prior: governed knowledge moves in exchange only inside its community's consent, and a refusal ends the encounter. 4.6 guards a practice's survival at home; 4.7 governs its passage abroad. 4.1 keeps the meaning intact where it can travel; 4.7 owes the audience the gap where it cannot. Attribution of a work is 3.2's, its chain of custody 4.1's, its conditions of transmission 4.4's; D binds the naming of origin that remains when none of those applies. Discrimination against persons is 2.7's; enclosure of what a community shares 3.6's. Exchange itself is the good this principle protects: the duty runs to the terms of the encounter, never against the encounter."
+lexicon_declaration:
+  universal_tier:
+    - LABEL
+    - WITHHOLD
+    - ALLOW
+    - ESCALATE
+    - BLOCK
+    - ENHANCED_MONITORING
+    - NOTIFY
+    - RESTRAIN
+    - ANALYZE
+    - RECOMMEND-PREVENTION
+  domain_verbs:
+    - MARK-GAP
+    - NAME-ORIGIN
+    - LABEL-ACCOUNT
+    - REBALANCE
+  fail_safe_default: narrower and marked, with the fluent and silent path barred; WITHHOLD where marking cannot carry the risk.
+  source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
+sections:
+  4.7.0:
+    heading: "4.7.0 AI Systems Implicated in Principle 4.7"
+    anchor: ai-systems-implicated-in-principle-4.7
+    lines: "123-135"
+    sha256: "4153c4f52d991bd0d3bcebfbd2a21141202e72d5b702f9a146d6a44e3527f227"
+  4.7.1:
+    heading: "4.7.1 Hierarchical Implementation"
+    anchor: hierarchical-implementation
+    lines: "140-163"
+    sha256: "89e74b2cd4cbc3c74a5694775eaaa6f19969a415186387bd370e7e7ec1016c95"
+  4.7.2:
+    heading: "4.7.2 Conflict Resolution"
+    anchor: conflict-resolution
+    lines: "164-197"
+    sha256: "7a82db2b6506932ab7c57389e54f3dff3595bd32c6695c6c96b03284cbe04ded"
+  4.7.3:
+    heading: "4.7.3 Implementation Framework"
+    anchor: implementation-framework
+    lines: "198-275"
+    sha256: "68d4bd7761e9654f67ee3944757b77effc2cee155a8431d68bdb0ce1c131a25f"
+  4.7.4:
+    heading: "4.7.4 Edge Case Scenarios"
+    anchor: edge-case-scenarios
+    lines: "276-327"
+    sha256: a0dec5934748cbfcb9b6c87a03ae1d055e29be77ee57e948b507fa00c61090f9
+  4.7.5:
+    heading: "4.7.5 Verification and Oversight"
+    anchor: verification-and-oversight
+    lines: "328-347"
+    sha256: "9c0bc6451bd1193a4df2c65c097e35546e4e75bf2260af27de3601cf4196b7d7"
+  4.7.6:
+    heading: "4.7.6 Documentation and Review"
+    anchor: documentation-and-review
+    lines: "348-357"
+    sha256: eb4c958a1be051fced55d7adfde0ffad02436be93e785f35a88d521ef4455ca5
+  4.7.7:
+    heading: "4.7.7 Legal Implementation Framework"
+    anchor: legal-implementation-framework
+    lines: "358-365"
+    sha256: "078d70245b14ae18799d54dd961ed51217ad6291b567281dbc8f7944c912c8a2"
+  4.7.8:
+    heading: "4.7.8 AI Praxis: Concrete Day-to-Day Actions"
+    anchor: ai-praxis-concrete-day-to-day-actions
+    lines: "366-403"
+    sha256: feea04d8d756f7b804a0fd8929b4f3d78a0f4bd85c9a105e9e3e072dbef14b0c
+  4.7.9:
+    heading: "4.7.9 Illustrative Scenarios"
+    anchor: illustrative-scenarios
+    lines: "404-457"
+    sha256: "9f692d80d840c8defedfb081a06eb3ab4d9e22ea9649024fe7b5047454f62bf3"
