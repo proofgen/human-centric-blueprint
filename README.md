@@ -1,6 +1,6 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.0.0, sealed 2026-09-13. Fingerprint (Layer 3 policy hash): `e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f`. DOI: [10.5281/zenodo.22743047](https://doi.org/10.5281/zenodo.22743047) (concept DOI for all versions: [10.5281/zenodo.22743046](https://doi.org/10.5281/zenodo.22743046)). License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
+By Erik Passoja. Version 1.0.0, sealed 2026-09-13. Fingerprint (Layer 3 policy hash): `e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f`. DOI: 10.5281/zenodo.22743047. License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
 
 ## What this is
 
@@ -12,13 +12,21 @@ It is released so that it is set in time. One exact text, one fingerprint anyone
 
 **If you are a person.** Read the Foreword, then the Constitution, then any one chapter that concerns you. Nothing here asks anything of you. It asks things of machines, on your behalf.
 
-**If you are building a system.** Load `compiled/` and run `python3 compiled/verify.py` (Python 3, no dependencies; it prints the fingerprint and PASS or FAIL). The bundle gives you, as machine-readable rules: the Constitution's walls and the profile bar, the Universal Protocol's life and severe-harm trigger and its emergency handler, the seven-leg consent test, the dependency graph between principles, and every principle's declared verbs and fail-safe. Everything else is prose your engineers read. There is no deviation at this version: run it as published, declare your tier-register row, and do not edit the text (LICENSE.md, section 2). What the bundle does not give you yet is in the next section.
+**If you are building a system.** Load `compiled/` and run `python3 compiled/verify.py` (Python 3, no dependencies). It checks every file in this tree against the hashes the sealed bundle and the release manifest list, and prints the fingerprint and PASS or FAIL. The bundle gives you, as machine-readable rules: the Constitution's walls and the profile bar, the Universal Protocol's life and severe-harm trigger and its emergency handler, the seven-leg consent test, the dependency graph between principles, and every principle's declared verbs and fail-safe. Everything else is prose your engineers read. There is no deviation at this version: run it as published, declare your tier-register row, and do not edit the text (LICENSE.md, section 2). What the bundle does not give you yet is in the next section.
 
 **If you are a regulator, an auditor, or a researcher.** Cite the version and fingerprint (`CITATION.cff`). The receipt a governed machine must leave is Article 7 of the Constitution; the rules for amending the text are Article 11; what a product may call itself is LICENSE.md, section 4. Any receipt that cites this fingerprint can be checked against this exact text.
 
-## What is enforced, and what is not
+## What is carried, and what is not
 
-At 1.0.0 the bundle enforces the constitutional walls and the profile bar, the Universal Protocol's trigger, the consent test, and the co-requisite graph, and it carries every principle's declaration and fail-safe. It does not yet enforce any principle's metric bands; those ship cluster by cluster from v1.1. `compiled/COVERAGE.yaml` is the bundle's own statement of what it does not carry, so a gap is read from the build rather than inferred from silence. On any disagreement between the prose and the bundle, the prose wins and the bundle is recompiled.
+At 1.0.0 the bundle carries, as machine-readable rules, the constitutional walls and the profile bar, the Universal Protocol's trigger, the consent test, and the co-requisite graph, and every principle's declaration and fail-safe. A bundle is a file; a gate enforces. It does not yet carry any principle's metric bands; those ship cluster by cluster from v1.1. `compiled/COVERAGE.yaml` is the bundle's own statement of what it does not carry, so a gap is read from the build rather than inferred from silence. On any disagreement between the prose and the bundle, the prose wins and the bundle is recompiled.
+
+## How to check this download
+
+`python3 compiled/verify.py` confirms that every file here is the file the sealed bundle and the release manifest describe. That proves the tree is intact. It does not prove who published it. For that, take the fingerprint from a source independent of this download and pass it in:
+
+    python3 compiled/verify.py --expect e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f
+
+The fingerprint for 1.0.0 is published at the Zenodo record (10.5281/zenodo.22743047), in the GitHub release notes and tag message, and in the author's public notices. A FAIL names the file that differs.
 
 ## What you may say
 

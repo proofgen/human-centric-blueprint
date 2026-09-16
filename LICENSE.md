@@ -38,7 +38,7 @@ A later version may admit profiles, under strict protocols, as additions to the 
 
 **The compiled bundle** (`compiled/`) is a derived form of the text and travels under the text's terms in section 1: copy it, load it, verify it, and do not alter it. An altered bundle has a different fingerprint and is out of network.
 
-**The compiler and the kit** (from v1.1, with the profile format if one is admitted) are software of the steward. Their licence will be published with v1.1, after review with counsel. Nothing here grants any right in them.
+**The compiler and the kit** (from v1.1, with the profile format if one is admitted) are software of the steward. Their license will be published with v1.1, after review with counsel. Nothing here grants any right in them.
 
 ## 4. Using the name
 
@@ -58,13 +58,15 @@ These terms concern the patented architecture a deployment practices when it loa
 
 **Commercial tier.** Published, non-discriminatory terms for deployments operated for commercial gain, including a deployment undertaken solely to satisfy a regulatory obligation. Deployment by a national, state, provincial, or regional government body as a program of general application is a commercial deployment for these purposes, whether or not operated for gain. Deployment by a public institution serving a public-interest function, including publicly funded hospitals, schools, libraries, and social services, is not.
 
-**The runtime scope.** The commercial scope is the runtime layer: any implementation that loads the compiled bundle and gates actions against it, issues capability grants, or emits receipts under it, by any means. Everything outside that scope, the text and its vocabulary, is free to all users under section 1, and the text grant carries no licence to the runtime. Where a party provides the runtime as a service to others, the tier is determined for each party served.
+**The runtime scope.** The commercial scope is the runtime layer: any implementation that loads the compiled bundle and gates actions against it, issues capability grants, or emits receipts under it, by any means. Everything outside that scope, the text and its vocabulary, is free to all users under section 1, and the text grant carries no license to the runtime. Where a party provides the runtime as a service to others, the tier is determined for each party served.
+
+**Verification is free.** Verification sits outside the runtime scope. Reading the bundle, checking a fingerprint, and checking a receipt (its signature, its place in the chain, its anchor, and the policy version it cites) require no license from the steward and are free to every party, including a party who holds no license and trusts no deployer. A record disciplines the party who wrote it only where someone outside can check it.
 
 **Defensive termination.** A grant under these terms ends for any implementer that, in litigation or a formal administrative proceeding, alleges that another implementer's implementation of the architecture infringes a patent claim relating to the architecture. Termination does not apply to a defensive counterclaim or to an assertion made in response to a first-filed action. Thirty days' written notice precedes termination, during which the assertion may be withdrawn.
 
 ## 6. Steward, pledge, and succession
 
-The open-tier grants are intended to be irrevocable and to survive any sale, change of control, or succession of the holder, so that no successor can withdraw the public grant or raise the standardized layers above royalty-free. Prose secures none of this; instruments do. The mechanisms are: a recorded covenant not to sue, binding on successors and assigns, that travels with the patents through any transfer; an irrevocable grant-back held by the steward, sufficient to re-grant the open-tier rights if the holder defaults; and a springing licence that takes effect on default. Until those instruments are signed and published, this section states the steward's commitment and does not itself bind a successor. RELEASES.md records the date each instrument is published.
+The open-tier grants are intended to be irrevocable and to survive any sale, change of control, or succession of the holder, so that no successor can withdraw the public grant or raise the standardized layers above royalty-free. Prose secures none of this; instruments do. The mechanisms are: a recorded covenant not to sue, binding on successors and assigns, that travels with the patents through any transfer; an irrevocable grant-back held by the steward, sufficient to re-grant the open-tier rights if the holder defaults; and a springing license that takes effect on default. Until those instruments are signed and published, this section states the steward's commitment and does not itself bind a successor. RELEASES.md records the date each instrument is published.
 
 ## 7. Amendment
 

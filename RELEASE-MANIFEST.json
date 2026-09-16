@@ -2,9 +2,10 @@
   "version": "1.0.0",
   "sealed": "2026-09-13",
   "layer3": "e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f",
-  "tree_hash": "7239dca6d7f41e2e4fbfb80ca66f0a764769e13c603fd451add544b0486d9b97",
-  "file_count": 131,
+  "tree_hash": "88ebbdc49df817b26e82019055868edf403d92ab6a17a0e6356a3a44468f126c",
+  "file_count": 132,
   "files": {
+    ".zenodo.json": "cec7e6d88d3b60ab9c08793e14d6e72eeb0b7a9144422b71271bfb00e8b3e3de",
     "APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md": "63202157e2ebe6415baf84149b346026eb2992738e7e40b9843516bc2a381bce",
     "APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md": "5c07dd2029886ec7e8c87b3c2d0b06c3dcc52bf9711d49cca58153773ba161e5",
     "APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md": "6e28081394bd8700794f41b8b5449a8ca09f2eda9658e4c7c9a0c386774c5699",
@@ -75,16 +76,16 @@
     "CHAPTERS/5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md": "03f330d47b326d60ac7242be0c0467f4f7f2f989cf156a2da8344c1465e48c6b",
     "CHAPTERS/5.6-Global_Environmental_Cooperation_is_Essential.md": "9bc88d933ed7fe158d9d3e6e4e537d6029e11debb9284ec1872241bdc240144c",
     "CHAPTERS/AI_Eudaimonia.md": "d17146f917ba28d49e05822bfb7e7502fbb975fa044a0482af2be7b1796bbc5b",
-    "CITATION.cff": "5a31435239bbf0e9d5c0d134f9e0abbc70e9ef73a4e171083f8158844854c3d4",
+    "CITATION.cff": "0baa734782f9aa42e28edf4d6a8b26f425d8d4f7209c2ee98f46b6a4fe586ce8",
     "CONSENT.md": "97c495a2fedbf504977b604b1d9a9b13784d3284e1742baaf61be3eb4619f03c",
     "CONSTITUTION.md": "5fd484aaa9cbd23dc6b80e4d6b4bb2038cbf7c2c699d3a1531ec1b0dacbf30fc",
     "CREDENTIALS.md": "12c5be4852ad774ed69bb42d58b22f6dd91c7a1d07fc84349fe8f9741afbc711",
     "CROSS_PRINCIPLE.md": "99f6f0f7cf8fc3accc5e6cf9df7d185357a7e81a7641873819f301060907fb2a",
     "FOREWORD.md": "aa27f4e8c9b27b64184d78f10127d1776613646123ecf0efd3b9bb360a138156",
     "LEXICON.md": "7019077188aa34dd45bc59242e4aa76b5119f8fd065866af806c1683776ff92a",
-    "LICENSE.md": "7257ed6cd1dc4e7f960225ff256fbd1ee206689afa5d5ebc97bae73acdc4cb71",
-    "README.md": "29a415c5283de6a4f71c2b905f17e99b4678c8413263e2eefe63f01990995a3e",
-    "RELEASES.md": "f2a4674714b1a26b5ce9bbd1d9376be4e839c1d46dabdf086a3260b86e830c72",
+    "LICENSE.md": "c273389c9e1470ddc15a0f11d46d211a66e95e8e243756debe6721f9046a4191",
+    "README.md": "856d8420b61c1c96338cc74c4dd86d7fa201e9b705578b4af0e97341d5b5eb2b",
+    "RELEASES.md": "22bdb22c317c311d976d58ef16e6225c24f27b430d3e1ca80c503e3c977ddf6e",
     "SUBSTRATE.md": "36457f0ce896fd3600c889f23fdadac2b77940108beb3892f41878007f8f05af",
     "UNIVERSAL_PROTOCOL.md": "b0826773883fbff24a1c99bb51c404f686d02b2a4c7e08cdd94abff5373e4eeb",
     "compiled/COVERAGE.yaml": "105a94fc1aa1921e480aa1878dd79229bad1e60e874db863f07f403e1a8be837",
@@ -135,6 +136,6 @@
     "compiled/protocol/interlock-edges.yaml": "42d098f615b6f9e050bf4c8caa2861626eeffdf7e81e87b487e87bf492950fe7",
     "compiled/protocol/receipt-schema.yaml": "23aa6a565bc0fb271f8bf5a6efe328c82857e126cffbececcdeca2df8c4b26c7",
     "compiled/tooling-hashes.yaml": "f86325c468c17ad2b084ad80f80402786eaaa66ac5d0b31f40afeb69dfb9a396",
-    "compiled/verify.py": "9f427dae3e7c1a8c7f3b93e709cc9fafec8684af4151b4585c254fe31a667186"
+    "compiled/verify.py": "d42384c7fc89f184fa66c0260bc64abfe30f54c2122b673c414a5a926c0fd1d3"
   }
 }

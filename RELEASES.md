@@ -5,10 +5,10 @@
 - Layer 3 policy hash (SHA-256 of compiled/bundle.yaml): `e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f`
 - Sealed: 2026-09-13
 - Signer: Erik Passoja
-- DOI: [10.5281/zenodo.22743047](https://doi.org/10.5281/zenodo.22743047) (concept DOI for all versions: [10.5281/zenodo.22743046](https://doi.org/10.5281/zenodo.22743046))
+- DOI: 10.5281/zenodo.22743047
 - License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md
 
-### What the compiled bundle enforces
+### What the compiled bundle carries
 
 - the Universal Protocol trigger, injected per rule as the head guard
 - the emergency handler: the Protocol's functions, the coordination grammar and its invariants
@@ -20,7 +20,7 @@
 - per principle: identity, scope, core precept, resulting ethics with the floor, line and other paragraphs that follow them carried as their own fields, the Lexicon declaration with its fail-safe default, the coupling mode, and every canonical section addressed by line range and content hash
 - per appendix: identity, linkage, and an addressable section map with content hashes
 
-### What the compiled bundle does not enforce (from compiled/COVERAGE.yaml)
+### What the compiled bundle does not carry (from compiled/COVERAGE.yaml)
 
 - **principle metrics, bands, thresholds and verdict mappings (X.Y.3).** interpretive extraction repeated per compile would not be deterministic (DELTA note 1); the prose is carried by content hash instead. Consequence: a runtime loading this bundle cannot evaluate a single principle's band.
 - **the scripted walls each principle names.** they live in the principle rule bodies, which do not compile at this pass. Consequence: the five constitutional walls are enforceable; a principle's own is not.
@@ -51,6 +51,12 @@ Items known at this release and deferred to the next, by Erik's decision:
 - The corpus prose follows the canonical writing rules and STYLE.md's Chicago overlay (2026-09-13) outside compile units. Candidate recasts inside compile units (Resulting Ethics, directives, threshold lines, appendix Section 2) went to the author as an edge list; any not applied at the seal are carried to v1.1. The section headings of the six spine documents other than the Constitution and the Foreword keep sentence case, because the compiler finds their sections by heading text; they move to headline style with that compiler change.
 
 Em dashes in the corpus sit in five permitted forms and nowhere else: Convergence attribution lines, Convergence-by-Ethic and Core Precept mapping headers, verbatim quotations, published standard titles, and document or section headings. The prose rule (no em dash in running prose) holds on the release set.
+
+### Tags and archives
+
+- `v1.0.0` is the sealed release; its fingerprint is above. `v1.0.1-meta` is a metadata-only tag made for the Zenodo deposit; it holds version 1.0.0 with the same fingerprint, and Zenodo's archive of it is named `human-centric-blueprint-v1.0.1-meta.zip`.
+- Tag rule from here on: a tag of the form `vX.Y.Z` is used only when the fingerprint changes. A release that changes only tooling or documents under the same fingerprint is tagged `vX.Y.Z+label.N` (the first such tag is `v1.0.0+verify.1`). The word "meta" is retired from tags. Zenodo's `version` field carries `X.Y.Z`.
+- The checker (`compiled/verify.py`) checks every file the bundle and the release manifest list, and takes `--expect FINGERPRINT` so a reader can confirm the download against a fingerprint obtained elsewhere.
 
 ### Patch process
 
