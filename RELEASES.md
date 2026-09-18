@@ -5,7 +5,7 @@
 - Layer 3 policy hash (SHA-256 of compiled/bundle.yaml): `c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84`
 - Sealed: 2026-09-17
 - Signer: Erik Passoja
-- DOI: pending: Zenodo assigns this version's DOI at the release and it is recorded at the metadata tag that follows; the concept DOI for all versions is 10.5281/zenodo.22743046
+- DOI: 10.5281/zenodo.22822375
 - License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md
 
 ### What the compiled bundle carries
@@ -76,7 +76,8 @@ Em dashes in the corpus sit in five permitted forms and nowhere else: Convergenc
 - Tag rule from here on: a tag of the form `vX.Y.Z` is used only when the fingerprint changes. A release that changes only tooling or documents under the same fingerprint is tagged `vX.Y.Z+label.N` (the first such tag is `v1.0.0+verify.1`). The word "meta" is retired from tags. Zenodo's `version` field carries `X.Y.Z`.
 - The checker (`compiled/verify.py`) checks every file the bundle and the release manifest list, and takes `--expect FINGERPRINT` so a reader can confirm the download against a fingerprint obtained elsewhere.
 - Archive checksums (SHA-256 of the file as downloaded), so a copy fetched from an archive can be matched to this release:
-  - `Zenodo 10.5281/zenodo.22743047, human-centric-blueprint-v1.0.1-meta.zip`: `0d07d82bbca33b297d3b8613c9a72c0344ea43c8de33be3b5d8ff554ab828453`
+  - `Zenodo 10.5281/zenodo.22743047 (v1.0.0), human-centric-blueprint-v1.0.1-meta.zip`: `0d07d82bbca33b297d3b8613c9a72c0344ea43c8de33be3b5d8ff554ab828453`
+  - `Zenodo 10.5281/zenodo.22822375 (v1.1.0), human-centric-blueprint-v1.1.0.zip`: `4881edfe2f859ac3e1d086e42cb64e46996dc654869ec5459c802f058e07550a`
 
 ### Prior releases
 

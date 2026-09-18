@@ -7,10 +7,7 @@ authors:
 version: 1.1.0
 date-released: '2026-09-17'
 abstract: 'Layer 3 policy hash c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84. Verify with python3 compiled/verify.py.'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22743046
-    description: Concept DOI for all versions; this version's own DOI is recorded at the metadata tag that follows the release
+doi: 10.5281/zenodo.22822375
 license: CC-BY-ND-4.0
 repository-code: https://github.com/proofgen/human-centric-blueprint
 keywords:

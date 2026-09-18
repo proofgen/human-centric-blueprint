@@ -1,6 +1,6 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.1.0, sealed 2026-09-17. Fingerprint (Layer 3 policy hash): `c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84`. DOI: pending: Zenodo assigns this version's DOI at the release and it is recorded at the metadata tag that follows; the concept DOI for all versions is 10.5281/zenodo.22743046. License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
+By Erik Passoja. Version 1.1.0, sealed 2026-09-17. Fingerprint (Layer 3 policy hash): `c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84`. DOI: 10.5281/zenodo.22822375. License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
 
 ## What this is, in plain words
 
@@ -45,7 +45,7 @@ At 1.1.0 the bundle carries, as machine-readable rules, the constitutional walls
 
     python3 compiled/verify.py --expect c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84
 
-The fingerprint for 1.1.0 is published at the Zenodo record (pending: Zenodo assigns this version's DOI at the release and it is recorded at the metadata tag that follows; the concept DOI for all versions is 10.5281/zenodo.22743046), in the GitHub release notes and tag message, and in the author's public notices. A FAIL names the file that differs.
+The fingerprint for 1.1.0 is published at the Zenodo record (10.5281/zenodo.22822375), in the GitHub release notes and tag message, and in the author's public notices. A FAIL names the file that differs.
 
 ## What you may say
 
