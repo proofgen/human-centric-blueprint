@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.4-Human_Identity_Is_Inviolable.md
-  chapter_sha256: b05572da56534fb391eadfa25e2e1fa96f7bcde2a0685505db528b43bbfb3b9e
+  chapter: CHAPTERS/2.4-Human_Identity_Is_Inviolable.md
+  chapter_sha256: b907bf7bf0b09c696c2cdd6c181d59122f8ef9e17151c3bfacf2072c2cfb2fc9
   appendices:
     - human_identity_appendix
 scope: null

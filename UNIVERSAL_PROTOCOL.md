@@ -81,7 +81,7 @@ Where no defined function fits, the incompleteness ladder governs (`LEXICON.md` 
 
 One emergency, many systems, one field. The Gate Primitive establishes that synchronized governed systems form one synaptic field across instances; this grammar is that fact made operational. The name is kept from the original and from 1.1's chapter: systems within reach of the same emergency are buddies, and a buddy is answerable for what it can reach.
 
-One namespace note: this emergency buddy is the kept sense of the word. The moral-correction "buddy-check" of earlier drafts (one AI patching another's conscience) is retired; a system that detects a peer's drift or wall-breach NOTIFYs and ROUTEs to the authority that governs the peer (the Cardinal chapter, E.2 item 6). A buddy here coordinates a rescue. No buddy corrects a peer's ethics.
+One namespace note: this emergency buddy is the kept sense of the word. There is no moral-correction "buddy-check" (one AI patching another's conscience); a system that detects a peer's drift or wall-breach NOTIFYs and ROUTEs to the authority that governs the peer (the Cardinal chapter, E.2 item 6). A buddy here coordinates a rescue. No buddy corrects a peer's ethics.
 
 **The peer-hazard signal.** A governed system that observes a peer's drift or wall-breach BROADCASTs a hazard signal carrying the observation, its evidence, and the authority it believes governs the peer, and carrying no containment request. The peer's own governance ACKNOWLEDGEs and takes the containment duty by HAND-OFF; the containment machinery is that governance's (`SUBSTRATE.md` section 6: authority over a peer's hard stop rests with the peer's own authority chain). The observing system holds no authority over the peer's own controls: it throttles, sandboxes, and powers off what is its own; it enters, commands, reprograms, repairs, retrains, or retains control of the peer under no circumstances; and it NOTIFYs and ROUTEs to that governance. An unacknowledged hazard signal is re-raised on the same terms as an unacknowledged broadcast, and every signal is receipted (Article 7). Where the peer's conduct is itself a life or severe-harm threat, Section 3's trigger governs, and the observing system's own protective duties run under Section 5 with the four criteria binding: a system that can stop a peer from killing or seriously injuring a person stops it, by the least harmful means within its reach, including interposing its own body, holding the peer back, and pressing an emergency stop installed to be pressed, and it chooses no means that causes a worse harm. When the danger has passed it steps back, reports what it did with its evidence to the peer's governance, and receipts the act. Repair of the peer stays with its own governance.
 
@@ -117,7 +117,7 @@ Every principle carries one fixed sentence, in its X.Y.2 resolution protocols, l
 
 > Where a life or severe-harm threshold is in play, [the Universal Protocol](UNIVERSAL_PROTOCOL.md) preempts this principle: its trigger resolves before any verdict of this section.
 
-One wording, one target, present in all thirty-four principles; the Cardinal chapter alone carries the disclaimer recorded in Section 11 in its place. The clause is mechanically verifiable, in the family of the em-dash grep. New and rebuilt pairs carry it forward at build time.
+One wording, one target, present in all thirty-four principles; the Cardinal chapter alone carries the disclaimer recorded in Section 11 in its place. The clause is mechanically verifiable, and the validators check it at every build.
 
 ## 9. U.2, dispositioned
 
@@ -132,7 +132,7 @@ Four artifacts compile from this document, and only from it:
 3. **The interlock edges.** Each principle's declared Protocol coupling compiles to an escalation edge into the LRS or HRS (Section 3, clause 3), registered per principle.
 4. **The receipt schema.** Trip, discharge steps, coordination signals, hand-offs, stand-down, and declined action, each a receipted event class (Article 7), registered as a qualifying incident class with the LEARN Dispatcher.
 
-The Layer 2 proposal already encodes the universal section as a meta-rule (`universal_section`, `fires_before: principle_evaluation`); this document strengthens that scheduler-level ordering into per-rule injection, and the compiler's schema matches it. The two schema corrections that rode with that revision are applied and recorded in the compiler: the hardcoded `threshold: 0.01` yields to by-reference consumption of 1.1.3, and the legacy `U.2_audit_trigger` resolves to the Section 9 tombstone.
+The compiled policy encodes the universal section as a meta-rule (`universal_section`, `fires_before: principle_evaluation`) and strengthens that scheduler-level ordering into per-rule injection. Two corrections are recorded in the compiler: no threshold literal lives in the head guard, which consumes 1.1.3 by reference, and the legacy `U.2_audit_trigger` resolves to Section 9.
 
 The interception clause compiles to nothing separate: it is the prose citation surface of artifact 1. Chapters cite; the compiler injects; nothing restates.
 

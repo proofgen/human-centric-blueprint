@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md
-  chapter_sha256: "8363c33914d2915c1053ab57efed4dfb72dde5ce993ca24c7c0444ac361aeb2e"
+  chapter: CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md
+  chapter_sha256: "0813e31c2a76479fac4a607cb0a6586f22ee469e6c5c5d326a3207a6a54711ff"
   appendices:
     - human_privacy_appendix
 scope: "This principle addresses the membrane around personhood: the boundary around a person's body, home, communications, choices, and information that AI may not cross by observing, recording, inferring, retaining, or disclosing without authority. For the synthesis of a person's identity, voice, or likeness, see [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md)."

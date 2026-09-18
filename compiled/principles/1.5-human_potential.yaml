@@ -12,7 +12,7 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/1.5-Human_Potential_Is_Fundamental.md
+  chapter: CHAPTERS/1.5-Human_Potential_Is_Fundamental.md
   chapter_sha256: bec2bf5c7d73496e1ca90173f14a2be5786dd6e16cdcb426db1bb6e218b00314
   appendices:
     - human_potential_appendix

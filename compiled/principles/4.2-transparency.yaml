@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md
-  chapter_sha256: "23338ef4a1b2b86dfe308afeb3662113593e19def8e4c897b1092a403c5d6348"
+  chapter: CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md
+  chapter_sha256: "836b633f09bdfe896eaf9ff606014dabafb1fec9cfe9a1795a065bdececba408"
   appendices:
     - transparency_appendix
 scope: "This principle owns a person's understanding of the AI they face: whether they can tell what it is, what it is doing, and how far to rely on it, so that reliance stays a choice. It governs the person's view in, and its neighbors govern the system's conduct: for the honesty of what an AI says, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the reasons, record, and challenge of an individual algorithmic decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the integrity of what is written into the human record, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the duty to mark a synthetic depiction, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md), and for the provenance of content, P1.4 and P4.1: this principle owns whether a person can read the mark on what they are shown. For manipulation that bypasses understanding, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for building a person's lasting capacity to learn and judge, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for keeping human judgment central in ethical decisions, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md)."

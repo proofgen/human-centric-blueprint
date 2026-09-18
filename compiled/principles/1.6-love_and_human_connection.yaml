@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/1.6-Love_and_Human_Connection_Are_Essential_to_Life.md
-  chapter_sha256: "4371b5127738db44112480950b600995c8bffdfcfd5c4447316c5f5e7626f656"
+  chapter: CHAPTERS/1.6-Love_and_Human_Connection_Are_Essential_to_Life.md
+  chapter_sha256: "895d06a1651d174aaf0edc358b7bc2f8057846b47b8ba0908dd3a758fa998679"
   appendices:
     - love_and_human_connection_appendix
 scope: "This principle addresses love and human connection as conditions for human life and flourishing: the existence and persistence of bonds in all their forms (romantic and sexual, familial, chosen friendship, and the wider regard humans extend to one another), the mortality and mental-health consequences of isolation, and AI's obligation to build the conditions for genuine bonds rather than substitute simulation for them. Sexuality is addressed here only as a register of connection; questions of sexual content as such (production consent, exploitation, and non-consensual or synthetic imagery) belong to [P2.4](2.4-Human_Identity_Is_Inviolable.md), [P2.5](2.5-Human_Privacy_Is_Fundamental.md), [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md), and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md). For the integrity and autonomy of relationships AI mediates (asymmetric AI use between parties, surveillance of intimate exchange, mediation distortion), see [P2.6: Human Relationships Are Essential to Life](2.6-Human_Relationships_Are_Essential_to_Life.md)."
@@ -81,7 +81,7 @@ sections:
     heading: "1.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "134-153"
-    sha256: "3f00303907e95e5b2ec9c45b7b228725956530da090af3e618bda7d6246a68f6"
+    sha256: "45473d0e07c7a41635a130588ec0b250590527517f0a37bb5ef8bdad719f814d"
   1.6.2:
     heading: "1.6.2 Conflict Resolution"
     anchor: conflict-resolution

@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md
-  chapter_sha256: "7bb36ec630f96a868e11a4c1f4c936abfdde20173cd838221a8ce6eb33723cc6"
+  chapter: CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md
+  chapter_sha256: "51efe0ffade0f0d8613a67df30d661c227b29c2e8cf6e9fb6de3d8e87d159795"
   appendices:
     - cultural_heritage_appendix
 scope: "This principle owns keeping heritage alive: the survival and living transmission of the languages, traditions, arts, crafts, ceremonies, and practices a community carries, and the duty never to let AI output replace that transmission. For who governs cultural knowledge, including the right to refuse preservation, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for duties to future generations at large, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for a person's own learning capacity, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md)."

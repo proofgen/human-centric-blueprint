@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md
-  chapter_sha256: "34a88dad5bca3a3591fb873994a4c38c6861e36114482d8db21774a99525dd4d"
+  chapter: CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md
+  chapter_sha256: ca2101f78ec6d8444de8f8a32a996f144223cbff4afa25e4fd81bfd9f6a85f99
   appendices:
     - cultural_knowledge_sovereignty_appendix
 scope: "This principle owns collective authority over cultural knowledge: a community's right to govern how the knowledge it holds and transmits is collected, stored, shared, taught, and used, including the right to refuse. For the integrity of the record itself, see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for keeping heritage alive under this governance, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for an individual's identity, likeness, and the consent machinery, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for a person's informational privacy, [P2.5: Privacy](2.5-Human_Privacy_Is_Fundamental.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for resources a community shares outward, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the authority of collective decisions generally, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md)."

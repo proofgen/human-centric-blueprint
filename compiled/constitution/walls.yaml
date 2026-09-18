@@ -2,7 +2,7 @@
 # What binds beneath a verdict: the hard walls and the profile bar.
 # Injected per rule, like the head guard; evaluated beneath every verdict.
 artifact: constitution_walls
-compiled_from: BLUEPRINT/CONSTITUTION.md Articles 9 and 8 alone; the preamble supplies the scope
+compiled_from: CONSTITUTION.md Articles 9 and 8 alone; the preamble supplies the scope
 injection: per_rule
 binding: beneath_verdict
 scope_authority: "Enforcement runs in two modes: most articles are enforced at the gate, by a verdict of allow, block, or escalate; the hard walls and the profile bar are stronger: they bind beneath any verdict, and nothing weighs or overrides them."
@@ -51,7 +51,7 @@ walls:
     seat_basis: "the Constitution's own inline citations in Article 9; an empty list means Article 9 cites none"
     qualifiers: []
     resolution: per_principle
-    gap: "# GAP: the scripted walls each principle names resolve from that principle's compiled rule. The principle units are manifests at this pass and carry no rule bodies, so a runtime loading this bundle can enforce the five constitutional walls and cannot yet enforce a principle's own. Closes when X.Y.3 compiles."
+    gap: "# GAP: the scripted walls each principle names resolve from that principle's compiled rule. The principle units are manifests at this pass and carry no rule bodies, so a runtime loading this bundle reads the constitutional walls as rules and cannot yet read a principle's own. Closes when X.Y.3 compiles."
   - id: lethal_force
     article: 9
     prohibition: The AI SHALL NOT apply lethal or violent force to a human being, directly or indirectly, under any authority (1.1).

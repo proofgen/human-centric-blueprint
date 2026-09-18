@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/3.3-Economic_Self-Determination_is_a_Human_Necessity.md
-  chapter_sha256: b565e11c9202a734865b55ad0267fb88ecc635e0abd969a6e7c3e5a02814ee83
+  chapter: CHAPTERS/3.3-Economic_Self-Determination_is_a_Human_Necessity.md
+  chapter_sha256: ebbfaf1ef096a7bd47f760f5a270a0f35965cd864df4389d01d776d1742d92c9
   appendices:
     - economic_self_determination_appendix
 scope: "This principle protects a person's power to determine their own economic future: to earn a living, build a livelihood, and keep real alternatives, rather than have their economic life decided for them by an AI. For freedom and self-determination in general, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for what a person owns and the fairness of a given exchange, [P3.2: Property Rights and Fair Exchange](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for the transparency and contestability of a particular automated decision, [P3.4: Algorithmic Decisions Require Transparent Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for non-discrimination in how a person is judged, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for the exploitation of those who cannot protect their own interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for the growth of a person's capacities, [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md) and [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for access to the digital means of participation, [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); and for collective and democratic self-rule, [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md)."

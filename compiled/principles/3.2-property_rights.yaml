@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md
-  chapter_sha256: "7f5433466b8af3c616c46590d07db2370d8653d94bf3804b76e3b7e323f20e5b"
+  chapter: CHAPTERS/3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md
+  chapter_sha256: e53accb0150061ecc72638cd46413e8ac877c330a507dd3ebc00dd6df578b205
   appendices:
     - property_rights_appendix
 scope: "This principle protects what a person has made or justly holds, and governs the fairness of its exchange: consent to use, honest dealing, attribution, compensation, the duty to guard what is another's, and the bound against over-enclosure. For a person's identity, likeness, and voice, see [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for their data and informational privacy, [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md); for exploitation of those who cannot protect their own interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for shared and common resources, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); and for economic self-determination, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."

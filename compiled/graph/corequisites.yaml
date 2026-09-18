@@ -1,6 +1,6 @@
 # Compiled from CROSS_PRINCIPLE.md plus chapter Co-requisites lines.
 artifact: corequisite_graph
-compiled_from: "BLUEPRINT/CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), BLUEPRINT/CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (2.5 is the only line on disk)"
+compiled_from: "CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (2.5 is the only line on disk)"
 semantics: A gate that resolves a principle with an unmet co-requisite has produced an invalid verdict (Section 1). Directed edges read src requires dst; mutual edges are evaluated together and sit outside the cycle check; bundle edges resolve through the single validity predicate, evaluated once, and impose no ordering among the owners (CROSS_PRINCIPLE.md Section 3, resolution order).
 bundle:
   name: consent-validity

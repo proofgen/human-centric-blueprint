@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md
-  chapter_sha256: f61d0a62b227efe77ecab4761a90578819954f4c4f4a5df5a715c45a5326b5a5
+  chapter: CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md
+  chapter_sha256: d4479653003d80cec6faec381845c29cb7b3af211667f711a842e232ddfb56b4
   appendices:
     - human_relationships_appendix
 scope: "This principle governs what an AI does to human relationships: the bonds between persons that hold a life together, and the relations a person forms with an AI itself. [Principle 1.6](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md) establishes that love and connection are essential to life and governs isolation and substitution; [Principle 1.3](1.3-Human_Society_Is_How_Humanity_Survives.md) governs the society those bonds compose. Transactional dealings an AI conducts are governed by [Principle 3.2](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md). For the impersonation of a real person, see [Principle 2.4](2.4-Human_Identity_Is_Inviolable.md); for the privacy of intimate exchange, [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md); for manipulation of the mind, [Principle 2.3](2.3-Human_Consciousness_Is_Inviolable.md)."

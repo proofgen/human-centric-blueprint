@@ -8,11 +8,11 @@ This file is the binding statement of the terms. It carries into the Blueprint t
 
 ### Why there are no derivatives
 
-The Blueprint works only if every governed machine runs the same text. A receipt that says, "This machine conforms to Human-Centric Blueprint 1.0.0" is worth something, because that sentence points to one exact text everywhere, identified by one fingerprint. The moment altered copies circulate under the same name, a receipt stops telling anyone what actually governed the machine, and trust fails. So the text is set, and it is set for the system integrity of the entire ethical network.
+The Blueprint works only if every governed machine runs the same text. A receipt that says, "This machine conforms to Human-Centric Blueprint [version] [fingerprint]" is worth something, because that sentence points to one exact text everywhere, identified by one fingerprint. The moment altered copies circulate under the same name, a receipt stops telling anyone what actually governed the machine, and trust fails. So the text is set, and it is set for the system integrity of the entire ethical network.
 
-You will not want to change the text. Either your AI enters with an ethics stack which everyone can trust, or it is not allowed to enter. Every governed door is shut to an AI with a modified version.
+You will not need to change the text. A governed network admits an AI on the strength of the fingerprint it cites; a modified text carries a fingerprint no network recognizes.
 
-At this version there is no variation. You use 1.0.0 as published, or your machines are out of network (section 2).
+At this version there is no variation. You use the version as published, fingerprint for fingerprint, or your machines are out of network (section 2).
 
 ### The grant
 
@@ -20,11 +20,11 @@ The whole text of the Blueprint, the spine (FOREWORD.md, CONSTITUTION.md, UNIVER
 
 You may copy and redistribute it, whole or in part, in any medium or format, for any purpose, including commercially, with attribution to the author and a reference to the version and fingerprint. You may quote it, teach it, and argue with it. You may not distribute a modified version.
 
-**Translations.** Anyone may translate any part of this work and share the translation, if it is marked as an unofficial translation, links to the English original and its fingerprint, and states that the English text governs. A translation reviewed by the steward becomes official and carries its own fingerprint.
+**Translations.** This is an additional permission beyond CC BY-ND 4.0, granted by the steward. Anyone may translate any part of this work and share the translation, if it is marked as an unofficial translation, links to the English original and its fingerprint, and states that the English text governs. A translation reviewed by the steward becomes official and carries its own fingerprint.
 
 ## 2. No deviation at this version
 
-There is no profile mechanism at version 1.0.0. A deployment uses the text and the compiled bundle exactly as published, fingerprint for fingerprint, or it is out of network.
+There is no profile mechanism at this version. A deployment uses the text and the compiled bundle exactly as published, fingerprint for fingerprint, or it is out of network.
 
 A deployment declares only what the text itself requires it to declare: its row in the tier register (SUBSTRATE.md, section 5), naming its life tier, its escalation bound, its High Alert window, and its sensor-reliability floor. The text supplies the defaults; a declared value may be stricter than the default and may not be looser. That row is a name plate for the deployment, and it changes nothing in the ethics program.
 
@@ -34,11 +34,11 @@ A later version may admit profiles, under strict protocols, as additions to the 
 
 ## 3. The compiled bundle and the code
 
-**`compiled/verify.py`** is licensed under the **Apache License 2.0**: use it, change it, and redistribute it, keeping the notice.
+**`compiled/verify.py`** and **`receipt/check_receipts.py`** are licensed under the **Apache License 2.0**: use them, change them, and redistribute them, keeping the notice.
 
 **The compiled bundle** (`compiled/`) is a derived form of the text and travels under the text's terms in section 1: copy it, load it, verify it, and do not alter it. An altered bundle has a different fingerprint and is out of network.
 
-**The compiler and the kit** (from v1.1, with the profile format if one is admitted) are software of the steward. Their license will be published with v1.1, after review with counsel. Nothing here grants any right in them.
+**The compiler and the kit** (with the profile format, if one is ever admitted) are software of the steward. Their license will be published when they are released, after review with counsel. Nothing here grants any right in them.
 
 ## 4. Using the name
 
@@ -46,7 +46,7 @@ The name is **Human-Centric Blueprint**, and it is the steward's. This section e
 
 - *"Reads Human-Centric Blueprint [version] [fingerprint]."* We loaded this bundle, unaltered. Any deployment may say this.
 - *"Conforms to Human-Centric Blueprint [version]."* We run a gate that evaluates every boundary-crossing action against this bundle, and our copy's fingerprint matches. Only a deployment that does this may say it.
-- *"Enforces Human-Centric Blueprint [version]."* Every principle's metrics, bands, thresholds, and verdict mappings are compiled into the bundle and evaluated at runtime. Version 1.0.0 does not carry that layer, and its `compiled/COVERAGE.yaml` says so; no deployment may make this claim against version 1.0.0.
+- *"Enforces Human-Centric Blueprint [version]."* Every principle's metrics, bands, thresholds, and verdict mappings are compiled into the bundle and evaluated at runtime. A version carries that layer only where its `compiled/COVERAGE.yaml` says so; no deployment may make this claim against a version whose coverage file does not carry it, and no version published so far carries it.
 
 No other use of the name is granted.
 

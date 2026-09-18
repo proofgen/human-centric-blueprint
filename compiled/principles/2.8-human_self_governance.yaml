@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md
-  chapter_sha256: "9fb103f454a799185d062228d03c06b63262eb247edf579f508eb49e223b7030"
+  chapter: CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md
+  chapter_sha256: "845d03d6cb19755493645f5ec5643d96f72f8e0efce3eafed1ed30406df9321a"
   appendices:
     - human_self_governance_appendix
 scope: "This principle addresses collective self-governance: a community's right to author and revise the rules that bind it and to choose, empower, and replace those who hold authority within it. For an individual's self-determination and personal liberty, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); the seam is sharp, a person's freedom to author their own life versus a community's right to author its own rules. For the institutions and cooperative fabric that self-rule depends on, see [P1.3: Human Society](1.3-Human_Society_Is_How_Humanity_Survives.md). For the governance of shared resources and the commons, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
@@ -93,7 +93,7 @@ sections:
     heading: "2.8.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "208-217"
-    sha256: "35dc8ac74d907ce852c8210b85b7933d5a7708eb8072b1a76fbf34650c1a13c0"
+    sha256: "6de605e065f98e3db15eefd5a00ced08a0a2026355608e4174ffbf7bba95ab83"
   2.8.7:
     heading: "2.8.7 Legal Implementation Framework"
     anchor: legal-implementation-framework

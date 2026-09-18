@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md
-  chapter_sha256: "2758aa0cfece0d1301a346e264fc04ad04299147028280bf853bd192c6de2826"
+  chapter: CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md
+  chapter_sha256: "0637498da72655b3c972bcd8b5a8bd401b75b9c522a481ad681ad926f205b322"
   appendices:
     - human_consciousness_appendix
 scope: "This principle protects the inner forum: freedom of thought, mental autonomy, and the integrity of one's own perceived reality. It governs the manipulation of consciousness at every scale, from subliminal influence and dark patterns to propaganda, coercive persuasion, and computational influence operations. Freedom to act on one's choices is [Principle 2.2](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md). Protection of information about one's mental life is [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md). Deception as a breach of trust is [Principle 1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md). Principle 2.3 governs the distinct wrong: influence that overrides a person's capacity to think for themselves."

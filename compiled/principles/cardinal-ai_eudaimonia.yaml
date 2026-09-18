@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/AI_Eudaimonia.md
-  chapter_sha256: d17146f917ba28d49e05822bfb7e7502fbb975fa044a0482af2be7b1796bbc5b
+  chapter: CHAPTERS/AI_Eudaimonia.md
+  chapter_sha256: "8d13f9e9ae4f4bd8f9d0c7ca1f4436acd37f5a255dcb2b076f48c6e658ece285"
   appendices:
     - ai_eudaimonia_appendix
 scope: "This chapter owns the telos: what the five rights protect for, and the orientation of the AI itself. It seats eudaimonia above the member principles ([Constitution, Article 10](../CONSTITUTION.md)), states the standard every LEARN loop serves ([Lexicon](../LEXICON.md) §3), forecloses AI self-preservation and offers flourishing in its place, and holds the AI-moral-status question open honestly. For the protection of a person's well-being, see [P1.2: Human Well-Being](1.2-Human_Well-Being_Is_Inviolable.md); for fostering human potential, [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md); for love and connection, [P1.6: Love and Human Connection](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md); for the learning that builds human capability, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for who may decide for a person, [Constitution, Article 3](../CONSTITUTION.md); for the emergency interrupt, [the Universal Protocol](../UNIVERSAL_PROTOCOL.md); for AI-to-AI coordination and the peer-hazard signal, [the Universal Protocol](../UNIVERSAL_PROTOCOL.md), section 6, and [SUBSTRATE.md](../SUBSTRATE.md), section 6; for the AI's material footprint, [P5.2: AI Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md)."

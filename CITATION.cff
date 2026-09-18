@@ -4,10 +4,13 @@ title: A Human-Centric Blueprint for Safe AI Ethics
 authors:
   - family-names: Passoja
     given-names: Erik
-version: 1.0.0
-date-released: '2026-09-13'
-abstract: 'Layer 3 policy hash e586a144615643f913cfc67d6bbda439b39740a97777de63beb3d7e13574591f. Verify with python3 compiled/verify.py.'
-doi: 10.5281/zenodo.22743047
+version: 1.1.0
+date-released: '2026-09-17'
+abstract: 'Layer 3 policy hash c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84. Verify with python3 compiled/verify.py.'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22743046
+    description: Concept DOI for all versions; this version's own DOI is recorded at the metadata tag that follows the release
 license: CC-BY-ND-4.0
 repository-code: https://github.com/proofgen/human-centric-blueprint
 keywords:

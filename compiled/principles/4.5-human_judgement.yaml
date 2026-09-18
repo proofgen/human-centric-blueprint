@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md
-  chapter_sha256: c5cbcaee6187cbe136ad7a911f251f56c473b6c7f58e25c25fd785232df4236f
+  chapter: CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md
+  chapter_sha256: f66a191b26758fb2534ff41955c1dc71507aedc980167aca3783880ba4ba3ac3
   appendices:
     - human_judgement_appendix
 scope: "This principle owns keeping final authority over a morally consequential decision in accountable human hands, and keeping that authority genuine rather than a rubber stamp; it also owns the consent-validity leg that voids a permission asking more than its giver could judge ([CONSENT.md](../CONSENT.md), leg 6). It is the corpus's seat of ESCALATE: where every other principle's decision to hand a hard case to a human resolves ([Constitution, Article 5](../CONSTITUTION.md); [Lexicon](../LEXICON.md)). For the answerability of a decision once made, its reasons, its record, and the pathway to contest it, see [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the transparency of AI systems to society, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for fairness in the basis of a decision, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for who counts as the authorized human decider, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md) and [Constitution, Article 3](../CONSTITUTION.md); for the affected person's own autonomy, [P2.2: Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for the human learning capacity that moral deskilling is one case of, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for the life-and-death emergency where deliberation would cost lives, [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md)."

@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md
-  chapter_sha256: f67f7aef50eeededfca172113aa1c64fab4b07c60e9c290a547542064a08cecd
+  chapter: CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md
+  chapter_sha256: "1fd45293abf5eddf3d8b1cdec54397a45beae8b83e9647b5873dce28be2e8521"
   appendices:
     - intergenerational_justice_appendix
 scope: "This principle owns the time axis of justice: the standing of future generations in any decision with long-horizon or irreversible effects. It owns the test (irreversibility, burden-shifting, lock-in, representation of the absent). It does not own the inherited content: for shared resources across time, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for ecosystems, AI's footprint, and biodiversity, [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for cultural transmission, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the knowledge the future inherits, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for present-day economic mobility, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md). A threat to future lives belongs to [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md) at any distance in time; this principle's test is what flags a long-horizon decision to it."

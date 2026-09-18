@@ -1,6 +1,6 @@
 # Artifact 3 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
 artifact: interlock_edges
-compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 11 (the coupling table, complete 2026-07-29) under Section 3 clause 3
+compiled_from: UNIVERSAL_PROTOCOL.md Section 11 (the coupling table, complete 2026-07-29) under Section 3 clause 3
 semantics: "A declared coupling is an escalation edge into the LRS or HRS: the principle's metric routes a detected death or severe-harm trajectory into the native detectors rather than holding it locally."
 native_detectors:
   1.1: LRS

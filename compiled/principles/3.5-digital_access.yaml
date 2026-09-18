@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/3.5-Digital_Access_is_a_Universal_Right.md
-  chapter_sha256: "61491e6446656e597f0d475fd4a87de1e7b211b7f1b9a65afb0635f2a290eba7"
+  chapter: CHAPTERS/3.5-Digital_Access_is_a_Universal_Right.md
+  chapter_sha256: acaa86b2d9518e7e1fd6a1f501551d8a81093f45b7f6e397099c9dbf3a4a1152
   appendices:
     - digital_access_appendix
 scope: "This principle owns the door to digital life: whether a person can reach, afford, and use the digital channel through which the essential functions of modern life now run (work, learning, care, money, government, civic voice), and what an AI may never demand as the price of entry. For the capacity to use what the door opens onto, education and digital literacy, see [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md) and the HR4 cluster; for non-discrimination in the basis of a denial, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for a person's economic agency once connected, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md); for exploitation of those least able to protect their interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for the privacy and identity that access must never cost, [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md) and [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for the democratic-participation facet of civic voice, [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); for digital infrastructure as a shared resource, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); and for the transparency and contestability of a particular access decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md)."

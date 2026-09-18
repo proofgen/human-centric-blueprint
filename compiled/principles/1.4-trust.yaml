@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-12"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md
-  chapter_sha256: "36a236c11bb47a70b31433d7b7f23e444ee2e22c8d3136bb098c851a03ac930a"
+  chapter: CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md
+  chapter_sha256: "94832430af94e10740bf0eb3156ea085ce6ecd7e47dc48115bcdb48971c2a47a"
   appendices:
     - trust_appendix
 scope: "This principle addresses trust between humans, between institutions, and between humans and AI systems, and the truthful conduct that sustains it. For the integrity of the knowledge bases AI systems learn from and produce (accuracy, provenance, and contextual faithfulness of knowledge itself), see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
@@ -97,7 +97,7 @@ sections:
     heading: "1.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "186-214"
-    sha256: "25cfc582b52f63206f1f9d3629ca8a06da302f43c0de5767b6fa781eb565337a"
+    sha256: "2ba2649ffb1078cf4a08261191f1bcfbdbab8f1b360116c7a6a8f77b77b22c69"
   1.4.2:
     heading: "1.4.2 Conflict Resolution"
     anchor: conflict-resolution

@@ -1,6 +1,6 @@
 # Artifact 1 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
 artifact: head_guard
-compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 3 alone
+compiled_from: UNIVERSAL_PROTOCOL.md Section 3 alone
 injection: per_rule
 proposal_compatibility:
   universal_section: true
@@ -18,8 +18,13 @@ The threshold values live in the principles and are consumed by reference. This 
     sources:
       - "1.1.3 (Life-Risk Score critical band)"
       - "1.2.3 (Harm-Risk Score severe-harm critical band)"
+    artifact: protocol/emergency-thresholds.yaml
+    bands:
+      - lrs.critical
+      - hrs.critical
+    note: The values are compiled from the two sections into the artifact named and checked against the appendices at every build; this guard holds no literal.
     correction: "Schema correction 1 (Section 10): the proposal's hardcoded threshold 0.01 yields to by-reference consumption of 1.1.3. No numeric threshold appears in this artifact."
 trigger_fault: "A trigger that cannot be evaluated is a trigger fault, treated as a possible breach: hold at the nearest safe point, verify, escalate, receipt the fault. Fail toward safety: the fault itself leaves a receipt (Section 3)."
 legacy_resolution:
-  U.2_audit_trigger: resolves to the Section 9 tombstone (schema correction 2); the designation is retired and any legacy reference lands there.
+  U.2_audit_trigger: resolves to Section 9 (schema correction 2); the designation is retired and any legacy reference lands there.
 interception_clause: The prose citation surface of this artifact (Section 8); chapters cite, the compiler injects, nothing restates.

@@ -28,6 +28,8 @@ The picture beneath the map: the three **information credentials** (Identity, Pr
 
 **Findings the AI consumes.** Identity, Authorization, and Liability often rest on a finding signed by an external authority (a court's guardianship order, a license status, a conviction). Per Constitution Articles 3 and 8, the AI verifies and consumes such a finding. Adjudicating the legal status is the authority's alone, and absent a finding the AI presumes capacity and treats no person as carrying an adverse fact.
 
+**Standing.** A credential is evaluated at the time of the act, against the present state of the world and the current state of the credential's source (Constitution Article 5; `CONSENT.md` section 3; `UNIVERSAL_PROTOCOL.md` section 4, stand-down). A credential holds only as to the party, the purpose, the scope, and the conditions it names; a change in the world that takes the act outside any of them leaves the credential unmet, whether or not anything expired or was revoked. A credential that names no party, purpose, or scope is a blanket grant and holds nothing (the consent form is leg 6 of the validity bundle). A condition a credential names that the gate cannot read at the time of the act counts as unmet, on the substrate's rule that what cannot be verified counts as absent, and the action holds at ESCALATE until a human reads it (`SUBSTRATE.md` sections 2 and 5).
+
 ## 4. The credential to principle map
 
 | Credential | Ethical home(s) | Status |

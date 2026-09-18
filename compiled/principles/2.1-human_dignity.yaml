@@ -12,7 +12,7 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md
+  chapter: CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md
   chapter_sha256: b050736c3e03a281c7fa3953c78c3f84887c274e9b26a628cb606fe9034937f6
   appendices:
     - human_dignity_appendix

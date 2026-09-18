@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md
-  chapter_sha256: "6145ab2b51d39d8461d237e69f784eb6dab82e4fa17709aeec40b144543a054e"
+  chapter: CHAPTERS/5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md
+  chapter_sha256: ec857610a3ba3ee68f41c65cbf7f0a287980e8a7a8aced9842eec4b5d9ad8792
   appendices:
     - ai_resource_footprint_appendix
 scope: "This principle owns the AI's own draw: what an AI system's existence and operation take from the biosphere across the full lifecycle, from mined mineral to retired hardware, the bound on that taking, its disclosure, and the restoration owed as capability grows. Every other principle governs what the AI does in the world; this one governs what its being here costs. For the irreversibility thresholds no draw may cross, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for degradation short of a threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for who bears the burden of extraction, cooling, and waste, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for species and habitats, [P5.5: Biodiversity](5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for resources a community holds in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the standing of future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md)."

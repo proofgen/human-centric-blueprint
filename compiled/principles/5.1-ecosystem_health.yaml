@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md
-  chapter_sha256: ea336f987d0edfd1cc586735d66f5c2be7c4d0cc12c41c7119c9ea333a1c41ab
+  chapter: CHAPTERS/5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md
+  chapter_sha256: c680acac2131e9ddce2dded180fbbb31910a5cbc54895261f80e23d5139ea92c
   appendices:
     - ecosystem_health_appendix
 scope: "This principle owns the threshold: the lines past which Earth's life-supporting systems shift state irreversibly, the duty never to push a system across one, and the rescue when a crossing nears. For the AI's own consumption, see [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for the living connectedness of ecosystems short of the threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for species, habitats, and genetic lines, [P5.5: Biodiversity](5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for resources a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the standing of future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md). A collapse that threatens human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol, at any scale."

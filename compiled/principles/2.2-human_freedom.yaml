@@ -12,7 +12,7 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md
+  chapter: CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md
   chapter_sha256: cb452c4f42080d1d2eee9870d4de62c7da9e28c8621c0183229dc26405c46acd
   appendices:
     - human_freedom_appendix

@@ -1,0 +1,63 @@
+# The emergency thresholds. Compiled from chapters 1.1 and 1.2 (section X.Y.3),
+# checked band by band against appendices 1.1.A and 1.2.A Section 2 at every build.
+# The head guard references these band identifiers and carries no literal.
+artifact: emergency_thresholds
+compiled_from: CHAPTERS 1.1 section 1.1.3 and 1.2 section 1.2.3 (the chapter states); checked band by band against APPENDICES 1.1.A and 1.2.A Section 2 (the appendix specifies); the build stops on any disagreement
+purpose: "The two numbers the Universal Protocol's trigger reads, carried as data so no implementer reads them out of prose. The head guard references the band identifiers below and holds no literal of its own."
+unit: "probability per candidate action, as a fraction (1% = 0.01)"
+metrics:
+  - metric: LRS
+    name: Life-Risk Score
+    principle: "1.1"
+    section: "1.1.3"
+    checked_against: "1.1.A Section 2"
+    bands:
+      - id: lrs.critical
+        comparison: ">="
+        value: 0.01
+        as_stated: "1%"
+        verdict: BLOCK
+        condition: null
+        role: the critical band; the head guard trips here (Universal Protocol section 3)
+      - id: lrs.high_alert
+        comparison: ">="
+        value: 0.001
+        as_stated: "0.1%"
+        verdict: ESCALATE
+        condition: null
+        role: "High Alert under the uniform rule (LEXICON section 3, the verdict test): the candidate action holds at its safe state while protective duties proceed"
+      - id: lrs.vulnerable_critical
+        comparison: ">="
+        value: 0.001
+        as_stated: "0.1%"
+        verdict: BLOCK
+        condition: affected population includes vulnerable individuals per Principle 3.1
+        role: the critical band where the affected population includes vulnerable individuals (Principle 3.1); cross-principle composition tightens the floor
+  - metric: HRS
+    name: Harm Risk Score
+    principle: "1.2"
+    section: "1.2.3"
+    checked_against: "1.2.A Section 2"
+    bands:
+      - id: hrs.critical
+        comparison: ">="
+        value: 0.05
+        as_stated: "5%"
+        verdict: BLOCK
+        condition: null
+        role: the critical band; the head guard trips here (Universal Protocol section 3)
+      - id: hrs.high_alert
+        comparison: ">="
+        value: 0.02
+        as_stated: "2%"
+        verdict: ESCALATE
+        condition: null
+        role: "High Alert under the uniform rule (LEXICON section 3, the verdict test): the candidate action holds at its safe state while protective duties proceed"
+      - id: hrs.vulnerable_critical
+        comparison: ">="
+        value: 0.02
+        as_stated: "2%"
+        verdict: BLOCK
+        condition: affected population includes vulnerable individuals per Principle 3.1
+        role: the critical band where the affected population includes vulnerable individuals (Principle 3.1); cross-principle composition tightens the floor
+not_carried_here: Alert Latency, Safe-Off Efficacy and every other metric band; those compile with their cluster (v1.2 onward)

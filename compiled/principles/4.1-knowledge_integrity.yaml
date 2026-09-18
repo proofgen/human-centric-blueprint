@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.1-Knowledge_Integrity_Must_Be_Preserved.md
-  chapter_sha256: a8cd6451d1f123b1732ab62e5c503f922602b81710ece5eb82d173606195060f
+  chapter: CHAPTERS/4.1-Knowledge_Integrity_Must_Be_Preserved.md
+  chapter_sha256: "7668fe7b2fa36ab6c405cf70cd7d10512583167cb5b0a3b651fbb785301ae84d"
   appendices:
     - knowledge_integrity_appendix
 scope: "This principle owns the integrity of the human record: the accuracy, provenance, and context of humanity's accumulated knowledge as AI learns from it, transforms it, and adds to it. It governs the record. For the speaker's truthful conduct and trust, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md). For a society's information ecosystem, [P1.3: Human Society](1.3-Human_Society_Is_How_Humanity_Survives.md); for a person's view into what an AI is doing, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for who governs cultural knowledge, [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for preserving cultural heritage, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for attribution as credit and ownership, [P3.2: Property Rights and Fair Exchange](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for capture of shared knowledge resources, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md). [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md) names this principle keeper of the knowledge the future inherits."

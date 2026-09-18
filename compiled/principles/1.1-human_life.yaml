@@ -12,7 +12,7 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md
+  chapter: CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md
   chapter_sha256: "4917a26697703b6bacc4035f05eb13b3a467b701b156d464c72edd76d7f68921"
   appendices:
     - human_life_appendix

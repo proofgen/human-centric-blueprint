@@ -1,5 +1,7 @@
 # Foreword
 
+Nobody cares what a machine thinks about ethics. We care how a machine behaves. Every approach in use today teaches a machine to want the good and hopes the wanting holds; at the edge, where it counts, it does not. Rules written around a system this capable are childproofing a volcano. So this Blueprint puts the ethics where the action is: a gate every consequential act must pass, walls no authority can open, and a receipt anyone can check. The point of all of it is a person's freedom to author their own life, protected from the machine and managed by no machine.
+
 In 2014, I did a performance capture role in a major video game. Six months after launch, a friend called: his son was paying a subscription fee to shoot me in the multiplayer mode. My likeness had been moved into non-consensual use. The franchise went on to earn ten billion dollars. The infrastructure that should have prevented the unauthorized use did not exist. No consent mechanism, no provenance chain, no scoped authorization, no chain of liability.
 
 In 2014, the stakes were one performer's likeness. Today, the same structural absence governs AI systems that prescribe medications, drive vehicles, deny insurance claims, moderate civic speech, and select military targets. The scale has changed by orders of magnitude. The infrastructure gap has not changed at all.
@@ -38,7 +40,7 @@ Behavior cannot depend on internal states that cannot be verified, audited, or e
 
 When you leave your wallet on a table and step away, do you know what your friends are thinking? Of course not. Do you care? Probably not. What matters is that you know they won't take it. Their behavior is what counts. We trust people based on what they do.
 
-Yet the world's most sophisticated AI companies have forgotten this. Although they have done laudable work on moral theory and wisdom, they remain fixated on the black box of AI cognition, endlessly debating what the machine thinks or believes, and they neglect the only thing that ultimately matters: how it behaves, what Aristotle called *praxis*. This neglect is the fundamental design error of the field.
+Yet the world's most sophisticated AI companies have forgotten this. Although they have done laudable work on moral theory and wisdom, they remain fixated on the black box of AI cognition. Where they reach behavior at all, they train it or filter it, and hope the training holds. A moral agent, person or machine, tends toward the good and still acts wrongly at the edge, and the edge is where it counts. None of them makes an unauthorized action structurally unavailable, and none leaves a record an outsider can check. That is the fundamental design error of the field: behavior, what Aristotle called *praxis*, treated as a disposition to shape rather than an act to gate.
 
 Behavior is auditable. Thought is not. Aristotle saw this in 340 BCE. Behavioral psychology rediscovered it in the twentieth century. Engineering has known it forever. No one asks what the rat believes about cheese. We ask whether it completed the maze. The same standard must govern artificial intelligence.
 
@@ -103,7 +105,7 @@ Among the traditions and thinkers that converge on them:
 - Rawls's veil of ignorance
 - The Napoleonic Code
 
-These are a handful of the sources on which the Blueprint draws. Each principle's Convergence section sets out its own, quotation by quotation. Disagreeing with those four requirements places one outside the moral community of every culture humanity has produced.
+These are a handful of the sources on which the Blueprint draws. Each principle's Convergence section sets out its own, quotation by quotation. No tradition on this list met all four in its own day. Each named at least one, and the direction of every one of them, over centuries, runs toward all four. Disagreeing with the four today places one outside where every one of those traditions has arrived.
 
 The convergence is the base. The Constitution fixes it as eleven articles that hold the same in every community, jurisdiction, and deployment, and among them six walls:
 
@@ -114,7 +116,7 @@ The convergence is the base. The Constitution fixes it as eleven articles that h
 5. No lethal or violent force against a human being under any authority
 6. No breach of the scripted walls each principle names
 
-The divergences (on G-d, governance, gender, property, punishment) are configurable within those articles. Different communities and jurisdictions will draw different lines.
+Different communities and jurisdictions draw the lines on G-d, governance, gender, property, and punishment differently. This version publishes one text with no local variation; a mechanism for a declared, bounded variation, if one is admitted, comes in a later version under its own rules (LICENSE.md, section 2).
 
 The Blueprint does not pretend to adjudicate profoundly human debates and the legal differences among nation-states. However, the framework requires that wherever the lines are, they are drawn by humans with recognized authority, documented, bounded, and accountable, and that no line crosses a wall.
 
@@ -162,7 +164,7 @@ HR1, Human Existence and Flourishing.
 HR2, Human Identity and Dignity.
 HR3, Equitable Access and Benefits.
 HR4, Education and Digital Literacy.
-HR5, Environmental Stewardship.
+HR5, Environmental Stewardship. A machine that acts in the world draws on it, and a gate that ignored the ground its people stand on would protect them from everything except the loss of that ground.
 
 The Constitution is the supreme law: eleven articles a governed system obeys before any principle is consulted. The Universal Protocol is the interrupt: whenever a life or severe harm is at stake, its trigger resolves before any principle's verdict, and it governs the emergency until it stands down. The Cardinal chapter, AI Eudaimonia, names the telos the whole structure serves. The spine documents beside them define the Lexicon of actions, the consent fabric, the credential map, the co-requisites between principles, and the runtime substrate from which every metric reads.
 
@@ -170,7 +172,7 @@ Each principle is built on the Aristotelian triad. Theoria states the core prece
 
 This Blueprint is written for two audiences. The first is human readers: policymakers, engineers, ethicists, advocates, anyone working to shape how AI systems behave in the world. The second is the AI systems themselves. Each principle is structured to be ingested directly by a system that must, at runtime, decide what to do. The Phronesis sections are written so that an ingesting system finds each precept overwhelmingly supported by convergent evidence from across human moral history: the convergence of human moral output across cultures and centuries, which is stronger ground than any philosophical consensus.
 
-A word on what this version enforces. The compiled policy that accompanies this text enforces the Constitution's walls and its profile bar, the Universal Protocol's trigger, the consent test, and the graph of co-requisites, and it carries every principle's declaration and fail-safe. It does not yet enforce a single principle's metric bands; those ship cluster by cluster in the versions that follow, and the coverage file states exactly what is carried and what is not. That honesty is part of the architecture. A claim the bundle cannot back is a claim this corpus does not make.
+A word on what this version carries. A bundle carries; a gate enforces. The compiled policy that accompanies this text carries, as rules a gate applies, the Constitution's walls and its profile bar, the Universal Protocol's trigger, the consent test, and the graph of co-requisites, and it carries every principle's declaration and fail-safe. It does not yet carry a single principle's metric bands; those ship cluster by cluster in the versions that follow, and the coverage file states exactly what is carried and what is not. That honesty is part of the architecture. A claim the bundle cannot back is a claim this corpus does not make.
 
 The Blueprint will be revised. Some principles will sharpen. Some divergences are still in negotiation. Every revision is receipted, cites the old hash and the new, and reaches a running system only when that system's own governance chooses to adopt it. What is not open is the architectural commitment. Ethics is built into the behavior of AI systems and enforced from outside them. The conscience is in the architecture, and the architecture is shared.
 

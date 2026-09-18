@@ -1,6 +1,6 @@
 # Compiled from CONSENT.md alone (Section 7).
 artifact: consent_validity_predicate
-compiled_from: BLUEPRINT/CONSENT.md Sections 2 and 7 alone; chapters cite legs and do not restate the conjunction
+compiled_from: CONSENT.md Sections 2 and 7 alone; chapters cite legs and do not restate the conjunction
 form: conjunction
 evaluation: "A consent is valid only if all seven legs hold, each leg resolved from its owning principle's compiled rule. Any failed leg renders the Consent credential unmet, and Article 6 governs the verdict."
 voidness: A consent is void if any leg fails. A void consent authorizes nothing. The burden of validity sits on the actor who would rely on the consent. No person bears a burden to prove its absence. No finding of intent is required, and none rescues a failed leg.

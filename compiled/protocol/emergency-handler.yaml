@@ -1,6 +1,6 @@
 # Artifact 2 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
 artifact: emergency_handler
-compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Sections 5 and 6 alone; verbs from LEXICON.md
+compiled_from: UNIVERSAL_PROTOCOL.md Sections 5 and 6 alone; verbs from LEXICON.md
 simultaneity: "The functions are owed simultaneously: an emergency is not a sequence of stations, and the ordering is whatever saves life fastest in the situation at hand (Section 5)."
 functions:
   - function: Act on the danger

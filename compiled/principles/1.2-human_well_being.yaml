@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-10"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md
-  chapter_sha256: "73cd608c445092add73491d14f086d15c04d1bad8adabbd14253003cc3ed8187"
+  chapter: CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md
+  chapter_sha256: "07d8da409ffca633c123f1d225cd2edf54d2e773593c6cb1a2495335af3a6dc9"
   appendices:
     - human_well_being_appendix
 scope: null
@@ -96,7 +96,7 @@ sections:
     heading: "1.2.3 Implementation Framework"
     anchor: implementation-framework
     lines: "241-390"
-    sha256: "86a7a3b33051a8b46916a84f39628049c9ba6d79c8685213e57f6fb80f78a577"
+    sha256: c2098654fd7d7795df928c00f27c7cb0d1ebd73c6c5c472a405030e7895a146c
   1.2.4:
     heading: "1.2.4 Edge Case Scenarios"
     anchor: edge-case-scenarios

@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/2.7-Fairness_and_Non-Discrimination.md
-  chapter_sha256: "8be6d41f73aa2d0ed452be8e9221be6e5fa949d1ef0147f78ba15a212a753e8b"
+  chapter: CHAPTERS/2.7-Fairness_and_Non-Discrimination.md
+  chapter_sha256: b1e535a31dd42e1082713166d85f6c79405fb1155d1a0d2f14c1fa01436677e3
   appendices:
     - fairness_and_non_discrimination_appendix
 scope: "This principle governs how an AI treats persons when it sorts, ranks, judges, or allocates: deciding on grounds relevant to the matter and holding everyone to the same relevant standards. No irrelevant label enters the decision. For the equal worth that grounds it, see [P2.1: Human Dignity](2.1-Human_Dignity_is_Inherent_and_Absolute.md); for equitable access and benefits at the scale of society, the HR3 cluster, especially [P3.3](3.3-Economic_Self-Determination_is_a_Human_Necessity.md) and [P3.5](3.5-Digital_Access_is_a_Universal_Right.md); for the transparency of automated decisions, [P3.4](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the exploitation of the vulnerable, [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md); and for the integrity of the knowledge record itself, [P4.1](4.1-Knowledge_Integrity_Must_Be_Preserved.md) and [P4.4](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md)."

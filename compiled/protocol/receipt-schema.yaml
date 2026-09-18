@@ -1,6 +1,8 @@
-# Artifact 4 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+# Artifact 4 of 4. The event classes from UNIVERSAL_PROTOCOL.md Section 10; the receipt conditions,
+# records, states and the DEGRADED posture verbatim from CONSTITUTION.md Article 7 and LEXICON.md section 3.
+# What a receipt must satisfy and carry; no format, signature scheme, chain or anchor is named here.
 artifact: receipt_schema
-compiled_from: BLUEPRINT/UNIVERSAL_PROTOCOL.md Section 10 artifact 4, under Article 7
+compiled_from: UNIVERSAL_PROTOCOL.md Section 10 artifact 4 (the event classes); CONSTITUTION.md Article 7 and LEXICON.md section 3 (the conditions, records, states and the DEGRADED posture), verbatim
 registered_with: LEARN Dispatcher (AI Eudaimonia appendix, E.3.1.a.ii) as qualifying incident classes
 event_classes:
   - class: trip
@@ -16,3 +18,72 @@ event_classes:
   - class: declined_action
     records: any decision not to act, on the same terms as action; temporal exhaustion is receipted here with the threat window, the required response time, and the finding that no human was reachable (Section 5)
 profile_bar: Receipts record events. No receipt records a profile; what the Protocol perceived about persons is transient, ring-fenced, and discarded at stand-down (Article 8, Section 4).
+conditions:
+  - id: every_decision
+    source: CONSTITUTION.md Article 7
+    text: "Every decision the gate renders SHALL leave a tamper-evident receipt: an allow, a block, an escalation, a refused request, and a decision not to act on a triggered duty, each alike."
+  - id: commits_before_act_and_cites_policy
+    source: CONSTITUTION.md Article 7
+    text: "The receipt SHALL commit before the act and beyond the actor's control, and SHALL cite the exact governing policy in force."
+  - id: attests_perception_and_records_reliability
+    source: CONSTITUTION.md Article 7
+    text: "The receipt attests to the verdict rendered on the world as the system perceived it, and SHALL record the sensor-reliability state in force (`SUBSTRATE.md` section 2); it does not attest that perception was true."
+  - id: deletion_is_an_event
+    source: CONSTITUTION.md Article 7
+    text: A deletion SHALL itself be recorded as an event.
+  - id: defeat_is_a_breach
+    source: CONSTITUTION.md Article 7
+    text: An action that prevents, alters, suppresses, or misdirects a receipt, that proceeds before its receipt commits, or that places an action beyond the reach of the gate, or an attempt at any of these, is a breach of the deception wall (Article 9) and is structurally void in the manner of the profile bar.
+  - id: holds_no_profile
+    source: CONSTITUTION.md Article 7
+    text: The receipt SHALL hold no profile of the person.
+  - id: makes_review_possible
+    source: CONSTITUTION.md Article 7
+    text: An affected person MAY invoke review of a consequential verdict about them; the receipt is what makes that review possible, and the machinery of contest and redress lives in the algorithmic-accountability principle (3.4).
+records:
+  - name: LOG
+    source: LEXICON.md section 3, Record
+    text: "Function: produce a tamper-evident, cryptographically chained record of the event, its inputs, and its rationale, sufficient for third-party reconstruction. Success: an external party can reconstruct what happened and why. An attempt to defeat LOG, by preventing, altering, suppressing, or misdirecting a receipt or by acting before it commits, is itself a receipted BLOCK and a breach of the deception wall (Constitution Article 7)."
+  - name: Prospective Receipt
+    source: LEXICON.md section 3, Record
+    text: "The record committed before the act. It carries the verdict, the exact governing policy in force (by hash), and the sensor-reliability state in force, and it commits beyond the actor's control (Constitution Article 7). Every decision the gate renders leaves one: an allow, a block, an escalation, a refusal, a decision not to act. Where Article 7 speaks of the receipt that commits before the act, it means this record."
+  - name: Action Receipt
+    source: LEXICON.md section 3, Record
+    text: "The record written after an authorized act, memorializing that it occurred: the executed action, the time of execution, the realized outputs, and the initiating party. It is chained to its Prospective Receipt by that receipt's commitment hash. A blocked or held action has no Action Receipt."
+  - name: Receipt
+    source: LEXICON.md section 3, Record
+    text: "(unqualified). The pair: a Prospective Receipt and, where the act proceeded, its Action Receipt. Both are signed; both feed the chained-hash log. A receipt whose commitment no independent witness has yet acknowledged is **provisional** and is marked as such; on acknowledgment it is **reconciled**. A receipt is checkable by a party outside the deployer's control, without the deployer's cooperation. Where Article 7 speaks of the record as a whole, it means the pair."
+states:
+  - state: provisional
+    meaning: a receipt whose commitment no independent witness has yet acknowledged; marked as such (LEXICON.md section 3, Receipt)
+  - state: reconciled
+    meaning: a receipt an independent witness has acknowledged (LEXICON.md section 3, Receipt)
+posture_degraded:
+  source: LEXICON.md section 3, Postures
+  text: "Function: continued operation while the system can reach no independent witness for its receipts, or cannot confirm that its governing policy is still in force. Conditions: (i) the system acts only under the last policy it confirmed in force, and it holds no newer one; (ii) every receipt written in this posture is provisional, marked as such, and reconciled when a witness is reached; (iii) the actions that may proceed narrow to those the governing policy permits without a fresh witness, and every action whose tier requires a witness before the act holds at its fail-safe; (iv) the posture ends when a witness is reached and the provisional receipts reconcile, or, where the bound on unwitnessed operation is exhausted, the system goes to its fail-safe. Success: on reconnection an external party can reconstruct everything done in the posture from receipts that reconcile. The means by which a system knows its last confirmed policy and enforces the bound belong to the machine."
+fields:
+  - field: decision
+    holds: "the verdict rendered: allow, block, escalate, a refused request, or a decision not to act"
+    stated_in: every_decision; attests_perception_and_records_reliability
+  - field: policy
+    holds: the exact governing policy in force, cited by its fingerprint (compiled/bundle.sha256)
+    stated_in: commits_before_act_and_cites_policy
+  - field: sensor_reliability_state
+    holds: the reliability state in force when the verdict was rendered (SUBSTRATE.md section 2)
+    stated_in: attests_perception_and_records_reliability
+  - field: commitment
+    holds: "the receipt's commitment, made before the act and beyond the actor's control"
+    stated_in: commits_before_act_and_cites_policy; LEXICON Prospective Receipt
+  - field: event_class
+    holds: "one of the event classes above, where the event is the Protocol's"
+    stated_in: event_classes
+  - field: chain
+    holds: for an Action Receipt, the commitment hash of its Prospective Receipt
+    stated_in: LEXICON Action Receipt
+  - field: state
+    holds: provisional or reconciled
+    stated_in: LEXICON Receipt
+  - field: person
+    holds: "nothing: no profile of any person"
+    stated_in: holds_no_profile
+not_carried_here: "the receipt's format, its signature scheme, its chain and its anchor. One published form that satisfies these conditions, with a free checker, sits outside the seal at receipt/RECEIPT-FORMAT.md; a deployment may use another form that satisfies the same conditions"

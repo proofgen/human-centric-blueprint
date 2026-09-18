@@ -13,7 +13,7 @@ aliases:
 appendices:
   - ai_eudaimonia_appendix
 status: canonical
-metrics: pending v1.1 (bands carried by content hash; see COVERAGE.yaml)
+metrics: pending (bands carried by content hash; see COVERAGE.yaml)
 tier: public
 last_edited: 2026-09-13
 ---

@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md
-  chapter_sha256: "4922d8a8019bfe2701d6700dcfdc66eeaf395d196c4b31b802b7506b7190fd59"
+  chapter: CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md
+  chapter_sha256: f4e24a36165e8c7741c29d533912c919c80cc1bdb6dbc6a2d5d1ce4cae35d87e
   appendices:
     - cross_cultural_exchange_appendix
 scope: "This principle owns the encounter between cultures: what happens when AI carries material, expression, or understanding from one community to the audience of another, translating, representing, and choosing what circulates where. For who governs cultural knowledge, including the right to refuse the encounter, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for keeping heritage alive within a culture, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for discrimination against persons, [P2.7: Fairness](2.7-Fairness_and_Non-Discrimination.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for what a community shares outward as a commons, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."

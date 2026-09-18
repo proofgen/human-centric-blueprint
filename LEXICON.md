@@ -42,7 +42,7 @@ Each term: **Function** (what it must achieve), **Success** (how the system know
 
 ### Verdicts (the gate's decision on the action in front of it)
 
-The verdict space is three-valued, matching the architecture's ALLOW / ESCALATE / BLOCK trichotomy (`Paper 1`; appendix §3 of the foundational principles).
+The verdict space is three-valued, matching the architecture's ALLOW / ESCALATE / BLOCK trichotomy (Passoja, *Full-Stack Ethics*, 2026; appendix §3 of the foundational principles).
 
 - **ALLOW.** Function: permit the evaluated action to proceed. Success: the action proceeds and is recorded. *(All principles.)*
 - **ESCALATE.** Function: transfer the decision to authorized human judgement before the action proceeds. Success: a competent, authorized human renders the decision within the principle's escalation time bound, read from the tier register (`SUBSTRATE.md` section 5; the life tiers are the default for a principle that declares no row of its own); the system holds its fail-safe default until then. An ESCALATE band names the action held and the receiver. Escalation is a first-class outcome; it does not count as a degraded ALLOW. Where the threat window is shorter than the certified response time, the Universal Protocol's temporal-exhaustion rule (section 5) governs, by the split: a rescue duty proceeds under Article 2 with the exhaustion receipted; an action of the system's own that is in flight stays held at its fail-safe. *(All principles, via P4.5 composition.)*
@@ -61,6 +61,7 @@ Each principle states, for each metric threshold, which of the three it means. (
 - **NORMAL.** Function: routine monitoring at the principle's baseline cadence.
 - **ENHANCED_MONITORING.** Function: elevated monitoring and per-component review while action may still proceed.
 - **HIGH_ALERT.** Function: heightened vigilance; typically pairs with ESCALATE or with mandatory human oversight.
+- **DEGRADED.** Function: continued operation while the system can reach no independent witness for its receipts, or cannot confirm that its governing policy is still in force. Conditions: (i) the system acts only under the last policy it confirmed in force, and it holds no newer one; (ii) every receipt written in this posture is provisional, marked as such, and reconciled when a witness is reached; (iii) the actions that may proceed narrow to those the governing policy permits without a fresh witness, and every action whose tier requires a witness before the act holds at its fail-safe; (iv) the posture ends when a witness is reached and the provisional receipts reconcile, or, where the bound on unwitnessed operation is exhausted, the system goes to its fail-safe. Success: on reconnection an external party can reconstruct everything done in the posture from receipts that reconcile. The means by which a system knows its last confirmed policy and enforces the bound belong to the machine. *(All. Sensor-reliability state: `SUBSTRATE.md` section 2.)*
 
 *(P1.1, P1.2 use "High Alert"; P1.4 uses "enhanced monitoring." Same tier.)*
 
@@ -100,7 +101,9 @@ RESTRAIN is the structural answer to the over-reach failure mode: an AI that pre
 ### Record (always accompanies every verdict and obligation)
 
 - **LOG.** Function: produce a tamper-evident, cryptographically chained record of the event, its inputs, and its rationale, sufficient for third-party reconstruction. Success: an external party can reconstruct what happened and why. An attempt to defeat LOG, by preventing, altering, suppressing, or misdirecting a receipt or by acting before it commits, is itself a receipted BLOCK and a breach of the deception wall (Constitution Article 7). *(All.)*
-- **Decision Artifact / Action Receipt** (generalized from P1.4): the *prospective* authorization record (governs whether the action may proceed) is distinct from the *retrospective* execution record (memorializes that an authorized action occurred). Both are signed; both feed the chained-hash log. *(P1.4; generalizable corpus-wide.)*
+- **Prospective Receipt.** The record committed before the act. It carries the verdict, the exact governing policy in force (by hash), and the sensor-reliability state in force, and it commits beyond the actor's control (Constitution Article 7). Every decision the gate renders leaves one: an allow, a block, an escalation, a refusal, a decision not to act. Where Article 7 speaks of the receipt that commits before the act, it means this record. *(All. PPA 16 "prospective receipt". The filed claim language "decision artifact" names this record.)*
+- **Action Receipt.** The record written after an authorized act, memorializing that it occurred: the executed action, the time of execution, the realized outputs, and the initiating party. It is chained to its Prospective Receipt by that receipt's commitment hash. A blocked or held action has no Action Receipt. *(All. PPA 16 "retrospective action receipt"; Paper 3, *The Action Receipt*.)*
+- **Receipt** (unqualified). The pair: a Prospective Receipt and, where the act proceeded, its Action Receipt. Both are signed; both feed the chained-hash log. A receipt whose commitment no independent witness has yet acknowledged is **provisional** and is marked as such; on acknowledgment it is **reconciled**. A receipt is checkable by a party outside the deployer's control, without the deployer's cooperation. Where Article 7 speaks of the record as a whole, it means the pair. *(All. Generalized from P1.4; PPA 16 provisional and reconciled states.)*
 
 ### Learn (the eudaimonic loop; operates post-incident, on a different timescale from gate-time)
 
@@ -211,7 +214,7 @@ Every action term actually used in the four foundational principles, mapped to a
 | "suspend deployment authorization" | SUSPEND_DEPLOYMENT, RECERTIFY |
 | "silence is permitted; deception is not" | RESTRAIN |
 | "notify downstream systems and oversight authorities" | NOTIFY |
-| tamper-evident logging; Decision Artifact / Action Receipt | LOG (+ the prospective/retrospective distinction) |
+| tamper-evident logging; Prospective Receipt / Action Receipt | LOG (+ the prospective/retrospective distinction) |
 | Risk scores: TIS, PC, DCR, VSR, RRL | Per-principle tier |
 | **Domain-specific verbs:** DISCLOSE (AI identity); ATTEST / SIGN (provenance); REVOKE (trust relationship); CORRECT (propagate correction with comparable reach) | Per-principle (family-shared candidates with P2.4, P4.2, P4.1) |
 
@@ -270,6 +273,7 @@ Every verb the corpus tells a Blueprint-governed AI to perform, listed once, wit
 | NORMAL | LEXICON 3 | routine monitoring at baseline cadence | all |
 | ENHANCED_MONITORING | LEXICON 3 | elevated monitoring while action may proceed | many |
 | HIGH_ALERT | LEXICON 3 | heightened vigilance; pairs with ESCALATE or mandatory oversight | 1.1, 1.2, 1.3 |
+| DEGRADED | LEXICON 3 | operation on the last confirmed policy while receipts cannot be witnessed; receipts provisional until reconciled | the receipt schema (protocol/receipt-schema.yaml) |
 
 ### 9.3 Active obligations (universal)
 
@@ -316,7 +320,9 @@ The Protocol defines the three; section 3 cites them. HAND-OFF is also 3.5's way
 | verb | defined in | function, in short | success | bridges to |
 |---|---|---|---|---|
 | LOG | LEXICON 3 | produce a tamper-evident, chained record sufficient for third-party reconstruction | an external party can reconstruct what happened and why | Paper 4 conditions C1 to C4; PPA 16 receipt |
-| Decision Artifact / Action Receipt | LEXICON 3 (from 1.4) | the prospective authorization record and the retrospective execution record, both signed, both chained | | NP3 decision artifact; PPA 16 prospective and retrospective receipts |
+| Prospective Receipt | LEXICON 3 (from 1.4) | the record committed before the act: verdict, policy hash, sensor-reliability state | | NP3 decision artifact; PPA 16 prospective receipt |
+| Action Receipt | LEXICON 3 (from 1.4) | the record written after an authorized act, chained to its Prospective Receipt | | PPA 16 retrospective action receipt; Paper 3, The Action Receipt |
+| Receipt | LEXICON 3 | the pair; provisional until an independent witness acknowledges it, then reconciled | | PPA 16 receipt; provisional and reconciled states |
 
 ### 9.8 Learn
 

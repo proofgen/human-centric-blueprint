@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md
-  chapter_sha256: c581e8b76bd0ec775731782853f53242fb2b879062afde688f787c7ab3f06cce
+  chapter: CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md
+  chapter_sha256: "02d61e9508d35cc5326bffc73c74b5a16828cb5678a8ee213fa14c2639c768e5"
   appendices:
     - commons_governance_appendix
 scope: "This principle owns the commons: the resources a community holds and governs in common, and an AI's conduct toward them. For a community's right to govern itself in general, see [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); 2.8 owns the community's authority, 3.6 the shared resources that authority stewards. For privately owned things and fair exchange, see [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); the line between them, enclosure, is this principle's to guard. For a person's access to the digital channel, see [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); 3.5 owns the person's door, 3.6 the shared infrastructure behind it and its governance. For duties to future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for ecosystems protected in their own right, [P5.1](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for the truthfulness of shared knowledge, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."

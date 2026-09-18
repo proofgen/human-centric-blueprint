@@ -12,8 +12,8 @@ principle:
   status: canonical
   last_edited: "2026-09-13"
 source_layer1:
-  chapter: BLUEPRINT/CHAPTERS/4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md
-  chapter_sha256: f3a8f30ccfe990147cf8a0c72e652e6a9a8089daa432a72d53c903c36e17b37c
+  chapter: CHAPTERS/4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md
+  chapter_sha256: "6ace2d7c53831ceb80f891a2a57908a91339797165a326c277a0f0f2f7366d8a"
   appendices:
     - human_learning_appendix
 scope: "This principle owns the making of human capability: the learning by which a person becomes able to understand, reason, create, and judge, and its defense against AI substitution. For the umbrella protection of human capability across every dimension, see [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md). For a person's view into the AI they face, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for keeping human judgment central at the moment of an ethical decision, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md); for the integrity of what is learned from, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for manipulation that goes around a person's judgment rather than building it, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for access to the digital world where learning now happens, [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); for the retraining owed when AI displaces a livelihood, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."
