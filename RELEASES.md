@@ -57,6 +57,7 @@ Version 1.1.0 keeps every sentence of v1.0.0's Constitution and principles excep
 - **The Foreword** opens with the why, reframes the convergence claim as direction, narrows the critique of the field to what is defensible, and resolves the divergence sentence against the no-deviation rule.
 - **Corrections** from two public reviews: "license" spelled the American way throughout; "enforces" replaced by "carries" wherever the bundle is meant; process references removed from sealed text; the compiled files name the release tree's paths.
 - **Added after the seal, outside it** (`v1.1.0+docs.1`, same fingerprint): `INTRODUCTION.md`, the author's short statement of why, the idea, the three foundations, and the thirty-four principles; `AGENTS.md`, for an AI reader: what this is and is not, the argument as seven claims, where a critic should push, and a reading plan; `llms.txt`, an index of the files worth fetching.
+- **`v1.1.0+docs.2`, same fingerprint:** file names in the entry pages are links; `INTRODUCTION.md` gains "Ahead of its time, on purpose" (what the text anticipates, the on-ramp that applies today, and the range of versions); `AGENTS.md` states the two halves of the design up front and adds a reviewer's objections to the critic's list (interpretation, "void" as a requirement, the 0.80 floor, independently named adaptations); `CONFORMANCE.md` and this file state which versions are accepted and that rules may change for reasons of public safety.
 
 Items known at this release and carried to the versions that follow, by the author's decision:
 
@@ -79,6 +80,15 @@ Em dashes in the corpus sit in five permitted forms and nowhere else: Convergenc
 - Archive checksums (SHA-256 of the file as downloaded), so a copy fetched from an archive can be matched to this release:
   - `Zenodo 10.5281/zenodo.22743047 (v1.0.0), human-centric-blueprint-v1.0.1-meta.zip`: `0d07d82bbca33b297d3b8613c9a72c0344ea43c8de33be3b5d8ff554ab828453`
   - `Zenodo 10.5281/zenodo.22822375 (v1.1.0), human-centric-blueprint-v1.1.0.zip`: `4881edfe2f859ac3e1d086e42cb64e46996dc654869ec5459c802f058e07550a`
+
+### Versions accepted
+
+A claim names its version. Inside a version, nothing varies. Across versions there is a range, the way software supports a range of versions of a language. Rules will change as sensing and robotics mature, and some will change for reasons of public safety; each change is named in this file with its reason. No version is removed from the record, and a receipt made under a version remains evidence of the rules of its time. A version may be retired from acceptance, with its reason stated here.
+
+| Version | Fingerprint | Status |
+|---|---|---|
+| 1.1.0 | `c24f2438861e821f…` | current |
+| 1.0.0 | `e586a144615643f9…` | accepted; superseded by 1.1.0, which adds the emergency thresholds and the gate's rules as data, the receipt conditions, the DEGRADED posture, the wall-reached rule, and standing |
 
 ### Prior releases
 

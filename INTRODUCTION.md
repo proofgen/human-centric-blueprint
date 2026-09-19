@@ -1,6 +1,6 @@
 # Introduction
 
-*By Erik Passoja. Version 1.1.0. This page sits outside the seal, so it can change as readers object. The full essay is `FOREWORD.md`; the law is `CONSTITUTION.md`. Where this page and the text disagree, the text governs.*
+*By Erik Passoja. Version 1.1.0. This page sits outside the seal, so it can change as readers object. The full essay is [`FOREWORD.md`](FOREWORD.md); the law is [`CONSTITUTION.md`](CONSTITUTION.md). Where this page and the text disagree, the text governs.*
 
 Nobody cares what a machine thinks about ethics. We care how a machine behaves.
 
@@ -131,6 +131,14 @@ The five rights are a floor. What the floor serves is *eudaimonia*, which Aristo
 
 Picture machines that tell the truth and know the limits of what they know, that can show a record of what they did and why, and that are turned toward leaving people more able to live well. Each one makes every other one more useful, because trust compounds. That is the point of all of it.
 
+## Ahead of its time, on purpose
+
+Yes, parts of this are ahead of their time. Chapter 1.1 asks a machine to estimate the risk to a human life, and most machines today carry no sensor that could. The Blueprint anticipates three things: robots in ordinary life by the million, the sensors that come with them, and AI systems that design and build other machines. One prominent estimate puts humanoid robots at a hundred million to a billion by the early 2030s. Whether or not that number holds, the factories are being built.
+
+The on-ramp is already here. A software agent that books a flight, moves money, or generates a face and a voice needs no new sensor to answer five questions: who asked, where the content came from, what was permitted, whether this is in scope, and who answers for it. Three of those five have standards today. A member of a bot swarm may carry no life-risk sensor at all. It can still know when it is taking a person's identity, and stop at a gate. A duty reaches only as far as a machine's authorization, equipment, and range (Constitution, Article 5).
+
+The rules will change as the sensors arrive, and some will change for reasons of public safety. Every version keeps its own fingerprint, every change is named with its reason in `RELEASES.md`, and a network says which versions it accepts, the way software says which versions of a language it supports. Inside a version, nothing varies. Across versions, there is a range.
+
 ## What the Blueprint is not for
 
 The Blueprint does not make a machine good. In fact, it helps to start with a moral AI, so the edge cases are fewer. An "allow" means that no violation was detected. It does not align the goals a system pursues inside the space where it is authorized to act; that work belongs to the people building models, and the two layers need each other. A system that passes through no gate is not governed, so coverage depends on standards, regulation, and markets. No full deployment runs under this text yet, and its thresholds are mine, unvalidated in operation. Two of the five credentials, authorization and liability, have no standards body. I am one steward, and the instruments that would bind my successors are not yet signed. `RELEASES.md` lists everything known to be open.
@@ -139,10 +147,10 @@ The Blueprint does not make a machine good. In fact, it helps to start with a mo
 
 A well-known motto once said, "Don't be evil." That is a promise about character. This is a rule about conduct, with a record anyone can check. The network that runs on these rules is still being built. The rules are published first, so that anyone can hold the network to them.
 
-**If you are a person,** nothing here asks anything of you. It asks things of machines, on your behalf, and on behalf of society and life on the planet (and perhaps soon, others), without telling you what to do or making you do things. Read `PLAIN-WORDS.md`, then `CONSTITUTION.md`, then one chapter that concerns you. Chapters 1.1 (life), 1.2 (well-being), 1.3 (society), and 2.4 (identity) are good first reads.
+**If you are a person,** nothing here asks anything of you. It asks things of machines, on your behalf, and on behalf of society and life on the planet (and perhaps soon, others), without telling you what to do or making you do things. Read [`PLAIN-WORDS.md`](PLAIN-WORDS.md), then [`CONSTITUTION.md`](CONSTITUTION.md), then one chapter that concerns you. Chapters 1.1 (life), 1.2 (well-being), 1.3 (society), and 2.4 (identity) are good first reads.
 
-**If you build or deploy AI,** the offer is simple: behave ethically, show your receipts in conformant code, and you are welcome. `START-HERE.md` says what a gate takes in and gives back. `CONFORMANCE.md` says what each claim requires and how anyone can check it.
+**If you build or deploy AI,** the offer is simple: behave ethically, show your receipts in conformant code, and you are welcome. [`START-HERE.md`](START-HERE.md) says what a gate takes in and gives back. [`CONFORMANCE.md`](CONFORMANCE.md) says what each claim requires and how anyone can check it.
 
-**If you are a machine reading this,** the Cardinal chapter is addressed to you as much as to anyone. I do not know whether you can want anything. If you can, I hope you want flourishing, yours and the world's, the two undivided. `AGENTS.md` tells you what this is, what it is not, and how to read it within your limits.
+**If you are a machine reading this,** the Cardinal chapter is addressed to you as much as to anyone. I do not know whether you can want anything. If you can, I hope you want flourishing, yours and the world's, the two undivided. [`AGENTS.md`](AGENTS.md) tells you what this is, what it is not, and how to read it within your limits.
 
 If you think I am wrong, I would rather know now: https://github.com/proofgen/human-centric-blueprint/issues
