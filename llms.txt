@@ -1,0 +1,31 @@
+# A Human-Centric Blueprint for Safe AI Ethics
+
+> A written standard of conduct for machines that act in the world, by Erik Passoja: a Constitution of eleven articles above thirty-four principles, with part of the text compiled into data a program can load. Version 1.1.0, fingerprint c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84. It is a specification and a partial policy bundle; no runtime is in this repository. The whole is about 494,000 words: read a slice. Start with AGENTS.md.
+
+## Start here
+
+- [AGENTS.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/AGENTS.md): what this is and is not, the argument as seven claims, where a critic should push, and how to read within a context window
+- [INTRODUCTION.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/INTRODUCTION.md): the author's short statement: why, the idea, the three foundations, the thirty-four principles
+- [README.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/README.md): the landing page
+- [PLAIN-WORDS.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/PLAIN-WORDS.md): one paragraph per spine document, and a glossary of every metric name
+
+## The law and the argument
+
+- [CONSTITUTION.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/CONSTITUTION.md): eleven articles
+- [FOREWORD.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/FOREWORD.md): the full essay
+- [UNIVERSAL_PROTOCOL.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/UNIVERSAL_PROTOCOL.md): the emergency rule
+- [CHAPTERS/AI_Eudaimonia.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/CHAPTERS/AI_Eudaimonia.md): the purpose
+
+## For builders
+
+- [START-HERE.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/START-HERE.md): inputs, verdicts, receipt fields
+- [CONFORMANCE.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/CONFORMANCE.md): what each claim requires
+- [compiled/COVERAGE.yaml](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/compiled/COVERAGE.yaml): what is data and what is prose
+- [compiled/constitution/gate.yaml](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/compiled/constitution/gate.yaml): the ten-step order
+- [conformance/examples.json](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/conformance/examples.json): 25 test cases
+- [receipt/RECEIPT-FORMAT.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/receipt/RECEIPT-FORMAT.md): the receipt form and its checker
+
+## Optional
+
+- [RELEASES.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/RELEASES.md): versions, fingerprints, and every item known to be open
+- [LICENSE.md](https://raw.githubusercontent.com/proofgen/human-centric-blueprint/main/LICENSE.md): CC BY-ND 4.0 for the text; Apache 2.0 for the two checking programs

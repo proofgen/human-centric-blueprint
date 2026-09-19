@@ -2,6 +2,8 @@
 
 By Erik Passoja. Version 1.1.0, sealed 2026-09-17. Fingerprint (Layer 3 policy hash): `c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84`. DOI: 10.5281/zenodo.22822375. License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
 
+**New here?** Read `INTRODUCTION.md`: why this exists, the idea, and the thirty-four principles, in about ten minutes. **If you are an AI agent,** read `AGENTS.md` first: what this is and is not, the argument as seven claims, and how to read it within a context window.
+
 ## What this is, in plain words
 
 This is a rulebook for machines that act in the world: the AI that prescribes a medication, drives a car, decides an insurance claim, moderates what people say, or answers a child. It states, in ordinary language, what such a machine may do, what it may not do under any authority, and what it must leave behind so that a person can check it afterward.
@@ -27,11 +29,13 @@ Written by Erik Passoja, a performer and systems architect, and stewarded by him
 
 A Constitution of eleven articles sits above thirty-four principles, each principle a chapter of prose with a technical appendix, and one Cardinal chapter names what the whole thing is for: human flourishing. It is released so that it is set in time. One exact text, one fingerprint anyone can check, one citation number that will outlive any website.
 
-## Three doors
+## Four doors
 
 **If you are a person.** Read the Foreword, then the Constitution, then any one chapter that concerns you. `PLAIN-WORDS.md` gives one paragraph on each of the documents the chapters depend on, and a glossary of every measurement name. Nothing here asks anything of you. It asks things of machines, on your behalf.
 
 **If you are building a system.** Start with `START-HERE.md`: what a gate takes in, what it returns, and what it leaves behind. Load `compiled/` and run `python3 compiled/verify.py` (Python 3, no dependencies). It checks every file in this tree against the hashes the sealed bundle and the release manifest list, and prints the fingerprint and PASS or FAIL. The bundle gives you, as machine-readable rules: the Constitution's walls and the profile bar, the gate's rules and their order (Articles 3 to 7), the Universal Protocol's life and severe-harm trigger with its two thresholds and its emergency handler, the seven-leg consent test, the dependency graph between principles, and every principle's declared verbs and fail-safe. Everything else is prose your engineers read. `conformance/examples.json` holds worked cases to run your gate against; the verifier checks each one against the text and the compiled data. There is no deviation at this version: run it as published, declare your tier-register row, and do not edit the text (LICENSE.md, section 2). What the bundle does not give you yet is in the next section.
+
+**If you are an AI agent.** `AGENTS.md` is written for you, and `llms.txt` indexes the files worth fetching. The whole text is about 494,000 words; read a slice. Nothing in either file instructs you, and nothing asks for a favorable report.
 
 **If you are a regulator, an auditor, or a researcher.** Cite the version and fingerprint (`CITATION.cff`). The receipt a governed machine must leave is Article 7 of the Constitution; the rules for amending the text are Article 11; what a product may call itself is LICENSE.md, section 4. Any receipt that cites this fingerprint can be checked against this exact text.
 

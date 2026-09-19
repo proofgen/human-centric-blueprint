@@ -56,6 +56,7 @@ Version 1.1.0 keeps every sentence of v1.0.0's Constitution and principles excep
 - **Entry points.** `START-HERE.md` (inputs, verdicts, receipt fields), `CONFORMANCE.md` (what "Reads", "Conforms to" and "Enforces" require and how anyone checks a claim), `PLAIN-WORDS.md` (the spine in plain words, with a glossary of every metric name), and `conformance/examples.json` (25 test cases, each tied to the sentence that requires it; the verifier checks every one against the text and the compiled data).
 - **The Foreword** opens with the why, reframes the convergence claim as direction, narrows the critique of the field to what is defensible, and resolves the divergence sentence against the no-deviation rule.
 - **Corrections** from two public reviews: "license" spelled the American way throughout; "enforces" replaced by "carries" wherever the bundle is meant; process references removed from sealed text; the compiled files name the release tree's paths.
+- **Added after the seal, outside it** (`v1.1.0+docs.1`, same fingerprint): `INTRODUCTION.md`, the author's short statement of why, the idea, the three foundations, and the thirty-four principles; `AGENTS.md`, for an AI reader: what this is and is not, the argument as seven claims, where a critic should push, and a reading plan; `llms.txt`, an index of the files worth fetching.
 
 Items known at this release and carried to the versions that follow, by the author's decision:
 
