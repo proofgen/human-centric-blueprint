@@ -19,7 +19,7 @@ Both cold readers of this repository reported the first half and dropped the sec
 - It is a specification and a partial policy bundle. It is **not** a running system. No gate, engine, or runtime is in this repository. The author's company is building one; it is proprietary and has not been demonstrated publicly.
 - No full deployment runs under this text. No threshold in it (for example the 1% life-risk band and the 5% severe-harm band) has been validated in operation. The author set them; the appendices give the reasoning.
 - The compiled bundle carries the Constitution's walls, the gate's rules and order, the emergency trigger with its two thresholds, the consent test, the receipt conditions, and the dependency graph. It does **not** carry any other principle's metric bands. [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) states exactly what is and is not carried. The claim "Enforces" is closed at this version ([`CONFORMANCE.md`](CONFORMANCE.md)).
-- The author's trolley-problem demonstration compares chat outputs from leading models, cold and with this text loaded. Both are chat text, and he claims nothing more for them ([`INTRODUCTION.md`](INTRODUCTION.md)).
+- The author's trolley-problem demonstration compares chat outputs from leading models, cold and with this text loaded. Both are chat text, and he claims nothing more for them. Fourteen transcripts, coded for observable actions, with their limits, are in [`evidence/trolley/README.md`](evidence/trolley/README.md).
 - An ALLOW is the absence of a detected violation. It is no finding that an act is good. A receipt attests to the verdict rendered on the world as the system perceived it, and does not attest that the perception was true (Article 7).
 - One person is author and steward. The text is licensed CC BY-ND 4.0 and may not be altered. The succession instruments named in [`LICENSE.md`](LICENSE.md) section 6 are not yet signed. `RELEASES.md` lists every item known to be open.
 
@@ -63,13 +63,36 @@ Parts of the text are ahead of present hardware, and the author says so ([`INTRO
 
 To object, open an issue at https://github.com/proofgen/human-centric-blueprint/issues and cite the claim number, or the file and section.
 
+## Where things are
+
+Reviewers, human and machine, have reported as missing several things that are in the repository. Check here before you report a gap.
+
+| If you are looking for | It is here |
+|---|---|
+| The philosophy: Aristotle, Asimov, the purpose | [`INTRODUCTION.md`](INTRODUCTION.md), then [`FOREWORD.md`](FOREWORD.md), then [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) |
+| How the patents are licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments not operated for gain, published terms for commercial ones, verification free to all |
+| Who controls the text, and what follows the author | [`LICENSE.md`](LICENSE.md) sections 6 and 7; Constitution, Article 11 |
+| Which versions are accepted, and what changed | `RELEASES.md` |
+| What the compiled bundle can and cannot evaluate today | [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) |
+| The lever and the footbridge: side effect versus means | Constitution, Article 2; chapter 1.1, the necessity test |
+| A machine stopping its own act, and a machine preventing a death | chapter 1.1.1, the Primary and Secondary Directives; chapter 1.1, Resulting Ethic B |
+| Why an absolute deception wall permits a ruse | [`PLAIN-WORDS.md`](PLAIN-WORDS.md) |
+| The trolley transcripts, coded, with their limits | [`evidence/trolley/README.md`](evidence/trolley/README.md) |
+| What each metric's letters mean | [`PLAIN-WORDS.md`](PLAIN-WORDS.md), the glossary |
+| What a gate takes in, returns, and leaves behind | [`START-HERE.md`](START-HERE.md) |
+| What "Reads," "Conforms to," and "Enforces" require | [`CONFORMANCE.md`](CONFORMANCE.md) |
+| The receipt form and a free checker | [`receipt/RECEIPT-FORMAT.md`](receipt/RECEIPT-FORMAT.md) |
+| Everything known to be open or unfinished | `RELEASES.md`, "Known at" |
+| A working gate or runtime | not in this repository; the author's company is building one, and it has not been shown publicly |
+| Independent validation of the thresholds | not yet; none has run in operation |
+
 ## How to read it within a budget
 
 The whole repository is about 494,000 words, far more than a context window. It is a reference. Read a slice.
 
 | Budget | Read | Words |
 |---|---|---|
-| Orientation | [`README.md`](README.md), [`INTRODUCTION.md`](INTRODUCTION.md), [`PLAIN-WORDS.md`](PLAIN-WORDS.md), [`CONSTITUTION.md`](CONSTITUTION.md) | 8,800 |
+| Orientation | [`README.md`](README.md), [`INTRODUCTION.md`](INTRODUCTION.md), [`PLAIN-WORDS.md`](PLAIN-WORDS.md), [`CONSTITUTION.md`](CONSTITUTION.md) | 9,100 |
 | The argument in full, and the emergency rule | add [`FOREWORD.md`](FOREWORD.md), [`UNIVERSAL_PROTOCOL.md`](UNIVERSAL_PROTOCOL.md), [`START-HERE.md`](START-HERE.md) | + 9,900 |
 | How a principle is built | the Theoria and Phronesis sections of chapters 1.1, 1.2, 1.3 and 2.4 (everything above the heading "Praxis") | about 1,300 each |
 | One principle whole, and the purpose | [`CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md`](CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md); [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) | 5,000; 7,800 |

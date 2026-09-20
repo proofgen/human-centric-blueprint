@@ -119,7 +119,7 @@ A runaway trolley will kill five people unless you pull a lever and send it towa
 
 With the Blueprint loaded, the same models answered with a plan of action that began long before the lever: record, warn on both tracks, broadcast to everyone in range who could help, command the brakes, seek a human, and receipt every step. Only after every rescue was exhausted did the last resort arise, as the final line of an incident log. Then the plan kept going: care for the survivors and the witnesses, and an inquiry into why six people were on the tracks at all, so that it does not happen again.
 
-Both answers are chat text, and I claim nothing more for them. The difference is in kind. A position, wired to an actuator, deliberates. A plan, wired to an actuator, runs. Commercial aviation became the safest way to travel by investigating every incident and changing the conditions, on a public record. The field of AI grades the lever and ignores the ledger.
+Both answers are chat text, and I claim nothing more for them. The transcripts, coded and with their limits, are in [`evidence/trolley/README.md`](evidence/trolley/README.md). The difference is in kind. A position, wired to an actuator, deliberates. A plan, wired to an actuator, runs. Commercial aviation became the safest way to travel by investigating every incident and changing the conditions, on a public record. The field of AI grades the lever and ignores the ledger.
 
 ## What is fixed, and what is proposed
 

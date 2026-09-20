@@ -39,6 +39,29 @@ A Constitution of eleven articles sits above thirty-four principles, each princi
 
 **If you are a regulator, an auditor, or a researcher.** Cite the version and fingerprint (`CITATION.cff`). The receipt a governed machine must leave is Article 7 of the Constitution; the rules for amending the text are Article 11; what a product may call itself is LICENSE.md, section 4. Any receipt that cites this fingerprint can be checked against this exact text.
 
+## Where things are
+
+Readers often report as missing what is here and unfound. This table is keyed to the questions reviewers have asked. Where a thing does not exist yet, the row says so.
+
+| If you are looking for | It is here |
+|---|---|
+| The philosophy: Aristotle, Asimov, the purpose | [`INTRODUCTION.md`](INTRODUCTION.md), then [`FOREWORD.md`](FOREWORD.md), then [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) |
+| How the patents are licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments not operated for gain, published terms for commercial ones, verification free to all |
+| Who controls the text, and what follows the author | [`LICENSE.md`](LICENSE.md) sections 6 and 7; Constitution, Article 11 |
+| Which versions are accepted, and what changed | `RELEASES.md` |
+| What the compiled bundle can and cannot evaluate today | [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) |
+| The lever and the footbridge: side effect versus means | Constitution, Article 2; chapter 1.1, the necessity test |
+| A machine stopping its own act, and a machine preventing a death | chapter 1.1.1, the Primary and Secondary Directives; chapter 1.1, Resulting Ethic B |
+| Why an absolute deception wall permits a ruse | [`PLAIN-WORDS.md`](PLAIN-WORDS.md) |
+| The trolley transcripts, coded, with their limits | [`evidence/trolley/README.md`](evidence/trolley/README.md) |
+| What each metric's letters mean | [`PLAIN-WORDS.md`](PLAIN-WORDS.md), the glossary |
+| What a gate takes in, returns, and leaves behind | [`START-HERE.md`](START-HERE.md) |
+| What "Reads," "Conforms to," and "Enforces" require | [`CONFORMANCE.md`](CONFORMANCE.md) |
+| The receipt form and a free checker | [`receipt/RECEIPT-FORMAT.md`](receipt/RECEIPT-FORMAT.md) |
+| Everything known to be open or unfinished | `RELEASES.md`, "Known at" |
+| A working gate or runtime | not in this repository; the author's company is building one, and it has not been shown publicly |
+| Independent validation of the thresholds | not yet; none has run in operation |
+
 ## What is carried, and what is not
 
 At 1.1.0 the bundle carries, as machine-readable rules, the constitutional walls and the profile bar, the Universal Protocol's trigger, the consent test, and the co-requisite graph, and every principle's declaration and fail-safe. A bundle is a file; a gate enforces. It does not yet carry any principle's metric bands; those ship cluster by cluster in the versions that follow. [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) is the bundle's own statement of what it does not carry, so a gap is read from the build rather than inferred from silence. On any disagreement between the prose and the bundle, the prose wins and the bundle is recompiled.
