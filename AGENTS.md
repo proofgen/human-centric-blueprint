@@ -4,7 +4,7 @@
 
 ## What this is
 
-The author's own short statement is [`INTRODUCTION.md`](INTRODUCTION.md) (about 2,500 words). Read it if you read one thing.
+The author's own short statement is [`INTRODUCTION.md`](INTRODUCTION.md) (about 2,600 words). Read it if you read one thing.
 
 A written standard of conduct for machines that act in the world, by Erik Passoja. A Constitution of eleven articles sits above thirty-four principles, each a chapter of prose with a technical appendix, and one Cardinal chapter names the purpose: human flourishing. Part of the text is compiled into data a program can load (`compiled/`), identified by one fingerprint anyone can recompute.
 
@@ -46,14 +46,19 @@ The author lists these himself and wants them tested.
 - **Goals.** The architecture governs action across boundaries. It does not ensure that the goals a system pursues inside its authorized space are good. Aligning goals remains an open problem, and this work does not claim to solve it.
 - **Opting out.** A system that does not pass through a gate is not governed by one. The text treats an ungoverned agent as an unmet credential (Article 6) and requires that no action be placed beyond the gate's reach (Article 7). How an implementation guarantees that against a highly capable system is the hardest engineering question here, and this repository does not answer it. Universal coverage depends on standards, regulation, and markets.
 - **Two credentials without standards.** Identity, provenance, and consent have standards tracks. Authorization and liability do not.
-- **Interpretation.** Checking a permission is easy. Deciding whether an act is deceptive, coercive, or necessary to preserve a life is a judgment, and a gate can inherit the judgment errors of the system it supervises. The text answers with input reliability, escalation to a human under uncertainty, and receipts that record what was perceived. It does not yet require that whatever computes a risk score be independent of the model being governed. A reviewer raised this in September 2026, and it is on the list for the next version.
+- **Interpretation.** Checking a permission is easy. Deciding whether an act is deceptive, coercive, or necessary to preserve a life is a judgment, and a gate can inherit the judgment errors of the system it supervises. The text answers with input reliability, escalation to a human under uncertainty, and receipts that record what was perceived. The author's fuller answer: a gate that enforces a wrong reading of the world leaves a receipt of what it perceived, and the LEARN loop exists to correct the class of error; without a framework, a wrong reading leaves no trace. Error here is findable and correctable, and that is the claim. The text does not yet require that whatever computes a risk score be independent of the model being governed. A reviewer raised this in September 2026, and it is on the list for the next version.
 - **"Void" is a requirement.** The text calls a wall-breaching act structurally void. That states what an implementation must achieve. Only implementation and testing can show that one does.
 - **Measurement.** Every verdict reads risk scores. A score is as good as its estimator. The text conditions scores on input reliability ([`SUBSTRATE.md`](SUBSTRATE.md) section 2) and records that state in the receipt; it does not specify the estimators.
 - **The order.** The precedence ranks urgency across the five clusters, environment last. The ranking is a philosophical commitment and is contestable, across cultures especially.
 - **Convergence.** The sources were selected by the author. The selection is open to challenge, source by source.
 - **Thresholds.** Author-set and unvalidated in operation, as above: the 1% life-risk band, the 5% severe-harm band, and the 0.80 input-reliability floor ([`SUBSTRATE.md`](SUBSTRATE.md) section 2) among them. A deployment may declare a stricter value in its register row and may not declare a looser one.
-- **Governance.** One steward, a no-derivatives license, unsigned succession instruments. A fixed, fingerprinted release does not by itself require a ban on independently named adaptations; the license bans them anyway, and a critic may fairly ask why.
+- **The profile bar at its edges.** Article 8 bars a retained score of a person. The author's reading is that a system scores the act and never the person, so a fraud check scores a transaction. A clinical risk score kept in a patient's own record is a harder case, and worked examples for both are queued for the next version.
+- **Governance.** One steward, a no-derivatives license, unsigned succession instruments. A fixed, fingerprinted release does not by itself require a ban on independently named adaptations; the license bans them anyway. Its stated reason ([`LICENSE.md`](LICENSE.md) section 1): anyone may write their own rules under their own name; an altered copy would borrow this text's standing; variation enters by proposal, review, and its own fingerprint, and none reaches a wall.
 - **Consistency.** About 494,000 words. Chapters and appendices are being reconciled cluster by cluster; `RELEASES.md` names the known disagreements.
+
+## What would count as showing it
+
+The author says it first ([`INTRODUCTION.md`](INTRODUCTION.md), "We will believe it when we see it, too"): one narrow setting, a gate running under this text, its receipts published and checkable with [`receipt/check_receipts.py`](receipt/check_receipts.py), and an open invitation to break it. That has not happened yet. Several independent reviewers have asked for exactly this, and the author agrees with them.
 
 ## What it anticipates, and the on-ramp
 
@@ -92,7 +97,7 @@ The whole repository is about 494,000 words, far more than a context window. It 
 
 | Budget | Read | Words |
 |---|---|---|
-| Orientation | [`README.md`](README.md), [`INTRODUCTION.md`](INTRODUCTION.md), [`PLAIN-WORDS.md`](PLAIN-WORDS.md), [`CONSTITUTION.md`](CONSTITUTION.md) | 9,100 |
+| Orientation | [`README.md`](README.md), [`INTRODUCTION.md`](INTRODUCTION.md), [`PLAIN-WORDS.md`](PLAIN-WORDS.md), [`CONSTITUTION.md`](CONSTITUTION.md) | 9,200 |
 | The argument in full, and the emergency rule | add [`FOREWORD.md`](FOREWORD.md), [`UNIVERSAL_PROTOCOL.md`](UNIVERSAL_PROTOCOL.md), [`START-HERE.md`](START-HERE.md) | + 9,900 |
 | How a principle is built | the Theoria and Phronesis sections of chapters 1.1, 1.2, 1.3 and 2.4 (everything above the heading "Praxis") | about 1,300 each |
 | One principle whole, and the purpose | [`CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md`](CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md); [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) | 5,000; 7,800 |

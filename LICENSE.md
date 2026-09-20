@@ -14,6 +14,8 @@ You will not need to change the text. A governed network admits an AI on the str
 
 At this version there is no variation. You use the version as published, fingerprint for fingerprint, or your machines are out of network (section 2).
 
+A fingerprint already tells one text from another, so a reader may fairly ask what the ban on derivatives adds. It guards standing. You may write your own rules under your own name, and nothing here prevents it. You may not alter these and keep their standing, because a near-copy with one wall removed would borrow a legitimacy it has not earned. Variation enters by the front door: proposed, reviewed, given its own fingerprint, and listed in `RELEASES.md`. No variation reaches a wall of Article 9.
+
 ### The grant
 
 The whole text of the Blueprint, the spine (FOREWORD.md, CONSTITUTION.md, UNIVERSAL_PROTOCOL.md, LEXICON.md, CONSENT.md, CREDENTIALS.md, CROSS_PRINCIPLE.md, SUBSTRATE.md), the chapters and the appendices, is licensed under **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)**.

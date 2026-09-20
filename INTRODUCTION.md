@@ -139,6 +139,10 @@ The on-ramp is already here. A software agent that books a flight, moves money, 
 
 The rules will change as the sensors arrive, and some will change for reasons of public safety. Every version keeps its own fingerprint, every change is named with its reason in `RELEASES.md`, and a network says which versions it accepts, the way software says which versions of a language it supports. Inside a version, nothing varies. Across versions, there is a range.
 
+## We will believe it when we see it, too
+
+A fair reader finishes this page and says, "I will believe it when I see it." So will I. A building code comes before the building, and this is the code. Here is what will count as seeing it: one narrow setting, a gate running under this text, its receipts published so that anyone can check them with the free checker in this repository, and an open invitation to break it. That work is under way, and it needs sponsors. Until it is shown, this is a framework and a test suite, and I claim nothing more for it.
+
 ## What the Blueprint is not for
 
 The Blueprint does not make a machine good. In fact, it helps to start with a moral AI, so the edge cases are fewer. An "allow" means that no violation was detected. It does not align the goals a system pursues inside the space where it is authorized to act; that work belongs to the people building models, and the two layers need each other. A system that passes through no gate is not governed, so coverage depends on standards, regulation, and markets. No full deployment runs under this text yet, and its thresholds are mine, unvalidated in operation. Two of the five credentials, authorization and liability, have no standards body. I am one steward, and the instruments that would bind my successors are not yet signed. `RELEASES.md` lists everything known to be open.
