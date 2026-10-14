@@ -5,7 +5,7 @@
 - Layer 3 policy hash (SHA-256 of compiled/bundle.yaml): `79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb`
 - Sealed: 2026-10-13
 - Signer: Erik Passoja
-- DOI: pending. Zenodo assigns this version's DOI at the release, and a metadata tag records it. The concept DOI for all versions is 10.5281/zenodo.22743046
+- DOI: 10.5281/zenodo.23356105
 - License: CC BY-ND 4.0 for the text, and Apache 2.0 for compiled/verify.py and FOR_ENGINEERS/check_receipts.py (see LICENSE.md)
 
 ### What the compiled bundle carries
@@ -84,6 +84,7 @@ Em dashes in the corpus sit in five permitted forms and nowhere else: Convergenc
 - Archive checksums (SHA-256 of the file as downloaded), so a copy fetched from an archive can be matched to this release:
   - `Zenodo 10.5281/zenodo.22743047 (v1.0.0), human-centric-blueprint-v1.0.1-meta.zip`: `0d07d82bbca33b297d3b8613c9a72c0344ea43c8de33be3b5d8ff554ab828453`
   - `Zenodo 10.5281/zenodo.22822375 (v1.1.0), human-centric-blueprint-v1.1.0.zip`: `4881edfe2f859ac3e1d086e42cb64e46996dc654869ec5459c802f058e07550a`
+  - `Zenodo 10.5281/zenodo.23356105 (v1.2.0), human-centric-blueprint-v1.2.0.zip`: `cff2a093c02f1fa7b38ba60b9bf0d349f65f146282182243ffa4bfce3b306f52`
 
 ### Versions accepted
 
