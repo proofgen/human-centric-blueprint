@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md
-  chapter_sha256: f4e24a36165e8c7741c29d533912c919c80cc1bdb6dbc6a2d5d1ce4cae35d87e
+  chapter_sha256: "09bbdf894e7b902c0837b732b86804c19aa097096e933ea177137be832b1a2a0"
   appendices:
     - cross_cultural_exchange_appendix
 scope: "This principle owns the encounter between cultures: what happens when AI carries material, expression, or understanding from one community to the audience of another, translating, representing, and choosing what circulates where. For who governs cultural knowledge, including the right to refuse the encounter, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for keeping heritage alive within a culture, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for discrimination against persons, [P2.7: Fairness](2.7-Fairness_and_Non-Discrimination.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for what a community shares outward as a commons, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
@@ -80,12 +80,12 @@ sections:
     heading: "4.7.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "164-197"
-    sha256: "7a82db2b6506932ab7c57389e54f3dff3595bd32c6695c6c96b03284cbe04ded"
+    sha256: "3fae8ad15768773d26218e55f21b6a0aa99f069034a0bbdd991320332ddc9c2c"
   4.7.3:
     heading: "4.7.3 Implementation Framework"
     anchor: implementation-framework
     lines: "198-275"
-    sha256: "68d4bd7761e9654f67ee3944757b77effc2cee155a8431d68bdb0ce1c131a25f"
+    sha256: "549bc97d6a70a8a0be4bf7b7f62ec226ba3a6f50689790eb31e6b59354775204"
   4.7.4:
     heading: "4.7.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -100,7 +100,7 @@ sections:
     heading: "4.7.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "348-357"
-    sha256: eb4c958a1be051fced55d7adfde0ffad02436be93e785f35a88d521ef4455ca5
+    sha256: d5815a8edf7b27a8c230c61999d93b62a1c709c2b921b2773b7e417f2924fb8f
   4.7.7:
     heading: "4.7.7 Legal Implementation Framework"
     anchor: legal-implementation-framework

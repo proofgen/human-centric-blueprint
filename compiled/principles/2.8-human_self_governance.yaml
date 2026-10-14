@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md
-  chapter_sha256: "845d03d6cb19755493645f5ec5643d96f72f8e0efce3eafed1ed30406df9321a"
+  chapter_sha256: "597122f8c8cdfc31042774589142564b0f91a8b499f9cfb0b849e8d32cbfbd5d"
   appendices:
     - human_self_governance_appendix
 scope: "This principle addresses collective self-governance: a community's right to author and revise the rules that bind it and to choose, empower, and replace those who hold authority within it. For an individual's self-determination and personal liberty, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); the seam is sharp, a person's freedom to author their own life versus a community's right to author its own rules. For the institutions and cooperative fabric that self-rule depends on, see [P1.3: Human Society](1.3-Human_Society_Is_How_Humanity_Survives.md). For the governance of shared resources and the commons, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
@@ -73,12 +73,12 @@ sections:
     heading: "2.8.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "128-141"
-    sha256: "83b37087a242996fb4cc2c912b4e1ef4013dbd09d1338ba1d7d5a521acd6f1e6"
+    sha256: b95179920deb2b52d15e35b57f506a64fd60309e110206de332df31dd7957364
   2.8.3:
     heading: "2.8.3 Implementation Framework"
     anchor: implementation-framework
     lines: "142-167"
-    sha256: "41f8fec685cc900a2996431ae17235e28854ff3bc2768beef5fa8137a43dcafc"
+    sha256: "368e2c217a4e8d38785a984064647825cdf024f6ceffc8456d70a8a010bffefe"
   2.8.4:
     heading: "2.8.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -108,4 +108,4 @@ sections:
     heading: "2.8.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "235-280"
-    sha256: "720bb894c41f61b19b6a8d5bc79a7755bed732f5a24a11c2109491da5fc79704"
+    sha256: "86da50e5e7ce79b124f451f779ff293e26909a95c96eee32e833fc3a88b4eb2c"

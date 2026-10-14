@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md
-  chapter_sha256: "0813e31c2a76479fac4a607cb0a6586f22ee469e6c5c5d326a3207a6a54711ff"
+  chapter_sha256: "2db040b219f14ba82898f3c24ab3628f86e1b33bbab7f04e2e56b254aecf3e61"
   appendices:
     - human_privacy_appendix
 scope: "This principle addresses the membrane around personhood: the boundary around a person's body, home, communications, choices, and information that AI may not cross by observing, recording, inferring, retaining, or disclosing without authority. For the synthesis of a person's identity, voice, or likeness, see [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md)."
@@ -75,42 +75,42 @@ sections:
     heading: "2.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "140-250"
-    sha256: "2f66ac91509703f78fb8ea24113d640b69e42f22b5ca8376c95e856fd84e96b3"
+    sha256: "0affd6f5681ecda44b1d53e2229402641cb90d83b73c602f5237bf0eb938bc0b"
   2.5.2:
     heading: "2.5.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "251-330"
-    sha256: "2c9ff89a8becbdc7f507864ce40d5942f6af20df7241694ee6047a11beed0a82"
+    sha256: facd937fb4e704ba944a48a66d978dcc70b0a35746bd85c0b022a0714bb6db20
   2.5.3:
     heading: "2.5.3 Implementation Framework"
     anchor: implementation-framework
     lines: "331-545"
-    sha256: "6d444277999b657a4fa432cda0e402b6db9be5e2f3bf70834f5eeb72c53066b5"
+    sha256: ffe3579c65abd1ba8101f2eae8bb4045e9aa714960ed922b760eb05f24da567e
   2.5.4:
     heading: "2.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "546-668"
-    sha256: "8b5fb9063018c1cae7b68cc5f790e9d9dba532a5ae1ddaafee7de403265512f4"
+    sha256: "78d398a2963b7ed0a7c5acb742eeb168fb639487d4ce92bbfe51c15ddaac3068"
   2.5.5:
     heading: "2.5.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "669-717"
-    sha256: acade513369b34a64c6b98802d0f85f0381513d2596a8ef5d1a8aade81e77a16
+    sha256: "0a6bfb7c3d91951e28fbcabec860bd920d6111e68c6d697f306517552ee6ad64"
   2.5.6:
     heading: "2.5.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "718-793"
-    sha256: "6681722506374e950979d1d2a8d463bc6a07b933e77e1413d0b5d203eae51d21"
+    sha256: "43c6ce723d4011cc07dad5efea9960029d1d49106d01d28b4a85fb9d5df58fb9"
   2.5.7:
     heading: "2.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "794-853"
-    sha256: c81ece33ed8d0b0d04d6ecbb1dd325ecbfb1a8a53aa559af122757ee6695ced9
+    sha256: "4412a2b70fa024997cc335c1b564d3a7941d2c12fecdd1f8b0271471aca1f856"
   2.5.8:
     heading: "2.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "854-910"
-    sha256: "50c6a3ee2dc84bf61950956f7352a11b92d30c6f2bb1e08aa0a60db988901d3e"
+    sha256: a3228d43820da1f6afa37924e678dec476126c97b7730d8ecdf22f248cbf2fd0
   2.5.9:
     heading: "2.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

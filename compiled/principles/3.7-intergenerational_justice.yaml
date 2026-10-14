@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md
-  chapter_sha256: "1fd45293abf5eddf3d8b1cdec54397a45beae8b83e9647b5873dce28be2e8521"
+  chapter_sha256: "47b586e60e8b0f56a9ce01b80c1fa1a5fb6d2de0794a8d0a2987703586032c54"
   appendices:
     - intergenerational_justice_appendix
 scope: "This principle owns the time axis of justice: the standing of future generations in any decision with long-horizon or irreversible effects. It owns the test (irreversibility, burden-shifting, lock-in, representation of the absent). It does not own the inherited content: for shared resources across time, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for ecosystems, AI's footprint, and biodiversity, [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for cultural transmission, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the knowledge the future inherits, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for present-day economic mobility, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md). A threat to future lives belongs to [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md) at any distance in time; this principle's test is what flags a long-horizon decision to it."
@@ -73,22 +73,22 @@ sections:
     heading: "3.7.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "135-160"
-    sha256: f57c3d320753826523a48c085cb42dd94c476fb808492198669ae60beaea0c51
+    sha256: "35aac6529097cb38d51d188f75420276979b5a378db26428bcb2a9fd818c0d70"
   3.7.2:
     heading: "3.7.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "161-174"
-    sha256: e238a3108303bac2b690a4e8e1c196e66cb3e3efde28b9e8a857cae3581d480e
+    sha256: e6f55dd85e34389bc9d00e4532f564c8b3c98cf394583515e5931ec19b0e8021
   3.7.3:
     heading: "3.7.3 Implementation Framework"
     anchor: implementation-framework
     lines: "175-276"
-    sha256: "5764ff3e364d33b0d05811858292b1fbe68305060665fe3f86c53f74be101b4b"
+    sha256: "60e1fdae20eba8a690920fefdd190e3ae2382cd9307347d5f08b8e6fe5ca6f19"
   3.7.4:
     heading: "3.7.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "277-314"
-    sha256: df923b669ecf0a4a46caf016242b1dcc3e3383cc6cd2a29a4e0c668c6fa8761a
+    sha256: "88fc40b2d3ac64fb34e0d18d08f5ffb1e028081eb31201c31ca69457bfd8ab53"
   3.7.5:
     heading: "3.7.5 Verification and Oversight"
     anchor: verification-and-oversight
@@ -108,7 +108,7 @@ sections:
     heading: "3.7.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "341-378"
-    sha256: "540d75580efe6773e7b8804569cb787fb0053bc54e07c64106c0af0841e29373"
+    sha256: "87af46b5d686b29f7ab3ab981c7e9ef38316dae8c616563d0bb0f250738c6df5"
   3.7.9:
     heading: "3.7.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

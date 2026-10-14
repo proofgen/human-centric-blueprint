@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/1.3-Human_Society_Is_How_Humanity_Survives.md
-  chapter_sha256: ed26ceabee3661d1b35b34b83d265a63fd7e727cf820331759eab59d35386ee7
+  chapter_sha256: "99a286caf0dff40ed1e62d2b1a08972fb5bf7001b6954a3c9f667e73fce139ca"
   appendices:
     - human_society_appendix
 scope: null
@@ -79,44 +79,44 @@ sections:
     heading: "1.3.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "178-197"
-    sha256: e0a7808ea29fede0a85cd888ec56a206c8a05cb03bd7f880e55856d134437345
+    sha256: c3dfc2e6b8f8f81f10a28bc5015575a97c89952106220a03fddc4bcce2c0f534
   1.3.2:
     heading: "1.3.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "198-237"
-    sha256: "559b47ea78dd329bb7828f985de4c06394e39af4a437ca65e2dd318f46376273"
+    sha256: "5e0ce05c017622173bd315f4c653f8f5c764555f42c1ba4ead2da714e406d78a"
   1.3.3:
     heading: "1.3.3 Implementation Framework"
     anchor: implementation-framework
     lines: "238-419"
-    sha256: "76885adfe7cf9f87e050d430cd918e0f6cbe45d35f4a899214b5552a1b573300"
+    sha256: "30947daf5cb220cad7fbc89478a253f82556503215a60f06c2ca27e731dafcd6"
   1.3.4:
     heading: "1.3.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "420-470"
-    sha256: ead9c303aa092f769aae7a0d53cc44c855097506c03b77c59b9afef3cd03900d
+    sha256: "6aaddaad404cc7b07f6d3b28b43b632c6f6a1078555c40fc21d48ae25036a520"
   1.3.5:
     heading: "1.3.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "471-525"
-    sha256: "974fbdb55b4122ca57f540f8890fd6702ae2e057c5adb78da90151df2050d7c1"
+    sha256: "0d16404b8f94b50e5c5d73c21298067a29ca73850aedda6d4492c661b0529714"
   1.3.6:
     heading: "1.3.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "526-580"
-    sha256: "08a27f36b5e28a39b9e6d14fcc621e931a5a53420a7c165b7b654e222fdb4271"
+    sha256: "1f0f3d40545b9b387b5c2488ffbd88a8a82064de00ae99d4d6d2321edfaa0f44"
   1.3.7:
     heading: "1.3.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "581-605"
-    sha256: "003e21d59b5ae61484c9c203b4de46427a3ff8a22233bd201a657b7ae2ed8f49"
+    sha256: "6737b330122606ade3489c591615e765a0a8ca79f9f7001b47e7cabcf03a3649"
   1.3.8:
     heading: "1.3.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "606-685"
-    sha256: "72519ae35812dca253cc76c2482c00bddb39072ea2a906cd4a5afd0d7b01cf39"
+    lines: "606-684"
+    sha256: ef3dbeed7a3ff1307d9aa9396518bf24d566774ae0bfec34410a3b78482e9d7e
   1.3.9:
     heading: "1.3.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "686-813"
+    lines: "685-812"
     sha256: "7a6423ae97932e254d1e037c06a9e0ba44a8b9194b6d69724b19d9a0e68a8b69"

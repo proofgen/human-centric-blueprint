@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md
-  chapter_sha256: "51efe0ffade0f0d8613a67df30d661c227b29c2e8cf6e9fb6de3d8e87d159795"
+  chapter_sha256: f61180c6fa3720f6d04bcd06157bc80ae87dca0a6767c97e0e2b321df7f6eeb8
   appendices:
     - cultural_heritage_appendix
 scope: "This principle owns keeping heritage alive: the survival and living transmission of the languages, traditions, arts, crafts, ceremonies, and practices a community carries, and the duty never to let AI output replace that transmission. For who governs cultural knowledge, including the right to refuse preservation, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for duties to future generations at large, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for a person's own learning capacity, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md)."
@@ -84,12 +84,12 @@ sections:
     heading: "4.6.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "157-190"
-    sha256: "3a05526f97f4ee7df4f4e37a7d58434777c0a0ad3c4af83f9c294230c456d9b6"
+    sha256: "44060a2e7440c5474b55cab39b717cbbc4fca3c0d7e56cff20a5439780763521"
   4.6.3:
     heading: "4.6.3 Implementation Framework"
     anchor: implementation-framework
     lines: "191-272"
-    sha256: "46bef160f17cfa13a4e1590da3a1338b7a757ad0fbaa7ba4b161bcbd71c5df58"
+    sha256: c16a42c8983d3dc61a84d25e861c9ea1963e55016c4a45fb15b502063d7459ec
   4.6.4:
     heading: "4.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -104,7 +104,7 @@ sections:
     heading: "4.6.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "344-353"
-    sha256: fc4592f3b9a77dbe1bbb9f9939f02243e8420f464f3792735a22c910257ecf0d
+    sha256: c69f25ab73d636e34eae5d0e3418dbccf8031f8856fb7c1f74973d55112a5730
   4.6.7:
     heading: "4.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework

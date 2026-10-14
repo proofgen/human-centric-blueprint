@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md
-  chapter_sha256: "0a9d3b7e0481af82005ad77ce692f5a891b43edbff865ab927a5149ce64ef16a"
+  chapter_sha256: "959d76f26887f3ccbe53b9bd2cddcfc80e3fc1adf3adbd5a5fe9cba435e55a56"
   appendices:
     - biodiversity_appendix
 scope: "This principle owns the living inheritance: the species that exist, the habitats they need to persist, and the genetic variation within their lines, together with the duty never to foreclose a lineage that extinction ends forever. For the irreversibility of a system's own state, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for the connective integrity of an ecosystem short of a threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for the AI's own draw on the biosphere, [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for a resource a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md). The standing of future human generations to inherit this variety belongs to [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md), whose time-axis test flags the long-horizon decision this principle then supplies with its biological content, as 5.1 and 5.4 supply theirs. Where a community's stewardship holds a domain, [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md) governs whose authority decides; where protecting a species would concentrate its cost on a subsistence community, [P5.4](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md) governs who bears that cost. A biodiversity collapse that reaches human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol."
@@ -59,7 +59,7 @@ lexicon_declaration:
     - RECOMMEND-PREVENTION
   domain_verbs:
     - RECOVER
-  fail_safe_default: hold and preserve until authorized human judgement resolves it.
+  fail_safe_default: hold and preserve until authorized human judgment resolves it.
   source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
 sections:
   5.5.0:
@@ -71,44 +71,44 @@ sections:
     heading: "5.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "126-154"
-    sha256: "9e134488eb14063992de29773a54c3d30d456ca1a95feccbf99b1a7e1233d68c"
+    sha256: ccb53f4e30a7d19a156e932a666c34a1721416f086df7f9ef13edd37935686f1
   5.5.2:
     heading: "5.5.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "155-178"
-    sha256: d49787c705f3aac71bff60decda25366c8b82fd09de119845fe02e9946440ce0
+    sha256: "4aeba12d1184dc16fb8b982edd1280c09dbc571f15fe8744415843cbd90e1636"
   5.5.3:
     heading: "5.5.3 Implementation Framework"
     anchor: implementation-framework
     lines: "179-243"
-    sha256: b1ca584330bd1600d1fc87b5777576b16931a93e0b1157b0b79bd7ca5b0a75a4
+    sha256: "66a3566343cb074c802da66dd62103a61f529acf4f1e74259c8cc3414434dd17"
   5.5.4:
     heading: "5.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "244-295"
-    sha256: fed5f19efcb7bc432dea6b77ed4d05ffba12c33f8284f94dbacd65076985a909
+    sha256: "03fac33754bb226d7c36df1c34af7e00b78b674539b24e938e322da3a707ff7d"
   5.5.5:
     heading: "5.5.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "296-329"
-    sha256: "0f156a1a0b97e5ab531c0e5d295ad4da4468cfb9124662a6920648c151a43589"
+    sha256: db58186aec14ba23caa2386e739b435eaaf8d911071d1afa0874a6e994f1b336
   5.5.6:
     heading: "5.5.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "330-367"
-    sha256: "961850f607b6176f0bf737b1b6c58275211e58c068ec351e652e48a60692ff92"
+    sha256: "22b486e646645e8d6bcf8514b7d178a743b8efeba4b8fcd2e461c9ecb7eef205"
   5.5.7:
     heading: "5.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "368-407"
-    sha256: f67a1e16ed2390f397b1ae49f94b1abc24765525d255ef5943252a1623022bbc
+    sha256: d5e7fbbb89f542af81e6f31cc096a666c766b576b48ac6c46b2c7903dab26e3b
   5.5.8:
     heading: "5.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "408-465"
-    sha256: "34bf06dcc43b2b42ad2509279b3c92f83d12ac556441197721d521cdb2be9c32"
+    sha256: f84cfbf564e68a091c0af872dbc81936f31b7b356beec342019c97514dd0ffe2
   5.5.9:
     heading: "5.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "466-505"
-    sha256: ee2f7b3d590f5424f6f74e5ae4d62e39f3a2052ec7a783d5be690d9f251898a2
+    sha256: "2e959098bdb7e39ea754824e36e45c622c33a04caed8f4ca85b84509b4eba966"

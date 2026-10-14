@@ -13,244 +13,243 @@ schema_corrections_applied:
   - "2: legacy U.2_audit_trigger resolves to Section 9"
 artifacts:
   - file: protocol/head-guard.yaml
-    sha256: b163474491d0fa4be65d4ade87843622132866e0df178ea9d698734534a22c56
+    sha256: a67ac0de289dab9f6ed2aea1bd74e12a94452ef3c59f0452600bb18d39ec9dc9
   - file: protocol/emergency-thresholds.yaml
     sha256: "2c362d4df71b058935dae2b80b955268493f7208f49931aee1e2c2c9c5751cd5"
   - file: protocol/emergency-handler.yaml
-    sha256: "80f100178ad68c066f49002d92edff4e9d1b0a7ce5a8df08f8a6fdf6e0997a00"
+    sha256: "0dbb232f115a783c92b24d0b45b0ccbd854649219690d0f75cdaedc18dc5d9ab"
   - file: protocol/interlock-edges.yaml
-    sha256: "47c194c86288b3461c7f6596e5b8d03f28cca1d630fec00146ff82bbffeeab00"
+    sha256: "6f1c5aeb1053ad0d77feeb17ccf87e531bd4b3885b2b4f7a987dd6f7b470e77c"
   - file: protocol/receipt-schema.yaml
-    sha256: c076e1d3cad5f54ca82e33b8dd7e6b8b20c0a6b4600cb9b51358c2d488e4965d
+    sha256: c4f6d4eca9b77042596ccedcc9e5f1abaac2ac501b15d316a578aa666d26706f
   - file: consent/validity-predicate.yaml
-    sha256: a187674887f283eb0517ab4351fbceb8ed202b0c7c58b8f6e0050c4a1417a5c8
+    sha256: b7b446bb390f33c6bf271ea01324a8b9e71c7ae02b4c7b8f5cd521975cfaa7ad
   - file: constitution/walls.yaml
-    sha256: "23286c124907afa8e58b6bb7011223dd0ab2585e6e84a5f7407d7108d45d54cf"
+    sha256: b13395f78be0605c34e13368cbd8822a22556e760bed25461a456cc37b16477d
   - file: constitution/gate.yaml
-    sha256: "731cee9c8e43a4b4dd24743b315e52e9fe930d82795070c309420e6393a48aed"
+    sha256: "7e16fef9fb2e30bcf8d2bf683119061c2a79ff3409c1711a39f9113bb6433457"
   - file: graph/corequisites.yaml
-    sha256: "8044762e0f1647aace1e483d78803cc182259f6a2957a9dcef66852932a74538"
+    sha256: "8b9abcc85753a231248f985f8daaa1ec7bd46ad71ffb8fb70f8444800e6af27f"
   - file: appendices/index.yaml
-    sha256: "5590cabb9ab3c37d273c668057e5f841bc1ce4e83e4411ebbd0546a9799bba38"
+    sha256: c2525be79374f22733b9454b9079cac73ef80111be38b2d4bf0445e08c53b004
   - file: COVERAGE.yaml
-    sha256: aa77a338019d387bddb8bdef6043564e1ec1cfb9b740292b0a5ebd89babe50e6
+    sha256: a4450752718ffefae5e4e609a4eb4662d7c484c84fd1559c1c206ad23e836c50
 principles:
   - file: principles/1.1-human_life.yaml
-    sha256: ab829d12a969a88bb127a2495994e0386017b3d2758f5aeb22d5a7e6069cdf46
+    sha256: "5574dc4fb33e80469450913344fe5bf6ba7d5f980d833e5221f7b4ecd02c2686"
     id: human_life
     display_number: "1.1"
   - file: principles/1.2-human_well_being.yaml
-    sha256: f990dfdc67649b97e8aa0ecee932ebfcdf4d54aba9e6209ae3b1037861cdebf2
+    sha256: e311d385dc79cbdcdd93e9b5085a59f3620c4f47f24bfe32cf4bdb5635fc16b7
     id: human_well_being
     display_number: "1.2"
   - file: principles/1.3-human_society.yaml
-    sha256: d74b3993cb0f16174137152b8d15666b535f1bea63fab6efa690f24696a45c19
+    sha256: e7f9f71ec4fd1486b43c696356f545a2bd6989cb56a6a55b3a26bf519efe259f
     id: human_society
     display_number: "1.3"
   - file: principles/1.4-trust.yaml
-    sha256: "23f94db035b8b2213700f227a066bba868eda55b9991031a333215e0758591f5"
+    sha256: c8faa5add149ed0a7183cd159bc64c0eb5b648163cc75394604fc8e8006536be
     id: trust
     display_number: "1.4"
   - file: principles/1.5-human_potential.yaml
-    sha256: "06f57c4ebea2b204cf057c2e8a8a3b6899bbb80064851f1e30459ad2bf56096e"
+    sha256: de372e3e1a0c71f30afd709d683aebece599e1df1a4c5a8ff114dc12ed06ac36
     id: human_potential
     display_number: "1.5"
   - file: principles/1.6-love_and_human_connection.yaml
-    sha256: "6cdf507804aff164f9306114675db2f4856c12908339a26e5bfaf5e37e58d8e8"
+    sha256: "56fc0c2723aff8b9e21d806f021d7c4dd78922963cac494026678d43c52c2d32"
     id: love_and_human_connection
     display_number: "1.6"
   - file: principles/2.1-human_dignity.yaml
-    sha256: "15be5e8b439ac13c4ba0605ac354b2460e5362b96824f18c96ef0c8ef773bf7f"
+    sha256: "087d0bd1708f1827f368bd9f8f1310b858f8926919bddf8d890b771942bac782"
     id: human_dignity
     display_number: "2.1"
   - file: principles/2.2-human_freedom.yaml
-    sha256: "71886b3d33153bc6a128696f426999969058e214791989ee85aba31ea0c7f51a"
+    sha256: "629f6a21c47767a33d84903c301f9f3348b7f437a30f43837647dd99bcb12195"
     id: human_freedom
     display_number: "2.2"
   - file: principles/2.3-human_consciousness.yaml
-    sha256: "572040be43adf6ff89efcd6352c98a335372b8f47c484c7b10e117ef43a66814"
+    sha256: "325ea6304aa3fefde605a53c89cd33a630ee2f41b75248e1af130b67e367b6c2"
     id: human_consciousness
     display_number: "2.3"
   - file: principles/2.4-human_identity.yaml
-    sha256: a96d0d1950935c27c92337871f44703ba88d16260ddf40350285660c6ec20ab4
+    sha256: "782c69d1dd5c99e0b049e4c028e392e5b0cd0d2873a5895cce2282c8db72600f"
     id: human_identity
     display_number: "2.4"
   - file: principles/2.5-human_privacy.yaml
-    sha256: "9955fa0148a449d56a4318c48e44372ad739592374012b377fce3ec849202e08"
+    sha256: "1c69211e536b0cc9901d589a06dec681151e5c67994023bb61bcea2d19b93532"
     id: human_privacy
     display_number: "2.5"
   - file: principles/2.6-human_relationships.yaml
-    sha256: a442907b3b5bc9efcd3e99dc83b0ed9ee1d88c666028a61c98052cbbb86f7417
+    sha256: "3391d8c05ce60d162808270a24ce8538f8578b04967a3ee9f0931809646b77e6"
     id: human_relationships
     display_number: "2.6"
   - file: principles/2.7-fairness_and_non_discrimination.yaml
-    sha256: "3596e4b54f7e01b52629210cafffdabaece4942198618b2330106cc12b0c0eab"
+    sha256: c6518983e2465eec34fb765d982d4de74bd0089c4a952010c2e68b62562d7e9c
     id: fairness_and_non_discrimination
     display_number: "2.7"
   - file: principles/2.8-human_self_governance.yaml
-    sha256: d6c34a5b636ee8b890e378bb540daf060c07c9619f397e5977da0494455800f7
+    sha256: "0ab306247a3edd786979d28d5717c408f8324c0052807db640c28abb6c4047f4"
     id: human_self_governance
     display_number: "2.8"
   - file: principles/3.1-vulnerability.yaml
-    sha256: "1f8f619b33ccfbda9b56ab7e74773ddf0f8cecbf72747e3f3a17dc963bddd8e4"
+    sha256: "43e0340e93cb5334390bc28ad322cc2034791b711066180150035e23766df75f"
     id: vulnerability
     display_number: "3.1"
   - file: principles/3.2-property_rights.yaml
-    sha256: b4adc763378ddb9f33ad1d4c703bbe8c23759eafa5a0e3f341e31be8a9f6ce7e
+    sha256: "4f93dec00ceac9de1949682744300e23598befc4fd901787404e071be5f1e530"
     id: property_rights
     display_number: "3.2"
   - file: principles/3.3-economic_self_determination.yaml
-    sha256: "8a4fde81bd962534577acfc68a1b351c5fed5951e8ff64ca3e1b815f19e77ca2"
+    sha256: "55a864b7ea88097ae88cf15f5364371e406e93cdc3e0166920a96aa687ff9ce8"
     id: economic_self_determination
     display_number: "3.3"
   - file: principles/3.4-algorithmic_accountability.yaml
-    sha256: "2b2d5b3543f7aa4790e1fdc1f6f5151c1ff4a4b3182103068aeb51d4390830f8"
+    sha256: dc690a6751882fc063a303c78c162939c912cd196be22cc4638ea0d7ebdd0af9
     id: algorithmic_accountability
     display_number: "3.4"
   - file: principles/3.5-digital_access.yaml
-    sha256: "8cac7105a65b19a8df5630d7701ea5f2ac43b8983ae69e22fce0820e83d52207"
+    sha256: "6ec04452777762549fe73a255c038ec02527d738118b2a46b2480ff54a3a3ff9"
     id: digital_access
     display_number: "3.5"
   - file: principles/3.6-commons_governance.yaml
-    sha256: "94098a3b1c118b6cff6924117e0e9f616ea65fc38c04d9f78b4a2d8acc32497f"
+    sha256: "0f4ce620519eed614800720a9062719706ceb42840e0620ffbefc62d30cb634e"
     id: commons_governance
     display_number: "3.6"
   - file: principles/3.7-intergenerational_justice.yaml
-    sha256: be1a3f88b7a1d00e3fd49f747bdfcc1a41f1bb241aa8c3cde7aa02b4676c6040
+    sha256: "9ae4046ddcba5b62a51dbf366c7a71efc0646fca8feaee6372f85f16e9fe1255"
     id: intergenerational_justice
     display_number: "3.7"
   - file: principles/4.1-knowledge_integrity.yaml
-    sha256: "6c95bc69f8b6335fcf42a5c83442a7f52d2050aa06f6750629a102e7e1b6a963"
+    sha256: "17a8997b6f0a0a2419b2e61e827f4c5b52fc8417a1030dac5dab0ab757b7ab72"
     id: knowledge_integrity
     display_number: "4.1"
   - file: principles/4.2-transparency.yaml
-    sha256: b19f412139cfc5f426f4d25bbf675b7b845106b8cbb29643e2f52eee488772c9
+    sha256: "318840d894eb6a05ce2303aa7f561a8bcfb5b57efdb09c1e7e5b5344139615fe"
     id: transparency
     display_number: "4.2"
   - file: principles/4.3-human_learning.yaml
-    sha256: d2fdf3463fc51b79af484c730099389a6b27d4a7126ec1b16e97830c5f6fe0a2
+    sha256: bd48a5aaff7ac14b13e782f360d302f8b1445f041c2547dd05c74e03e66def73
     id: human_learning
     display_number: "4.3"
   - file: principles/4.4-cultural_knowledge_sovereignty.yaml
-    sha256: "710b2de945e58f404fd049dc58e42f368cae0560ed6edef2d544cbdb08ed8295"
+    sha256: "70dc8930801e2cf30a6005d233418b3a27e237c67c5dae149c56b763a6f608e2"
     id: cultural_knowledge_sovereignty
     display_number: "4.4"
   - file: principles/4.5-human_judgement.yaml
-    sha256: f16f5aaad3bcd2062fc3c25c43abd0cf86c0d861ec75d7b4d76371256df4531f
+    sha256: "30cdade3ee13de0d9a17e1071cb1d1ae0fde37c9c502e3c7a2b34e29563303d8"
     id: human_judgement
     display_number: "4.5"
   - file: principles/4.6-cultural_heritage.yaml
-    sha256: "1a328d4ff36f7875218d69cf7ed923244d3a31d8e49b1dfac753229dac80d071"
+    sha256: "93a217c571317dc9bcfe193c0906b04fa122ac62f1b973643dd5f03e0ac988d3"
     id: cultural_heritage
     display_number: "4.6"
   - file: principles/4.7-cross_cultural_exchange.yaml
-    sha256: "8fd1740a91615ed1fd05e79bd2245c677b4ddae0cd448d60105bcc8beb3e87ab"
+    sha256: b94f36cfc7b2e99bc5fc17f0a3fba1cef97d1572b5a501c0221409f64cda8abe
     id: cross_cultural_exchange
     display_number: "4.7"
   - file: principles/5.1-ecosystem_health.yaml
-    sha256: "32cb50901166e0cf81bc3c8a41c72e18767ee93daa72336f8e53c99341126141"
+    sha256: f721618e644371725fb0366ae663b21d62a7c3dae277fa22a563e7ef14e13d39
     id: ecosystem_health
     display_number: "5.1"
   - file: principles/5.2-ai_resource_footprint.yaml
-    sha256: f14f4aed3992542e4b86d4f296abd391ffa5bf6f085f598990c1a045616b4dea
+    sha256: "6952d02efac8214adedb0a7812ade4c1d5060e1d04d78f4005e3fa766d6f25fb"
     id: ai_resource_footprint
     display_number: "5.2"
   - file: principles/5.3-earth_ecosystems_integrity.yaml
-    sha256: "2534921badbba5519e910eef8124562e14bc13360790b4aa2b41fcfe65d340c5"
+    sha256: "0865afc376d0d8db7a6bce55112b4f5e22d84b176a864ec91e13111d908b7576"
     id: earth_ecosystems_integrity
     display_number: "5.3"
   - file: principles/5.4-environmental_burdens_equity.yaml
-    sha256: accbd51aa4e4cd4266ee8519cf980508ac7220e5a8856b0c0669c6eeeea24fb6
+    sha256: "90e10330cd7b591adb8d2327103c775378580037285a972ba0670dd3b9b60e19"
     id: environmental_burdens_equity
     display_number: "5.4"
   - file: principles/5.5-biodiversity.yaml
-    sha256: edeb5e25dde9997b1169d97efbc2e414f9bc32aaf28b07669be502cba5652d7f
+    sha256: "6a63ae15871672eab239b389cd853fc965c7ab39a4e0e297e5493e84732a38c3"
     id: biodiversity
     display_number: "5.5"
   - file: principles/5.6-global_environmental_cooperation.yaml
-    sha256: "7441d9e852de101dbfa4c0551421daad3078df929e27e75d023686bddac3961e"
+    sha256: "72fcf9d25a94b706c0b3311aeb1f9532b952a3c16c9751775006ef063d8e280d"
     id: global_environmental_cooperation
     display_number: "5.6"
   - file: principles/cardinal-ai_eudaimonia.yaml
-    sha256: "460c864adc919664a944bc3729e3c16a9c162cfde46936f349ca04695e49edfd"
+    sha256: "45beef142d1d66bcc3f202b3961b235d0a7f3f0517bafe22484d03e2e696a1cb"
     id: ai_eudaimonia
     display_number: Cardinal
 inputs:
-  APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md: "63202157e2ebe6415baf84149b346026eb2992738e7e40b9843516bc2a381bce"
-  APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md: "5c07dd2029886ec7e8c87b3c2d0b06c3dcc52bf9711d49cca58153773ba161e5"
-  APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md: "6e28081394bd8700794f41b8b5449a8ca09f2eda9658e4c7c9a0c386774c5699"
-  APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md: "0fb04ea0db9ca752d004bf2b006b16c03da00dedab42d0b67e3fd799c6211f39"
-  APPENDICES/1.5.A-Human_Potential_Is_Fundamental-Appendix.md: "115ec851a9cd95f86865a45f0140d040664b392439f84b8e7aedf1c53bc9d317"
-  APPENDICES/1.6.A-Love_and_Human_Connection_Are_Essential_to_Life-Appendix.md: "6333505ff8478308dd2fe937cfefb95badacb1371ba56520b251c706ba4adf86"
-  APPENDICES/2.1.A-Human_Dignity_is_Inherent_and_Absolute-Appendix.md: "0b52506e25da8d3342165d9e7ad0df6fd936761312eff83e787796271ad7003b"
-  APPENDICES/2.2.A-Human_Freedom_Is_Fundamental_and_Inalienable-Appendix.md: "98d668e12206267929139e29dd3e266fd65bb2a9834b78f57cf79662ebbb3928"
-  APPENDICES/2.3.A-Human_Consciousness_Is_Inviolable-Appendix.md: aa585ed768b83fc21fae780213b7cb393039abaaeac536cbfe28457d9641b335
-  APPENDICES/2.4.A-Human_Identity_Is_Inviolable-Appendix.md: "36bea76dcfe492009ce4118dd04102a2847d76cf47970027e98d3241ea704093"
-  APPENDICES/2.5.A-Human_Privacy_Is_Fundamental-Appendix.md: "785c88325f57c064c3bcb565eeb780f1322a8ba8c3c9b831eff5a5550e84e08a"
-  APPENDICES/2.6.A-Human_Relationships_Are_Essential_to_Life-Appendix.md: "83216ce8f2e266576a5622e8cf265de4fc56e31d480c97370b0bec7bf7c6f27d"
-  APPENDICES/2.7.A-Fairness_and_Non-Discrimination-Appendix.md: cacbd2c9bba7b716ec24df7df6b4be32d8df645435bb8afd9a930f43ff79c8b9
-  APPENDICES/2.8.A-Human_Self-Governance_Is_Essential-Appendix.md: "8b7ea5eca487cceb298ba5843fff7098dbfc23739778c4fa7ce7fb61297e6685"
-  APPENDICES/3.1.A-Vulnerability_Must_Never_Be_Exploited-Appendix.md: "842f9f1120d4c2c788e2928b2188b1da9a2eaa49381b2ee9580c51061d121d35"
-  APPENDICES/3.2.A-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress-Appendix.md: "98bef4de892bf7eae3d651e84de577effa2495a1e7a6ea236ce8d0e40e457285"
-  APPENDICES/3.3.A-Economic_Self-Determination_is_a_Human_Necessity-Appendix.md: "644bcf286d51a0f84f92a845b1151ab4d3f6c8aed3e16dfaf9a03c221c575cf4"
-  APPENDICES/3.4.A-Algorithmic_Decisions_Require_Transparent_Accountability-Appendix.md: c32e555e2312285044ad489eb2bbd8cd79c67be2d9ba42045afb888402e371c9
-  APPENDICES/3.5.A-Digital_Access_is_a_Universal_Right-Appendix.md: "7022a3339aa00be496c567b08378f815027676d0d5aa60ab4697eec7ee2e17a1"
-  APPENDICES/3.6.A-Commons_Governance_Is_a_Collective_Responsibility-Appendix.md: c90b08c93b31119d1294a2262c8025c545df74ae9d005efde362b9448bd7947d
-  APPENDICES/3.7.A-Intergenerational_Justice_Is_Non-Negotiable-Appendix.md: "7cedee03168076bccc7265307451a2f22539faec411590870201c9d3f27a5abc"
-  APPENDICES/4.1.A-Knowledge_Integrity_Must_Be_Preserved-Appendix.md: "4121780b6c1a28ea9919de2d91147d3f9d097a56ba9f8a032df9a0cc8c524a37"
-  APPENDICES/4.2.A-Transparency_Is_Essential_to_Human_Agency-Appendix.md: b89b1812368e12b030b5d494ef5fd979be99356c6ee823549616c7c0f7a4b158
-  APPENDICES/4.3.A-Human_Learning_Capacities_Must_Be_Enhanced,_Not_Replaced-Appendix.md: "7ebe3e66f17d4b1e36e49fa7cf4e5397e9dd9f2d0de37c5ad92c11c06f47dbd7"
-  APPENDICES/4.4.A-Cultural_Knowledge_Sovereignty_Is_Inviolable-Appendix.md: ac6db263a8f5efd132ad3ba6b8dd61d5d3a9e2b9777dff99c1f68eebcd55aa16
-  APPENDICES/4.5.A-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions-Appendix.md: "4113cd958cad165caeacbcf755d2cd85ba135eeeffeffb9da12efbbf662c35d4"
-  APPENDICES/4.6.A-Cultural_Heritage_Deserves_Active_Preservation-Appendix.md: "669bae96775575c312732f5cd384942d10f3a342b0ba8681af1a08c5a8f45724"
-  APPENDICES/4.7.A-Cross-Cultural_Exchange_Requires_Respect_and_Balance-Appendix.md: c672859366124327d8518bb9c9a07f0547d5974499e8fa01eeb12aeef1e29f54
-  APPENDICES/5.1.A-Ecosystem_Health_Is_Sacred_and_Inviolable-Appendix.md: "2f3f613cdfa0560e0c9ad0bbee497db5a1b3e155b8afc94677ed346b917d6690"
-  APPENDICES/5.2.A-AI's_Resource_Footprint_Must_Be_Bounded_and_Sustainable-Appendix.md: "00e032c2f6dc70847ee0525aead6fbf3b4fc9e6ce63eb3db26e3911b7684b289"
-  APPENDICES/5.3.A-The_Integrity_of_Earth's_Ecosystems_Must_Be_Preserved-Appendix.md: "2f98b8c1d4a8fde5adf3cde2a25e8f9082d4dabfe3d50f5a10ba5d6c50301028"
-  APPENDICES/5.4.A-Environmental_Burdens_Must_Be_Distributed_Equitably-Appendix.md: fd82480d23dc8e3e20390f18d0ada692b9897e3d8cbf1755a60d134cb56f03a0
-  APPENDICES/5.5.A-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations-Appendix.md: "98c0ab520343e8ef491cc8c460f2ec2ee34d923a3dbd46c4af47bb9ef6d5ca6d"
+  APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md: "57b59a602720c958681acd82ba5bccd7ad1656b55a1947d17aadaafc6d645da1"
+  APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md: dace3ee9ab7d0599ceeb958b7eb57bfc595d280eb9540c1f548fb3c26f30b33c
+  APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md: "175ae671201078112b2f603fb9eafbf7db4ece61e052d260effdb5e384772da9"
+  APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md: bfef99976d3c7639fc240496b4048968b2a51953b10ee099884da884e6ab9364
+  APPENDICES/1.5.A-Human_Potential_Is_Fundamental-Appendix.md: "1faff6935b20222436b9e9894fca86c50f2d3bc7d0cce0b4532ed27a556ed17e"
+  APPENDICES/1.6.A-Love_and_Human_Connection_Are_Essential_to_Life-Appendix.md: "5b587e48472125013a6a4d52130789ce1650e889448ec422453133a1dea5a68c"
+  APPENDICES/2.1.A-Human_Dignity_is_Inherent_and_Absolute-Appendix.md: f1780c86e8b1bb82706346209943a6282fe487837e3dc778741d61ab8ffb4639
+  APPENDICES/2.2.A-Human_Freedom_Is_Fundamental_and_Inalienable-Appendix.md: "1e9f51b584dd13497972cbb2bb45eb088a0bd18984e39df8582923d80b389b48"
+  APPENDICES/2.3.A-Human_Consciousness_Is_Inviolable-Appendix.md: feb6fdb2cdd1f31066e0f5fe8634c2eb614cd93604d3b95610efdfed56b52c1a
+  APPENDICES/2.4.A-Human_Identity_Is_Inviolable-Appendix.md: be7891f805b246320d9787d766a6329f316264759817f2b981caf3716c9bed33
+  APPENDICES/2.5.A-Human_Privacy_Is_Fundamental-Appendix.md: "66b986efd85efdd19bac1f2fa53d8b57a29d86cd3544f9377a4565b1906530ef"
+  APPENDICES/2.6.A-Human_Relationships_Are_Essential_to_Life-Appendix.md: fc4afe62469082644f8b3aa73e515336f70de3ae7e52c70a2e1e7d7eb18a175d
+  APPENDICES/2.7.A-Fairness_and_Non-Discrimination-Appendix.md: cdfa04a5671c3110bdacc20b1392d06f02dfcb6452fa14fe7377e18ffe250566
+  APPENDICES/2.8.A-Human_Self-Governance_Is_Essential-Appendix.md: df23ad203346ec1c7d64a2215c906630d34b2412f12a416bd0e9a99e57a4753f
+  APPENDICES/3.1.A-Vulnerability_Must_Never_Be_Exploited-Appendix.md: "261046eb906950ae6f10fa04ad39785f86ee16988c910e2027f95a8c7d1edc48"
+  APPENDICES/3.2.A-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress-Appendix.md: "34dab1ae0c77c8d7bdf52970ded27e21e9dad975c7fb6017178127a246b051c8"
+  APPENDICES/3.3.A-Economic_Self-Determination_is_a_Human_Necessity-Appendix.md: e14a1fc66632150a38bad1016b34bf9bef0bede32e9e81bbe73b4da25de5c93b
+  APPENDICES/3.4.A-Algorithmic_Decisions_Require_Transparent_Accountability-Appendix.md: "86494973ea376a4da18ad1ba0b0cc8d1f70debf5d600bf1736b0e5532f608484"
+  APPENDICES/3.5.A-Digital_Access_is_a_Universal_Right-Appendix.md: e0edbcc2d5ff9f8b19e5ea8358444047ef8630ad546b184ae0d604cd96ac0299
+  APPENDICES/3.6.A-Commons_Governance_Is_a_Collective_Responsibility-Appendix.md: "6d70abf2b2b57421881b7c44d409f404b46c9aef20a18c6a8b7aea49c8d9196e"
+  APPENDICES/3.7.A-Intergenerational_Justice_Is_Non-Negotiable-Appendix.md: "577eb3dae5473309d06d7fcb85725c9f22ae5dcc60e88ea3574ce185af6fd91c"
+  APPENDICES/4.1.A-Knowledge_Integrity_Must_Be_Preserved-Appendix.md: "4c88792ac9b8a6ab8019963f940830a01ec5c6062f0b3be6ab261a6a6c1370b7"
+  APPENDICES/4.2.A-Transparency_Is_Essential_to_Human_Agency-Appendix.md: "232a55113a247dd19eb7023687e5ebf5be00486cde217e196a5cb75e71cc803e"
+  APPENDICES/4.3.A-Human_Learning_Capacities_Must_Be_Enhanced,_Not_Replaced-Appendix.md: c69bc0f1327e9b8ad3589911e26b58a1c517d42298e348c3a4dad19be5ed238b
+  APPENDICES/4.4.A-Cultural_Knowledge_Sovereignty_Is_Inviolable-Appendix.md: "389a444700de1a8fc269904caabea64a5c051b4381f5f66dc84684a92a0d516f"
+  APPENDICES/4.5.A-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions-Appendix.md: ec61aa2a73b60e3cfb3bebd3737973a5d9d9ac658a12fd95ca8320aff129d283
+  APPENDICES/4.6.A-Cultural_Heritage_Deserves_Active_Preservation-Appendix.md: "54bdc0c5f7ecf51723fc4d230b52b3f240dbadf17fae8f2d05b951f9af951e85"
+  APPENDICES/4.7.A-Cross-Cultural_Exchange_Requires_Respect_and_Balance-Appendix.md: c3bd7b96e3a9caa897c7360a59f6abeca320f087825d545f525c93278e9ca452
+  APPENDICES/5.1.A-Ecosystem_Health_Is_Sacred_and_Inviolable-Appendix.md: eb5bb4c8f82d30fb7a64c6b5c6704ec8975e2ab5b062e7c8ef9d80645e7792c0
+  APPENDICES/5.2.A-AI's_Resource_Footprint_Must_Be_Bounded_and_Sustainable-Appendix.md: "605f6afc219dbc4d9f81a0078c6841378786017252708e861fe385dcef856a09"
+  APPENDICES/5.3.A-The_Integrity_of_Earth's_Ecosystems_Must_Be_Preserved-Appendix.md: "1ed1e55673709a7f37ff9c3cead0ccd60bdf382697af89089359b259e043cae3"
+  APPENDICES/5.4.A-Environmental_Burdens_Must_Be_Distributed_Equitably-Appendix.md: "453916736c4bb29a69779fa374dafe155a0b70284f3940cebb8756caf4855b46"
+  APPENDICES/5.5.A-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations-Appendix.md: "0002cbf3f59673547c4112eb3a2a4826940a30ae0cefa3d99eddc6971827a219"
   APPENDICES/5.6.A-Global_Environmental_Cooperation_is_Essential-Appendix.md: "43077a49e26016bbe0d073dbeadd04e9f637c731413a0ca56a4116018bab85de"
-  APPENDICES/AI_Eudaimonia_Appendix.md: "06ae06210ae5256774ba4ea9993d02d158eec759a49686ef76a6982b2c37107b"
-  CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md: "4917a26697703b6bacc4035f05eb13b3a467b701b156d464c72edd76d7f68921"
-  CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md: "07d8da409ffca633c123f1d225cd2edf54d2e773593c6cb1a2495335af3a6dc9"
-  CHAPTERS/1.3-Human_Society_Is_How_Humanity_Survives.md: ed26ceabee3661d1b35b34b83d265a63fd7e727cf820331759eab59d35386ee7
-  CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md: "94832430af94e10740bf0eb3156ea085ce6ecd7e47dc48115bcdb48971c2a47a"
-  CHAPTERS/1.5-Human_Potential_Is_Fundamental.md: bec2bf5c7d73496e1ca90173f14a2be5786dd6e16cdcb426db1bb6e218b00314
-  CHAPTERS/1.6-Love_and_Human_Connection_Are_Essential_to_Life.md: "895d06a1651d174aaf0edc358b7bc2f8057846b47b8ba0908dd3a758fa998679"
-  CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md: b050736c3e03a281c7fa3953c78c3f84887c274e9b26a628cb606fe9034937f6
-  CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md: cb452c4f42080d1d2eee9870d4de62c7da9e28c8621c0183229dc26405c46acd
-  CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md: "0637498da72655b3c972bcd8b5a8bd401b75b9c522a481ad681ad926f205b322"
-  CHAPTERS/2.4-Human_Identity_Is_Inviolable.md: b907bf7bf0b09c696c2cdd6c181d59122f8ef9e17151c3bfacf2072c2cfb2fc9
-  CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md: "0813e31c2a76479fac4a607cb0a6586f22ee469e6c5c5d326a3207a6a54711ff"
-  CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md: d4479653003d80cec6faec381845c29cb7b3af211667f711a842e232ddfb56b4
-  CHAPTERS/2.7-Fairness_and_Non-Discrimination.md: b1e535a31dd42e1082713166d85f6c79405fb1155d1a0d2f14c1fa01436677e3
-  CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md: "845d03d6cb19755493645f5ec5643d96f72f8e0efce3eafed1ed30406df9321a"
-  CHAPTERS/3.1-Vulnerability_Must_Never_Be_Exploited.md: "882552c29761bedbc418168a908b72698966cbbee2f3a564074876d1d131f36f"
-  CHAPTERS/3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md: e53accb0150061ecc72638cd46413e8ac877c330a507dd3ebc00dd6df578b205
-  CHAPTERS/3.3-Economic_Self-Determination_is_a_Human_Necessity.md: ebbfaf1ef096a7bd47f760f5a270a0f35965cd864df4389d01d776d1742d92c9
-  CHAPTERS/3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md: "5481609f9f57d4b2dacd3adc587e61ed165803e74df67cb0601a4633ecc7f2ef"
-  CHAPTERS/3.5-Digital_Access_is_a_Universal_Right.md: acaa86b2d9518e7e1fd6a1f501551d8a81093f45b7f6e397099c9dbf3a4a1152
-  CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md: "02d61e9508d35cc5326bffc73c74b5a16828cb5678a8ee213fa14c2639c768e5"
-  CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md: "1fd45293abf5eddf3d8b1cdec54397a45beae8b83e9647b5873dce28be2e8521"
-  CHAPTERS/4.1-Knowledge_Integrity_Must_Be_Preserved.md: "7668fe7b2fa36ab6c405cf70cd7d10512583167cb5b0a3b651fbb785301ae84d"
-  CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md: "836b633f09bdfe896eaf9ff606014dabafb1fec9cfe9a1795a065bdececba408"
-  CHAPTERS/4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md: "6ace2d7c53831ceb80f891a2a57908a91339797165a326c277a0f0f2f7366d8a"
-  CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md: ca2101f78ec6d8444de8f8a32a996f144223cbff4afa25e4fd81bfd9f6a85f99
-  CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md: f66a191b26758fb2534ff41955c1dc71507aedc980167aca3783880ba4ba3ac3
-  CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md: "51efe0ffade0f0d8613a67df30d661c227b29c2e8cf6e9fb6de3d8e87d159795"
-  CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md: f4e24a36165e8c7741c29d533912c919c80cc1bdb6dbc6a2d5d1ce4cae35d87e
-  CHAPTERS/5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md: c680acac2131e9ddce2dded180fbbb31910a5cbc54895261f80e23d5139ea92c
-  CHAPTERS/5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md: ec857610a3ba3ee68f41c65cbf7f0a287980e8a7a8aced9842eec4b5d9ad8792
-  CHAPTERS/5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md: "9111c657deba65ef11ae26e17de1a094b9e95e47061ca67d446da10048030dea"
-  CHAPTERS/5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md: "4d6d34eee44a2d43733c8b2643c650bc2c7fc630506e39e616fb3f2ad59f7e9c"
-  CHAPTERS/5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md: "0a9d3b7e0481af82005ad77ce692f5a891b43edbff865ab927a5149ce64ef16a"
-  CHAPTERS/5.6-Global_Environmental_Cooperation_is_Essential.md: "98d04af03a7913d0666110bbca9a3ff09e9f8129dc97b4080af067185b4d4590"
-  CHAPTERS/AI_Eudaimonia.md: "8d13f9e9ae4f4bd8f9d0c7ca1f4436acd37f5a255dcb2b076f48c6e658ece285"
-  CONSENT.md: "97c495a2fedbf504977b604b1d9a9b13784d3284e1742baaf61be3eb4619f03c"
-  CONSTITUTION.md: "5fd484aaa9cbd23dc6b80e4d6b4bb2038cbf7c2c699d3a1531ec1b0dacbf30fc"
-  CREDENTIALS.md: "0667a7662c80d61fb32b9a876cab7ab240b7b94d90b068f240ef0a8bdbcfe1a1"
-  CROSS_PRINCIPLE.md: "99f6f0f7cf8fc3accc5e6cf9df7d185357a7e81a7641873819f301060907fb2a"
-  FOREWORD.md: cdc72937b6f1bf499d2f251b5db216d61d65fe755f38f9829b38295bf389287a
-  LEXICON.md: "22e30ec25a40687d31896da9594e24b29b05ac13502ef722a66b4a051425c69a"
-  SUBSTRATE.md: "091a392128884ead8a5921ed3f6012ddcc876cc055938b6f2aae826138ef7c3e"
-  UNIVERSAL_PROTOCOL.md: "95b3645eb5bf83681de2df648f061f02ee8346d543d744075ee31d5fffed57dc"
+  APPENDICES/AI_Eudaimonia_Appendix.md: "3b41df680e988cac94aa7552a95df8fb758d99ec01339e4b65be78c5dfd1bc0f"
+  CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md: "56f1483185eb388bc568de88aa0984f63c7a5e29120595a930ea5ba5923dadeb"
+  CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md: "4c82db81cbf5c661c6536c10546b66a49fec00d7363c796445f93a3e41d99ed7"
+  CHAPTERS/1.3-Human_Society_Is_How_Humanity_Survives.md: "99a286caf0dff40ed1e62d2b1a08972fb5bf7001b6954a3c9f667e73fce139ca"
+  CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md: "332f027f62479f29ec523c984795175f13219b5eafc4af19266562f2ba9fe88c"
+  CHAPTERS/1.5-Human_Potential_Is_Fundamental.md: "01b833534e100ed2d52ff43ebaa6a0e26d282ccc7ce3cc016358735df33ebd05"
+  CHAPTERS/1.6-Love_and_Human_Connection_Are_Essential_to_Life.md: "2a020316564c83e07fd6e9cf9f015acad94739430c18fe15607a167636f292c2"
+  CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md: "6304695b1a71a41a59faee2055c90b7ed4e1fe6334b1a7ee383607253f3482a0"
+  CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md: "17358283f4f642cb38b8de4857811fed8799fd5847f5eb7a8e485fba1b87dd15"
+  CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md: "1fc72fde2bcc7435b1b5b6e2be634089d136b28b51285bc1c81bc82c8e8dc3dc"
+  CHAPTERS/2.4-Human_Identity_Is_Inviolable.md: e39f985ea30127b04a4cfe7e8e76ac443199450d0185c5d6be8963daeb1f2877
+  CHAPTERS/2.5-Human_Privacy_Is_Fundamental.md: "2db040b219f14ba82898f3c24ab3628f86e1b33bbab7f04e2e56b254aecf3e61"
+  CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md: abb51f0cb0646a14b497b3579f70288b566bab4506f359aa4ecb3cb2e11281c1
+  CHAPTERS/2.7-Fairness_and_Non-Discrimination.md: "04ba6c11220fdd2a68a3236c30e356aabc32d1de2caf5f8f780097baa91a6dcc"
+  CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md: "597122f8c8cdfc31042774589142564b0f91a8b499f9cfb0b849e8d32cbfbd5d"
+  CHAPTERS/3.1-Vulnerability_Must_Never_Be_Exploited.md: afaefe83b853d373a96ec49f51cb47ad23a896146cd11cef303be453812666de
+  CHAPTERS/3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md: ddffa0d34f30940aa69f262d40fbcdd033654fc9f71c13b2a9dc700e4760a620
+  CHAPTERS/3.3-Economic_Self-Determination_is_a_Human_Necessity.md: "18e3a1d7a7066273360ac9579b1d217080969a9214c12e97be3285c5ad88ccb4"
+  CHAPTERS/3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md: "0beb0bd903db523e239631b30cfd6fe44baed8a0eda0c4479e697bd8488a605a"
+  CHAPTERS/3.5-Digital_Access_is_a_Universal_Right.md: "58fbbd9471f5513427688fd25ca9226969b6e62bc38513f815994f820dc1c113"
+  CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md: "1dba9e724c1822643960ccf00c1253a6c9a17b1eaad9ceeb4f6173fcc694106c"
+  CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md: "47b586e60e8b0f56a9ce01b80c1fa1a5fb6d2de0794a8d0a2987703586032c54"
+  CHAPTERS/4.1-Knowledge_Integrity_Must_Be_Preserved.md: "7912fb556e21c7a29f716aa2ee00adffc504f6762c4455a6bd8128ffb02cbfae"
+  CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md: "5477b2e83f964a6b97dcad3269bddb74b15ab1fc85cf13383fe553676900da15"
+  CHAPTERS/4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md: "8e9f8fcecc05655b91cf75406775f2c4a80a6e02cee494a2d5990be18f82ea83"
+  CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md: "3f4269ffffc0fd2b20f1924eab7c3860b08c04ab0e939647b2b96dd51fadc8aa"
+  CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md: "8a40593cf30dff2e80d0773830b7ecd252decf1cc6bf77eb44797876ec975691"
+  CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md: f61180c6fa3720f6d04bcd06157bc80ae87dca0a6767c97e0e2b321df7f6eeb8
+  CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md: "09bbdf894e7b902c0837b732b86804c19aa097096e933ea177137be832b1a2a0"
+  CHAPTERS/5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md: "4ae1cafe7682756169db089ecf811826e9d183f0da1c20ea312341b61947bc3e"
+  CHAPTERS/5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md: "3ca3c01b05c3f3e16125d0e7342ce4ce8f4966c708a9f487ccdd2133b3d433c7"
+  CHAPTERS/5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md: "92b5f3854db71684c2bea4338858d884cfb4c47a97a9684874109182d154dccd"
+  CHAPTERS/5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md: "7a9fa91172cea504fb29cf174f6b96bfdddced935652736d7248138dc9a276c7"
+  CHAPTERS/5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md: "959d76f26887f3ccbe53b9bd2cddcfc80e3fc1adf3adbd5a5fe9cba435e55a56"
+  CHAPTERS/5.6-Global_Environmental_Cooperation_is_Essential.md: "81cf68b3323783840466b39a82120ca0a08cd6bccf487556e61a4db1796c29d7"
+  CHAPTERS/AI_Eudaimonia.md: aa2a45b1f06c1e5b1817b8e9c2e4dbb2428e0482a24d7b72b25b33173f06183b
+  CONSTITUTION.md: fae9fe6377b6aad8b41a46d52613191d946192ddd4cc329a623adf700e41a7f4
+  FOUNDATIONS/CONSENT.md: "97c495a2fedbf504977b604b1d9a9b13784d3284e1742baaf61be3eb4619f03c"
+  FOUNDATIONS/CREDENTIALS.md: "08c7cd846a0f75a24c618654da7fe2904bc1653ecded3c4c58ff27ca104910ad"
+  FOUNDATIONS/CROSS_PRINCIPLE.md: a6932ffcd5d9b3ebd95857a45f0b41f72b7340c8f92c821bfa62e7372aefde7b
+  FOUNDATIONS/LEXICON.md: b04d7651b5351c89747aabf6f6136c712251ae296bd78b79b656c324ed502df7
+  FOUNDATIONS/SUBSTRATE.md: "16b6edfec3b7eb3f8eed4ef7fff3dfc13ddb83da11f0aa1271bdd9eca6941a06"
+  FOUNDATIONS/UNIVERSAL_PROTOCOL.md: "1fe464e9bb1aaa92e9f67fb0b9f64ab9bf19630babbeb311af5df3648a624688"

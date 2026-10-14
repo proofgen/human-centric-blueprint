@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-10"
 source_layer1:
   chapter: CHAPTERS/2.1-Human_Dignity_is_Inherent_and_Absolute.md
-  chapter_sha256: b050736c3e03a281c7fa3953c78c3f84887c274e9b26a628cb606fe9034937f6
+  chapter_sha256: "6304695b1a71a41a59faee2055c90b7ed4e1fe6334b1a7ee383607253f3482a0"
   appendices:
     - human_dignity_appendix
 scope: "This principle addresses the intrinsic, unconditional worth of the human person: the commitment to treat every human as an end and never merely as a means, and the prohibition on degrading, objectifying, or instrumentalizing a person. For the freedom and self-determination dignity entails, see [P2.2: Human Freedom Is Fundamental and Inalienable](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for the identity it protects, see [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md); for privacy as the membrane around personhood, see [P2.5: Human Privacy Is Fundamental](2.5-Human_Privacy_Is_Fundamental.md); and for the protection of those whose vulnerability makes them targets for exploitation, see [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md). Dignity is the root value of this cluster; the principles that follow protect its specific dimensions."
@@ -79,44 +79,44 @@ sections:
     heading: "2.1.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "137-162"
-    sha256: "9ca06d8a9fd8e5972dc5967c9ac9d3fb688e2cf14b8fdde48503aae21b0165f1"
+    sha256: "9fc6b23bef55407cdecc86c71145ee8990faf953668564c93aabdb1322af9947"
   2.1.2:
     heading: "2.1.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "163-204"
-    sha256: b74dade4264f3c471e45d62d5ceaff434ea4350a14b5061450bb646f7e43fa37
+    lines: "163-203"
+    sha256: b4c51884f65a2ffad381dd3e8947543b7c72315e8bf02129b6550babb36b8c87
   2.1.3:
     heading: "2.1.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "205-260"
-    sha256: afbe25d2a3dc0af607456b359a486eb6b1fb259d5e95c9637799890a4f4df39a
+    lines: "204-259"
+    sha256: de07bcd7154d68c38df69eb787b10f5c14e4e15c3c9d0af95e4bdbb67d1b86d6
   2.1.4:
     heading: "2.1.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "261-304"
-    sha256: a85bf0bcc222892c31b790b8729e822f6cf8685b34fb83ad82b11955ef5e2b04
+    lines: "260-303"
+    sha256: "9337631d2e855aa73eae183a6f5932a349881ed169663f49e2c95cb8cda31464"
   2.1.5:
     heading: "2.1.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "305-335"
-    sha256: "8ade83889ae8d0b93b043736ef77be35df5489ac7e11b329c62e56c02a7f9c56"
+    lines: "304-334"
+    sha256: d0c4088e3c888c5a84f263b567786f306aea3dfc6e08f2bcb0f78f8490425ba9
   2.1.6:
     heading: "2.1.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "336-369"
-    sha256: ce7ba6dc153590b7b7c5f9ec5aa34ae81fb44f2ae7e53e188e9278ec58e290ba
+    lines: "335-368"
+    sha256: "509c1bf732623065d5af38ecd775ea971669e2b20a8abc79f7888cdcef69fed9"
   2.1.7:
     heading: "2.1.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "370-412"
-    sha256: "2e7b64a416c4dfb1cf421ab1b959aa0db7443684da1af8e54d0eb24e6d387247"
+    lines: "369-411"
+    sha256: c46ecdee087224f38f9738cd74f6d08a7c74bb08b2df38da13b16b96344fe494
   2.1.8:
     heading: "2.1.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "413-480"
-    sha256: "35ad0b89071696fd8ebe614ac01b232eb4cfcdada49102e60bc5759b58ec30a7"
+    lines: "412-479"
+    sha256: "3d0ee64958ee8c75f0a71b7688207586c095399004006cb72c87bb291b428da1"
   2.1.9:
     heading: "2.1.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "481-528"
-    sha256: "64031d7ffb58c1e4dbbd5e02f5ae6a33f59d5f0a91214830c74560b97567c594"
+    lines: "480-527"
+    sha256: "8bdbd7e5760f8372947352d1c8686c9287daaf59fcc1c2bbe7c9295041a09224"

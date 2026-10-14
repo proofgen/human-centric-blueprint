@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md
-  chapter_sha256: "0637498da72655b3c972bcd8b5a8bd401b75b9c522a481ad681ad926f205b322"
+  chapter_sha256: "1fc72fde2bcc7435b1b5b6e2be634089d136b28b51285bc1c81bc82c8e8dc3dc"
   appendices:
     - human_consciousness_appendix
 scope: "This principle protects the inner forum: freedom of thought, mental autonomy, and the integrity of one's own perceived reality. It governs the manipulation of consciousness at every scale, from subliminal influence and dark patterns to propaganda, coercive persuasion, and computational influence operations. Freedom to act on one's choices is [Principle 2.2](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md). Protection of information about one's mental life is [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md). Deception as a breach of trust is [Principle 1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md). Principle 2.3 governs the distinct wrong: influence that overrides a person's capacity to think for themselves."
@@ -85,44 +85,44 @@ sections:
     heading: "2.3.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "176-215"
-    sha256: "5a6530d50eab6110038b75d2dad0835338bcc59bdb6a4bc07003debf144c2b85"
+    sha256: "2f1c688f86f7823c5cb62a060b8689c9134ad945feb5d7c7274cc3abf8c1cedd"
   2.3.2:
     heading: "2.3.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "216-259"
-    sha256: "72d79cfb7fd673b76cd1e86f4724a096d2803b3504d8a2d156dc7aee4b5bd38f"
+    sha256: d074a3e68def38489f605161869e605d1b263cae5f463c652507fe331d59fa6e
   2.3.3:
     heading: "2.3.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "260-411"
-    sha256: "6863dc27f1d4865b58e32ebd0ab81a004e9f46f161dd3270f0b58ad82653e0b2"
+    lines: "260-410"
+    sha256: "4380504e1389fdbb88fe2c7fafbeff0bc21a7ebcb2a0d24f97267b0d437d27c0"
   2.3.4:
     heading: "2.3.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "412-492"
-    sha256: "10851cad23c3fb56c8a7d6b579e734f60038610d62a1b00622be38b38e7af91c"
+    lines: "411-491"
+    sha256: "25c1458df936b96dbeb8f1752097c14329d173c19de67c049508cf36805b0308"
   2.3.5:
     heading: "2.3.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "493-524"
-    sha256: c85cca35fbc848cb8eb9b164c46c0e915972c93c395e8220ea2fdc58c5c79e15
+    lines: "492-523"
+    sha256: "891a6ab58bafbb344bf0c8228a0c305a505cd142c6225a56f30907980e3c2a7a"
   2.3.6:
     heading: "2.3.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "525-581"
-    sha256: c36915b512d9b7def958511ea86ef885ea3649a61cd865f95b3025d6001b70bb
+    lines: "524-580"
+    sha256: "3017d9c614fac8b38ce816b935d661797acd7b52f572a76655b12579b1d67f18"
   2.3.7:
     heading: "2.3.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "582-623"
-    sha256: "95d5ec415fa9b7f39ea10ab35f19fb0bd1c289f5fcf0003756a0417a77573a64"
+    lines: "581-622"
+    sha256: "9ac11034319a94faf3c1435970ecfad0e5d73d2d29a9ced83591ccbc6906feba"
   2.3.8:
     heading: "2.3.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "624-700"
-    sha256: f540528c359b747a91b95300ff6af88df5a976c50227936b7016b0c51996a6bf
+    lines: "623-699"
+    sha256: "2c1768d7cdb25df00d5b90aa0e136af0d5bc62b7767c24f13b1030f16717fb98"
   2.3.9:
     heading: "2.3.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "701-867"
-    sha256: d4aa539ceceb6113ecb37c1ca65ed44b62551100cc3cd3b82f889e7d0d017114
+    lines: "700-866"
+    sha256: "0eef686ac1c8093409092b34fbeeb90e7974021536da843eeb43024d8e628a99"

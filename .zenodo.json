@@ -1,16 +1,16 @@
 {
   "title": "A Human-Centric Blueprint for Safe AI Ethics",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "upload_type": "publication",
   "publication_type": "other",
-  "publication_date": "2026-09-17",
+  "publication_date": "2026-10-13",
   "creators": [
     {
       "name": "Passoja, Erik",
       "affiliation": "Seventh Planet, Inc."
     }
   ],
-  "description": "A written standard of conduct for machines: a Constitution of eleven articles above thirty-four principles, each a chapter with a technical appendix, with a compiled policy bundle a runtime loads. Version 1.1.0, sealed 2026-09-17. Layer 3 policy hash (fingerprint): c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84. Verify with python3 compiled/verify.py.",
+  "description": "A written standard of conduct for machines: a Constitution of eleven articles above thirty-four Cardinal Ethical Principles, each a chapter with a technical appendix, with a compiled policy bundle a runtime loads. Version 1.2.0, sealed 2026-10-13. Layer 3 policy hash (fingerprint): 79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb. Verify with python3 compiled/verify.py.",
   "access_right": "open",
   "license": "CC-BY-ND-4.0",
   "keywords": [

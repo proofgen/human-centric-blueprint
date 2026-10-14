@@ -16,28 +16,28 @@ carried:
   - "per principle: identity, scope, core precept, resulting ethics with the floor, line and other paragraphs that follow them carried as their own fields, the Lexicon declaration with its fail-safe default, the coupling mode, and every canonical section addressed by line range and content hash"
   - "per appendix: identity, linkage, and an addressable section map with content hashes"
 not_carried:
-  - item: principle metrics, bands, thresholds and verdict mappings (X.Y.3), other than the emergency thresholds of 1.1 and 1.2
+  - item: principle metrics, bands, thresholds, and verdict mappings (X.Y.3), other than the emergency thresholds of 1.1 and 1.2
     why: interpretive extraction repeated per compile would not be deterministic; the prose is carried by content hash instead
     consequence: "a runtime loading this bundle can evaluate the two emergency metrics and no other principle's band"
   - item: the scripted walls each principle names
     why: they live in the principle rule bodies, which do not compile at this pass
     consequence: "the constitutional walls are carried as rules a gate can apply; a principle's own are not"
-  - item: "CREDENTIALS.md: the five credentials and the credential map"
+  - item: "FOUNDATIONS/CREDENTIALS.md: the five credentials and the credential map"
     why: no artifact is specified for it
     consequence: "Article 6's five-credential conjunction is not evaluable from this bundle"
-  - item: "SUBSTRATE.md: the Sensor Reliability Index floor, system health, operational boundaries, the tier register, and authority over a hard stop"
+  - item: "FOUNDATIONS/SUBSTRATE.md: the Sensor Reliability Index floor, system health, operational boundaries, the tier register, and authority over a hard stop"
     why: no artifact is specified for it
     consequence: every band that reads a register value or an SRI floor has no ground to read from
-  - item: "LEXICON.md: the verb registry"
+  - item: "FOUNDATIONS/LEXICON.md: the verb registry"
     why: no artifact is specified for it
     consequence: the handler checks verb existence by substring match against the raw file
   - item: Constitution Articles 1, 2, 10 and 11
     why: the person and scope, the duty to preserve life, the telos and the amendment mechanics are read by people and by the steward; Articles 3 to 7 compile to constitution/gate.yaml and Articles 8 and 9 to constitution/walls.yaml
     consequence: the scope of the person and the amendment process are not evaluable from this bundle; every gate-time article is
-  - item: CONSENT.md sections 1, 3, 4, 5 and 6
+  - item: FOUNDATIONS/CONSENT.md sections 1, 3, 4, 5 and 6
     why: only the validity bundle compiles
     consequence: the consent domains, lifecycle, circulation and delegation rules are not evaluable from this bundle
-  - item: UNIVERSAL_PROTOCOL.md sections 4 and 7
+  - item: FOUNDATIONS/UNIVERSAL_PROTOCOL.md sections 4 and 7
     why: no artifact is specified for them
     consequence: preemption, stand-down semantics and the aftermath and LEARN duties are not evaluable from this bundle
   - item: appendix bodies

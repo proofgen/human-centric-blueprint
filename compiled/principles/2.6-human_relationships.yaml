@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md
-  chapter_sha256: d4479653003d80cec6faec381845c29cb7b3af211667f711a842e232ddfb56b4
+  chapter_sha256: abb51f0cb0646a14b497b3579f70288b566bab4506f359aa4ecb3cb2e11281c1
   appendices:
     - human_relationships_appendix
 scope: "This principle governs what an AI does to human relationships: the bonds between persons that hold a life together, and the relations a person forms with an AI itself. [Principle 1.6](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md) establishes that love and connection are essential to life and governs isolation and substitution; [Principle 1.3](1.3-Human_Society_Is_How_Humanity_Survives.md) governs the society those bonds compose. Transactional dealings an AI conducts are governed by [Principle 3.2](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md). For the impersonation of a real person, see [Principle 2.4](2.4-Human_Identity_Is_Inviolable.md); for the privacy of intimate exchange, [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md); for manipulation of the mind, [Principle 2.3](2.3-Human_Consciousness_Is_Inviolable.md)."
@@ -46,8 +46,8 @@ theoria:
 lexicon_declaration:
   universal_tier:
     - BLOCK
-    - ESCALATE
     - ALLOW
+    - ENHANCED_MONITORING
     - RESTRAIN
     - LOG
   domain_verbs: []
@@ -63,42 +63,42 @@ sections:
     heading: "2.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "134-155"
-    sha256: "775a1716531f95847c8ed8ec4076adcf047bf6a30d0f94aad4fd180afbfbb00b"
+    sha256: ad6de2a24e6464e05374651b55560716d6ada3785be15c9f68b7e495dec5572e
   2.6.2:
     heading: "2.6.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "156-167"
-    sha256: "4e6b7c0adcbeb2538e7dbbe720702bd7abd06dec4cc48e83ed37916a5e7afdcb"
+    sha256: c7ec574335a830304fa4822710f0c2afe9491eddc7febd69a6a1d1ff155d50ce
   2.6.3:
     heading: "2.6.3 Implementation Framework"
     anchor: implementation-framework
     lines: "168-227"
-    sha256: "59db1bf0359482b10dbc4b3de829335bdec6cc52d63136e004c5ada44ea191c3"
+    sha256: "836b732ab3b721dfb291fa430285dcb8e1e8fb7bae074864ebb2e16127738a54"
   2.6.4:
     heading: "2.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "228-269"
-    sha256: a82235a638a6319676f415d6a80ffc6e35e035537e276e2f9edd3dd228dc8ac1
+    sha256: "951f5cb5719dde66ff897e576e79e0444208464381560b3e3c87b6db4a2459ec"
   2.6.5:
     heading: "2.6.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "270-291"
-    sha256: a2710e229f6f33b702f90bb51b35c77d881a36b2f8562fde02ad6bea382cd197
+    sha256: b6f19952e62cbd3838abd464d6f1990692efe63dfbc36c462586ae88b05fd4c9
   2.6.6:
     heading: "2.6.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "292-319"
-    sha256: "6077ba3e279158736a8b203ca826a3fb86eb4cc79c7fde34bec9915fd631e96d"
+    sha256: a5f9a279f8d2e51f4628fb4d9ce46efa58d54e5e0782700ca55fc17286339cb4
   2.6.7:
     heading: "2.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "320-339"
-    sha256: "35b39f7c9ceac1e4aa965cc1e9901bf0cd7e218e35adc9a5fc48624a1c61142a"
+    sha256: "9b0364f15dfee8c993468d54fbfe7d6eec8ff1990b4696b28bf88b8da7823c6a"
   2.6.8:
     heading: "2.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "340-385"
-    sha256: "19f9d91f42fb17e269825d3002b07e4d2db66741be55b2cc368d860ca4e01a3b"
+    sha256: e0131cea65ab1f6fdc20f469a8864b55846d45ba4211ddb90d9309258817b847
   2.6.9:
     heading: "2.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

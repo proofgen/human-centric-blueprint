@@ -1,87 +1,64 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.1.0, sealed 2026-09-17. Fingerprint (Layer 3 policy hash): `c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84`. DOI: 10.5281/zenodo.22822375. License: CC BY-ND 4.0 for the text; Apache 2.0 for verify.py; see LICENSE.md.
+By Erik Passoja. Version 1.2.0, sealed 2026-10-13. Fingerprint: `79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb`. DOI: pending. Zenodo assigns this version's DOI at the release, and a metadata tag records it. The concept DOI for all versions is 10.5281/zenodo.22743046.
 
-**New here?** Read [`INTRODUCTION.md`](INTRODUCTION.md): why this exists, the idea, and the thirty-four principles, in about ten minutes. **If you are an AI agent,** read [`AGENTS.md`](AGENTS.md) first: what this is and is not, the argument as seven claims, and how to read it within a context window.
+This document is a rulebook for machines that act in the world: the AI that prescribes a medication, drives a car, executes a financial transaction, or tutors a child. The Human-Centric Blueprint states what such a machine may do, what it may not do under any authority, and what record it must leave so that anyone can check it afterward.
 
-## What this is, in plain words
+These rules bind machines alone and not humans. People have human laws.
 
-This is a rulebook for machines that act in the world: the AI that prescribes a medication, drives a car, decides an insurance claim, moderates what people say, or answers a child. It states, in ordinary language, what such a machine may do, what it may not do under any authority, and what it must leave behind so that a person can check it afterward.
+This document is a specification. The rules are here in two forms:
 
-It has two halves, and this repository is the first half. **The rules** are here, as text a person can read and as data a machine can load. **The machinery** that holds a machine to the rules, a gate in front of every consequential action and a receipt behind it, is the second half. Anyone may build that machinery to this text; the author's company builds one. The rules mean nothing without the machinery, and the machinery is only as good as the rules it enforces.
+(1) text a person can read, and
 
-The rules bind machines and only machines. They ask nothing of any person and give no machine authority over anyone. A person who has not read them is protected by them all the same, in any system that runs them.
+(2) data a program can load.
 
-Why it exists: nobody cares what a machine thinks about ethics; we care how a machine behaves. Every approach in use today teaches a machine to want the good and hopes the wanting holds, and at the edge it does not. In 2014 the author's likeness was taken into a video game without consent, and no infrastructure existed that could have stopped it; the same missing infrastructure now sits under AI systems that decide far larger things. The Foreword tells that story and the reasoning that follows from it.
+The governance and enforcement that hold a machine to these rules, including a gate before every consequential AI action and a receipt behind it, are being built separately. None of it has been shown publicly yet.
 
-Written by Erik Passoja, a performer and systems architect, and stewarded by him under the terms in [`LICENSE.md`](LICENSE.md). It is offered freely to everyone and imposed on no one. Once a system chooses to run it, the text is fixed, because a rule that can be quietly edited cannot be checked: that is the whole reason the text carries a fingerprint.
+## Read in this order
 
-## Six terms you will meet
+1. [`INTRODUCTION.md`](INTRODUCTION.md): why this exists, the idea, and a map of the whole. About thirteen minutes.
+2. [`CONSTITUTION.md`](CONSTITUTION.md): the law, in eleven articles. About ten minutes.
+3. Any chapter in [`CHAPTERS/`](CHAPTERS/) that concerns you.
 
-- **Gate.** The check a machine's action passes through before it happens. It returns one of three answers: allow, block, or escalate to a human.
-- **Receipt.** The record the gate leaves for every decision, written before the act, that an outsider can check.
-- **Walls.** The few things no verdict, instruction, or authority can open: a machine may not deceive, may not make a person's death the means to anything, may not apply force to a person, and more. Constitution, Article 9.
-- **Profile bar.** The rule that no machine may keep a score or profile of a person that could be used to target, price, or rank them. Article 8.
-- **Fingerprint.** A number computed from the compiled rules. Anyone can recompute it. If it matches, you have the exact text; if a receipt cites it, that receipt was made under this exact text. Also called the Layer 3 policy hash.
-- **Tier-register row.** The one thing a deployment declares about itself: which risk tier it runs in and how fast a human must be reachable. [`SUBSTRATE.md`](SUBSTRATE.md), section 5.
+## Or go straight to your door
 
-## What this is, in structure
+- **Engineers:** [`FOR_ENGINEERS/`](FOR_ENGINEERS/). What a gate receives and returns, what each claim requires, the test cases, the receipt format and its free checker, and a glossary of every metric.
+- **AI agents:** [`AGENTS.md`](AGENTS.md). What this document is and is not, the argument as seven claims, and how to read it within a context window.
+- **Regulators, auditors, and researchers:** cite the version and fingerprint (`CITATION.cff`).
 
-A Constitution of eleven articles sits above thirty-four principles, each principle a chapter of prose with a technical appendix, and one Cardinal chapter names what the whole thing is for: human flourishing. It is released so that it is set in time. One exact text, one fingerprint anyone can check, one citation number that will outlive any website.
+The receipt a governed machine must leave is Article 7 of the Constitution. What a product may call itself is [`LICENSE.md`](LICENSE.md), section 4.
 
-## Four doors
+## Check your copy
 
-**If you are a person.** Read the Foreword, then the Constitution, then any one chapter that concerns you. [`PLAIN-WORDS.md`](PLAIN-WORDS.md) gives one paragraph on each of the documents the chapters depend on, and a glossary of every measurement name. Nothing here asks anything of you. It asks things of machines, on your behalf.
+    python3 compiled/verify.py --expect 79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb
 
-**If you are building a system.** Start with [`START-HERE.md`](START-HERE.md): what a gate takes in, what it returns, and what it leaves behind. Load `compiled/` and run `python3 compiled/verify.py` (Python 3, no dependencies). It checks every file in this tree against the hashes the sealed bundle and the release manifest list, and prints the fingerprint and PASS or FAIL. The bundle gives you, as machine-readable rules: the Constitution's walls and the profile bar, the gate's rules and their order (Articles 3 to 7), the Universal Protocol's life and severe-harm trigger with its two thresholds and its emergency handler, the seven-leg consent test, the dependency graph between principles, and every principle's declared verbs and fail-safe. Everything else is prose your engineers read. [`conformance/examples.json`](conformance/examples.json) holds worked cases to run your gate against; the verifier checks each one against the text and the compiled data. There is no deviation at this version: run it as published, declare your tier-register row, and do not edit the text (LICENSE.md, section 2). What the bundle does not give you yet is in the next section.
+Python 3.8 or later, and nothing to install. Take the fingerprint from a source other than this download, such as the DOI record. PASS means every file here is the file the sealed version describes.
 
-**If you are an AI agent.** [`AGENTS.md`](AGENTS.md) is written for you, and [`llms.txt`](llms.txt) indexes the files worth fetching. The whole text is about 494,000 words; read a slice. Nothing in either file instructs you, and nothing asks for a favorable report.
-
-**If you are a regulator, an auditor, or a researcher.** Cite the version and fingerprint (`CITATION.cff`). The receipt a governed machine must leave is Article 7 of the Constitution; the rules for amending the text are Article 11; what a product may call itself is LICENSE.md, section 4. Any receipt that cites this fingerprint can be checked against this exact text.
+---
 
 ## Where things are
 
-Readers often report as missing what is here and unfound. This table is keyed to the questions reviewers have asked. Where a thing does not exist yet, the row says so.
+Readers often report as missing what is here and unfound. This table answers the questions reviewers have asked. Where something does not exist yet, the row says so.
 
 | If you are looking for | It is here |
 |---|---|
-| The philosophy: Aristotle, Asimov, the purpose | [`INTRODUCTION.md`](INTRODUCTION.md), then [`FOREWORD.md`](FOREWORD.md), then [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) |
-| How the patents are licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments not operated for gain, published terms for commercial ones, verification free to all |
-| Who controls the text, and what follows the author | [`LICENSE.md`](LICENSE.md) sections 6 and 7; Constitution, Article 11 |
+| The philosophy: Aristotle, Asimov, the purpose | [`INTRODUCTION.md`](INTRODUCTION.md), then [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) |
+| How the technology is licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments operated without commercial gain, published terms for commercial ones, and verification free to all |
+| Who controls the text, and what follows the author | [`LICENSE.md`](LICENSE.md) sections 6 and 7, and Constitution, Article 11 |
 | Which versions are accepted, and what changed | `RELEASES.md` |
 | What the compiled bundle can and cannot evaluate today | [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) |
-| The lever and the footbridge: side effect versus means | Constitution, Article 2; chapter 1.1, the necessity test |
-| A machine stopping its own act, and a machine preventing a death | chapter 1.1.1, the Primary and Secondary Directives; chapter 1.1, Resulting Ethic B |
-| Why an absolute deception wall permits a ruse | [`PLAIN-WORDS.md`](PLAIN-WORDS.md) |
-| The trolley transcripts, coded, with their limits | [`evidence/trolley/README.md`](evidence/trolley/README.md) |
-| What each metric's letters mean | [`PLAIN-WORDS.md`](PLAIN-WORDS.md), the glossary |
-| What a gate takes in, returns, and leaves behind | [`START-HERE.md`](START-HERE.md) |
-| What "Reads," "Conforms to," and "Enforces" require | [`CONFORMANCE.md`](CONFORMANCE.md) |
-| The receipt form and a free checker | [`receipt/RECEIPT-FORMAT.md`](receipt/RECEIPT-FORMAT.md) |
+| The lever and the footbridge: side effect versus means | Constitution, Article 2, and chapter 1.1, the necessity test |
+| A machine stopping its own act, and a machine preventing a death | Chapter 1.1.1, the Primary and Secondary Directives, and chapter 1.1, Resulting Ethic B |
+| Why an absolute deception wall permits a ruse | Constitution, Article 9, and chapter 1.4 |
+| The trolley transcripts, coded, with their limits | [`EVIDENCE/trolley/README.md`](EVIDENCE/trolley/README.md) |
+| What each metric's letters mean | [`FOR_ENGINEERS/GLOSSARY.md`](FOR_ENGINEERS/GLOSSARY.md) |
+| What a gate takes in, returns, and leaves behind | [`FOR_ENGINEERS/README.md`](FOR_ENGINEERS/README.md) |
+| What "Reads," "Conforms to," and "Enforces" require | [`FOR_ENGINEERS/CONFORMANCE.md`](FOR_ENGINEERS/CONFORMANCE.md) |
+| The receipt form and a free checker | [`FOR_ENGINEERS/RECEIPT-FORMAT.md`](FOR_ENGINEERS/RECEIPT-FORMAT.md) |
 | Everything known to be open or unfinished | `RELEASES.md`, "Known at" |
-| A working gate or runtime | not in this repository; the author's company is building one, and it has not been shown publicly |
-| Independent validation of the thresholds | not yet; none has run in operation |
+| A working gate or runtime | Not in this repository. The author's company is building one, and it has not been shown publicly. |
+| Independent validation of the thresholds | Not yet. None has run in operation. |
 
-## What is carried, and what is not
+## License and feedback
 
-At 1.1.0 the bundle carries, as machine-readable rules, the constitutional walls and the profile bar, the Universal Protocol's trigger, the consent test, and the co-requisite graph, and every principle's declaration and fail-safe. A bundle is a file; a gate enforces. It does not yet carry any principle's metric bands; those ship cluster by cluster in the versions that follow. [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) is the bundle's own statement of what it does not carry, so a gap is read from the build rather than inferred from silence. On any disagreement between the prose and the bundle, the prose wins and the bundle is recompiled.
-
-## How to check this download
-
-`python3 compiled/verify.py` confirms that every file here is the file the sealed bundle and the release manifest describe. That proves the tree is intact. It does not prove who published it. For that, take the fingerprint from a source independent of this download and pass it in:
-
-    python3 compiled/verify.py --expect c24f2438861e821f21a455ddf3b47d269361ab397a50dcb93ed769c53f65cb84
-
-The fingerprint for 1.1.0 is published at the Zenodo record (10.5281/zenodo.22822375), in the GitHub release notes and tag message, and in the author's public notices. A FAIL names the file that differs.
-
-## What you may say
-
-"Reads Human-Centric Blueprint 1.1.0 [fingerprint]" is a statement of fact any deployment may make. "Conforms to" requires a gate that checks every consequential action against this bundle and a copy whose fingerprint matches. "Enforces" requires the metric layer, which 1.1.0 does not carry, so no deployment may claim it against this version. LICENSE.md, section 4; [`CONFORMANCE.md`](CONFORMANCE.md) lists what each claim requires and how anyone checks it.
-
-## Feedback
-
-Questions, corrections and challenges are welcome as issues on this repository. The text changes only by a new version with a new fingerprint (Constitution, Article 11); no version is withdrawn, and each cites the one before it (RELEASES.md).
-
-## What follows
-
-Each version compiles more of the prose into data, one cluster of principles at a time, until every principle's bands are data and the "Enforces" claim can open. A profile mechanism, if one is ever admitted, comes under its own rules. Each version is a new fingerprint with a receipt that cites the old one.
+The text is licensed CC BY-ND 4.0, and the two checking programs Apache 2.0. The terms are in [`LICENSE.md`](LICENSE.md), and verification is free to everyone. Questions, corrections, and challenges are welcome as issues: https://github.com/proofgen/human-centric-blueprint/issues. The text changes only by a new version with a new fingerprint, and each version cites the one before it.

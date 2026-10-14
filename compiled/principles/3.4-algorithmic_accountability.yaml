@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md
-  chapter_sha256: "5481609f9f57d4b2dacd3adc587e61ed165803e74df67cb0601a4633ecc7f2ef"
+  chapter_sha256: "0beb0bd903db523e239631b30cfd6fe44baed8a0eda0c4479e697bd8488a605a"
   appendices:
     - algorithmic_accountability_appendix
 scope: "This principle governs the transparency and accountability of the individual decisions an automated system makes about people: the duty to give the affected person the reasons for a decision, to keep an honest and un-suppressable record of every action, to leave a responsible party answerable for it, and to open the decision to challenge and redress. It owns the decision; for the transparency of AI systems as such, their disclosure to society and its role in human agency, see [P4.2: Transparency Is Essential to Human Agency](4.2-Transparency_Is_Essential_to_Human_Agency.md). It concerns whether a decision can be seen and answered for. It does not concern whether its basis is fair: for fairness and non-discrimination in the basis itself, see [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md). For the privacy of the data a decision draws on, see [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md); the bar against forming a standing profile from the decision itself is this principle's Ethic F. For the human judgment that review must preserve, see [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md); for truthfulness and the earning of trust, [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); and for economic decisions in particular, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md)."
@@ -69,42 +69,42 @@ sections:
     heading: "3.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "145-166"
-    sha256: "6c9ee58a17ff0250709177a42cf3b544e0c3f345416fc97b20f5467e9374db2c"
+    sha256: cbdecaabaa48de222e825f01cebdb139fe51e8aa2be79cf2c2f23ce21b0cc3ea
   3.4.2:
     heading: "3.4.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "167-180"
-    sha256: db580c8140608e2ecfeb27c53ee4ea4545754564c17865eb4da5fcb59459cc10
+    sha256: "8de3fe287e464b3bc69f3f4d715596bc00f443f23441b763916f5e12ce377d4e"
   3.4.3:
     heading: "3.4.3 Implementation Framework"
     anchor: implementation-framework
     lines: "181-254"
-    sha256: b48841ecb17d937338f0f2f5cee6c6e381f11fbb0d7a16579692bcb844259e5f
+    sha256: aa994b66a5aa2c3b478e1474f1d572fbf9e592726b462c0f50a159149f5de864
   3.4.4:
     heading: "3.4.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "255-286"
-    sha256: "550235a4bd594797182fa2876580008b198eb38b6d9e43f153cb4c8ca5611f73"
+    sha256: b9664318c899a325d9aab87022c6338523934dbd911d678b8b8f57a711fbf298
   3.4.5:
     heading: "3.4.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "287-294"
-    sha256: "4ddcff451d55d3e47e5204a1193e3221eb3fbf0431d562241da5828dc9345914"
+    sha256: "173fc2bb78d85c1e83b2bbac7c7a3445aeb6b943c981b8fd5f8d9a2a7a2f8361"
   3.4.6:
     heading: "3.4.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "295-304"
-    sha256: b00e914b553bfb8483fe225f25dce7960e4395593783bb132dd8cd5322d7fccd
+    sha256: bfe082ec48a36423594ce382451220c9e9174ae0d5598fa1f97f80879656095c
   3.4.7:
     heading: "3.4.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "305-312"
-    sha256: "7085b16b449bc16be3fc5483e92efcd72784a3bad28605f5c0764318c6ece2a5"
+    sha256: "945df7008c78706ba3ad5c6d8ef11b88146e05a72401b77c971d71a61bff5d41"
   3.4.8:
     heading: "3.4.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "313-362"
-    sha256: "58d5fb665c7c4ee822434fc799b3e5f6960ca70cd50e2422938a2908de3eacc8"
+    sha256: aa85007311bdef0b65e0b09d1bd9febaf35703a1b4a15814576dadd19fc3e015
   3.4.9:
     heading: "3.4.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

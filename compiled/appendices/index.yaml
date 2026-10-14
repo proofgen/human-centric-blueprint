@@ -22,38 +22,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "63202157e2ebe6415baf84149b346026eb2992738e7e40b9843516bc2a381bce"
+    sha256: "57b59a602720c958681acd82ba5bccd7ad1656b55a1947d17aadaafc6d645da1"
     sections:
       Appendix 1.1 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.1 Advanced Technical Implementation Guidelines
         anchor: appendix-1.1-advanced-technical-implementation-guidelines
         lines: "2-891"
-        sha256: "389bf2a2edc2f2d68c1e3f21d9e0d9b150fa2bff8a56a815da1cf962e4fccf5c"
+        sha256: "3af5913b66ef32126784e2cde4b51cf222aae81340fea43b006680fc8b7688ec"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-15"
-        sha256: "68c5d76c440ae42ff3c147370d5cf6cc2a9aee154ea2f70b15050399782aaa77"
+        sha256: "62c8c1f62c9a953c2dd33ff1a71d94735c836e8772477d09be999705d562544c"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-107"
-        sha256: "4a6782ad511d5785ba478084beb18dadd463652f40e7859006e423737296c776"
+        sha256: "24b36662cba44895666e32cfda555fedeb6c8abb8b0851114dea6e75d864d97d"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "108-188"
-        sha256: "087d6a65d24c58ac5b0847bae6a3702ba99c96bdf6f1847f83840f1e383ffb0b"
+        sha256: fe216017a6dfd0e9cd3a23a30000caf4b9771a479f2e1fd85306316c42674fc1
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "189-260"
-        sha256: fc77fb5aec001630201229c7d0accd5df3df43a4e20101efcdfa96af775d3c5b
+        sha256: "923b53a8934a6458a8f9af20a6d8a769e67ef3d52479a534ed7e493f16bbdebb"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "261-360"
-        sha256: f2026816f395e380c78befa9ef713a863ae5f6babc4cd7028bd09b54b9e6c1b3
+        sha256: d5365bd3820d6a8dd5dae30ba98e93b7b3a64ac2c3585f9e2a40d6f20abee0b0
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -63,12 +63,12 @@ appendices:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "411-486"
-        sha256: d2359ad4f0bb8169eb8b2eb2b0287713e26aa5b716f51c2bf11998ef1794daec
+        sha256: "998f4f9913ea96b1694ce6df6f50b61373a7a7610f2cbc8b69cf8d7f91c950d2"
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
         lines: "487-552"
-        sha256: ffea604239b9ce602c4614e5b79054323fc22a2f6b2c401a4c2fb8d9a5dd872c
+        sha256: "6c878ae8e99135b9145b1dabda0afc1d550029352ff915c9af847718e06e49e2"
       9:
         heading: "9. Verification and Accountability"
         anchor: verification-and-accountability
@@ -83,12 +83,12 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "760-833"
-        sha256: "0df194788135200d2f7ad8cb65284f118e4e8cd5fd5276b6b442d6631548ef02"
+        sha256: d68c8a2f918c3047afa01220804e6dc43e56c81fde7355dc3019cd9055e25a75
       References:
         heading: References
         anchor: references
         lines: "834-891"
-        sha256: "8e8e356038682cc7f02727749a3e8e67f60544093e351598eef1b3717763d8b4"
+        sha256: e3ce133f88bb9eaa0766c57daf9ea577f79413f9a2377ea55ec00633e03a3987
   - file: "1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md"
     id: human_well_being_appendix
     parent_principle: human_well_being
@@ -103,38 +103,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "5c07dd2029886ec7e8c87b3c2d0b06c3dcc52bf9711d49cca58153773ba161e5"
+    sha256: dace3ee9ab7d0599ceeb958b7eb57bfc595d280eb9540c1f548fb3c26f30b33c
     sections:
       Appendix 1.2 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.2 Advanced Technical Implementation Guidelines
         anchor: appendix-1.2-advanced-technical-implementation-guidelines
         lines: "2-879"
-        sha256: b6c1e166b03bec7c998563238b6e4f712d0be36a51f8eb373023550b3a57c391
+        sha256: db6fab733f8397af1558c2e69d9c87d2e077041a258f041b44849979062bb062
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-15"
-        sha256: fa03d4a484a73b0f3499a9f32eaa568f696ab69cf1baeb988154267d9bc47979
+        sha256: b560d4ae2eb0e326cca58bd4aa18ed2aaee22b0a37be7ae6ba357730e71004f5
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-120"
-        sha256: "54d335c048a21b272f30e63ff4bb87dbcab3ed982c5a597aa03163d0b09d755f"
+        sha256: c38f0ab8dbed5890d77512bdb07b5a6387085cbec2f006b600af15f56c5ab4c0
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "121-192"
-        sha256: "31ed54856350597cb8875f447ce90283ecd315e1ecacd1bfe120b46f9a89df9f"
+        sha256: "05ab16ea09c89ae7e296be26b896e2b3906a40ac1805d81c40319165af040738"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "193-291"
-        sha256: "847004134fb184108e641497bb55c63651be13b17e0535b44484dfa45f4c8790"
+        sha256: "13e101b8686ad5784413d515af5830dbbd6eb0bbcd2f44ca84d7ecc2878dd312"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "292-402"
-        sha256: fc8f88c051567a7cbd69205413fa7ebd1ceacf0a1423d504504ae0c100e57676
+        sha256: "6699bbbde8ecf9995b2b4071a2361e5efb5203b0b78e3362e55a4e87c4ec5646"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -144,17 +144,17 @@ appendices:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "451-524"
-        sha256: "5d6b9a3b5dee551dd07b0e0fdd9d076cb6c76668a6d78992b9ba4c0cc4e1eec3"
+        sha256: d448df82a29bcc550ab7aae43ceb624eadb523e0356243fda8685930e3465a88
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
         lines: "525-579"
-        sha256: "57e8b8da40164d02ff99a358a922d6831311b2ff568af9689282095b78d70c42"
+        sha256: bab480e1823497d6ce076709068a1e712b1aa9d0478c5d0c1093e43cae7ce2ab
       9:
         heading: "9. Verification and Accountability"
         anchor: verification-and-accountability
         lines: "580-634"
-        sha256: "462fa6ca5c3f3718199ed524719a848760294dfe8b90c09b00841e27579d89eb"
+        sha256: "57922e0410dad7a337a1635744ec3d092ae9b23ba2c48925172242408f009946"
       10:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
@@ -169,7 +169,7 @@ appendices:
         heading: References
         anchor: references
         lines: "815-879"
-        sha256: "4780ff7d396449e155e0b285790125ef193e67d29207a774dcfb212cccc61048"
+        sha256: "36dfa87b44f65e5cea977c3fd89e395060ec144ef35c949e6a60c023064d1e10"
   - file: "1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md"
     id: human_society_appendix
     parent_principle: human_society
@@ -187,53 +187,53 @@ appendices:
       - knowledge_integrity_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "6e28081394bd8700794f41b8b5449a8ca09f2eda9658e4c7c9a0c386774c5699"
+    sha256: "175ae671201078112b2f603fb9eafbf7db4ece61e052d260effdb5e384772da9"
     sections:
       Appendix 1.3 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.3 Advanced Technical Implementation Guidelines
         anchor: appendix-1.3-advanced-technical-implementation-guidelines
         lines: "2-949"
-        sha256: "2a57707f893ecfe91524c675ca7587d287063e7abb0e1ca23ed4b841feefe91f"
+        sha256: "6805f38fd5fafa2f03aef7b7eb744361e242e9360ab4dc332098c7e1971283dc"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-15"
-        sha256: e722d55b16b10491f1f000fd1950571e6002c018c3a82e701d2c7ef88667d840
+        sha256: "11d03c9d062aa39b563375ad61093a84a32ae22af0c9ca0cd2b25409036a7678"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-133"
-        sha256: cfec719779608e0d8abba09bf0b847975ae458145a2eed796e052c051b689646
+        sha256: e3e756c4c42b88a00a3291e605023ebd687a8589ea351c34fe6ce3c67a3b8bcd
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "134-226"
-        sha256: "1b9aedce33b923548dca9db67fd1e9b65706bb88423221b2621cb8e8c997b512"
+        sha256: "389d2411cd14900f8d3ad5dc63c25559b54fcb77aeda7d48cdabd5bc2e9fef18"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "227-322"
-        sha256: "902bcefb7d27128896efd702366469490b852b1e59524cf8a117ab48c7112142"
+        sha256: "0c3be62b46fa5b0244e30820dbe019d3d28c730d8d9a873c1ed1b847967dd0f2"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "323-448"
-        sha256: "3e0cc12439db89c0905a53f16f291600fbdded19afd26ecd4e80eb383a56a7cb"
+        sha256: d74ee019f8cfb0410fc7ec5200d4de5ecc4cc57945b7fc0f83be0595ba46b3b5
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
         lines: "449-504"
-        sha256: "8fc8d101595fae7f5a2b8116523cd887077f7b835edd562e24844612bf95bf82"
+        sha256: c5718a6c26fd508edfd830f0ba1615a2f30197ba3c3f8404436eae36a4e51818
       7:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "505-578"
-        sha256: "8b737140cc4ba0157cec9d25632800d823dddc7d014505ab5ebb6bfb6ed14826"
+        sha256: "03a0758e66eb863baccfc7e9ee3d98ac7328c2a82492ca9505becac5f3ad7710"
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
         lines: "579-622"
-        sha256: "8369597129d0788cfc647fe3675610d540af84ac6fb94dfea40985350f03f2c5"
+        sha256: "82370b3c120f76561110a8c8913350f3a096204346e5f94a4324bed0345b7416"
       9:
         heading: "9. Verification and Accountability"
         anchor: verification-and-accountability
@@ -248,12 +248,12 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "802-893"
-        sha256: "484ca579ba47ce6a1e29b45b6268bc66d4ec65c896920e1eb4a7db37a8cd39de"
+        sha256: "02e31fdee7213fb1f6749edba71242bbad1a0b9612120e051f70ba80e97631f1"
       References:
         heading: References
         anchor: references
         lines: "894-949"
-        sha256: "9b1fe87541d540133851a5051d9223a573722e47657c03a607af25c35eb3bd63"
+        sha256: "4ffc27155d567bc18dd08ac69319994f47e19f1036e8740508743ab86fbf2a95"
   - file: "1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md"
     id: trust_appendix
     parent_principle: trust
@@ -270,38 +270,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "0fb04ea0db9ca752d004bf2b006b16c03da00dedab42d0b67e3fd799c6211f39"
+    sha256: bfef99976d3c7639fc240496b4048968b2a51953b10ee099884da884e6ab9364
     sections:
       Appendix 1.4 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.4 Advanced Technical Implementation Guidelines
         anchor: appendix-1.4-advanced-technical-implementation-guidelines
         lines: "2-1003"
-        sha256: "25944a23bc2b3586a6e05edced9e57900b36219e062e60db244e9a36301b8edd"
+        sha256: "1bae0109a0b35473edfe85737636da5d81455588f48ee4b3903573edba5c5f1d"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-23"
-        sha256: "39ed1eb0d4f220a995f85fc29924945e537dc5ab84d2e5ddcb6ab486a76add4a"
+        sha256: dc3ddfcceb985f68c0faea7478c206555067c19395d3259e35ad55e9543e3c80
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "24-170"
-        sha256: c2a367d0eebfb28228f5addfdf36f5a972b377e2495898d2e660c62c1f04a8ee
+        sha256: e1cfda7ae7ff31eba58315c6c91c1e167ec14fa18d9d50fc3f7ea49cac5e154d
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "171-259"
-        sha256: dad560fbe502783e050b3ad52199f32cf16f356e3b504447bf4c46afc07c5785
+        sha256: "672f3be75da30ef54c688ca30edd9a1c32380b43516959be4a43483e195797bb"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "260-339"
-        sha256: e822515b7c7a969d73522aca1e48ce85300108ee2e3d438c3ea27bc1e01ecf2c
+        sha256: "44be415dbec965608b27e862c562ac7417adaf3e487700f06dcac5007230f0e0"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "340-452"
-        sha256: f6acb66d81a6d4e15aeb2ab8c22b94e8ef4f31f2adb2e8a27878621084a94204
+        sha256: "4212efdaa596937009ee3fdd0d2ce60b2b1f1623228456ba62d8a195bd22c492"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -316,7 +316,7 @@ appendices:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
         lines: "580-647"
-        sha256: "22efccb6929c76d9084e8b4dd3a014a21decfaf7771fc3761686e72eef9f7a12"
+        sha256: bace23eddadaf76560261101a0eb86fc9189675ab21eaca4526ccd4e7d90ce93
       9:
         heading: "9. Verification and Accountability"
         anchor: verification-and-accountability
@@ -331,12 +331,12 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "852-945"
-        sha256: "2377c8b92cd85a17af481280fc10b2b28bb85a43cc0e57b60e477705e6997cd4"
+        sha256: "08b5b84f7c48557b6c6694e11cd1c73b66c7ff2393b221dc0776affd7f23160e"
       References:
         heading: References
         anchor: references
         lines: "946-1003"
-        sha256: "900482ea9f41bbe808346ef5ebc85db16b65b2fbbd4b8adfd28924310ee280d8"
+        sha256: df156c669bf1fe0cd72afb6bca1d115f0c6ae68a4eefa356dc62e0df6bb2e827
   - file: "1.5.A-Human_Potential_Is_Fundamental-Appendix.md"
     id: human_potential_appendix
     parent_principle: human_potential
@@ -352,38 +352,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "115ec851a9cd95f86865a45f0140d040664b392439f84b8e7aedf1c53bc9d317"
+    sha256: "1faff6935b20222436b9e9894fca86c50f2d3bc7d0cce0b4532ed27a556ed17e"
     sections:
       Appendix 1.5 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.5 Advanced Technical Implementation Guidelines
         anchor: appendix-1.5-advanced-technical-implementation-guidelines
         lines: "2-741"
-        sha256: "9687c49c9142378ff967f2dd139f14d622a0e4c0a11dd232a22a2f84ae516eed"
+        sha256: "2edb2a5cd8694141d7e6ed160904b1b9803f4fc5fab889b6e5ff78b72da8e827"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-17"
-        sha256: "4737b9f2555d3c5f00dd05c8fe9d5c45806d59d7c7432b3627ddd1abfaac7797"
+        sha256: "474ebeb46007b4a7a0c46f2a7475cf1aafd8bb2fa9e555790014722fffd349b7"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "18-145"
-        sha256: e0efae43fe5c0f9e130cf914ef27dd8f33a8ba68334ecce248a412aae3d91c9c
+        sha256: "8c4ee247183f196b982a134c6fa56b3e979338830de3b0d3dd8666c128a2ef20"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "146-223"
-        sha256: e0fdd43390e8072fd3cc7d3d8f75338ac346d3a4ee3e7cd0e7ff527f745b12e6
+        sha256: "0d08d16f4b2978d91e50c7ce8d6eb52a426a0cba44945527a9c26d3176ce479d"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "224-282"
-        sha256: "4286e1ba7d557b949331a2e2ae6ba643f3e6222e586311d817b15ceb95fc075c"
+        sha256: ee235486ff55a34fc4d799615e30cdf384d7e41d8ea637a27d884b4bacbd6428
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "283-408"
-        sha256: "2c17a0ff3725b9d2099cae0c5cceb640da61ca23549bef179a538c3362ae52b1"
+        sha256: b8f7a5060cedc67ff08db6a506379da8d184205894afa8d36a94c1de059cb529
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -418,7 +418,7 @@ appendices:
         heading: References
         anchor: references
         lines: "702-741"
-        sha256: "84f46287853d625e486e47040b1dc5fbc90fd18cde503aa58663b2c255e4e15b"
+        sha256: "53bcddbcd1c4bad372cc348ac81bad07c6a6fa666091f2635b28ecfcd0130da4"
   - file: "1.6.A-Love_and_Human_Connection_Are_Essential_to_Life-Appendix.md"
     id: love_and_human_connection_appendix
     parent_principle: love_and_human_connection
@@ -438,38 +438,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "6333505ff8478308dd2fe937cfefb95badacb1371ba56520b251c706ba4adf86"
+    sha256: "5b587e48472125013a6a4d52130789ce1650e889448ec422453133a1dea5a68c"
     sections:
       Appendix 1.6 Advanced Technical Implementation Guidelines:
         heading: Appendix 1.6 Advanced Technical Implementation Guidelines
         anchor: appendix-1.6-advanced-technical-implementation-guidelines
         lines: "2-628"
-        sha256: e6c7208aad34b7f1c3a8e833c9fb569cf5fa4b3523efe4365f4fd1b3ae8c5e10
+        sha256: "5df8c202c40529cad3640975007d585c16af3fec430d4fe963b2d80a53777d58"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-17"
-        sha256: cb0c3e164f1af37b07807bdaf2be7bf62b02232f78b020fb4c40c90302cb7522
+        sha256: "9b90fc12e0b629255da9f0e0a71279e2d6cdedc6537e56f8f35feb17e515702b"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "18-117"
-        sha256: fdf0b4e20421c1a2dc031a1e17af46e94736b652bb85515b853cfcb7aead6353
+        sha256: "2794a35a9ba02d3d58d53845cdd60d92d48c17dbc17f6dc64b92cc6ed14e94da"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "118-203"
-        sha256: "7a5140078b38bd45dc170c66026b1eae12a327a4252d426e2536c8c4c225a78d"
+        sha256: a67e6d5fe6660ad5ef5d4cc411c867871eea8c476b534c9784e086f2012c88f4
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "204-261"
-        sha256: b6aeda6f29ef7ada20e2b230131f530bb4695381087fe3d6cdff7caa931eec1f
+        sha256: "5ddda9d4ff81c1e3efdccc9372ba10d1638c6aaa7f2641ed4ff5ba6edd05a96f"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "262-435"
-        sha256: efe4dae62772042a55d07654a8bdb487599c85d6ab131b4d31d966dfdf9121a2
+        sha256: be835eb7e60b392431ffc6ead1f3f673c1c73a176180df1d99555c8751044c71
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -504,7 +504,7 @@ appendices:
         heading: References
         anchor: references
         lines: "595-628"
-        sha256: "591be3759b8496f861f1739834e951cebb144eece52b2ed8e0468bf36ac81943"
+        sha256: "77c912fd4bc56a24bc9e297f486b309d53202fcb7ebc786e7448a74e7d6ff346"
   - file: "2.1.A-Human_Dignity_is_Inherent_and_Absolute-Appendix.md"
     id: human_dignity_appendix
     parent_principle: human_dignity
@@ -522,43 +522,43 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "0b52506e25da8d3342165d9e7ad0df6fd936761312eff83e787796271ad7003b"
+    sha256: f1780c86e8b1bb82706346209943a6282fe487837e3dc778741d61ab8ffb4639
     sections:
       Appendix 2.1 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.1 Advanced Technical Implementation Guidelines
         anchor: appendix-2.1-advanced-technical-implementation-guidelines
         lines: "2-287"
-        sha256: "287d054659f5219c93a36128b71ad8c52b8c351305e1db477f118b417d483412"
+        sha256: "983593f2a8ad21722d9ad78feb0e3f73499b11d573a5fc35ddff76a24f13e589"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-13"
-        sha256: "51404754d8c432e9f64731a9f12925de445dde21007d390323566766daa02e8f"
+        sha256: d8646cac3f2ab90f123e95c04e3e7ee6b80b5547669e05b68b25542624a31d7c
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-64"
-        sha256: "8c71e4224e5169b314e13698a3bfacf588e579cd180fe742c24e927c2e6d0fbf"
+        sha256: b41266aa01aa09e81e1bff95c957da46d5ad731a733f1e56c44eaa6d35433641
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "65-88"
-        sha256: aef71f00ad55ec297701cc9b7ff1ca4297f30f0137774251b90569ebf9047d62
+        sha256: e27702f7a3a74968e65b6f664a033dbc53f5387ea1d0ba1a191bd6130bdd38a3
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "89-115"
-        sha256: e84ee086ba7dff47cd865e0e4b760c8d130a176f01b7ae918c355ec6d2a1a18f
+        sha256: "52019f23169f859279ecbe54521641ea43544f06014a4ba23cc272ccb2e7c7b5"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "116-128"
-        sha256: "80595a522701d2249f895fe7a5ce4f0b8af0cdfcf45101340657cd919aefdcaa"
+        sha256: fa9eec70439a59c085a088a6a8e6f56407df927588d570149865bfc7fb27eba8
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
         lines: "129-142"
-        sha256: "107d728eaf1b1586483f32123dd5dec395e822ebc5b915e0db67998879bfb6fe"
+        sha256: "697c3675a8709b059103fed2a7ddcf977e20f6bbd6f02f1096220baf75b0234c"
       7:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
@@ -588,7 +588,7 @@ appendices:
         heading: References
         anchor: references
         lines: "260-287"
-        sha256: dea414f03da59f17f26a57b3e235a6963d21c12a63d8f48ac06146e5611741e0
+        sha256: "81fda3ba69e75abd9ae2650679a663f13f47bfd7591aa3e2a16ebb0c4d23107b"
   - file: "2.2.A-Human_Freedom_Is_Fundamental_and_Inalienable-Appendix.md"
     id: human_freedom_appendix
     parent_principle: human_freedom
@@ -608,38 +608,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-10"
-    sha256: "98d668e12206267929139e29dd3e266fd65bb2a9834b78f57cf79662ebbb3928"
+    sha256: "1e9f51b584dd13497972cbb2bb45eb088a0bd18984e39df8582923d80b389b48"
     sections:
       Appendix 2.2 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.2 Advanced Technical Implementation Guidelines
         anchor: appendix-2.2-advanced-technical-implementation-guidelines
         lines: "2-310"
-        sha256: dd611b520ab8483fbe9bdc33a66b237d3cdddd3980f40bef9ebdac4bc0d31192
+        sha256: e4c05574ed26c64075c0e89adc3e3a9f2ae5d0c504d72292a43623babbbcf2ea
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-13"
-        sha256: c6b46478119152669685ee1c021902610d76577805236c0a58648af984fb3acb
+        sha256: "67426ea5f0f24209ff04a3d00445b1cc8257866738d9efb56fbe006c41b6dcf8"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-79"
-        sha256: "4a196e69a395ad8fc7ba6e2d00455d5954e341081e3d77b0f8a3f8c42768927b"
+        sha256: "2a0640004e60e91d100c8648060a4b38a2a0f8b1bac7c5bd9cafc8a41ab2ace6"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "80-105"
-        sha256: "89ce00ce31496a9ad0dbad0a16fe203e08a83633999db44e588578f47e9252f1"
+        sha256: "3f0b2533f6658c63b13a458ecf009c5acb9fc1a15f42ae43c48516db7f1f3ba3"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "106-136"
-        sha256: f58529a034d05c7f681a17a944838bfac8c6c4899f05e67287312dd6257a9629
+        sha256: ded183a9f4f04782a55b961bc310fa0a2be136803da0b727e8b9da7084d80977
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "137-151"
-        sha256: f65cabb2da64df557891787856c15dc1f942aa5b5f57f2d603e341f920aa03b9
+        sha256: ba367fdcbf9addeb2f603ae406363f9a06569b6336aed3292f08904465270cb0
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -669,12 +669,12 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "259-281"
-        sha256: "93d9383b7879424e17d9e70e2b5a52d5dfe4488de480404027a7ba6b33a25dc2"
+        sha256: f958a429e7896ea11a8a1b563da25bfeb843ae1f39e38832e3a03d65154ca735
       References:
         heading: References
         anchor: references
         lines: "282-310"
-        sha256: "104cc8b6efce9c204c4467cfbc3b1462457b9a9f7ce6bb8fb685aa90fdad9022"
+        sha256: "02fbfd4e54b58e86d0b456d74bd6db1d29dcd218e82acd9dbd57a6d3ee2b834a"
   - file: "2.3.A-Human_Consciousness_Is_Inviolable-Appendix.md"
     id: human_consciousness_appendix
     parent_principle: human_consciousness
@@ -691,13 +691,13 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: aa585ed768b83fc21fae780213b7cb393039abaaeac536cbfe28457d9641b335
+    sha256: feb6fdb2cdd1f31066e0f5fe8634c2eb614cd93604d3b95610efdfed56b52c1a
     sections:
       Appendix 2.3 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.3 Advanced Technical Implementation Guidelines
         anchor: appendix-2.3-advanced-technical-implementation-guidelines
         lines: "2-233"
-        sha256: c434ee26329ee9d1ad2da3fce84b1e516af265eb0b132a41bb8b919ee64cbb25
+        sha256: "04f7a4465411a4e48d6d2fb695859952c8095afb4a798a0d8ca1ce04dc87d7f6"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -707,7 +707,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-71"
-        sha256: "2c7bf9b92f833b779cb9999c04f3adc8d04e21b29702de60ec702cb8f2cd11f0"
+        sha256: "983a35523951273f0811df9341c12f663db61d932473a99d59bc95bf964525a4"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -773,13 +773,13 @@ appendices:
       - vulnerability_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "36bea76dcfe492009ce4118dd04102a2847d76cf47970027e98d3241ea704093"
+    sha256: be7891f805b246320d9787d766a6329f316264759817f2b981caf3716c9bed33
     sections:
       Appendix 2.4 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.4 Advanced Technical Implementation Guidelines
         anchor: appendix-2.4-advanced-technical-implementation-guidelines
         lines: "2-240"
-        sha256: aa327473e192b028c1725ef1a0906b42c6b8bd027ec8754e012d5fbe78f7e6c3
+        sha256: "7d5e8d7205e8ab5eb9cfe98c45047b02cf01c7b07906e8e6369a8d747e849acb"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -789,7 +789,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-73"
-        sha256: "67ad2d4371394a7d1e76eacd1bfd63313ed3c2f4fd8b57c31a32e4572552174e"
+        sha256: "50f50dee20888c2ccbbb0902eafc087cc79bd91d241bf55d9ff4312c7ed38711"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -856,13 +856,13 @@ appendices:
       - knowledge_integrity_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "785c88325f57c064c3bcb565eeb780f1322a8ba8c3c9b831eff5a5550e84e08a"
+    sha256: "66b986efd85efdd19bac1f2fa53d8b57a29d86cd3544f9377a4565b1906530ef"
     sections:
       Appendix 2.5 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.5 Advanced Technical Implementation Guidelines
         anchor: appendix-2.5-advanced-technical-implementation-guidelines
         lines: "2-288"
-        sha256: f2849dadeb9b7bc70fc1a9de8e847c6e7bd02c9b87b3a9652223c604f2bb0dc1
+        sha256: "04ea65fcf9efb28b6ff9406f9837a54490d034b053753c5b3caf38e9aafc7358"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -877,7 +877,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "117-139"
-        sha256: "5978622bce2e0da6dcfd6e1a1152a44dde6b948abcfb044f5367ec1fa7a6d3b3"
+        sha256: "5ce82d38f4cd4acc0020d850f1b791d2b78e087df16c76cef899ca445c5a87e4"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -887,7 +887,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "153-165"
-        sha256: "62d26ed7774462987ff41aa0e157038ff5df9dfdde10ffbed884875ad13b24ac"
+        sha256: "3f59b49ecc0183eeddb28c001bc1d72c1ed4ab44ea8636eb04cb690534f06cec"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -939,13 +939,13 @@ appendices:
       - human_freedom_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "83216ce8f2e266576a5622e8cf265de4fc56e31d480c97370b0bec7bf7c6f27d"
+    sha256: fc4afe62469082644f8b3aa73e515336f70de3ae7e52c70a2e1e7d7eb18a175d
     sections:
       Appendix 2.6 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.6 Advanced Technical Implementation Guidelines
         anchor: appendix-2.6-advanced-technical-implementation-guidelines
         lines: "2-213"
-        sha256: c9393081639ccfd4f9eb15b58109d87daaea9a88df58a8b313bcd32d0df27bdd
+        sha256: d7fef799d5b430abaa19e867cb03b1e010be0d9c2feccf0f61ea438cf0390543
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -960,7 +960,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "69-89"
-        sha256: a9ec86f2e2dded931c1fd33390768601201a6f2af28607dd0862d8d3ec87f912
+        sha256: a737517a996a89508572e881b3e4ab02a34be68827deb1d030ba7b9864961b60
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -970,7 +970,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "104-119"
-        sha256: cd6293f2ff29712d934847b43e48828556f0ea4ea9cadcf540581c9d86d78f57
+        sha256: e80becb6e0b797418b9b9b215ac69975e1ea24f0773de3f566b16779a83a85a3
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1000,7 +1000,7 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "194-203"
-        sha256: "5fa807bb24a7717db8db80cc754e8fba1219a09919926fac3d4624b9717e6c71"
+        sha256: "42956799ef51ec96236ab29cddefc2edd43b840115a217cf166d8303674f470a"
       References:
         heading: References
         anchor: references
@@ -1023,13 +1023,13 @@ appendices:
       - human_well_being_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: cacbd2c9bba7b716ec24df7df6b4be32d8df645435bb8afd9a930f43ff79c8b9
+    sha256: cdfa04a5671c3110bdacc20b1392d06f02dfcb6452fa14fe7377e18ffe250566
     sections:
       Appendix 2.7 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.7 Advanced Technical Implementation Guidelines
         anchor: appendix-2.7-advanced-technical-implementation-guidelines
         lines: "2-263"
-        sha256: c8b81a66519de2282be4f21dd79655e4153ac25355d5607bb45e443f5f1c6fe0
+        sha256: "89347b6b4f186cfd1a10104adb9e3e08ad258ce596e14504cc6362c3bf46a255"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1039,12 +1039,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-100"
-        sha256: c764dbda839cb830e590846495ead8d8f58240125b4f6b8f85a471106de72911
+        sha256: "254a25cbaef518b2d613158704696d7b663f125a1ddc7c5ec853c644f566e922"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "101-122"
-        sha256: db6b135ac0ff2acfc58058f36c0eebda4f6f271daafab68934071edbaec57f79
+        sha256: aea4fa8699223e9e15f059c79a46a23b2d34600a9d2fec007530d35f86d63365
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1054,7 +1054,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "136-147"
-        sha256: eb6e04eeddffd1309d40ba7544cbe2a86107936a160696105ee3d5248d0c9501
+        sha256: b6ffe7f9b06c3c6922958d11d53179621dc142bc243792ff5dcecfe59e9457e2
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1089,7 +1089,7 @@ appendices:
         heading: References
         anchor: references
         lines: "235-263"
-        sha256: c16e8280e6d182b4dd60b18b7e107d472c3bbede99e734ef4ca611d82d7dcf9f
+        sha256: ef80c67ebf855923ed692b4bddb84e02a226c5f74811cf03824fe16aa26c49cd
   - file: "2.8.A-Human_Self-Governance_Is_Essential-Appendix.md"
     id: human_self_governance_appendix
     parent_principle: human_self_governance
@@ -1110,13 +1110,13 @@ appendices:
       - intergenerational_justice_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "8b7ea5eca487cceb298ba5843fff7098dbfc23739778c4fa7ce7fb61297e6685"
+    sha256: df23ad203346ec1c7d64a2215c906630d34b2412f12a416bd0e9a99e57a4753f
     sections:
       Appendix 2.8 Advanced Technical Implementation Guidelines:
         heading: Appendix 2.8 Advanced Technical Implementation Guidelines
         anchor: appendix-2.8-advanced-technical-implementation-guidelines
         lines: "2-248"
-        sha256: "1d9935c0e95f20190082c410dd9e4355e1ff101d4867326e5aa18e7d701f5d25"
+        sha256: cce35a27a769465198fdd67d5e881aacb9988a69279be029fe04ec5eaad7ccbe
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1131,7 +1131,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "94-113"
-        sha256: f39557c840177ff32f2389a87ec795138e63f04eaea441073af62412b0e4250f
+        sha256: "9b10277198bb399d10706302b7a14b201f19dc97f0abafc1f627ab19e91b0a0b"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1146,7 +1146,7 @@ appendices:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
         lines: "143-148"
-        sha256: "6fe2987e3ad2844fb42f6becc0b9942c6f1476ffab770a5570723cf691695a45"
+        sha256: f346aa6dda66baa818aedb963ba9a3c8adc1fe9c3b6be37a8451d530f740db41
       7:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
@@ -1197,28 +1197,28 @@ appendices:
       - fairness_and_non_discrimination_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "842f9f1120d4c2c788e2928b2188b1da9a2eaa49381b2ee9580c51061d121d35"
+    sha256: "261046eb906950ae6f10fa04ad39785f86ee16988c910e2027f95a8c7d1edc48"
     sections:
       Appendix 3.1 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.1 Advanced Technical Implementation Guidelines
         anchor: appendix-3.1-advanced-technical-implementation-guidelines
         lines: "2-238"
-        sha256: "695635b29859e9f34259b26d5c6d31fed6e26547f73d3bd078c86a8f24d8416d"
+        sha256: "001d2ed08db10d31012989f6a1b3709d009b506bcc842cc1743156c38fd4ce3e"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-13"
-        sha256: eac35bdddf65eb9bb246859dfa8d75ab5a4b8778be08b5b6d5bbc933a3059084
+        sha256: "929215c1199087cef6eac7614dc5ef1df5c15c176c4c368d71ffe0ce8076666a"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-85"
-        sha256: "6d9e660ed6b02d04fd63292b61c21f9d0df79464afea37b62e6805340c98e793"
+        sha256: "8fc06aedbfc7717d192d97a3112871af564565a8ffe60b82d4d0990bbcf07be6"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "86-104"
-        sha256: bbff3c9b2af2f1b2aa9c31a5a79ce575eb27bf6760b1adecbaaeff54fe6fd791
+        sha256: "74bbdbee8cbcbe6ece2a49972f84455fde0ac38b7a6dadb2c38ceaab09039680"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1253,7 +1253,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "180-220"
-        sha256: "86b8300c276752c8f953599a10f28aee68955c0d56fea1c23b5e49f552a102cd"
+        sha256: d3965f186e2107d2de2600624ed7507df98d44ddbfaa20451f0894f4a0c50084
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -1281,13 +1281,13 @@ appendices:
       - knowledge_integrity_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "98bef4de892bf7eae3d651e84de577effa2495a1e7a6ea236ce8d0e40e457285"
+    sha256: "34dab1ae0c77c8d7bdf52970ded27e21e9dad975c7fb6017178127a246b051c8"
     sections:
       Appendix 3.2 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.2 Advanced Technical Implementation Guidelines
         anchor: appendix-3.2-advanced-technical-implementation-guidelines
         lines: "2-314"
-        sha256: "424856950f0a1f9a73309d8a180e7f51f285c96d308901fda70e90f421045e49"
+        sha256: ca813fd932c2d056854e5e344c5f26b6a14e4d3400d3a65638737e7e07f91075
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1297,12 +1297,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-130"
-        sha256: "03f9f4d51f35df019c93cdc73302b5cc13dc72de4f64c05820dbec09a1c4e857"
+        sha256: "760e87e8db299db411b1fcb2bf05c7d8bbf29fbdb38066739b186e9f09aa63c3"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "131-155"
-        sha256: "7b36fa65acaeb7be03d03ac008cca745ed86f89f3bca3daf3bc20ae1fe8fd503"
+        sha256: c42b0c642d771a087f9b5d5bb035733f311f81228b5d42ba7babbddb0cea7ab9
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1312,7 +1312,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "171-186"
-        sha256: a5421d064b5bb6457b3417f3b7056fa27cc744fc22ef688a6eb0eb5cd82d7024
+        sha256: "829eb49aa739c4a7a57cecaea6be2b79af5d00b619af4f01f68c4721b0955c19"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1337,7 +1337,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "226-260"
-        sha256: "2434b94bbd8f5043ccc458d951906ae8fb5db9ae3808253fd8719aebf20b9045"
+        sha256: "3877518ff9c00e2bf437531c93eb39d0314403a8e5a575e3f14f73d3fa970bfa"
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -1347,7 +1347,7 @@ appendices:
         heading: References
         anchor: references
         lines: "303-314"
-        sha256: b38dbb7949d25871f7c76c1ff5660ea45b38d34231e9951875d020ec9d55e109
+        sha256: c4633d406b1ae3e2d8d99b75fc12ccd7d1ca8c80d3b04f89ebd6c6351a5b01c0
   - file: "3.3.A-Economic_Self-Determination_is_a_Human_Necessity-Appendix.md"
     id: economic_self_determination_appendix
     parent_principle: economic_self_determination
@@ -1365,13 +1365,13 @@ appendices:
       - intergenerational_justice_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "644bcf286d51a0f84f92a845b1151ab4d3f6c8aed3e16dfaf9a03c221c575cf4"
+    sha256: e14a1fc66632150a38bad1016b34bf9bef0bede32e9e81bbe73b4da25de5c93b
     sections:
       Appendix 3.3 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.3 Advanced Technical Implementation Guidelines
         anchor: appendix-3.3-advanced-technical-implementation-guidelines
         lines: "2-268"
-        sha256: e9b2673e554b2c57ed62d88c086236d2f51ca0a1a64aa1068cf7bae8fe7f0f77
+        sha256: f5934df61b44a560da342758413871954f59b699a762f7dbc766020625ac6216
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1386,7 +1386,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "86-107"
-        sha256: "7bbc75d2dda576fa0761bbd7d90af144b9d7d9eb244ff0f3063211714a233e71"
+        sha256: "2b017bd1a2d2bbbe197acd5791c4e7af5cc4de3a3c02eef94b9c4891908ea97f"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1396,7 +1396,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "123-140"
-        sha256: "400a7dc56c32664e6e00fae4638616cf17d0e598364006fd21ae51f14771088d"
+        sha256: a6db753b401a4bfe9c2e491ea7917e195a4925d75b694622494bdc8b7abed94f
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1406,7 +1406,7 @@ appendices:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "152-159"
-        sha256: bdc99ec88665b1631cc625dcbde7a7f1ba25237d04c4c47ae5ae79dd66d4d874
+        sha256: a14731976311000242ec241ab174b41a3bbdc34887b211ba8fb14c440c630a30
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
@@ -1453,13 +1453,13 @@ appendices:
       - knowledge_integrity_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: c32e555e2312285044ad489eb2bbd8cd79c67be2d9ba42045afb888402e371c9
+    sha256: "86494973ea376a4da18ad1ba0b0cc8d1f70debf5d600bf1736b0e5532f608484"
     sections:
       Appendix 3.4 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.4 Advanced Technical Implementation Guidelines
         anchor: appendix-3.4-advanced-technical-implementation-guidelines
         lines: "2-291"
-        sha256: f9110a24c376997d300259daa1b349adb3fe61a3393c5b0bbec0b22baa229af9
+        sha256: "05db9bf22ccdb15e25a0cc3fd7dc0e6138cd4a0b75b21881e592fe5677f0ec91"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1469,12 +1469,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-97"
-        sha256: "6b8df39614a635f38d28390abf6a590b9c4887c5728e8112fec764eab0fc27c3"
+        sha256: a7cf09eb1591669cc39421fd8df6a60bb0afbb73e87012e60a53263483198d96
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "98-116"
-        sha256: "6b304c57f94fed619e89085cded8cd9ea9c7997967003ed3795d7261818c4cb7"
+        sha256: f24905de9b9909d901d278204e02b3c9338361125e0ec5d0e89cbb0910b0c1ca
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1484,7 +1484,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "134-147"
-        sha256: "5856d767b8bd08cfa30b877cc09bb74c0b338e474a45f2f3defdafece864163b"
+        sha256: "7dce890cfa3ef0147227af51806647ce4207abf62f14259cff6e8f04ae95b653"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1539,13 +1539,13 @@ appendices:
       - commons_governance_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "7022a3339aa00be496c567b08378f815027676d0d5aa60ab4697eec7ee2e17a1"
+    sha256: e0edbcc2d5ff9f8b19e5ea8358444047ef8630ad546b184ae0d604cd96ac0299
     sections:
       Appendix 3.5 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.5 Advanced Technical Implementation Guidelines
         anchor: appendix-3.5-advanced-technical-implementation-guidelines
         lines: "2-315"
-        sha256: c3850e286948d95742c0a530b4c760c59c788526e0b103f48a4e0ec2cf134778
+        sha256: "7e11c8936e2efee591697d5d2a10f1d396926561e52855e4a93d5dd616d510a4"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1555,12 +1555,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-111"
-        sha256: ec8c7cc1cb07d7b8f9735f5c2c60bdaa7d0cde90a95c09e2eadaf9c85d8492d8
+        sha256: "39f7e094098bb697f8a2662f8fbc19616cc1d8ffb7802ef7e28783a1a7ede0bf"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "112-132"
-        sha256: "9da78d617cbd0b5e210f1e52495fe546b6ccda6338c945c709a4529a08230535"
+        sha256: b9167751638fb840b447f58dcdcf34f329ec13b116a1a71d9a1a2d2553c303d7
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1570,7 +1570,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "150-168"
-        sha256: "6b8d381f244fb0f72a1b80a007d576143bbcbb38518b87fd80083778f5075ee9"
+        sha256: "9726f61d2096937d1f793ed9e8b193f0c88e1570b681063c6f280c92c7d6b8f2"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1624,13 +1624,13 @@ appendices:
       - cultural_knowledge_sovereignty_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: c90b08c93b31119d1294a2262c8025c545df74ae9d005efde362b9448bd7947d
+    sha256: "6d70abf2b2b57421881b7c44d409f404b46c9aef20a18c6a8b7aea49c8d9196e"
     sections:
       Appendix 3.6 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.6 Advanced Technical Implementation Guidelines
         anchor: appendix-3.6-advanced-technical-implementation-guidelines
         lines: "2-285"
-        sha256: "4b2b89465a442675ca6429c083cdd42ff7e3203a99dc78510aa48e207275ca1a"
+        sha256: cd7e31d92dd1b7ca5073133f516620eef89b1bd76c7f4ed7c2b55235c1193131
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1640,12 +1640,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-99"
-        sha256: "2472c370e7db38b317a09f33382434d27872986c8cb076907779388b292b8c67"
+        sha256: "2953170069ff1f5e96ee01462292c8adf3fe21debd87bcaa966a0fcb482c6aff"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "100-123"
-        sha256: "74cbca99905db0cf5bcf1a44244fb3e5fe533d615083b3f74a942123271e890e"
+        sha256: ddf05f38e3e01eb95f3965c02389885af84996e998fa35086ceb83d29e69a7a8
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1655,7 +1655,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "150-161"
-        sha256: "6a95a5cb1b22655f3af7ade1ec8b0c2709029e5f4a0371ffeadc42445343c35d"
+        sha256: d473c270d245f4814971ef31e083087e4de6eabe6ad7906bf5f4a2b1679e61e2
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1708,13 +1708,13 @@ appendices:
       - ecosystem_health_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "7cedee03168076bccc7265307451a2f22539faec411590870201c9d3f27a5abc"
+    sha256: "577eb3dae5473309d06d7fcb85725c9f22ae5dcc60e88ea3574ce185af6fd91c"
     sections:
       Appendix 3.7 Advanced Technical Implementation Guidelines:
         heading: Appendix 3.7 Advanced Technical Implementation Guidelines
         anchor: appendix-3.7-advanced-technical-implementation-guidelines
         lines: "2-272"
-        sha256: "62464ec2e1c79892413db76d19896830561c63d86d830bf5bd43c7aec4f3feb5"
+        sha256: "97d75a3be667f6bda085ada618a3668d4994524d8dc3968f976f88858d852707"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1724,7 +1724,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "16-119"
-        sha256: "646e8ad712b7f4e98bc0e382cd00be215028e72bf5e6d146f8be6eccf5d3ac65"
+        sha256: "1e7412cee4c89978f2f7c3215c1b79ae88a35815655712218da02b6608950dc8"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -1739,7 +1739,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "155-167"
-        sha256: a49dcf78215e6f351ab4685734976c3aa2cc7a2105a006f5e83b3446b9cb5d8c
+        sha256: "6f82c2172b3c348fddde729a189c854eb26eed4ba45f033cea8df3f0c7fa4a62"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -1794,13 +1794,13 @@ appendices:
       - cultural_knowledge_sovereignty_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "4121780b6c1a28ea9919de2d91147d3f9d097a56ba9f8a032df9a0cc8c524a37"
+    sha256: "4c88792ac9b8a6ab8019963f940830a01ec5c6062f0b3be6ab261a6a6c1370b7"
     sections:
       Appendix 4.1 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.1 Advanced Technical Implementation Guidelines
         anchor: appendix-4.1-advanced-technical-implementation-guidelines
         lines: "2-239"
-        sha256: "4503d735ac1a742acf897a67cb6cfc56560de62e508e5dc279c1363aac5c41cd"
+        sha256: c47d1f7a94900cc22fbc35860e608fa4dfcf7c2e7688e22e8088809db511a998
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1810,7 +1810,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "12-96"
-        sha256: b67a04fbbf5b05a9a1443de09c5533b850af8cf0a28e262886416b1f0432febc
+        sha256: "73bb887d95d080218595ce46d86aa116636a4c80bc117d891b85997ab54cee7e"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -1879,13 +1879,13 @@ appendices:
       - cultural_knowledge_sovereignty_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: b89b1812368e12b030b5d494ef5fd979be99356c6ee823549616c7c0f7a4b158
+    sha256: "232a55113a247dd19eb7023687e5ebf5be00486cde217e196a5cb75e71cc803e"
     sections:
       Appendix 4.2 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.2 Advanced Technical Implementation Guidelines
         anchor: appendix-4.2-advanced-technical-implementation-guidelines
         lines: "2-234"
-        sha256: c4848b45ac6aecea3ba02f4a5bdd8fd8534380561afbc1bb951deff2400687c0
+        sha256: cb0ec4f185be596909f2e806cef53f183bc73c71cb48694fea7f5ee194929f84
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -1900,7 +1900,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "112-121"
-        sha256: a1540ce6fe2c242d5ac9838ec1f708ec1ecdc87df799637fdb6274502d7e5e41
+        sha256: ee2e44942c44baf841497ad061407eda9ff8874870b4985e26c5c97e96c4dd83
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -1935,7 +1935,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "179-212"
-        sha256: "7855e41e32f336eeafc4845eb07745695a76a2947eb6fe68738415e21efcd703"
+        sha256: a6d678ef143a3f5a8a90aeac90c07282a62a75385c34b66b83cf2812f20f793f
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -1945,7 +1945,7 @@ appendices:
         heading: References
         anchor: references
         lines: "225-234"
-        sha256: "8c2bd6cc02ef8b9e594f21e3e6986d877986f1a3c4d8695c108e107decce107a"
+        sha256: d7a75f10ec4606dd7543cbb4b3c5033c56dab52188af4b1b6e4db890d7905b2c
   - file: "4.3.A-Human_Learning_Capacities_Must_Be_Enhanced,_Not_Replaced-Appendix.md"
     id: human_learning_appendix
     parent_principle: human_learning
@@ -1967,13 +1967,13 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "7ebe3e66f17d4b1e36e49fa7cf4e5397e9dd9f2d0de37c5ad92c11c06f47dbd7"
+    sha256: c69bc0f1327e9b8ad3589911e26b58a1c517d42298e348c3a4dad19be5ed238b
     sections:
       Appendix 4.3 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.3 Advanced Technical Implementation Guidelines
         anchor: appendix-4.3-advanced-technical-implementation-guidelines
         lines: "2-292"
-        sha256: "5c96c4b9b2a9f9db36c740a5098428b20021c89015c5d087490417547247b4c4"
+        sha256: b10be3a6be9c91fa81f8c11e06899476ee86f330efca2bfbda95a0eaa14139f0
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2003,7 +2003,7 @@ appendices:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
         lines: "180-191"
-        sha256: "04f427044c9c95d01afdd7c4adbe5254093cb43fe648182db61fc0dcd8660c65"
+        sha256: "905eb64c80c547ee8b65cccf07ca74d85130ee740b7a9c3ab19a32d14efe10fc"
       7:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
@@ -2023,7 +2023,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "236-270"
-        sha256: "4834e7bdba8d22a65becc4cf31e9ebd92d676afe71988ec1558a423b708b5a0f"
+        sha256: df8eba0c355d8afed9c7500918f75045b70c7902ce2bce1bf649e2d4fadd4025
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -2057,13 +2057,13 @@ appendices:
       - cross_cultural_exchange_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: ac6db263a8f5efd132ad3ba6b8dd61d5d3a9e2b9777dff99c1f68eebcd55aa16
+    sha256: "389a444700de1a8fc269904caabea64a5c051b4381f5f66dc84684a92a0d516f"
     sections:
       Appendix 4.4 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.4 Advanced Technical Implementation Guidelines
         anchor: appendix-4.4-advanced-technical-implementation-guidelines
         lines: "2-258"
-        sha256: c683ccf9931c9f660c636e5115f28832385de334541b508a35111e348ccb713b
+        sha256: b9a50992d5108a914a453e1bbf7a54a00917d9416814d04538559d018c84566b
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2078,12 +2078,12 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "117-132"
-        sha256: "780badccce896a612b7e52968a1a8bafa1d346a43c8d4646dd2aa669c4c0bc08"
+        sha256: "813febfc4c58a7a48b08f8f710ffcbdd228d7290571b2c8c5a01eeaaf51a2499"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "133-148"
-        sha256: "5d7354d7f5da258e3e5bac25ebd652709a944bb837f4fb6461bfc259cc4eb954"
+        sha256: "90ca58712b63b5f7efc1253adb01c312eb97ffbb8df5c1e9ac6f83fff3ba3711"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
@@ -2103,7 +2103,7 @@ appendices:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
         lines: "188-193"
-        sha256: c30ab47d00d1ab9097c904cfcb631466e7998a959771bb24777fd703f6c57ecf
+        sha256: "1f1c38889dfd3fe7b6a2c5351a6251d2fb5ae71e41e28a9a6eecc2822b422eba"
       9:
         heading: "9. Verification and Accountability"
         anchor: verification-and-accountability
@@ -2113,7 +2113,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "206-238"
-        sha256: c443f5cd241e1df8784838cbea2def3049ea483022a6164f43fc152eead00303
+        sha256: "27df877ce9b018c097799c5c15c5dfacae313ef160fe63d9fd12c15a9870f099"
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -2141,23 +2141,23 @@ appendices:
       - human_potential_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "4113cd958cad165caeacbcf755d2cd85ba135eeeffeffb9da12efbbf662c35d4"
+    sha256: ec61aa2a73b60e3cfb3bebd3737973a5d9d9ac658a12fd95ca8320aff129d283
     sections:
       Appendix 4.5 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.5 Advanced Technical Implementation Guidelines
         anchor: appendix-4.5-advanced-technical-implementation-guidelines
         lines: "2-258"
-        sha256: bfd2b18faf43bcddc6e4a66d99cb4cbdb724cd152f4626f03a56709838d87847
+        sha256: d6dfc538eeabb12a3600192bdb9ece428e1864efc750706cdc25a5a1c44b2256
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-13"
-        sha256: d4797c045dc14eb35103bf85bea12dd397bbac62f07b3e1ff8c5fa784203cd9d
+        sha256: "9b6420954f3d2f71309c24b79cf6db2a4b87b7b6317b73e6d1e43dac32fd6a56"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-99"
-        sha256: cf270d5f0f9bcb0dd65738c66090fe2cda4a201a45e63bae86e993e70e77a724
+        sha256: "66d749f4cd1e3d120aacfbc375bf5bc39ab5146b2789753fc1eeadb77dc9c4f5"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -2172,7 +2172,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "128-149"
-        sha256: "15a69415be914238f074b93239f8f41208b58b65d633e33f693e808ea45f6a02"
+        sha256: a9e705601b2e29f5801caeac9c73d0b93871338a5a47ad5d2b23ec2788a96a54
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2182,7 +2182,7 @@ appendices:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "156-173"
-        sha256: ee7131a98b8d47f0f5caf68b738038b3c487db364650ac0e2b8773f6a0ca67dc
+        sha256: cc583e2eb485ef343c7a45c1983c858a6d5c1308456d77967cd95735bff17695
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
@@ -2202,7 +2202,7 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "235-248"
-        sha256: bdc186b18eea9687faf522466d34b881c1fbdd988c2099292cc4eeb0a54faa82
+        sha256: d19d4921701b565b05fc57dff3283e2f5d2d7710956d2d7189e6f675b70aaf7d
       References:
         heading: References
         anchor: references
@@ -2229,13 +2229,13 @@ appendices:
       - cross_cultural_exchange_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "669bae96775575c312732f5cd384942d10f3a342b0ba8681af1a08c5a8f45724"
+    sha256: "54bdc0c5f7ecf51723fc4d230b52b3f240dbadf17fae8f2d05b951f9af951e85"
     sections:
       Appendix 4.6 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.6 Advanced Technical Implementation Guidelines
         anchor: appendix-4.6-advanced-technical-implementation-guidelines
         lines: "2-286"
-        sha256: "2272656d70115a5caaeb7f3edecb52dbfeef66f37c6cd4a4e41289364301e7b8"
+        sha256: efe432359e6e8a903640df4a2b3d0db7a02a9248e778989fd19d0f046f6532d8
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2245,7 +2245,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-117"
-        sha256: "7cd84d94ee81e26a45fed4e21aea30e6ea79f8fbb3fa345f7744ce960b5a3b80"
+        sha256: fb435ddeb941d69ffce390e981d48fd96999159e5664dfaee42c0d8ab447df23
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -2260,7 +2260,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "156-174"
-        sha256: "44e8321ac612a256c770883172c534cb50a87582cdfb57b5adbf352ccb68fddd"
+        sha256: "2aac5f57bad2c761f7969bdda535ff899205202c60f5142be4a25f61eb5ad486"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2314,13 +2314,13 @@ appendices:
       - fairness_and_non_discrimination_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: c672859366124327d8518bb9c9a07f0547d5974499e8fa01eeb12aeef1e29f54
+    sha256: c3bd7b96e3a9caa897c7360a59f6abeca320f087825d545f525c93278e9ca452
     sections:
       Appendix 4.7 Advanced Technical Implementation Guidelines:
         heading: Appendix 4.7 Advanced Technical Implementation Guidelines
         anchor: appendix-4.7-advanced-technical-implementation-guidelines
         lines: "2-231"
-        sha256: "9429191275c9e6612c2a3908e52b25e6950fd58c7b3ba9380f6f2060d16a82dc"
+        sha256: "2d3042692598d65c902127d0b35b18d9bd4d5444bbd963e027cf9dc356420de3"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2330,12 +2330,12 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-103"
-        sha256: "4c60a91239474df7296a723388696307d7bd5cf1e928296393103925d078c21e"
+        sha256: "876f31d86f45e8072045b7edffd83844a93caaa24d4c3833c8178d15cd0513fb"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "104-111"
-        sha256: "1dd932e9653c8e2d17b3e7a9380e2a5508ef24d32f3724ea3d778443c7c2e310"
+        sha256: "7c851b29d8194b2458f3d64e4e784e9c38622597a057edee4480141dd545c5c0"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -2345,7 +2345,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "129-144"
-        sha256: "7105a2c9bdd9d04f1beed844c0d67f1a57142853f115498915a6d26d35885717"
+        sha256: a68ac84fdebc0b80eb3473a38d6006d7ea4faf03c780d8637a0a048e3cd20a30
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2375,7 +2375,7 @@ appendices:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
         lines: "210-221"
-        sha256: "29cd60808f18241550cb4d10f4ec367ed7abd17406571ebd3c0da7273ea2759d"
+        sha256: "78e21722e7d69788cdbf0d441499016061a3dfb65f8cce681f0057010474132e"
       References:
         heading: References
         anchor: references
@@ -2403,13 +2403,13 @@ appendices:
       - human_self_governance_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "2f3f613cdfa0560e0c9ad0bbee497db5a1b3e155b8afc94677ed346b917d6690"
+    sha256: eb5bb4c8f82d30fb7a64c6b5c6704ec8975e2ab5b062e7c8ef9d80645e7792c0
     sections:
       Appendix 5.1 Advanced Technical Implementation Guidelines:
         heading: Appendix 5.1 Advanced Technical Implementation Guidelines
         anchor: appendix-5.1-advanced-technical-implementation-guidelines
         lines: "2-283"
-        sha256: b5c0f4a10443335eb43c5acda3b4bb86cdc9b7a9def86d55c1cd1e73f83c7f9c
+        sha256: d508df24ed71ad072953ef56399639c9afbf0d15eb4feec758607c5d9b6fd4b7
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2419,17 +2419,17 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-113"
-        sha256: "7f7481308257198b2c099b19a0ad11cd066111cdcb15ca8850b9aafc7cfeab86"
+        sha256: fb3256cc2b1468eb2809f5c8df98fa8f371fe490a5f0c84d624315eed36d644e
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "114-131"
-        sha256: f84d255367643146e187e38ceb2103c19b5d676703a03bc40de0fdb976e8085b
+        sha256: "25e6c198436084870a16c431201721018cf769eb9aea366fbfde169526a8c35e"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "132-152"
-        sha256: d342200a8051a868c5b5504ac03c28d8882672675068fca8c970124e450b0924
+        sha256: "364a6228f9d36b4008d5b2ddc37cbe99314fee5bda5d2de13433c42e76d918d0"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
@@ -2439,7 +2439,7 @@ appendices:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
         lines: "175-187"
-        sha256: "708d614197250c74c00c0522ace05955310bc82ce280a8d9f93a46ef270ee007"
+        sha256: e9cb55be191a6640c4b49bcb27589ea9f92d0ad7b62350c22632398c640ba176
       7:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
@@ -2459,7 +2459,7 @@ appendices:
         heading: "10. Legal, Regulatory, and Standards Integration"
         anchor: legal-regulatory-and-standards-integration
         lines: "228-263"
-        sha256: "7830e2dacc7000dc3602e8e627f1c577ec7faa64dd330b95460122501aee3cd2"
+        sha256: "95178bc1db6f9b92ddd420431e1827fe29a54ad9a233eb936fa5ee4c0ab51ea3"
       11:
         heading: "11. Implementation Examples"
         anchor: implementation-examples
@@ -2469,7 +2469,7 @@ appendices:
         heading: References
         anchor: references
         lines: "276-283"
-        sha256: "24aa3da81b7f9695fee3d2ad115783cb1c1e69bb5ec4c49f48b2ec6956aac958"
+        sha256: e86841ce2571806afdef1bd0614ed9b6f416d23f27a8a08718da3b2e3f49f834
   - file: "5.2.A-AI's_Resource_Footprint_Must_Be_Bounded_and_Sustainable-Appendix.md"
     id: ai_resource_footprint_appendix
     parent_principle: ai_resource_footprint
@@ -2490,13 +2490,13 @@ appendices:
       - environmental_burdens_equity_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "00e032c2f6dc70847ee0525aead6fbf3b4fc9e6ce63eb3db26e3911b7684b289"
+    sha256: "605f6afc219dbc4d9f81a0078c6841378786017252708e861fe385dcef856a09"
     sections:
       Appendix 5.2 Advanced Technical Implementation Guidelines:
         heading: Appendix 5.2 Advanced Technical Implementation Guidelines
         anchor: appendix-5.2-advanced-technical-implementation-guidelines
         lines: "2-241"
-        sha256: "306b12a02889d185f304c6b846c6c7594ca5c4166b0de5997f7c95db0730fea1"
+        sha256: "8cd2d55f254505d88f01069e2577014a786e04b2a93b908524ba9c6bfc41a35d"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2506,7 +2506,7 @@ appendices:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-107"
-        sha256: "593719d9623770ce2492bf453086d584bcd89d3ca4e00efdef8b14fe628ffe9e"
+        sha256: "0e192b517d140ffd693a0dc999d5a2d1d693dbe6eea672ea02101f55092631d0"
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
@@ -2521,7 +2521,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "133-150"
-        sha256: "20cc8fbb119af9d97b46fac570ccc67eb17eca54a60603731544570f3f86290f"
+        sha256: "19fe9aadd4d6a7ccf6e8974c5025290db447a9f6f95f87dac796528f243a5156"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2574,13 +2574,13 @@ appendices:
       - algorithmic_accountability_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "2f98b8c1d4a8fde5adf3cde2a25e8f9082d4dabfe3d50f5a10ba5d6c50301028"
+    sha256: "1ed1e55673709a7f37ff9c3cead0ccd60bdf382697af89089359b259e043cae3"
     sections:
       Appendix 5.3 Advanced Technical Implementation Guidelines:
         heading: Appendix 5.3 Advanced Technical Implementation Guidelines
         anchor: appendix-5.3-advanced-technical-implementation-guidelines
         lines: "2-214"
-        sha256: caa4e92231615f2ef82455bc5ab265fe0dab5f873cd9a325fdc38646acab10dc
+        sha256: be851bf2c50b558bcf03f92d8305a2ae06af93ac8cc412737cf4a233582076e4
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2595,7 +2595,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture
         lines: "72-87"
-        sha256: "34c442be6745cc9c0d17dfd07e234573c286922bdbe34ad860a92cb75d9c4df3"
+        sha256: "234983c6e24d1352540ed1db2fc55d632cb0fe4f4375f5349b802ec1ad24257e"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -2605,7 +2605,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "103-116"
-        sha256: "6264d50cfa4b24930fad182479ee649b1bb7b8e956e5e00708bc4e7d1ccb2f42"
+        sha256: "877d95d99a22828f61c0867c22196763b516ff5237ba36db4dc127939040d755"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2661,13 +2661,13 @@ appendices:
       - cultural_knowledge_sovereignty_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: fd82480d23dc8e3e20390f18d0ada692b9897e3d8cbf1755a60d134cb56f03a0
+    sha256: "453916736c4bb29a69779fa374dafe155a0b70284f3940cebb8756caf4855b46"
     sections:
       Appendix 5.4 Advanced Technical Implementation Guidelines:
         heading: Appendix 5.4 Advanced Technical Implementation Guidelines
         anchor: appendix-5.4-advanced-technical-implementation-guidelines
         lines: "2-249"
-        sha256: acb0b9f92c75edc9bdd22fe538315d9732c106f5c201474f1929187f8b1529a2
+        sha256: "71ec5955462f51ca0f6d81c00fb85e39c61fe6517e803a658f1f5362373333a9"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2682,7 +2682,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "86-102"
-        sha256: "626def8fd236f4a4e808560ba21fb64a3164300d5bacb6bef621ad0fb2e5d991"
+        sha256: "2f7f4f3e138ec62e0f235c1b196ae05d56206ce2f884b584adb304f0e38e9b90"
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -2692,7 +2692,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "120-136"
-        sha256: "9a1a97621141fb0fe971aa392264c2554baeb57cdf65f159606e545f00d9772d"
+        sha256: "9692f3b941a3a52ee2e0f18ecb7f820e2c27e9a2e3eb89d54285b7d297b41f7e"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2727,7 +2727,7 @@ appendices:
         heading: References
         anchor: references
         lines: "240-249"
-        sha256: bfac5db9b165eb013b6d2530bd85ea81b1f0d6f2eb79255fc3c0e533ca5ead9b
+        sha256: "62890c9009963a44ecb97b787cef62c6356df3359367cb9c911cfa85be3d9974"
   - file: "5.5.A-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations-Appendix.md"
     id: biodiversity_appendix
     parent_principle: biodiversity
@@ -2750,13 +2750,13 @@ appendices:
       - human_well_being_appendix
     status: canonical
     last_edited: "2026-09-13"
-    sha256: "98c0ab520343e8ef491cc8c460f2ec2ee34d923a3dbd46c4af47bb9ef6d5ca6d"
+    sha256: "0002cbf3f59673547c4112eb3a2a4826940a30ae0cefa3d99eddc6971827a219"
     sections:
       Appendix 5.5 Advanced Technical Implementation Guidelines:
         heading: Appendix 5.5 Advanced Technical Implementation Guidelines
         anchor: appendix-5.5-advanced-technical-implementation-guidelines
         lines: "2-260"
-        sha256: "7ba2a4f71a5120e049c9483171c392f8ed0b9a8c4693da1cb10c83f099cec4a3"
+        sha256: "947ffd5643ab3c38e4c7bc26627641bc65def8b9f7ab2d87a4f56bb09a4a5320"
       1:
         heading: "1. Purpose"
         anchor: purpose
@@ -2771,7 +2771,7 @@ appendices:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "88-105"
-        sha256: "36c17c1641e8d864a4e9fa40e50db482147f069b097027dc554864e63bfc737d"
+        sha256: e1a5e583acea91aa6c7043ff5910d801db4fda5e22d7001a91e12af956a87925
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
@@ -2781,7 +2781,7 @@ appendices:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "124-149"
-        sha256: "878322bdd1fe59eec4b0442c4322857f8115855933b87c349c0e425c88cc5465"
+        sha256: "821c8dee844ec0c64c99fadc068864cfbfee986c04db43a2b3099d07ece24cec"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2816,7 +2816,7 @@ appendices:
         heading: References
         anchor: references
         lines: "251-260"
-        sha256: "60f3616a8af3aa459f9ffb60bc71f04ac26178f670dca5661751a6757ece83a8"
+        sha256: "6600cd6916f3fa053d98c53cb5eeb2108ffdb6185545b6ffd028f1c2345e450e"
   - file: "5.6.A-Global_Environmental_Cooperation_is_Essential-Appendix.md"
     id: global_environmental_cooperation_appendix
     parent_principle: global_environmental_cooperation
@@ -2920,38 +2920,38 @@ appendices:
       - human_judgement_appendix
     status: canonical
     last_edited: "2026-09-09"
-    sha256: "06ae06210ae5256774ba4ea9993d02d158eec759a49686ef76a6982b2c37107b"
+    sha256: "3b41df680e988cac94aa7552a95df8fb758d99ec01339e4b65be78c5dfd1bc0f"
     sections:
       Appendix E.A Advanced Technical Implementation Guidelines:
         heading: Appendix E.A Advanced Technical Implementation Guidelines
         anchor: appendix-e.a-advanced-technical-implementation-guidelines
         lines: "2-198"
-        sha256: "1a02efd3dc2045befa86b88b1d044a11ba2b49c213cd7ef8559970461b57c949"
+        sha256: "321eae85a1736f8a3327c354e24c6a61e7e57a8e35e3d87f450e617491a6e87b"
       1:
         heading: "1. Purpose"
         anchor: purpose
         lines: "6-13"
-        sha256: d1fc995761ab33b54a9ea4b45bc141b3a19f942ce43f9fa18695a4ee2fd67f59
+        sha256: "19b07caba0a97207588990294991b1f090a586be4c32903e86f4df9e31974974"
       2:
         heading: "2. Metric Specifications"
         anchor: metric-specifications
         lines: "14-53"
-        sha256: "4be2276ce86ee6fb6ee6b3aad6d3f8c08f04759f9116208bd54060ff50417ab3"
+        sha256: ef66636ce6477cd269ba13910950941cacea9185acb05d9fc5236504a054ea10
       3:
         heading: "3. System Architecture and Operational Requirements"
         anchor: system-architecture-and-operational-requirements
         lines: "54-71"
-        sha256: "2013196636bc0137d22ff6256021187817738a0d5598068d391c3d14ef1959ea"
+        sha256: db01a5ed2f3dbcd7df29208d35aac080d3f6f2a1a82556316f8b3b0b22b9bd81
       4:
         heading: "4. Adversarial Robustness"
         anchor: adversarial-robustness
         lines: "72-91"
-        sha256: de9d15bab6993c721d50f87583aa76e476ed4392a5bd47f7174ff82e6d4da94b
+        sha256: "17e908df6e14be8129f87ee25331cf26c16b05977c485485914cfbcadd862730"
       5:
         heading: "5. Cross-Principle Integration"
         anchor: cross-principle-integration
         lines: "92-108"
-        sha256: d0fb93ce1ff46ca60d93f7de94a0ec8e1141c79f3088928cc8e93ee990f0139d
+        sha256: "03bbedf1e7c3d94851a4b0fcd62c8b711d4bcec688ee593eebb7c1635ea7a045"
       6:
         heading: "6. Jurisdictional Variation"
         anchor: jurisdictional-variation
@@ -2961,7 +2961,7 @@ appendices:
         heading: "7. Sector-Specific Considerations"
         anchor: sector-specific-considerations
         lines: "115-123"
-        sha256: ecfb01c26b24472fa2509aaf74e77be04757fd9ddc2706c8fdaf4e897e828f1a
+        sha256: "64dd4cd5c678888bea698fcbe0ad8ebf90388045b9c71cc49874ac469653ecb8"
       8:
         heading: "8. Governance and Versioning"
         anchor: governance-and-versioning
@@ -2986,4 +2986,4 @@ appendices:
         heading: References
         anchor: references
         lines: "189-198"
-        sha256: c7e21bb9789942de7cc761751ffc1286a4c703bc0349730247d8604579214d74
+        sha256: "004be7013264676ab01ccfbcd863c3ff785997824471654ac36100a1b8f1f2ac"

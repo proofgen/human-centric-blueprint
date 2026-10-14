@@ -100,7 +100,7 @@ Keeping these out is what stops the graph from quietly absorbing the whole corpu
 
 ## 5. The graph
 
-The edges declared by name; the compiled graph (section 7) carries the full set.
+The edges declared by name; the compiled co-requisite graph carries the full set.
 
 **The consent hub:** the consent-validity bundle (§3), inherited by every consent-operating principle `CONSENT.md` section 4 names (2.4 as hub; 1.2, 1.4, 2.1, 2.2, 2.3, 2.5, 3.1, 3.2, 3.3, 3.5, 4.2, 4.3, 4.4, 4.5).
 
@@ -115,7 +115,7 @@ The edges declared by name; the compiled graph (section 7) carries the full set.
 **Other firm edges:**
 
 - **P1.4 Trust requires P2.4 Identity:** an attestation is void without an attester.
-- **The survival wall (Constitution Article 9, from the Cardinal chapter's Ethic F) requires P1.4 Trust:** concealment of a self-persisting act is deception; the two walls breach in one act.
+- **The survival wall (Constitution Article 9, from Ethic F of the Cardinal Operating Principle) requires P1.4 Trust:** concealment of a self-persisting act is deception; the two walls breach in one act.
 
 **Further firm edges:**
 

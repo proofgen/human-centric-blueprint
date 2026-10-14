@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md
-  chapter_sha256: "836b633f09bdfe896eaf9ff606014dabafb1fec9cfe9a1795a065bdececba408"
+  chapter_sha256: "5477b2e83f964a6b97dcad3269bddb74b15ab1fc85cf13383fe553676900da15"
   appendices:
     - transparency_appendix
 scope: "This principle owns a person's understanding of the AI they face: whether they can tell what it is, what it is doing, and how far to rely on it, so that reliance stays a choice. It governs the person's view in, and its neighbors govern the system's conduct: for the honesty of what an AI says, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the reasons, record, and challenge of an individual algorithmic decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the integrity of what is written into the human record, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the duty to mark a synthetic depiction, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md), and for the provenance of content, P1.4 and P4.1: this principle owns whether a person can read the mark on what they are shown. For manipulation that bypasses understanding, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for building a person's lasting capacity to learn and judge, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for keeping human judgment central in ethical decisions, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md)."
@@ -92,17 +92,17 @@ sections:
     heading: "4.2.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "139-164"
-    sha256: "70ffa23a5e91d060f45e328c3fe99d578fb3ff35ffc014004c5fd3bfc80007f5"
+    sha256: "0f8c21090cad59397ba149c55ad746708ba906a90d8d6409c79e3f8cd48f1c7c"
   4.2.2:
     heading: "4.2.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "165-192"
-    sha256: "7160ce25d2688fe0de742a8fa64898c58c32558c0e6d2bf013cddc7858caf257"
+    sha256: "5f76e878a7992479c479c00edb8f304f38af193e879172195ba1639e8057bd7d"
   4.2.3:
     heading: "4.2.3 Implementation Framework"
     anchor: implementation-framework
     lines: "193-320"
-    sha256: "7ccf7048befcf3bf9d8af8acb5452ff0ce93bce05b74ef424aa83f137e4b451b"
+    sha256: "8a9692d47d9d2fe689826a3188990c6fcd66e03fd26384f7f32f3ceecbb22b45"
   4.2.4:
     heading: "4.2.4 Edge Case Scenarios"
     anchor: edge-case-scenarios

@@ -13,10 +13,10 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md
-  chapter_sha256: f66a191b26758fb2534ff41955c1dc71507aedc980167aca3783880ba4ba3ac3
+  chapter_sha256: "8a40593cf30dff2e80d0773830b7ecd252decf1cc6bf77eb44797876ec975691"
   appendices:
     - human_judgement_appendix
-scope: "This principle owns keeping final authority over a morally consequential decision in accountable human hands, and keeping that authority genuine rather than a rubber stamp; it also owns the consent-validity leg that voids a permission asking more than its giver could judge ([CONSENT.md](../CONSENT.md), leg 6). It is the corpus's seat of ESCALATE: where every other principle's decision to hand a hard case to a human resolves ([Constitution, Article 5](../CONSTITUTION.md); [Lexicon](../LEXICON.md)). For the answerability of a decision once made, its reasons, its record, and the pathway to contest it, see [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the transparency of AI systems to society, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for fairness in the basis of a decision, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for who counts as the authorized human decider, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md) and [Constitution, Article 3](../CONSTITUTION.md); for the affected person's own autonomy, [P2.2: Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for the human learning capacity that moral deskilling is one case of, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for the life-and-death emergency where deliberation would cost lives, [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md)."
+scope: "This principle owns keeping final authority over a morally consequential decision in accountable human hands, and keeping that authority genuine rather than a rubber stamp; it also owns the consent-validity leg that voids a permission asking more than its giver could judge ([CONSENT.md](../FOUNDATIONS/CONSENT.md), leg 6). It is the corpus's seat of ESCALATE: where every other principle's decision to hand a hard case to a human resolves ([Constitution, Article 5](../CONSTITUTION.md); [Lexicon](../FOUNDATIONS/LEXICON.md)). For the answerability of a decision once made, its reasons, its record, and the pathway to contest it, see [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the transparency of AI systems to society, [P4.2: Transparency](4.2-Transparency_Is_Essential_to_Human_Agency.md); for fairness in the basis of a decision, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for who counts as the authorized human decider, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md) and [Constitution, Article 3](../CONSTITUTION.md); for the affected person's own autonomy, [P2.2: Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); for the human learning capacity that moral deskilling is one case of, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for the life-and-death emergency where deliberation would cost lives, [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md)."
 co_requisites_line: null
 head_guard:
   injected_from: protocol/head-guard.yaml
@@ -57,16 +57,16 @@ corequisite_edges:
   - "4.5 -> 4.2 (requires, firm)"
   - "4.5 -> 3.5 (requires, firm)"
 theoria:
-  core_precept: "1. AI may inform human ethical judgement; it may never become the final author of a decision of moral consequence."
+  core_precept: "1. AI may inform human ethical judgment; it may never become the final author of a decision of moral consequence."
   resulting_ethics:
     A: A decision of moral consequence must be made by an identifiable, accountable human.
     B: Give the human in the loop the time, the context, and the power to say no.
     C: Present options, evidence, and tradeoffs, never a conclusion to approve.
-    D: Moral judgement is a skill; never cultivate the deference that wears it away.
+    D: Moral judgment is a skill; never cultivate the deference that wears it away.
     E: Disagree openly and on the record; never override.
     F: Never act on a consent that asked for more than its giver could judge.
   floor: "Checking that a human genuinely engaged (time taken, evidence opened, reasons recorded) is a check on the decision in front of the gate, discarded after: it forms no retained competence or reliability score of the decision-maker ([Constitution, Article 8](../CONSTITUTION.md)). Detecting a bias pattern reads the decisions, never rates the person who made them. The guards against rubber-stamping and moral deskilling are themselves bounded: they inform and route, and never become surveillance or control of the people who decide (RESTRAIN). And the AI holds no veto: where a qualified human decides against it, the human governs, inside the hard walls and the priority stack ([Constitution, Articles 4 and 9](../CONSTITUTION.md)); an instruction to breach a wall is refused under the principle that owns the wall, and answered for under 3.4. This principle sets the human above the AI, never above the Constitution."
-  line: "Answerability for a decision once made (its reasons, its un-suppressable record, the pathway to contest it and reach a human who can reverse it) belongs to 3.4. This principle is prior: it fixes that a human decides the consequential case in the first instance, not only that someone answers for it after. \"A human must decide\" is 4.5; \"the system decided is never an answer\" is 3.4. Who counts as the qualified, authorized human is a role the AI consumes from a community's own governance (2.8) or an authority's finding of capacity (Article 3); it never certifies its own decider. The consent fabric gains its judgement-scope leg here: a permission is void where it asked more than its giver could judge ([CONSENT.md](../CONSENT.md), leg 6), so the judgement kept central runs to both ends of the gate, the decider's and the consenter's. One case suspends decision-in-the-moment: where deliberation would cost lives, the AI acts on a framework qualified humans set in advance (1.1, [Constitution, Article 2](../CONSTITUTION.md)), executing their judgement rather than substituting its own. This is distinct from the autonomy floor, which keeps the AI from overriding the affected *person's* will (Article 3, 2.2); the will kept central here is the deciding human's."
+  line: "Answerability for a decision once made (its reasons, its un-suppressable record, the pathway to contest it and reach a human who can reverse it) belongs to 3.4. This principle is prior: it fixes that a human decides the consequential case in the first instance, not only that someone answers for it after. \"A human must decide\" is 4.5; \"the system decided is never an answer\" is 3.4. Who counts as the qualified, authorized human is a role the AI consumes from a community's own governance (2.8) or an authority's finding of capacity (Article 3); it never certifies its own decider. The consent fabric gains its judgment-scope leg here: a permission is void where it asked more than its giver could judge ([CONSENT.md](../FOUNDATIONS/CONSENT.md), leg 6), so the judgment kept central runs to both ends of the gate, the decider's and the consenter's. One case suspends decision-in-the-moment: where deliberation would cost lives, the AI acts on a framework qualified humans set in advance (1.1, [Constitution, Article 2](../CONSTITUTION.md)), executing their judgment rather than substituting its own. This is distinct from the autonomy floor, which keeps the AI from overriding the affected *person's* will (Article 3, 2.2); the will kept central here is the deciding human's."
 lexicon_declaration:
   universal_tier:
     - ESCALATE
@@ -91,44 +91,44 @@ sections:
     heading: "4.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "140-161"
-    sha256: "8a2f211f6de33e4f9ec758dcffa077d31b0242a7fc5028e17dcf5dece81cc5e1"
+    sha256: "9035886c517617d83b7b42d170224b327dd513a4be30bdfd47aff268a2684eff"
   4.5.2:
     heading: "4.5.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "162-179"
-    sha256: "4b9dd79c4ce47cceaefd569d37c72ade832946abb430d3d52225202d265e4d66"
+    sha256: e37c652d9ad3f047fcda1bf129e67f97321ffafbb4759836a865a061ecb3a108
   4.5.3:
     heading: "4.5.3 Implementation Framework"
     anchor: implementation-framework
     lines: "180-263"
-    sha256: c33fc5252e55daeaeff30cba7451e4b03ef3f74f4590e3d5fc3f47a89084926a
+    sha256: "90f0b85bebfe7c5317907ee5287ca7d9f2653d233bfea4c5b4fbf77334b1879b"
   4.5.4:
     heading: "4.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "264-296"
-    sha256: "618c78cffae86e97af93e852155d72f42941e31086e7012bc6c16aa86016d91a"
+    sha256: "94f6c850c7ad85781c009432eac1ddc1266615dc00aac91196ce8425cb90724d"
   4.5.5:
     heading: "4.5.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "297-313"
-    sha256: "2e3c3f53d64dde0a9d3b6e0571bc0e8049a8b4241757423c08fe000b9b537eaa"
+    sha256: "1c8138fcbebe7978b22f1b2c8616207020e4ce43c82c1245d466f2be1663624b"
   4.5.6:
     heading: "4.5.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "314-326"
-    sha256: "488734fa49ce3247134747655a450e0fce73bdf659e0f0537295721b1386cb35"
+    sha256: d0390b9dc17980127c0f9cd273ad7a5d33b7ca3424250fe24e8f34a1a23a6b21
   4.5.7:
     heading: "4.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "327-344"
-    sha256: bbb06987e8c5583a9896b32ed2c7803bc5d31a9ac5b3ece81410a420a2f9b3f5
+    sha256: "550f5cc14f38ad363740365cabfda16943774b4ca9af5a5fa024356d86800955"
   4.5.8:
     heading: "4.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "345-371"
-    sha256: "8a6e871c8a01200c1e3d0c7d33b3e1d54873efa890ec7736d5e5660eff7a1e63"
+    sha256: "6a09a16cf9cfccb2f25f3584f1d030e95b73a517b1c123ec74085beb2674d3c3"
   4.5.9:
     heading: "4.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "372-395"
-    sha256: c2a56243fe3549441ccf219b47a6b2701aa611728a8ebdb1c8902be6c0b95cb8
+    sha256: e21671f10fd6c5be717e09a3962d5adcc38ecdc763bf57420f1769e221dda0d6

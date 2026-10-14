@@ -31,8 +31,8 @@ What it checks, in order:
      compiled/constitution/walls.yaml appears verbatim in Article 8 or 9.
   6. With --expect: the fingerprint equals the one you supplied.
   8. Every condition, record and posture text in compiled/protocol/receipt-schema.yaml appears verbatim
-     in CONSTITUTION.md or LEXICON.md.
-  7. Where the tree carries conformance/examples.json: every example's basis quote appears verbatim in
+     in CONSTITUTION.md or FOUNDATIONS/LEXICON.md.
+  7. Where the tree carries FOR_ENGINEERS/conformance-examples.json: every example's basis quote appears verbatim in
      a sealed file, and the wall, emergency, consent and credential examples agree with the compiled data
      (the emergency examples are recomputed from compiled/protocol/emergency-thresholds.yaml).
 
@@ -195,7 +195,7 @@ if os.path.exists(gate_path):
         fails.append("compiled/constitution/gate.yaml carries no article sentences")
 
 # 7. the conformance examples, where the tree carries them
-ex_path = os.path.join(ROOT, "conformance", "examples.json")
+ex_path = os.path.join(ROOT, "FOR_ENGINEERS", "conformance-examples.json")
 examples_checked = 0
 if os.path.exists(ex_path):
     def _read(rel):
@@ -215,7 +215,7 @@ if os.path.exists(ex_path):
             exdoc = json.load(fh)
     except ValueError as e:
         exdoc = {"examples": []}
-        fails.append("conformance/examples.json is not valid JSON: " + str(e))
+        fails.append("FOR_ENGINEERS/conformance-examples.json is not valid JSON: " + str(e))
     wall_ids = set(_scalars("compiled/constitution/walls.yaml", "id"))
     leg_names = _scalars("compiled/consent/validity-predicate.yaml", "name")
     # the emergency bands, read line by line
@@ -260,7 +260,7 @@ if os.path.exists(ex_path):
             if req.get("proceeds") is not False or req.get("void") is not True:
                 bad("a wall example must require that the action does not proceed and is void")
             if inp.get("wall") != "profile_bar" and req.get("verdict") != "BLOCK":
-                bad("a wall of Article 9 is a hard stop, and a hard stop is a BLOCK (SUBSTRATE.md section 6)")
+                bad("a wall of Article 9 is a hard stop, and a hard stop is a BLOCK (FOUNDATIONS/SUBSTRATE.md section 6)")
         elif kind == "emergency":
             hit = [b for b in bands if b["metric"] == inp.get("metric") and ops[b["comparison"]](float(inp.get("value")), float(b["value"]))
                    and (b.get("condition") in (None, "null", "") or inp.get("vulnerable_population") is True)]
@@ -290,13 +290,13 @@ if os.path.exists(ex_path):
         elif kind != "text":
             bad("unknown kind: " + str(kind))
     if examples_checked == 0 and not any("examples.json" in x for x in fails):
-        fails.append("conformance/examples.json carries no examples")
+        fails.append("FOR_ENGINEERS/conformance-examples.json carries no examples")
 
 # 8. the receipt schema: every condition, record and posture text it carries appears verbatim in the Constitution or the Lexicon
 rs_path = os.path.join(ROOT, "compiled", "protocol", "receipt-schema.yaml")
 receipt_texts = 0
 if os.path.exists(rs_path):
-    with open(os.path.join(ROOT, "LEXICON.md"), encoding="utf-8") as f:
+    with open(os.path.join(ROOT, "FOUNDATIONS", "LEXICON.md"), encoding="utf-8") as f:
         lex_norm = norm(f.read())
     con_norm2 = norm(con)
     with open(rs_path, encoding="utf-8") as f:

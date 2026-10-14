@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-10"
 source_layer1:
   chapter: CHAPTERS/1.5-Human_Potential_Is_Fundamental.md
-  chapter_sha256: bec2bf5c7d73496e1ca90173f14a2be5786dd6e16cdcb426db1bb6e218b00314
+  chapter_sha256: "01b833534e100ed2d52ff43ebaa6a0e26d282ccc7ce3cc016358735df33ebd05"
   appendices:
     - human_potential_appendix
 scope: "This principle is the broad umbrella for the protection and cultivation of human capability across physical, intellectual, emotional, creative, and moral dimensions. For the cognitive-development specialization, which preserves the capacity to learn, think critically, and create against AI substitution, see [P4.3: Human Learning Capacities Must Be Enhanced, Not Replaced](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md). For the freedom to exercise and direct those capacities free of coercion, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md)."
@@ -79,42 +79,42 @@ sections:
     heading: "1.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "132-166"
-    sha256: "5aca668d4a33a9dcb4fc8a307d175fa8de1378e300455fca110d482f9d80e534"
+    sha256: f404bcb73117c1438d2bf221b8cbc4a34873a8b33beebd427f7e6ce72e7b33a1
   1.5.2:
     heading: "1.5.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "167-221"
-    sha256: "0c96000782679984d168b4061edf193ccf681f2f546edbf36ab19245eb5be016"
+    sha256: "915bc0097d159bb92b088772409079a86d42e726be4f5bbd34edf949ad83543f"
   1.5.3:
     heading: "1.5.3 Implementation Framework"
     anchor: implementation-framework
     lines: "222-403"
-    sha256: bb8bced3453455cc450dda9574e1d8f4323b017e37c9ccb8a33087fe6acaf29e
+    sha256: d6b9c4ce6771da7b9f6e105fdbca6e99a9081347c4c8a9ac7bf2e43abd2ad65a
   1.5.4:
     heading: "1.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "404-534"
-    sha256: fb24e1d1f257859cf452ab949d20fb6e01ae766e8ce2b21cb7fb51fbaf27f490
+    sha256: ba88c5be2944d81dbad83bdd0bb465f4975dcf397945a19e5780fd5dcd25556a
   1.5.5:
     heading: "1.5.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "535-587"
-    sha256: ed69450065e2873ad0c7f800956c55493ccf5defc8f4f627411b5e997072d447
+    sha256: f902436a9f9a59904cfa0a436f23090ceb15e619f2937cc2b45c189c13ef616f
   1.5.6:
     heading: "1.5.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "588-652"
-    sha256: "9664c82b36e8a7c672fd41cffd9c12be779fe32e15187a1293b14b03cf26d1c2"
+    sha256: "9a302c848d10a92de76dc25f3ab0092f62182997fffc8337e572302cb1b24b74"
   1.5.7:
     heading: "1.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "653-725"
-    sha256: "61d91d0b360fcace48629eb9bcef7822efe329d1800cd5bab569be6e00fd73da"
+    sha256: ce9989d189c7160210a2e1bff8b1764f1a6add2b52eefd991044541daf400d70
   1.5.8:
     heading: "1.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "726-815"
-    sha256: "357d136e0ce88dbb8758badf7d1f037ebb6a39159bfef098daee068083d56e38"
+    sha256: "5527d3d6ea062208e5dc048ff60c62ac83d40612b9c06a1768a856a10106b40c"
   1.5.9:
     heading: "1.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

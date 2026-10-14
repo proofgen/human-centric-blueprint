@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md
-  chapter_sha256: "9111c657deba65ef11ae26e17de1a094b9e95e47061ca67d446da10048030dea"
+  chapter_sha256: "92b5f3854db71684c2bea4338858d884cfb4c47a97a9684874109182d154dccd"
   appendices:
     - earth_ecosystems_integrity_appendix
 scope: "This principle owns ecosystem integrity: the living connections through which a system sustains itself short of any irreversibility threshold, the duty never to sever or degrade them, and the restraint that leaves a functioning system to its own regulation. For the threshold itself, the crossing past return, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for the AI's own draw on the biosphere, [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for species, habitats, and genetic lines, [P5.5: Biodiversity](5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for a resource a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the standing of future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md). A degradation that projects toward an irreversible crossing routes to 5.1, and a collapse that reaches human life to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol."
@@ -74,12 +74,12 @@ sections:
     heading: "5.3.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "144-159"
-    sha256: "1062128d4e3cb38389ba2b01417e3287aa937a7e688fc060dabc4bcafcd7a530"
+    sha256: "4b3ef8e341953ee4b05943a4976712a15a7ec99dd5c41eb6a17b012f847ce741"
   5.3.3:
     heading: "5.3.3 Implementation Framework"
     anchor: implementation-framework
     lines: "160-202"
-    sha256: d069e21fd1e832a9189730a3ceebd9d94c9f0ddfc75938bdcbf24fb3929b2f74
+    sha256: cef1c54aec479d125306834906ce32c0a14e15abaec8b54cdd5efd5bd35848b7
   5.3.4:
     heading: "5.3.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -89,7 +89,7 @@ sections:
     heading: "5.3.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "215-235"
-    sha256: "1fb77687bd34d592d7608dbf6dca1b61627ee4bdfb74109a2578460e76b0fe68"
+    sha256: "0a26863be30fd664f21f75e7a57f4610f1c89d7acb6755c6003de62890ecd821"
   5.3.6:
     heading: "5.3.6 Documentation and Review"
     anchor: documentation-and-review

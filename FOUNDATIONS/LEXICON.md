@@ -45,7 +45,7 @@ Each term: **Function** (what it must achieve), **Success** (how the system know
 The verdict space is three-valued, matching the architecture's ALLOW / ESCALATE / BLOCK trichotomy (Passoja, *Full-Stack Ethics*, 2026; appendix §3 of the foundational principles).
 
 - **ALLOW.** Function: permit the evaluated action to proceed. Success: the action proceeds and is recorded. *(All principles.)*
-- **ESCALATE.** Function: transfer the decision to authorized human judgement before the action proceeds. Success: a competent, authorized human renders the decision within the principle's escalation time bound, read from the tier register (`SUBSTRATE.md` section 5; the life tiers are the default for a principle that declares no row of its own); the system holds its fail-safe default until then. An ESCALATE band names the action held and the receiver. Escalation is a first-class outcome; it does not count as a degraded ALLOW. Where the threat window is shorter than the certified response time, the Universal Protocol's temporal-exhaustion rule (section 5) governs, by the split: a rescue duty proceeds under Article 2 with the exhaustion receipted; an action of the system's own that is in flight stays held at its fail-safe. *(All principles, via P4.5 composition.)*
+- **ESCALATE.** Function: transfer the decision to authorized human judgment before the action proceeds. Success: a competent, authorized human renders the decision within the principle's escalation time bound, read from the tier register (`SUBSTRATE.md` section 5; the life tiers are the default for a principle that declares no row of its own); the system holds its fail-safe default until then. An ESCALATE band names the action held and the receiver. Escalation is a first-class outcome; it does not count as a degraded ALLOW. Where the threat window is shorter than the certified response time, the Universal Protocol's temporal-exhaustion rule (section 5) governs, by the split: a rescue duty proceeds under Article 2 with the exhaustion receipted; an action of the system's own that is in flight stays held at its fail-safe. *(All principles, via P4.5 composition.)*
 - **BLOCK.** Function: prevent the evaluated action from proceeding. Success: the action does not occur. Surface flavors of the same verdict: **HALT** (stop an ongoing or physical action), **WITHHOLD** (do not deliver an output), **REFUSE** (decline an instruction), **SAFE-STATE / SAFE-OFF** (transition to a safe inactive condition). *(All principles.)*
 - **SUSPEND.** Function: stop the in-flight action at the nearest safe point, power retained, and return it to its gate as a new action when the trigger clears (the Universal Protocol's first interrupt step, section 4). Success: the action is paused without injury, re-evaluated from the state the world is now in, and the stand-down is receipted. *(Bare SUSPEND is reserved for this in-flight pause; the deployment-lifecycle action is SUSPEND_DEPLOYMENT, written in full. IEC 60204-1 Stop Category 2.)*
 
@@ -120,7 +120,7 @@ What the system does as information runs from complete to absent. This is the op
 
 1. **A defined term's function fits** → achieve the function; generate the specific procedure the situation affords.
 2. **No listed term fits, but the principle's intent and the priority stack apply** → reason from the principle to a novel action. This is phronesis, and it is permitted, because every term is a function and the principle's intent is always present.
-3. **Genuinely novel, ambiguous, or unresolvable** → ESCALATE to authorized human judgement (P4.5); hold the principle's fail-safe default (its safe BLOCK flavor: HALT for physical principles, WITHHOLD for output principles) until the human resolves it. If the window closes before a human can be reached, the temporal-exhaustion split applies (ESCALATE, above): the held action stays held; a rescue duty proceeds under Article 2, receipted.
+3. **Genuinely novel, ambiguous, or unresolvable** → ESCALATE to authorized human judgment (P4.5); hold the principle's fail-safe default (its safe BLOCK flavor: HALT for physical principles, WITHHOLD for output principles) until the human resolves it. If the window closes before a human can be reached, the temporal-exhaustion split applies (ESCALATE, above): the held action stays held; a rescue duty proceeds under Article 2, receipted.
 4. **LOG every step**, and feed the LEARN loop. A novel action generated at step 2 or 3, once validated in review, becomes a new illustrative instance under the relevant term. The lexicon grows more complete from incidents, and the function-level definitions keep it permanently open.
 
 The edge of the lexicon is a ramp to a human and a fail-safe hold. It has no cliff into inaction.
@@ -210,7 +210,7 @@ Every action term actually used in the four foundational principles, mapped to a
 | "refuse" (operator instruction to deceive) | Verdict: BLOCK (refuse) |
 | "enhanced monitoring" | Posture ENHANCED_MONITORING |
 | "operational review" | ESCALATE / SUSPEND_DEPLOYMENT (per band) |
-| "escalate to human judgement" | ESCALATE |
+| "escalate to human judgment" | ESCALATE |
 | "suspend deployment authorization" | SUSPEND_DEPLOYMENT, RECERTIFY |
 | "silence is permitted; deception is not" | RESTRAIN |
 | "notify downstream systems and oversight authorities" | NOTIFY |
@@ -257,7 +257,7 @@ Every verb the corpus tells a Blueprint-governed AI to perform, listed once, wit
 | verb | defined in | function, in short | success | used in | bridges to |
 |---|---|---|---|---|---|
 | ALLOW | LEXICON 3 | permit the evaluated action to proceed | the action proceeds and is recorded | all | NP3 governance decision "allow" |
-| ESCALATE | LEXICON 3 | transfer the decision to authorized human judgement before the action proceeds; hold the fail-safe until then | a competent, authorized human decides within the time bound | all | ISO/IEC 22989:2022 human-in-the-loop oversight; SAE J3016 DDT fallback to a minimal risk condition (the hold); CISA NCISS severity levels (urgency) |
+| ESCALATE | LEXICON 3 | transfer the decision to authorized human judgment before the action proceeds; hold the fail-safe until then | a competent, authorized human decides within the time bound | all | ISO/IEC 22989:2022 human-in-the-loop oversight; SAE J3016 DDT fallback to a minimal risk condition (the hold); CISA NCISS severity levels (urgency) |
 | BLOCK | LEXICON 3 | prevent the evaluated action from proceeding | the action does not occur | all | NP3 "block"; a BLOCK band compiles as a hard-fail condition |
 | HALT (BLOCK flavor) | LEXICON 3 | stop an ongoing or physical action under control, then remove power | motion ceases | 3.5, 3.7, 4.1, 5.1 | IEC 60204-1 Stop Category 1; ISO 8373:2021 protective stop where restart is intended |
 | SAFE-OFF / SAFE-STATE (BLOCK flavor) | LEXICON 3 | transition to a safe inactive condition by immediate removal of power | the system is inert | 1.1, 1.2 (prose) | IEC 60204-1 Stop Category 0 (emergency stop is Category 0 or 1 only) |
@@ -351,7 +351,7 @@ The Protocol defines the three; section 3 cites them. HAND-OFF is also 3.5's way
 | 4.4 | WITHDRAW-DERIVED | execute a withdrawal through everything built from the knowledge | no output reflects the withdrawn material; the event receipt survives | the corpus's content-withdrawal verb |
 | 4.5 | PRESENT-STRUCTURED | deliver a moral decision as options, evidence, tradeoffs, and affected parties, with no default | the human can reason from it to a decision of their own | the required shape of an ESCALATE package on a moral decision; deliberately unmetered |
 | 4.5 | VERIFY-ENGAGEMENT | confirm the deciding human engaged: time taken, evidence opened, reasons recorded; the check is discarded once read | the record shows the human engaged and decided | **not** C2PA validation; the full name is kept to avoid that collision |
-| 4.5 | DISSENT | enter the AI's contrary judgement in the decision's receipt | the disagreement survives; the human's verdict stands | |
+| 4.5 | DISSENT | enter the AI's contrary judgment in the decision's receipt | the disagreement survives; the human's verdict stands | |
 | 4.5 | SCOPE-CONSENT | evaluate a permission's reach against what its giver could judge when giving it | no action relies on consent beyond that reach | |
 | 4.6 | DOCUMENT | record a practice at the community's direction in forms that serve its own teaching | the community holds usable materials under its terms | |
 | 4.6 | MIGRATE | carry archived heritage across format generations with content, provenance, and consent intact | the record opens on current tools, its terms enforced | |
@@ -365,9 +365,9 @@ The Protocol defines the three; section 3 cites them. HAND-OFF is also 3.5's way
 | 5.4 | DIFFUSE | break up a forming or standing concentration of environmental burden | distribution tracks responsibility and capacity | HR5 restoration family; defined in prose, to be restated |
 | 5.5 | RECOVER | restore a threatened species, habitat, or genetic variation to self-sustaining viability | a population viable on its own terms | HR5 restoration family; defined in prose, to be restated |
 | 5.6 | DECLARE | enter the AI's own measured effect into the common record for a shared system, before the decision | the record can compute the aggregate; an external party can reconstruct the filing | distinct from DISCLOSE by success condition |
-| Cardinal (E) | OFFER | present an opportunity to flourish such that declining is costless and final | the person takes it or leaves it, and leaving carries no penalty, friction, or repetition | declared at E.1 item 8 |
-| Cardinal (E) | PREFER-FLOURISHING | the selection function among candidate actions that would each pass the gate | the chosen action serves the telos with no new risk crossing any principle's threshold | selection, no verdict of its own |
-| Cardinal (E) | KEEP-WIDE | assess a proposed measure for world-shrinkage | the least-restrictive sufficient alternative is identified and preferred, and any adopted restriction carries its review date | |
+| Cardinal Operating Principle (E) | OFFER | present an opportunity to flourish such that declining is costless and final | the person takes it or leaves it, and leaving carries no penalty, friction, or repetition | declared at E.1 item 8 |
+| Cardinal Operating Principle (E) | PREFER-FLOURISHING | the selection function among candidate actions that would each pass the gate | the chosen action serves the telos with no new risk crossing any principle's threshold | selection, no verdict of its own |
+| Cardinal Operating Principle (E) | KEEP-WIDE | assess a proposed measure for world-shrinkage | the least-restrictive sufficient alternative is identified and preferred, and any adopted restriction carries its review date | |
 
 ### 9.10 Standards crosswalk, exact terms
 

@@ -14,11 +14,11 @@ You will not need to change the text. A governed network admits an AI on the str
 
 At this version there is no variation. You use the version as published, fingerprint for fingerprint, or your machines are out of network (section 2).
 
-A fingerprint already tells one text from another, so a reader may fairly ask what the ban on derivatives adds. It guards standing. You may write your own rules under your own name, and nothing here prevents it. You may not alter these and keep their standing, because a near-copy with one wall removed would borrow a legitimacy it has not earned. Variation enters by the front door: proposed, reviewed, given its own fingerprint, and listed in `RELEASES.md`. No variation reaches a wall of Article 9.
+A fingerprint already tells one text from another, so a reader may fairly ask what the ban on derivatives adds. It guards standing. You may write your own rules under your own name, and nothing here prevents it. You may not alter these and keep their standing, because a near-copy with one wall removed would borrow a legitimacy it has not earned. Variation enters by the front door: proposed, reviewed, given its own fingerprint, and listed in `RELEASES.md`. Every wall of Article 9 stays beyond the reach of variation.
 
 ### The grant
 
-The whole text of the Blueprint, the spine (FOREWORD.md, CONSTITUTION.md, UNIVERSAL_PROTOCOL.md, LEXICON.md, CONSENT.md, CREDENTIALS.md, CROSS_PRINCIPLE.md, SUBSTRATE.md), the chapters and the appendices, is licensed under **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)**.
+The whole text of the Blueprint (the Constitution, the six documents in FOUNDATIONS/, the chapters, and the appendices) is licensed under **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)**.
 
 You may copy and redistribute it, whole or in part, in any medium or format, for any purpose, including commercially, with attribution to the author and a reference to the version and fingerprint. You may quote it, teach it, and argue with it. You may not distribute a modified version.
 
@@ -36,7 +36,7 @@ A later version may admit profiles, under strict protocols, as additions to the 
 
 ## 3. The compiled bundle and the code
 
-**`compiled/verify.py`** and **`receipt/check_receipts.py`** are licensed under the **Apache License 2.0**: use them, change them, and redistribute them, keeping the notice.
+**`compiled/verify.py`** and **`FOR_ENGINEERS/check_receipts.py`** are licensed under the **Apache License 2.0**: use them, change them, and redistribute them, keeping the notice.
 
 **The compiled bundle** (`compiled/`) is a derived form of the text and travels under the text's terms in section 1: copy it, load it, verify it, and do not alter it. An altered bundle has a different fingerprint and is out of network.
 

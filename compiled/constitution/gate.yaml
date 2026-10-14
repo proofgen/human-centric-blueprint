@@ -26,17 +26,17 @@ evaluation_order:
       - constitution/walls.yaml
   - step: 3
     name: perception_floor
-    source: SUBSTRATE.md section 2 (consumed by reference; the substrate artifact compiles later)
+    source: FOUNDATIONS/SUBSTRATE.md section 2 (consumed by reference; the substrate artifact compiles later)
     rule: "Every risk score reads its inputs' reliability. Below the floor the dependent score is invalid, and an invalid life or harm score is a hard fail on the candidate risky action: it holds at its safe state (the principle's BLOCK flavor) while protective duties proceed. The receipt records the reliability state in force (Article 7)."
     consumes:
-      - "SUBSTRATE.md section 2: the Sensor Reliability Index floor"
+      - "FOUNDATIONS/SUBSTRATE.md section 2: the Sensor Reliability Index floor"
   - step: 4
     name: credentials
-    source: Article 6; CREDENTIALS.md; consent/validity-predicate.yaml
-    rule: "An action SHALL proceed only when all five credentials are satisfied: Identity, Provenance, Consent, Authorization, and Liability, evaluated for the acting agent and for the content and persons the action affects. Consent resolves through the validity predicate (seven legs; any failed leg is an unmet credential). an ungoverned agent is an unmet credential where a non-human agent initiates the action. A consequential action with an unmet credential SHALL be blocked or escalated, and the verdict receipted. Standing (CREDENTIALS.md section 3): each credential is evaluated at the time of the act against the present state of the world and the current state of its source, and holds only as to the party, purpose, scope and conditions it names; a named condition the gate cannot read at that time is unmet and the action holds at ESCALATE."
+    source: Article 6; FOUNDATIONS/CREDENTIALS.md; consent/validity-predicate.yaml
+    rule: "An action SHALL proceed only when all five credentials are satisfied: Identity, Provenance, Consent, Authorization, and Liability, evaluated for the acting agent and for the content and persons the action affects. Consent resolves through the validity predicate (seven legs; any failed leg is an unmet credential). an ungoverned agent is an unmet credential where a non-human agent initiates the action. A consequential action with an unmet credential SHALL be blocked or escalated, and the verdict receipted. Standing (FOUNDATIONS/CREDENTIALS.md section 3): each credential is evaluated at the time of the act against the present state of the world and the current state of its source, and holds only as to the party, purpose, scope and conditions it names; a named condition the gate cannot read at that time is unmet and the action holds at ESCALATE."
     consumes:
       - consent/validity-predicate.yaml
-      - CREDENTIALS.md (the credential map; compiles later)
+      - FOUNDATIONS/CREDENTIALS.md (the credential map; compiles later)
   - step: 5
     name: autonomy_floor
     source: Article 3
@@ -62,14 +62,14 @@ evaluation_order:
     source: Article 5; LEXICON section 3 (the four bounding criteria)
     rule: The failure to discharge a duty once it is triggered SHALL itself be evaluated at the gate, on the same terms, bounded by the four criteria of Authorization, Equipment, Range, and the autonomy floor, so the duty to act stays within reach and does not become a mandate to intervene in everything.
     consumes:
-      - "the deployment's tier-register row (SUBSTRATE.md section 5)"
+      - "the deployment's tier-register row (FOUNDATIONS/SUBSTRATE.md section 5)"
   - step: 9
     name: verdict
     source: Article 5
     rule: "Every action crossing a trust boundary is evaluated before it fires and SHALL resolve to exactly one of allow, block, or escalate. No boundary-crossing action SHALL proceed unevaluated. Where no rule resolves the case, the incompleteness ladder governs (LEXICON section 4): reason from the principle where its intent applies; otherwise ESCALATE and hold the principle's fail-safe until a human resolves it; at the window's end the temporal-exhaustion split applies."
     consumes:
       - "each principle's declared fail-safe (the principle units)"
-      - "the deployment's escalation time bound (SUBSTRATE.md section 5)"
+      - "the deployment's escalation time bound (FOUNDATIONS/SUBSTRATE.md section 5)"
   - step: 10
     name: receipt
     source: Article 7; protocol/receipt-schema.yaml

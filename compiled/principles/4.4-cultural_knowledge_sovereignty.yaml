@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md
-  chapter_sha256: ca2101f78ec6d8444de8f8a32a996f144223cbff4afa25e4fd81bfd9f6a85f99
+  chapter_sha256: "3f4269ffffc0fd2b20f1924eab7c3860b08c04ab0e939647b2b96dd51fadc8aa"
   appendices:
     - cultural_knowledge_sovereignty_appendix
 scope: "This principle owns collective authority over cultural knowledge: a community's right to govern how the knowledge it holds and transmits is collected, stored, shared, taught, and used, including the right to refuse. For the integrity of the record itself, see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for keeping heritage alive under this governance, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for an individual's identity, likeness, and the consent machinery, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for a person's informational privacy, [P2.5: Privacy](2.5-Human_Privacy_Is_Fundamental.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for resources a community shares outward, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the authority of collective decisions generally, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md)."
@@ -76,17 +76,17 @@ sections:
     heading: "4.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "118-138"
-    sha256: "7e53bdfcc7cb72f7170c55bdbe8444c16e917e83ba12250c7633a446a0e13974"
+    sha256: "9dfb4a3faf204db3b8da108996ed2ecf372fc57dcf8965281fc94f120ce9cfd1"
   4.4.2:
     heading: "4.4.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "139-160"
-    sha256: "37fb1ffd79bbf91ea789e44187ce8c3ace6e3007f6fd38bcd6351f2ea250dad9"
+    sha256: "88fb3260bc9565502e26a67eed7c5454c7f009f1e05c57d58ecb1ca6be7e880d"
   4.4.3:
     heading: "4.4.3 Implementation Framework"
     anchor: implementation-framework
     lines: "161-216"
-    sha256: "0215d8ccab804b1ff461ae9a26cf3d9a4f633174361691d4161fdc14bb68068e"
+    sha256: "567e12e37b40d7d295030a4a31aeb7c16b3acdbf2254d9f888ffb453bc678a2f"
   4.4.4:
     heading: "4.4.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -106,7 +106,7 @@ sections:
     heading: "4.4.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "245-251"
-    sha256: d4fb29a3623e8a256977fdd967b18307e66e5e310d3ca6f764983413bb76064d
+    sha256: "5b4ede20d7d780ab9d3219681d35f137f1728ec7bc95265b519a89681a1a4c1f"
   4.4.8:
     heading: "4.4.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions

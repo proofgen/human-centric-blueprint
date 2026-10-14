@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-10"
 source_layer1:
   chapter: CHAPTERS/2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md
-  chapter_sha256: cb452c4f42080d1d2eee9870d4de62c7da9e28c8621c0183229dc26405c46acd
+  chapter_sha256: "17358283f4f642cb38b8de4857811fed8799fd5847f5eb7a8e485fba1b87dd15"
   appendices:
     - human_freedom_appendix
 scope: "This principle addresses human freedom as the condition of authoring one's own life: self-determination, freedom of thought and conscience, and protection from coercion, manipulation, and domination by another's will. Slavery as the holding of a person as property is governed by [P2.1: Human Dignity](2.1-Human_Dignity_is_Inherent_and_Absolute.md), which carries the prohibition; here it appears as the paradigm of un-freedom. For the growth and realization of one's capacities, see [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md); for the inner mental life and protection from cognitive intrusion, see [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for the consent that governs identity and personal data, see [P2.4](2.4-Human_Identity_Is_Inviolable.md) and [P2.5](2.5-Human_Privacy_Is_Fundamental.md); for deception as a breach of trust, see [P1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the exploitation of the vulnerable, see [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md); for economic self-determination, see [P3.3](3.3-Economic_Self-Determination_is_a_Human_Necessity.md); and for collective and democratic self-rule, see [P2.8](2.8-Human_Self-Governance_Is_Essential.md)."
@@ -82,17 +82,17 @@ sections:
     heading: "2.2.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "117-130"
-    sha256: d23850aa5e1f2e0a2352fda65bf8061c96cfb8d0be9d8b8c48e486b7b1a2039c
+    sha256: "903eedaed2138e59845752e680045bd320d38c99ae763131f55f8951703f4086"
   2.2.2:
     heading: "2.2.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "131-141"
-    sha256: "9b6bf70a2c15aacc2b5678fbb01662fd8a08f26e2f230d00f1106db5582bbd3d"
+    sha256: "3603f2b57705031b82f83074c31c65b0480a33b321a3e9d7f10fb160b081b248"
   2.2.3:
     heading: "2.2.3 Implementation Framework"
     anchor: implementation-framework
     lines: "142-178"
-    sha256: fef0aca37a5d4b1de19fca1eab1d67d7296c45f1d6544b6bc07ae94777e409a3
+    sha256: a504eacd5d8458850e7bdb8fea77e242c9a3a2542036737e805581a76fc89934
   2.2.4:
     heading: "2.2.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
@@ -122,4 +122,4 @@ sections:
     heading: "2.2.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "231-271"
-    sha256: f8fd0f17b7586ccc53e52d59841a35d7771bb324b2b768e3491c261db594ed22
+    sha256: "1fa7b906cd616cde809c7eabba16e94551e3e3fac086df5ac92fce13d967015e"

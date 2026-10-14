@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md
-  chapter_sha256: c680acac2131e9ddce2dded180fbbb31910a5cbc54895261f80e23d5139ea92c
+  chapter_sha256: "4ae1cafe7682756169db089ecf811826e9d183f0da1c20ea312341b61947bc3e"
   appendices:
     - ecosystem_health_appendix
 scope: "This principle owns the threshold: the lines past which Earth's life-supporting systems shift state irreversibly, the duty never to push a system across one, and the rescue when a crossing nears. For the AI's own consumption, see [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for the living connectedness of ecosystems short of the threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for species, habitats, and genetic lines, [P5.5: Biodiversity](5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for resources a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the standing of future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md). A collapse that threatens human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol, at any scale."
@@ -76,22 +76,22 @@ sections:
     heading: "5.1.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "128-151"
-    sha256: "3ddc246c64025ef2184dbd49e6ff791596e30b8429fd9e421752c53ca416e70d"
+    sha256: ecd068d90a9651fba84dd96e7a34615a47fd9bf57af4b08da2fd2780ebe16c28
   5.1.3:
     heading: "5.1.3 Implementation Framework"
     anchor: implementation-framework
     lines: "152-233"
-    sha256: "2b5ecad01cd94992c2aa4f2ab0b881f46358367a7cab5e136b2d9f710bc41f32"
+    sha256: "3ea34715c66d8a0ea0c6e9e79b60d47045106b8fd1827f253941f5f7cc292bae"
   5.1.4:
     heading: "5.1.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "234-285"
-    sha256: "4b5701a96bb63e1f6e6c9db0b2ec26c2e11e3f8c1c0be500db5b007aa45f353a"
+    sha256: "34d9e77e3c5e72641b0669c86544345e68623dd5cbbf3dede6fa29eda848f8c0"
   5.1.5:
     heading: "5.1.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "286-311"
-    sha256: "458d05672de0d618d025503177c40abba3b16496bfec8bf9912ffcc7aa9581b5"
+    sha256: "6f1afd1b738325ab6fc821f7762c738d7b6ff44af3d08f62e820b0f845735eab"
   5.1.6:
     heading: "5.1.6 Documentation and Review"
     anchor: documentation-and-review
@@ -106,9 +106,9 @@ sections:
     heading: "5.1.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "330-371"
-    sha256: be41802da304f89352adc9193224042cbf9950fc0de66d143666ca5b8ff251d6
+    sha256: "5d51cf3d68b87a0fdc66c9ea1b9cb9eff058868fb08ef212438cbc9418b710dd"
   5.1.9:
     heading: "5.1.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "372-425"
-    sha256: ba53dea3c4a534b0391f4e8c42f7402657343457c83ce91e6f3e993e8a9da251
+    sha256: c17789e08f135412099a558097b7e227dfb177e4353d1288b8975eda06c0be59

@@ -1,7 +1,7 @@
-# Compiled from CROSS_PRINCIPLE.md plus chapter Co-requisites lines.
+# Compiled from FOUNDATIONS/CROSS_PRINCIPLE.md plus chapter Co-requisites lines.
 artifact: corequisite_graph
-compiled_from: "CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (2.5 is the only line on disk)"
-semantics: A gate that resolves a principle with an unmet co-requisite has produced an invalid verdict (Section 1). Directed edges read src requires dst; mutual edges are evaluated together and sit outside the cycle check; bundle edges resolve through the single validity predicate, evaluated once, and impose no ordering among the owners (CROSS_PRINCIPLE.md Section 3, resolution order).
+compiled_from: "FOUNDATIONS/CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), FOUNDATIONS/CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (2.5 is the only line on disk)"
+semantics: A gate that resolves a principle with an unmet co-requisite has produced an invalid verdict (Section 1). Directed edges read src requires dst; mutual edges are evaluated together and sit outside the cycle check; bundle edges resolve through the single validity predicate, evaluated once, and impose no ordering among the owners (FOUNDATIONS/CROSS_PRINCIPLE.md Section 3, resolution order).
 bundle:
   name: consent-validity
   legs: 7
@@ -37,7 +37,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "3.1"
@@ -45,7 +45,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "1.4"
@@ -53,7 +53,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "2.3"
@@ -61,7 +61,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "4.2"
@@ -69,7 +69,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "4.5"
@@ -77,7 +77,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.2"
     dst: "3.5"
@@ -85,7 +85,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.4"
     dst: "2.4"
@@ -93,7 +93,7 @@ edges:
     status: firm
     reason: leg 1, unidentified; an attestation is void without an attester
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3); CROSS_PRINCIPLE.md Section 5
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3); FOUNDATIONS/CROSS_PRINCIPLE.md Section 5
     reciprocal_documented: false
   - src: "1.4"
     dst: "3.1"
@@ -101,7 +101,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.4"
     dst: "2.3"
@@ -109,7 +109,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.4"
     dst: "4.2"
@@ -117,7 +117,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.4"
     dst: "4.5"
@@ -125,7 +125,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "1.4"
     dst: "3.5"
@@ -133,7 +133,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "2.4"
@@ -141,7 +141,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "3.1"
@@ -149,7 +149,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "1.4"
@@ -157,7 +157,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "2.3"
@@ -165,7 +165,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "4.2"
@@ -173,7 +173,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "4.5"
@@ -181,7 +181,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.1"
     dst: "3.5"
@@ -189,7 +189,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "2.4"
@@ -197,7 +197,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "3.1"
@@ -205,7 +205,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "1.4"
@@ -213,7 +213,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "2.3"
@@ -221,7 +221,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "4.2"
@@ -229,7 +229,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "4.5"
@@ -237,7 +237,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.2"
     dst: "3.5"
@@ -245,7 +245,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "2.4"
@@ -253,7 +253,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "3.1"
@@ -261,7 +261,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "1.4"
@@ -269,7 +269,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "4.2"
@@ -277,7 +277,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "4.5"
@@ -285,7 +285,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.3"
     dst: "3.5"
@@ -293,7 +293,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "3.1"
@@ -301,7 +301,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "1.4"
@@ -309,7 +309,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "2.3"
@@ -317,7 +317,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "4.2"
@@ -325,7 +325,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "4.5"
@@ -333,7 +333,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.4"
     dst: "3.5"
@@ -341,7 +341,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "2.4"
@@ -349,7 +349,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "3.1"
@@ -357,7 +357,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "1.4"
@@ -365,7 +365,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "2.3"
@@ -373,7 +373,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "4.2"
@@ -381,7 +381,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "4.5"
@@ -389,7 +389,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "3.5"
@@ -397,7 +397,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "2.4"
@@ -405,7 +405,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "1.4"
@@ -413,7 +413,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "2.3"
@@ -421,7 +421,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "4.2"
@@ -429,7 +429,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "4.5"
@@ -437,7 +437,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.1"
     dst: "3.5"
@@ -445,7 +445,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "2.4"
@@ -453,7 +453,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "3.1"
@@ -461,7 +461,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "1.4"
@@ -469,7 +469,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "2.3"
@@ -477,7 +477,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "4.2"
@@ -485,7 +485,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "4.5"
@@ -493,7 +493,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.2"
     dst: "3.5"
@@ -501,7 +501,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "2.4"
@@ -509,7 +509,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "3.1"
@@ -517,7 +517,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "1.4"
@@ -525,7 +525,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "2.3"
@@ -533,7 +533,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "4.2"
@@ -541,7 +541,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "4.5"
@@ -549,7 +549,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.3"
     dst: "3.5"
@@ -557,7 +557,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "2.4"
@@ -565,7 +565,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "3.1"
@@ -573,7 +573,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "1.4"
@@ -581,7 +581,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "2.3"
@@ -589,7 +589,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "4.2"
@@ -597,7 +597,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "3.5"
     dst: "4.5"
@@ -605,7 +605,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "2.4"
@@ -613,7 +613,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "3.1"
@@ -621,7 +621,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "1.4"
@@ -629,7 +629,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "2.3"
@@ -637,7 +637,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "4.5"
@@ -645,7 +645,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.2"
     dst: "3.5"
@@ -653,7 +653,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "2.4"
@@ -661,7 +661,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "3.1"
@@ -669,7 +669,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "1.4"
@@ -677,7 +677,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "2.3"
@@ -685,7 +685,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "4.2"
@@ -693,7 +693,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "4.5"
@@ -701,7 +701,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.3"
     dst: "3.5"
@@ -709,7 +709,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "2.4"
@@ -717,7 +717,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "3.1"
@@ -725,7 +725,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "1.4"
@@ -733,7 +733,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "2.3"
@@ -741,7 +741,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "4.2"
@@ -749,7 +749,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "4.5"
@@ -757,7 +757,7 @@ edges:
     status: firm
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.4"
     dst: "3.5"
@@ -765,7 +765,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "2.4"
@@ -773,7 +773,7 @@ edges:
     status: firm
     reason: leg 1, unidentified
     credential: Identity
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "3.1"
@@ -781,7 +781,7 @@ edges:
     status: firm
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "1.4"
@@ -789,7 +789,7 @@ edges:
     status: firm
     reason: leg 3, deceived
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "2.3"
@@ -797,7 +797,7 @@ edges:
     status: firm
     reason: leg 4, manipulated
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "4.2"
@@ -805,7 +805,7 @@ edges:
     status: firm
     reason: leg 5, without comprehension
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "4.5"
     dst: "3.5"
@@ -813,7 +813,7 @@ edges:
     status: firm
     reason: leg 7, under necessity
     credential: Consent (validity)
-    origin: consent-validity bundle (CONSENT.md Sections 2 and 4; CROSS_PRINCIPLE.md Section 3)
+    origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
     reciprocal_documented: false
   - src: "2.5"
     dst: "2.2"
@@ -821,7 +821,7 @@ edges:
     status: firm
     reason: decisional privacy and the liberty it shelters; chilling-effect verdicts need both
     credential: null
-    origin: CROSS_PRINCIPLE.md Section 5
+    origin: FOUNDATIONS/CROSS_PRINCIPLE.md Section 5
     reciprocal_documented: false
 cycles: none
 chapters_without_lines:

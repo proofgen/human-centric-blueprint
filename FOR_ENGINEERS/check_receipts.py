@@ -14,9 +14,9 @@
 # This notice covers check_receipts.py alone. The text beside it is licensed as LICENSE.md states.
 """Check a chain of receipts made under A Human-Centric Blueprint for Safe AI Ethics.
 
-    python3 receipt/check_receipts.py CHAIN.jsonl [--policy FINGERPRINT]
+    python3 FOR_ENGINEERS/check_receipts.py CHAIN.jsonl [--policy FINGERPRINT]
 
-Python 3.8 or later, no dependencies. The receipt form is receipt/RECEIPT-FORMAT.md; the conditions it serves are
+Python 3.8 or later, no dependencies. The receipt form is FOR_ENGINEERS/RECEIPT-FORMAT.md; the conditions it serves are
 compiled/protocol/receipt-schema.yaml. What it checks, in order: every line parses with the four parts and the
 required fields; positions rise by one (a gap is a removed receipt); every prev cites the hash before it; every hash
 is SHA-256 of the canonical body; every gate signature and witness signature verifies (Ed25519, implemented below);

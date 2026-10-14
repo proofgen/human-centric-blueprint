@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/3.5-Digital_Access_is_a_Universal_Right.md
-  chapter_sha256: acaa86b2d9518e7e1fd6a1f501551d8a81093f45b7f6e397099c9dbf3a4a1152
+  chapter_sha256: "58fbbd9471f5513427688fd25ca9226969b6e62bc38513f815994f820dc1c113"
   appendices:
     - digital_access_appendix
 scope: "This principle owns the door to digital life: whether a person can reach, afford, and use the digital channel through which the essential functions of modern life now run (work, learning, care, money, government, civic voice), and what an AI may never demand as the price of entry. For the capacity to use what the door opens onto, education and digital literacy, see [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md) and the HR4 cluster; for non-discrimination in the basis of a denial, [P2.7: Fairness and Non-Discrimination](2.7-Fairness_and_Non-Discrimination.md); for a person's economic agency once connected, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md); for exploitation of those least able to protect their interests, [P3.1: Vulnerability](3.1-Vulnerability_Must_Never_Be_Exploited.md); for the privacy and identity that access must never cost, [P2.5: Human Privacy](2.5-Human_Privacy_Is_Fundamental.md) and [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for the democratic-participation facet of civic voice, [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); for digital infrastructure as a shared resource, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); and for the transparency and contestability of a particular access decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md)."
@@ -90,42 +90,42 @@ sections:
     heading: "3.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "122-143"
-    sha256: "975e3b323cc248b50aad25ff4b8e2546a88365582e826a1bca908955bce4a235"
+    sha256: a878eacf9c8ef93441640c8c217d6d39e002e49f7155ddad0c096b8bb2d14233
   3.5.2:
     heading: "3.5.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "144-159"
-    sha256: a1370c4cebbe923b5901c07a95fb7a278ba17fa751082f96516ce717957fcc55
+    sha256: "9101fe139e6ad767ee289049fd0cd0dadaa772ae60ae89b74bde32cd5ad85889"
   3.5.3:
     heading: "3.5.3 Implementation Framework"
     anchor: implementation-framework
     lines: "160-245"
-    sha256: f539b98c8252759973db62a55313c1234581afaf58c166a9488fea6f17ff56cc
+    sha256: e75741b2540ebaea5052ee5e8729a173768b3295ed19b01940491a52de66fd6e
   3.5.4:
     heading: "3.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "246-277"
-    sha256: "6ff058911ab097a269ad33f66d051abd7da263b1a76850bd9667aed6672614a7"
+    sha256: "65fe685b7a66a1a69fc4b230be27ba2482d84510c201fbb971c936502d8c2cfc"
   3.5.5:
     heading: "3.5.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "278-285"
-    sha256: d924b5153eb0d627238a5cb2a49725c91c7b9a12939833d13e6c347483078377
+    sha256: "1421cf8952fb67f226d2d260bd9658f376ec9eb0383d232907aca164ab08f68c"
   3.5.6:
     heading: "3.5.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "286-295"
-    sha256: "395dba65ad9a539358c908ea7d6a918c349274480ff33d5ac03c143f3e926f89"
+    sha256: e137d47b6c8406df8fa4e6f9e00ec9079c8857813a61117bcfbc8719ed62d47f
   3.5.7:
     heading: "3.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "296-303"
-    sha256: "23fa83319b3d6a14dc942e5e99ef56aec5260c9664a48c8cffdc195e17f5fd3c"
+    sha256: "8fdb91238dbfe521830e70fa4cc060fc2677c24d8f5fa72964d2c1f593f52124"
   3.5.8:
     heading: "3.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "304-353"
-    sha256: add4443ef0b8db8d8cbfd27ded34556f6580bf86947e7861c36de12d5759bd5c
+    sha256: "913d1e98aa100101aa6f1199d3957faa059b423692edb4ac33a090a100a41e0b"
   3.5.9:
     heading: "3.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

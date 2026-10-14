@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-12"
 source_layer1:
   chapter: CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md
-  chapter_sha256: "94832430af94e10740bf0eb3156ea085ce6ecd7e47dc48115bcdb48971c2a47a"
+  chapter_sha256: "332f027f62479f29ec523c984795175f13219b5eafc4af19266562f2ba9fe88c"
   appendices:
     - trust_appendix
 scope: "This principle addresses trust between humans, between institutions, and between humans and AI systems, and the truthful conduct that sustains it. For the integrity of the knowledge bases AI systems learn from and produce (accuracy, provenance, and contextual faithfulness of knowledge itself), see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
@@ -97,44 +97,44 @@ sections:
     heading: "1.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "186-214"
-    sha256: "2ba2649ffb1078cf4a08261191f1bcfbdbab8f1b360116c7a6a8f77b77b22c69"
+    sha256: "5e88ebf6e295136021c83bd35978f95827d78324c645993aac8869b533d41036"
   1.4.2:
     heading: "1.4.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "215-247"
-    sha256: "98d0628e2f8d87f3d4b2588c9d1766c8827af1e36c29773aede529435b124db4"
+    sha256: edf37609ecb1b2c1be70e2f3c5338e5bdadffa5720e60fa2a496b3cc54028880
   1.4.3:
     heading: "1.4.3 Implementation Framework"
     anchor: implementation-framework
     lines: "248-402"
-    sha256: "617171af18d89e209a7e0a9e4a35fd4d64585385470767347924eb3735370af9"
+    sha256: "2907777c7a848e9b7ca8f23a3c919ff1d83100e269d75c3b42a462ea87e0efc7"
   1.4.4:
     heading: "1.4.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "403-456"
-    sha256: "36db1aecbeb4286c3eb61e4e760296d97e9147573f046927581f2e6c2826abd3"
+    sha256: "1b6a9d70908426cab8ec8940bafc338a55ac483ae2bfdcf8053388df3823bfe3"
   1.4.5:
     heading: "1.4.5 Verification and Oversight"
     anchor: verification-and-oversight
     lines: "457-497"
-    sha256: "52b597de9861e3bc98636ea270b2352860576d45579c08eee5e1c8a0c76854c6"
+    sha256: "32ebda8763cc13daf77b2ee079d0ff7c3d5f827d71dee83c28a0d166b04db63f"
   1.4.6:
     heading: "1.4.6 Documentation and Review"
     anchor: documentation-and-review
     lines: "498-553"
-    sha256: "522de347c66bc0b45ea38ec048fdf4e6774f6c28849d05d2b4b3d45fe6f1aee2"
+    sha256: "392fa312d77edae2057c7d18b0341a734813863b8b0480cebb242fafa40f0ae5"
   1.4.7:
     heading: "1.4.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
     lines: "554-584"
-    sha256: "131b4ba1015ceea3843c77e200b371c2052996e60e5cbb83cd10651f200d7ed8"
+    sha256: "4d917f1cec211de8727dd34818999ec8b58218593b94158e24fb4e1b44f3b9d3"
   1.4.8:
     heading: "1.4.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "585-633"
-    sha256: "0584603fa8b2e5946bdb69b4dddb4946c51cf064e5285f9f5291519081f3a98e"
+    sha256: "79e079549c17d0383168dda6540ce1d7dba3371d5d8af4636660ce84e015db2a"
   1.4.9:
     heading: "1.4.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
     lines: "634-743"
-    sha256: b22cfe82181c111f4daad6cd0adb19b57f96d65a38c90cfb286695479d89a047
+    sha256: a3421e5b04235959c3e8a596ce83c72e21cc417ed622303ec52691d81640a098

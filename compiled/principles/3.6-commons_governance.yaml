@@ -13,7 +13,7 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md
-  chapter_sha256: "02d61e9508d35cc5326bffc73c74b5a16828cb5678a8ee213fa14c2639c768e5"
+  chapter_sha256: "1dba9e724c1822643960ccf00c1253a6c9a17b1eaad9ceeb4f6173fcc694106c"
   appendices:
     - commons_governance_appendix
 scope: "This principle owns the commons: the resources a community holds and governs in common, and an AI's conduct toward them. For a community's right to govern itself in general, see [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); 2.8 owns the community's authority, 3.6 the shared resources that authority stewards. For privately owned things and fair exchange, see [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); the line between them, enclosure, is this principle's to guard. For a person's access to the digital channel, see [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); 3.5 owns the person's door, 3.6 the shared infrastructure behind it and its governance. For duties to future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for ecosystems protected in their own right, [P5.1](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for the truthfulness of shared knowledge, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
@@ -70,22 +70,22 @@ sections:
     heading: "3.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
     lines: "124-145"
-    sha256: "5a55cc1b067a46ba2fb29b8211b6a67ebfb0d5695db093a1de233418b8ba8072"
+    sha256: e445cace70115e3c0a77417211f3133a0f235d2581fe365ae5bdf810c70320ca
   3.6.2:
     heading: "3.6.2 Conflict Resolution"
     anchor: conflict-resolution
     lines: "146-161"
-    sha256: c1ecfb911be4dbd9184d5327aa4e42251bf6c61092d41dbe50237fe60fe5c4a0
+    sha256: "56255efbf6c9720e21b1f4cf0c2b88a11873be27b52c4a64ad49ffa6bfb593ff"
   3.6.3:
     heading: "3.6.3 Implementation Framework"
     anchor: implementation-framework
     lines: "162-251"
-    sha256: "0d3bb97aca7b555778afb81c87a4bf2e85bad1afc114d764487812fb5cf5ef92"
+    sha256: bbeac115112f32c71c1eb5f53d88dd197f7482d3380781b1a35d95a0bc1db998
   3.6.4:
     heading: "3.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
     lines: "252-283"
-    sha256: "3be306a75d76361d0013af62afdac20cc35df6870e8073d0a7585d1d1a045cbd"
+    sha256: "26cdb1ec988c061ba07c46eab30288694758dbee504b7da6035d22c32b38eefd"
   3.6.5:
     heading: "3.6.5 Verification and Oversight"
     anchor: verification-and-oversight
@@ -105,7 +105,7 @@ sections:
     heading: "3.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
     lines: "310-347"
-    sha256: "9fa81f85067dd2bf8860b685469872c9d1a9a8ceeb8ad1e09eefad01eb89f7f6"
+    sha256: "7e70880aa667a7ea394f805cbdf842c974d7283fe40802b526b4489800163213"
   3.6.9:
     heading: "3.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios

@@ -1,6 +1,6 @@
-# Artifact 1 of 4. Compiled from UNIVERSAL_PROTOCOL.md alone (Section 10).
+# Artifact 1 of 4. Compiled from FOUNDATIONS/UNIVERSAL_PROTOCOL.md alone (Section 10).
 artifact: head_guard
-compiled_from: UNIVERSAL_PROTOCOL.md Section 3 alone
+compiled_from: FOUNDATIONS/UNIVERSAL_PROTOCOL.md Section 3 alone
 injection: per_rule
 proposal_compatibility:
   universal_section: true
