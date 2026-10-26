@@ -5,7 +5,7 @@
 - Layer 3 policy hash (SHA-256 of compiled/bundle.yaml): `2d20121b8afbf0e99b52755003b6d7fe4fab2d21e4e6f19d34f15e500aac429e`
 - Sealed: 2026-10-25
 - Signer: Erik Passoja
-- DOI: pending. Zenodo assigns this version's DOI at the release, and a metadata tag records it. The concept DOI for all versions is 10.5281/zenodo.22743046
+- DOI: 10.5281/zenodo.23658125
 - License: CC BY-ND 4.0 for the text, and Apache 2.0 for compiled/verify.py, FOR_ENGINEERS/check_receipts.py and FOR_ENGINEERS/compile/compile.py (see LICENSE.md)
 
 ### What the compiled bundle carries
@@ -243,6 +243,8 @@ Em dashes in the corpus sit in five permitted forms and nowhere else: Convergenc
 - `v1.3.0` is this release, and its fingerprint is above. A tag `v1.3.0+meta.1` may follow it under the same fingerprint to carry the DOI Zenodo assigns at the release.
 - Tag rule from here on: a tag of the form `vX.Y.Z` is used only when the fingerprint changes. A release that changes only tooling or documents under the same fingerprint is tagged `vX.Y.Z+label.N` (the first such tag is `v1.0.0+verify.1`). Zenodo's `version` field carries `X.Y.Z`.
 - The checker (`compiled/verify.py`) checks every file the bundle and the release manifest list, and takes `--expect FINGERPRINT` so a reader can confirm the download against a fingerprint obtained elsewhere.
+- Archive checksums (SHA-256 of the file as downloaded), so a copy fetched from an archive can be matched to this release:
+  - `human-centric-blueprint-v1.3.0.zip`: `22657e2b835efd335c99624b9db954d8c2e46fca5d6a53f503f98e217fdef6b2`
 
 ### Versions accepted
 

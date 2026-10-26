@@ -1,6 +1,6 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.3.0, sealed 2026-10-25. Fingerprint: `2d20121b8afbf0e99b52755003b6d7fe4fab2d21e4e6f19d34f15e500aac429e`. DOI: pending. Zenodo assigns this version's DOI at the release, and a metadata tag records it. The concept DOI for all versions is 10.5281/zenodo.22743046.
+By Erik Passoja. Version 1.3.0, sealed 2026-10-25. Fingerprint: `2d20121b8afbf0e99b52755003b6d7fe4fab2d21e4e6f19d34f15e500aac429e`. DOI: 10.5281/zenodo.23658125.
 
 This document is a rulebook for machines that act in the world: the AI that prescribes a medication, drives a car, executes a financial transaction, or tutors a child. The Human-Centric Blueprint states what such a machine may do, what it may not do under any authority, and what record it must leave so that anyone can check it afterward.
 
