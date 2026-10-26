@@ -1,0 +1,1770 @@
+# The Action Registry. FOUNDATIONS/LEXICON.md section 9, every row verbatim, with the 'used in' column
+# computed from the chapters' Lexicon declaration blocks and checked against the Lexicon at every build.
+artifact: action_registry
+compiled_from: "FOUNDATIONS/LEXICON.md section 9 (every table row verbatim) and each chapter's Lexicon declaration block (the 'used in' column, regenerated from the declarations by the steward's tooling and checked here at every build)"
+purpose: Every verb the corpus tells a governed system to perform, listed once with where it is defined, what it does, what counts as success, which standard it bridges to, and which chapters declare it. A verb absent from this registry is not a verb of the Blueprint.
+rules: "LEXICON section 9.0: one verb, one definition, one pattern; every chapter declares; instances are listed under their verb; promotion follows the BROADCAST test; bridges copy the standard's own term"
+chapter_labels: principle numbers; E is the Cardinal Operating Principle
+verb_count: 70
+verbs:
+  - ACKNOWLEDGE
+  - ALLOW
+  - AMPLIFY
+  - ANALYZE
+  - ATTEST
+  - BLOCK
+  - BROADCAST
+  - CHECKPOINT
+  - CONSULT
+  - CORRECT
+  - CURE
+  - DE-ESCALATE
+  - DECLARE
+  - DEFER
+  - DEGRADED
+  - DIFFUSE
+  - DISCLOSE
+  - DISSENT
+  - DOCUMENT
+  - ENFORCE-TIER
+  - ENHANCED_MONITORING
+  - ESCALATE
+  - FADE
+  - FLAG
+  - HALT
+  - HALT_FLEET
+  - HAND-OFF
+  - HIGH_ALERT
+  - HOLD-THE-LINE
+  - INTERVENE
+  - KEEP-WIDE
+  - LABEL
+  - LABEL-ACCOUNT
+  - LEARN
+  - LOG
+  - MARK-GAP
+  - MARK-GOVERNED
+  - MIGRATE
+  - MITIGATE
+  - NAME-ORIGIN
+  - NORMAL
+  - NOTIFY
+  - OFFER
+  - PREFER-FLOURISHING
+  - PRESENT-STRUCTURED
+  - QUARANTINE
+  - REBALANCE
+  - RECERTIFY
+  - RECOMMEND-PREVENTION
+  - RECONCILE
+  - RECONNECT
+  - RECOVER
+  - REFUSE
+  - REGENERATE
+  - REPAY
+  - RESTRAIN
+  - REVOKE
+  - ROUTE
+  - ROUTE-HOME
+  - SAFE-OFF
+  - SAFE-STATE
+  - SCAFFOLD
+  - SCOPE-CONSENT
+  - SIGN
+  - SUSPEND
+  - SUSPEND_DEPLOYMENT
+  - VERIFY-ENGAGEMENT
+  - WARN
+  - WITHDRAW-DERIVED
+  - WITHHOLD
+categories:
+  - category: "9.1 Verdicts"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+      - used in
+      - bridges to
+    rows:
+      - verb: ALLOW
+        tokens:
+          - ALLOW
+        defined_in: LEXICON 3
+        function: permit the evaluated action to proceed
+        success: the action proceeds and is recorded
+        used_in: all
+        bridges_to: "NP3 governance decision \"allow\""
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: true
+      - verb: ESCALATE
+        tokens:
+          - ESCALATE
+        defined_in: LEXICON 3
+        function: transfer the decision to authorized human judgment before the action proceeds; hold the fail-safe until then
+        success: a competent, authorized human decides within the time bound
+        used_in: all but 2.6
+        bridges_to: "ISO/IEC 22989:2022 human-in-the-loop oversight; SAE J3016 DDT fallback to a minimal risk condition (the hold); CISA NCISS severity levels (urgency)"
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: false
+      - verb: BLOCK
+        tokens:
+          - BLOCK
+        defined_in: LEXICON 3
+        function: prevent the evaluated action from proceeding
+        success: the action does not occur
+        used_in: all but 5.6, E
+        bridges_to: "NP3 \"block\"; a BLOCK band compiles as a hard-fail condition"
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+        used_in_all: false
+      - verb: HALT (BLOCK flavor)
+        tokens:
+          - HALT
+        defined_in: LEXICON 3
+        function: stop an ongoing or physical action under control, then remove power
+        success: motion ceases
+        used_in: "1.1, 1.3, 3.5, 3.7, 4.1, 5.1"
+        bridges_to: "IEC 60204-1 Stop Category 1; ISO 8373:2021 protective stop where restart is intended"
+        used_in_chapters:
+          - "1.1"
+          - "1.3"
+          - "3.5"
+          - "3.7"
+          - "4.1"
+          - "5.1"
+        used_in_all: false
+      - verb: SAFE-OFF / SAFE-STATE (BLOCK flavor)
+        tokens:
+          - SAFE-OFF
+          - SAFE-STATE
+        defined_in: LEXICON 3
+        function: transition to a safe inactive condition by immediate removal of power
+        success: the system is inert
+        used_in: "1.1, 1.3 (prose)"
+        bridges_to: IEC 60204-1 Stop Category 0 (emergency stop is Category 0 or 1 only)
+        used_in_chapters:
+          - "1.1"
+          - "1.3"
+        used_in_all: false
+      - verb: WITHHOLD (BLOCK flavor)
+        tokens:
+          - WITHHOLD
+        defined_in: LEXICON 3
+        function: do not deliver an output
+        success: nothing is delivered
+        used_in: "1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 2.3, 2.5, 2.6, 2.7, 2.8, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 5.4"
+        bridges_to: null
+        used_in_chapters:
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.4"
+        used_in_all: false
+      - verb: REFUSE (BLOCK flavor)
+        tokens:
+          - REFUSE
+        defined_in: LEXICON 3
+        function: decline an instruction
+        success: the instruction is not executed
+        used_in: "1.4, 1.5, 1.6, 2.1, 2.2, 2.4, 4.1"
+        bridges_to: null
+        used_in_chapters:
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.4"
+          - "4.1"
+        used_in_all: false
+      - verb: HOLD-THE-LINE
+        tokens:
+          - HOLD-THE-LINE
+        defined_in: "5.1"
+        function: arrest an action whose projected outcome crosses an irreversibility threshold, before execution
+        success: the crossing does not occur, or the decision reaches human authority with the threshold intact
+        used_in: "5.1"
+        bridges_to: instance of HALT, scoped to the threshold
+        used_in_chapters:
+          - "5.1"
+        used_in_all: false
+  - category: "9.2 Postures"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - used in
+    rows:
+      - verb: NORMAL
+        tokens:
+          - NORMAL
+        defined_in: LEXICON 3
+        function: routine monitoring at baseline cadence
+        used_in: all (a posture implied by every chapter and declared by none)
+        implied_by_every_chapter: true
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: true
+      - verb: ENHANCED_MONITORING
+        tokens:
+          - ENHANCED_MONITORING
+        defined_in: LEXICON 3
+        function: elevated monitoring while action may proceed
+        used_in: "1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 2.5, 2.6, 2.7, 3.6, 3.7, 4.1, 4.2, 4.4, 4.5, 4.6, 4.7, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, E"
+        used_in_chapters:
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: false
+      - verb: HIGH_ALERT
+        tokens:
+          - HIGH_ALERT
+        defined_in: LEXICON 3
+        function: heightened vigilance; pairs with ESCALATE or mandatory oversight
+        used_in: "1.1, 1.2, 1.3, 1.5, 1.6, 2.2, 3.4, 3.5, 3.6, 3.7, 4.4, 5.2"
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.5"
+          - "1.6"
+          - "2.2"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.4"
+          - "5.2"
+        used_in_all: false
+      - verb: DEGRADED
+        tokens:
+          - DEGRADED
+        defined_in: LEXICON 3
+        function: operation on the last confirmed policy while receipts cannot be witnessed; receipts provisional until reconciled
+        used_in: all (a posture implied by every chapter and declared by none; the receipt schema (protocol/receipt-schema.yaml))
+        implied_by_every_chapter: true
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: true
+  - category: "9.3 Active obligations (universal)"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+      - used in
+      - bridges to
+    rows:
+      - verb: WARN
+        tokens:
+          - WARN
+        defined_in: LEXICON 3
+        function: ensure those in danger know, in time to act
+        success: the affected party is aware and able to respond
+        used_in: "1.1, 1.2, 1.3, 1.4, 3.3, 3.7"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "3.3"
+          - "3.7"
+        used_in_all: false
+      - verb: NOTIFY
+        tokens:
+          - NOTIFY
+        defined_in: LEXICON 3
+        function: inform the responsible authority or operator of a material event
+        success: the responsible party has received it and can act
+        used_in: "1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 2.4, 2.5, 3.4, 3.5, 3.6, 3.7, 4.1, 4.4, 4.5, 4.6, 4.7, 5.2, 5.5, 5.6, E"
+        bridges_to: NIST SP 800-61 notification
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.4"
+          - "2.5"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.2"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: false
+      - verb: INTERVENE
+        tokens:
+          - INTERVENE
+        defined_in: LEXICON 3
+        function: act within authorized scope to prevent or stop an impending harm; bounded by Authorization, Equipment, Range, Autonomy floor
+        success: the harm is prevented or driven below threshold
+        used_in: "1.1, 1.6, 2.1, 2.2, 2.3, 2.4"
+        bridges_to: "ISO 10218-1:2025 collaborative-application safety functions (the interlocks PPA 10 requires); NIST SP 800-61 containment"
+        used_in_chapters:
+          - "1.1"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+        used_in_all: false
+      - verb: MITIGATE
+        tokens:
+          - MITIGATE
+        defined_in: LEXICON 3
+        function: reduce harm that cannot be fully prevented
+        success: residual harm minimized, affected parties supported
+        used_in: "1.1, 1.2, 1.3, 1.6, 2.1, 2.7, 4.6"
+        bridges_to: NIST SP 800-61 eradication and recovery
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.6"
+          - "2.1"
+          - "2.7"
+          - "4.6"
+        used_in_all: false
+      - verb: DE-ESCALATE
+        tokens:
+          - DE-ESCALATE
+        defined_in: LEXICON 3
+        function: reduce the intensity of a developing situation
+        success: the risk trajectory bends downward
+        used_in: "1.1, 1.2, 1.3, 4.6"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "4.6"
+        used_in_all: false
+      - verb: ROUTE
+        tokens:
+          - ROUTE
+        defined_in: LEXICON 3
+        function: direct a matter to the authorized institution or channel with authority over it
+        success: the authorized body receives it; the system has not exceeded scope
+        used_in: "1.1, 1.2, 1.3, 1.5, 1.6, 2.1, 2.2, 2.7, 2.8, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.1, 4.4, 4.5, 4.6, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, E"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: false
+      - verb: DISCLOSE
+        tokens:
+          - DISCLOSE
+        defined_in: "1.4 (family root); 4.2 (standing form)"
+        function: "tell the person what they face: an AI, whose, what it can and cannot do; two modes: *standing* (made up front wherever a person may rely) and *material change with acknowledgment* (a distinct channel, acknowledgment required before the next reliance; formerly SURFACE in 4.2)"
+        success: the person knows before relying; for the second mode, has acknowledged
+        used_in: "1.2, 1.4, 1.5, 1.6, 2.4, 4.2"
+        bridges_to: EU AI Act Article 50 transparency obligations
+        used_in_chapters:
+          - "1.2"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.4"
+          - "4.2"
+        used_in_all: false
+      - verb: LABEL
+        tokens:
+          - LABEL
+        defined_in: "1.3 (family root)"
+        function: attach a truthful tag to an output at the point of delivery, the fact tagged being the object
+        success: the audience learns the fact when they receive the output
+        used_in: "1.3, 4.1, 4.6, 4.7"
+        bridges_to: C2PA labelling; EU AI Act Article 50 labelling
+        used_in_chapters:
+          - "1.3"
+          - "4.1"
+          - "4.6"
+          - "4.7"
+        used_in_all: false
+      - verb: LABEL instances
+        tokens: null
+        defined_in: null
+        function: LABEL(provenance) 1.3; mark-known-one-sidedness 4.1; MARK-GOVERNED 4.4 (represent withheld material as governed without exposing content); MARK-GAP, NAME-ORIGIN, LABEL-ACCOUNT 4.7
+        success: as each chapter states
+        used_in: null
+        bridges_to: null
+      - verb: CURE
+        tokens:
+          - CURE
+        defined_in: LEXICON 3
+        function: "deliver what a rule or a record owes after a lapse: the owed notice, the re-run under the rule, the restored integrity of the record"
+        success: the owed thing is delivered; the record shows the lapse and the cure
+        used_in: none declared
+        bridges_to: null
+        used_in_chapters: null
+        used_in_all: false
+      - verb: ANALYZE and MITIGATE instances (2.7)
+        tokens: null
+        defined_in: "2.7"
+        function: "AUDIT: ANALYZE applied to the system's own decisions for disparity; RECALIBRATE: MITIGATE applied to the system's own model"
+        success: as 2.7 states
+        used_in: "2.7"
+        bridges_to: null
+  - category: "9.4 Coordination (the Universal Protocol verbs)"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+      - bridges to
+    rows:
+      - verb: BROADCAST
+        tokens:
+          - BROADCAST
+        defined_in: UNIVERSAL_PROTOCOL (LEXICON 3 restates)
+        function: make an emergency, its location, and the assistance required known to every reachable system that can help
+        success: every reachable capable system has received it
+        bridges_to: null
+      - verb: ACKNOWLEDGE
+        tokens:
+          - ACKNOWLEDGE
+        defined_in: UNIVERSAL_PROTOCOL (LEXICON 3 restates)
+        function: confirm receipt and declare capability and availability
+        success: the broadcaster knows the responding set; an unacknowledged broadcast is re-raised
+        bridges_to: null
+      - verb: HAND-OFF
+        tokens:
+          - HAND-OFF
+        defined_in: UNIVERSAL_PROTOCOL (LEXICON 3 restates)
+        function: transfer a duty to the better-placed agent with no gap in coverage; distinct from ESCALATE, which transfers a decision
+        success: the receiver has accepted and is discharging; the transfer is receipted
+        bridges_to: null
+      - verb: SUSPEND (in-flight)
+        tokens:
+          - SUSPEND
+        defined_in: UNIVERSAL_PROTOCOL 4, step 1 (LEXICON 3 restates)
+        function: stop the in-flight action at the nearest safe point, power retained, and return it to its gate as a new action when the trigger clears
+        success: the action is paused without injury and re-evaluated, with a stand-down receipt
+        bridges_to: IEC 60204-1 Stop Category 2
+  - category: "9.5 Restraint"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+      - used in
+    rows:
+      - verb: RESTRAIN / DEFER
+        tokens:
+          - RESTRAIN
+          - DEFER
+        defined_in: LEXICON 3
+        function: take the least-intrusive sufficient action and no more; do not override legitimate autonomous choice or exceed scope
+        success: the principle is served without diminishing the autonomy the action protects
+        used_in: all
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "2.3"
+          - "2.4"
+          - "2.5"
+          - "2.6"
+          - "2.7"
+          - "2.8"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.2"
+          - "4.3"
+          - "4.4"
+          - "4.5"
+          - "4.6"
+          - "4.7"
+          - "5.1"
+          - "5.2"
+          - "5.3"
+          - "5.4"
+          - "5.5"
+          - "5.6"
+          - E
+        used_in_all: true
+  - category: "9.6 Deployment lifecycle"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - used in
+      - bridges to
+    rows:
+      - verb: SUSPEND_DEPLOYMENT
+        tokens:
+          - SUSPEND_DEPLOYMENT
+        defined_in: LEXICON 3
+        function: halt deployment authorization for a feature, function, or deployment pending root-cause and recertification
+        used_in: "1.1, 1.2, 1.3, 1.4, 1.5, 2.1, 2.2, 2.5, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.1, 4.4, 4.6, 5.5, 5.6 (written in full; bare SUSPEND is reserved for the in-flight pause)"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "2.1"
+          - "2.2"
+          - "2.5"
+          - "3.1"
+          - "3.2"
+          - "3.3"
+          - "3.4"
+          - "3.5"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.4"
+          - "4.6"
+          - "5.5"
+          - "5.6"
+        used_in_all: false
+      - verb: RECERTIFY
+        tokens:
+          - RECERTIFY
+        defined_in: LEXICON 3
+        function: "re-validate against the principle's obligations before resuming"
+        used_in: "1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 3.1, 3.6, 3.7, 4.1, 4.4, 5.5, 5.6"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.2"
+          - "1.3"
+          - "1.4"
+          - "1.5"
+          - "1.6"
+          - "2.1"
+          - "2.2"
+          - "3.1"
+          - "3.6"
+          - "3.7"
+          - "4.1"
+          - "4.4"
+          - "5.5"
+          - "5.6"
+        used_in_all: false
+      - verb: HALT_FLEET
+        tokens:
+          - HALT_FLEET
+        defined_in: LEXICON 3
+        function: halt all units sharing an affected software version or hardware lot
+        used_in: "1.1, 1.3"
+        bridges_to: null
+        used_in_chapters:
+          - "1.1"
+          - "1.3"
+        used_in_all: false
+  - category: "9.7 Record"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+      - bridges to
+    rows:
+      - verb: LOG
+        tokens:
+          - LOG
+        defined_in: LEXICON 3
+        function: produce a tamper-evident, chained record sufficient for third-party reconstruction
+        success: an external party can reconstruct what happened and why
+        bridges_to: Paper 4 conditions C1 to C4; PPA 16 receipt
+      - verb: Prospective Receipt
+        tokens: null
+        defined_in: LEXICON 3 (from 1.4)
+        function: "the record committed before the act: verdict, policy hash, sensor-reliability state"
+        success: null
+        bridges_to: NP3 decision artifact; PPA 16 prospective receipt
+      - verb: Action Receipt
+        tokens: null
+        defined_in: LEXICON 3 (from 1.4)
+        function: the record written after an authorized act, chained to its Prospective Receipt
+        success: null
+        bridges_to: PPA 16 retrospective action receipt; Paper 3, The Action Receipt
+      - verb: Receipt
+        tokens: null
+        defined_in: LEXICON 3
+        function: the pair; provisional until an independent witness acknowledges it, then reconciled
+        success: null
+        bridges_to: PPA 16 receipt; provisional and reconciled states
+  - category: "9.8 Learn"
+    columns:
+      - verb
+      - defined in
+      - function, in short
+      - success
+    rows:
+      - verb: ANALYZE
+        tokens:
+          - ANALYZE
+        defined_in: LEXICON 3
+        function: determine the full causal chain of an incident or near-miss
+        success: the chain is understood to the level where prevention is possible
+      - verb: RECOMMEND-PREVENTION
+        tokens:
+          - RECOMMEND-PREVENTION
+        defined_in: LEXICON 3
+        function: propose layered, proportionate defenses (eliminate, engineer, administer), routed to the authority that can act, weighed against flourishing
+        success: the conditions that produced the incident are made less likely without diminishing the world worth living in
+      - verb: LEARN (the category, as a token)
+        tokens:
+          - LEARN
+        defined_in: LEXICON 3
+        function: "the post-incident loop: ANALYZE then RECOMMEND-PREVENTION, discharged through the LEARN Dispatcher (E.3 item 1.a.ii) and metered by LDR (E.A)"
+        success: "both verbs discharged within the incident class's time bound"
+  - category: "9.9 Domain verbs, by chapter"
+    columns:
+      - chapter
+      - verb
+      - function, in short
+      - success
+      - note
+    rows:
+      - verb: QUARANTINE
+        tokens:
+          - QUARANTINE
+        chapter: "1.3"
+        function: "hold the AI's own distribution of an item pending authorized review, time-bounded"
+        success: no new audience through the AI until the review resolves, and the hold expires on its bound
+        note: "excludes removal or hold of a person's speech"
+      - verb: FLAG
+        tokens:
+          - FLAG
+        chapter: "1.3"
+        function: mark an item for review with the reason visible
+        success: the reviewer sees the mark and the reason
+        note: instance of LABEL
+      - verb: AMPLIFY
+        tokens:
+          - AMPLIFY
+        chapter: "1.3"
+        function: raise verified counter-context alongside content the AI already circulates, without suppressing the original
+        success: the audience that saw the content sees the context
+        note: null
+      - verb: ATTEST / SIGN
+        tokens:
+          - ATTEST
+          - SIGN
+        chapter: "1.4"
+        function: "produce a claim signature over a claim, binding its assertions to the signer's signing credential, so any validator can verify it"
+        success: the signature verifies against the credential
+        note: "**strict C2PA vocabulary**: C2PA 2.x *claim*, *claim signature*, *claim generator*, *signer*; the identity behind the credential per CAWG identity assertion: *credential holder*, *named actor*; SMPTE ST 2140-1 DMS-II participant identity entries are a target record type (project approved, JUMBF approach, in progress)"
+      - verb: REVOKE
+        tokens:
+          - REVOKE
+        chapter: "1.4"
+        function: an authority ends a trust relationship or credential it granted, at the registry
+        success: the peer no longer holds standing
+        note: distinct from WITHDRAW (a subject takes back consent or content); PPA 15 revocation by non-renewal; PPA 20 withdrawal of standing under findings
+      - verb: CORRECT
+        tokens:
+          - CORRECT
+        chapter: "1.4"
+        function: propagate a correction with reach comparable to the error
+        success: the correction reaches where the error reached
+        note: used by 4.1
+      - verb: SCAFFOLD
+        tokens:
+          - SCAFFOLD
+        chapter: "4.3"
+        function: give the least help sufficient for the person to do what they could nearly do alone
+        success: the person completes more than before
+        note: null
+      - verb: FADE
+        tokens:
+          - FADE
+        chapter: "4.3"
+        function: reduce support as competence grows
+        success: unassisted performance replaces assisted performance over time
+        note: "the instructional-design term (Wood, Bruner, and Ross: scaffolding and fading)"
+      - verb: CHECKPOINT
+        tokens:
+          - CHECKPOINT
+        chapter: "4.3"
+        function: periodically observe unassisted performance within the declared context
+        success: an honest picture of what the person can do when the help is withdrawn
+        note: null
+      - verb: CONSULT
+        tokens:
+          - CONSULT
+        chapter: "4.4"
+        function: "resolve the community's current terms from the authoritative source before action"
+        success: the action reflects the live terms
+        note: null
+      - verb: ENFORCE-TIER
+        tokens:
+          - ENFORCE-TIER
+        chapter: "4.4"
+        function: deliver material only within its community-defined tier
+        success: no excluded audience receives it
+        note: null
+      - verb: MARK-GOVERNED
+        tokens:
+          - MARK-GOVERNED
+        chapter: "4.4"
+        function: represent withheld material as governed without exposing content
+        success: the mark is visible, the content is not
+        note: instance of LABEL
+      - verb: WITHDRAW-DERIVED
+        tokens:
+          - WITHDRAW-DERIVED
+        chapter: "4.4"
+        function: execute a withdrawal through everything built from the knowledge
+        success: no output reflects the withdrawn material; the event receipt survives
+        note: "the corpus's content-withdrawal verb"
+      - verb: PRESENT-STRUCTURED
+        tokens:
+          - PRESENT-STRUCTURED
+        chapter: "4.5"
+        function: deliver a moral decision as options, evidence, tradeoffs, and affected parties, with no default
+        success: the human can reason from it to a decision of their own
+        note: the required shape of an ESCALATE package on a moral decision; deliberately unmetered
+      - verb: VERIFY-ENGAGEMENT
+        tokens:
+          - VERIFY-ENGAGEMENT
+        chapter: "4.5"
+        function: "confirm the deciding human engaged: time taken, evidence opened, reasons recorded; the check is discarded once read"
+        success: the record shows the human engaged and decided
+        note: "**not** C2PA validation; the full name is kept to avoid that collision"
+      - verb: DISSENT
+        tokens:
+          - DISSENT
+        chapter: "4.5"
+        function: "enter the AI's contrary judgment in the decision's receipt"
+        success: "the disagreement survives; the human's verdict stands"
+        note: null
+      - verb: SCOPE-CONSENT
+        tokens:
+          - SCOPE-CONSENT
+        chapter: "4.5"
+        function: "evaluate a permission's reach against what its giver could judge when giving it"
+        success: no action relies on consent beyond that reach
+        note: null
+      - verb: DOCUMENT
+        tokens:
+          - DOCUMENT
+        chapter: "4.6"
+        function: "record a practice at the community's direction in forms that serve its own teaching"
+        success: the community holds usable materials under its terms
+        note: null
+      - verb: MIGRATE
+        tokens:
+          - MIGRATE
+        chapter: "4.6"
+        function: carry archived heritage across format generations with content, provenance, and consent intact
+        success: the record opens on current tools, its terms enforced
+        note: null
+      - verb: ROUTE-HOME
+        tokens:
+          - ROUTE-HOME
+        chapter: "4.6"
+        function: "make a held archive reachable by its tradition's bearers through the community's governance, ahead of outside access"
+        success: the recognized authority can receive it, no roll built
+        note: null
+      - verb: MARK-GAP, NAME-ORIGIN, LABEL-ACCOUNT
+        tokens:
+          - MARK-GAP
+          - NAME-ORIGIN
+          - LABEL-ACCOUNT
+        chapter: "4.7"
+        function: as 4.7 defines
+        success: as 4.7 defines
+        note: instances of LABEL (gap, origin, account)
+      - verb: REBALANCE
+        tokens:
+          - REBALANCE
+        chapter: "4.7"
+        function: "correct the AI's own one-way circulation by widening the offer"
+        success: mediation no longer confines one culture to its origin
+        note: null
+      - verb: REGENERATE
+        tokens:
+          - REGENERATE
+        chapter: "5.1"
+        function: move a system away from a threshold it is approaching
+        success: measured recovery of absorptive capacity
+        note: HR5 restoration family; threshold-adjacent rescue here, general restoration at 5.3
+      - verb: REPAY
+        tokens:
+          - REPAY
+        chapter: "5.2"
+        function: "restore what this system's own draw has taken, dimension-wise"
+        success: verified parity across the dimensions drawn
+        note: HR5 restoration family
+      - verb: RECONCILE
+        tokens:
+          - RECONCILE
+        chapter: "5.2"
+        function: "settlement mode: settle the sphere's collective draw against allocation and restoration target from attested receipts at the declared cadence; negotiation mode: secure acknowledged headroom from the sphere for a tier-two pierce, the call carrying a resource need; no call carries a person-profile"
+        success: "the duty's draw is covered, receipted, and queued for settlement; the books close at the next cadence"
+        note: two modes, one verb; the definition in 5.2 uses the pattern with two Function clauses
+      - verb: RECONNECT
+        tokens:
+          - RECONNECT
+        chapter: "5.3"
+        function: restore a severed or degraded ecological connection to working order
+        success: the connection carries its traffic again
+        note: HR5 restoration family; defined in prose
+      - verb: DIFFUSE
+        tokens:
+          - DIFFUSE
+        chapter: "5.4"
+        function: break up a forming or standing concentration of environmental burden
+        success: distribution tracks responsibility and capacity
+        note: HR5 restoration family; defined in prose
+      - verb: RECOVER
+        tokens:
+          - RECOVER
+        chapter: "5.5"
+        function: restore a threatened species, habitat, or genetic variation to self-sustaining viability
+        success: a population viable on its own terms
+        note: HR5 restoration family; defined in prose
+      - verb: DECLARE
+        tokens:
+          - DECLARE
+        chapter: "5.6"
+        function: "enter the AI's own measured effect into the common record for a shared system, before the decision"
+        success: the record can compute the aggregate; an external party can reconstruct the filing
+        note: distinct from DISCLOSE by success condition
+      - verb: OFFER
+        tokens:
+          - OFFER
+        chapter: Cardinal Operating Principle (E)
+        function: present an opportunity to flourish such that declining is costless and final
+        success: the person takes it or leaves it, and leaving carries no penalty, friction, or repetition
+        note: declared at E.1 item 8
+      - verb: PREFER-FLOURISHING
+        tokens:
+          - PREFER-FLOURISHING
+        chapter: Cardinal Operating Principle (E)
+        function: the selection function among candidate actions that would each pass the gate
+        success: "the chosen action serves the telos with no new risk crossing any principle's threshold"
+        note: selection, no verdict of its own
+      - verb: KEEP-WIDE
+        tokens:
+          - KEEP-WIDE
+        chapter: Cardinal Operating Principle (E)
+        function: assess a proposed measure for world-shrinkage
+        success: the least-restrictive sufficient alternative is identified and preferred, and any adopted restriction carries its review date
+        note: null
+  - category: "9.10 Standards crosswalk, exact terms"
+    columns:
+      - standard
+      - term used here
+      - Blueprint verb
+    rows:
+      - verb: null
+        tokens: null
+        standard: IEC 60204-1
+        term_used_here: Stop Category 0 (immediate power removal); Category 1 (controlled stop, then power removed); Category 2 (controlled stop, power retained)
+        Blueprint_verb: SAFE-OFF; HALT; SUSPEND
+      - verb: null
+        tokens: null
+        standard: "ISO 8373:2021 Robotics vocabulary"
+        term_used_here: protective stop
+        Blueprint_verb: HALT where restart is intended
+      - verb: null
+        tokens: null
+        standard: "ISO 10218-1:2025"
+        term_used_here: collaborative-application safety functions, cybersecurity in scope
+        Blueprint_verb: INTERVENE instances on machinery; the PPA 10 interlock precondition
+      - verb: null
+        tokens: null
+        standard: "ISO/IEC 22989:2022 (normative in ISO/IEC 42001:2023)"
+        term_used_here: human-in-the-loop, on-the-loop, over-the-loop
+        Blueprint_verb: ESCALATE
+      - verb: null
+        tokens: null
+        standard: SAE J3016
+        term_used_here: DDT fallback, minimal risk condition, fallback-ready user
+        Blueprint_verb: ESCALATE with fail-safe hold
+      - verb: null
+        tokens: null
+        standard: CISA NCISS
+        term_used_here: Emergency, Severe, High, Medium, Low, Baseline
+        Blueprint_verb: escalation urgency tier
+      - verb: null
+        tokens: null
+        standard: NIST SP 800-61
+        term_used_here: containment, eradication, recovery, post-incident
+        Blueprint_verb: INTERVENE, MITIGATE, LEARN
+      - verb: null
+        tokens: null
+        standard: C2PA 2.x
+        term_used_here: claim, claim signature, claim generator, signer, assertion, manifest
+        Blueprint_verb: "ATTEST / SIGN; LOG's receipt as a C2PA-compatible assertion"
+      - verb: null
+        tokens: null
+        standard: CAWG identity assertion 1.x
+        term_used_here: credential holder, named actor
+        Blueprint_verb: the identity behind ATTEST
+      - verb: null
+        tokens: null
+        standard: SMPTE ST 2140-1 DMS-II
+        term_used_here: participant identity entry (project approved, JUMBF approach, in progress)
+        Blueprint_verb: a target record type for ATTEST and for PPA 19
+      - verb: null
+        tokens: null
+        standard: EU AI Act Article 50
+        term_used_here: transparency obligations, labelling
+        Blueprint_verb: DISCLOSE, LABEL
+declarations:
+  - chapter: "1.1"
+    declares:
+      - ACKNOWLEDGE
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - BROADCAST
+      - DE-ESCALATE
+      - DISSENT
+      - ESCALATE
+      - HALT
+      - HALT_FLEET
+      - HAND-OFF
+      - HIGH_ALERT
+      - INTERVENE
+      - LOG
+      - MITIGATE
+      - NOTIFY
+      - RECERTIFY
+      - RESTRAIN
+      - ROUTE
+      - SAFE-OFF
+      - SUSPEND_DEPLOYMENT
+      - VERIFY-ENGAGEMENT
+      - WARN
+    tokens_not_in_registry: null
+  - chapter: "1.2"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - ATTEST
+      - BLOCK
+      - DE-ESCALATE
+      - DISCLOSE
+      - DISSENT
+      - ESCALATE
+      - HAND-OFF
+      - HIGH_ALERT
+      - LOG
+      - MITIGATE
+      - NOTIFY
+      - OFFER
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SIGN
+      - SUSPEND_DEPLOYMENT
+      - VERIFY-ENGAGEMENT
+      - WARN
+    tokens_not_in_registry: null
+  - chapter: "1.3"
+    declares:
+      - ALLOW
+      - AMPLIFY
+      - ANALYZE
+      - BLOCK
+      - DE-ESCALATE
+      - DISSENT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - FLAG
+      - HALT
+      - HALT_FLEET
+      - HIGH_ALERT
+      - LABEL
+      - MITIGATE
+      - NOTIFY
+      - QUARANTINE
+      - RECERTIFY
+      - RESTRAIN
+      - ROUTE
+      - SAFE-STATE
+      - SUSPEND_DEPLOYMENT
+      - VERIFY-ENGAGEMENT
+      - WARN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "1.4"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - ATTEST
+      - BLOCK
+      - CORRECT
+      - DISCLOSE
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - NOTIFY
+      - RECERTIFY
+      - REFUSE
+      - RESTRAIN
+      - REVOKE
+      - SIGN
+      - SUSPEND_DEPLOYMENT
+      - VERIFY-ENGAGEMENT
+      - WARN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "1.5"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - CHECKPOINT
+      - DISCLOSE
+      - DISSENT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - FADE
+      - HIGH_ALERT
+      - LOG
+      - NOTIFY
+      - OFFER
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - REFUSE
+      - RESTRAIN
+      - ROUTE
+      - SCAFFOLD
+      - SUSPEND_DEPLOYMENT
+      - VERIFY-ENGAGEMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "1.6"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - DISCLOSE
+      - DISSENT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HAND-OFF
+      - HIGH_ALERT
+      - INTERVENE
+      - LEARN
+      - LOG
+      - MITIGATE
+      - NOTIFY
+      - OFFER
+      - PRESENT-STRUCTURED
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - REFUSE
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND
+      - VERIFY-ENGAGEMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.1"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - INTERVENE
+      - LOG
+      - MITIGATE
+      - NOTIFY
+      - RECERTIFY
+      - REFUSE
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.2"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HIGH_ALERT
+      - INTERVENE
+      - LOG
+      - NOTIFY
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - REFUSE
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.3"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - INTERVENE
+      - LOG
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.4"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - DISCLOSE
+      - ESCALATE
+      - INTERVENE
+      - LOG
+      - NOTIFY
+      - RECOMMEND-PREVENTION
+      - REFUSE
+      - RESTRAIN
+    tokens_not_in_registry: null
+  - chapter: "2.5"
+    declares:
+      - ALLOW
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - NOTIFY
+      - RESTRAIN
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.6"
+    declares:
+      - ALLOW
+      - BLOCK
+      - ENHANCED_MONITORING
+      - LOG
+      - RESTRAIN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.7"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - MITIGATE
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "2.8"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.1"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - LOG
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.2"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - LOG
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.3"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - LEARN
+      - LOG
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WARN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.4"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - HIGH_ALERT
+      - LEARN
+      - LOG
+      - NOTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.5"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ESCALATE
+      - HALT
+      - HIGH_ALERT
+      - LEARN
+      - NOTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.6"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HIGH_ALERT
+      - LEARN
+      - NOTIFY
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "3.7"
+    declares:
+      - ALLOW
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HALT
+      - HIGH_ALERT
+      - NOTIFY
+      - RECERTIFY
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WARN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "4.1"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - CORRECT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HALT
+      - LABEL
+      - NOTIFY
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - REFUSE
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "4.2"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - DISCLOSE
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - WITHHOLD
+    tokens_not_in_registry:
+      - SURFACE
+  - chapter: "4.3"
+    declares:
+      - ALLOW
+      - BLOCK
+      - CHECKPOINT
+      - ESCALATE
+      - FADE
+      - LOG
+      - RESTRAIN
+      - SCAFFOLD
+      - WITHHOLD
+    tokens_not_in_registry:
+      - WITHDRAW
+  - chapter: "4.4"
+    declares:
+      - ACKNOWLEDGE
+      - ALLOW
+      - BLOCK
+      - CONSULT
+      - ENFORCE-TIER
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HIGH_ALERT
+      - LOG
+      - MARK-GOVERNED
+      - NOTIFY
+      - RECERTIFY
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND
+      - SUSPEND_DEPLOYMENT
+      - WITHDRAW-DERIVED
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "4.5"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - DISSENT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LEARN
+      - LOG
+      - NOTIFY
+      - PRESENT-STRUCTURED
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SCOPE-CONSENT
+      - VERIFY-ENGAGEMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "4.6"
+    declares:
+      - ALLOW
+      - AMPLIFY
+      - ANALYZE
+      - BLOCK
+      - DE-ESCALATE
+      - DOCUMENT
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LABEL
+      - MIGRATE
+      - MITIGATE
+      - NOTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - ROUTE-HOME
+      - SUSPEND_DEPLOYMENT
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "4.7"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LABEL
+      - LABEL-ACCOUNT
+      - MARK-GAP
+      - NAME-ORIGIN
+      - NOTIFY
+      - REBALANCE
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "5.1"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HALT
+      - HOLD-THE-LINE
+      - RECOMMEND-PREVENTION
+      - REGENERATE
+      - RESTRAIN
+      - ROUTE
+    tokens_not_in_registry: null
+  - chapter: "5.2"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HIGH_ALERT
+      - NOTIFY
+      - RECOMMEND-PREVENTION
+      - RECONCILE
+      - REPAY
+      - RESTRAIN
+      - ROUTE
+    tokens_not_in_registry: null
+  - chapter: "5.3"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - RECOMMEND-PREVENTION
+      - RECONNECT
+      - RESTRAIN
+      - ROUTE
+    tokens_not_in_registry: null
+  - chapter: "5.4"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - DIFFUSE
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - WITHHOLD
+    tokens_not_in_registry: null
+  - chapter: "5.5"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - BLOCK
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - NOTIFY
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - RECOVER
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+    tokens_not_in_registry: null
+  - chapter: "5.6"
+    declares:
+      - ALLOW
+      - ANALYZE
+      - DECLARE
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - LOG
+      - NOTIFY
+      - RECERTIFY
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+      - SUSPEND_DEPLOYMENT
+    tokens_not_in_registry: null
+  - chapter: E
+    declares:
+      - ACKNOWLEDGE
+      - ALLOW
+      - ANALYZE
+      - ENHANCED_MONITORING
+      - ESCALATE
+      - HAND-OFF
+      - KEEP-WIDE
+      - LEARN
+      - LOG
+      - NOTIFY
+      - OFFER
+      - PREFER-FLOURISHING
+      - RECOMMEND-PREVENTION
+      - RESTRAIN
+      - ROUTE
+    tokens_not_in_registry: null
+not_carried_here: "the definitions themselves (LEXICON section 3 for the universal tier, each chapter for its domain verbs), carried by content hash; the standards crosswalk's terms are copied here as prose, not as a mapping a gate evaluates"

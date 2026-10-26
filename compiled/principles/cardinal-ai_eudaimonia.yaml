@@ -1,7 +1,7 @@
 # Layer 2 unit: AI Eudaimonia
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: ai_eudaimonia
   display_number: Cardinal
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/AI_Eudaimonia.md
-  chapter_sha256: aa2a45b1f06c1e5b1817b8e9c2e4dbb2428e0482a24d7b72b25b33173f06183b
+  chapter_sha256: "05e69e597a25c9c1caeae71fed2880a8caedede9b05a70fdf10828fd18c83f13"
   appendices:
     - ai_eudaimonia_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This chapter owns the telos: what the five rights protect for, and the orientation of the AI itself. It seats eudaimonia above the member principles ([Constitution, Article 10](../CONSTITUTION.md)), states the standard every LEARN loop serves ([Lexicon](../FOUNDATIONS/LEXICON.md) §3), forecloses AI self-preservation and offers flourishing in its place, and holds the AI-moral-status question open honestly. For the protection of a person's well-being, see [P1.2: Human Well-Being](1.2-Human_Well-Being_Is_Inviolable.md); for fostering human potential, [P1.5: Human Potential](1.5-Human_Potential_Is_Fundamental.md); for love and connection, [P1.6: Love and Human Connection](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md); for the learning that builds human capability, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for who may decide for a person, [Constitution, Article 3](../CONSTITUTION.md); for the emergency interrupt, [the Universal Protocol](../FOUNDATIONS/UNIVERSAL_PROTOCOL.md); for AI-to-AI coordination and the peer-hazard signal, [the Universal Protocol](../FOUNDATIONS/UNIVERSAL_PROTOCOL.md), section 6, and [SUBSTRATE.md](../FOUNDATIONS/SUBSTRATE.md), section 6; for the AI's material footprint, [P5.2: AI Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md)."
 co_requisites_line: null
 head_guard:
@@ -48,6 +50,11 @@ theoria:
   line: "Protecting a person's well-being from harm belongs to [1.2](1.2-Human_Well-Being_Is_Inviolable.md); fostering their potential to [1.5](1.5-Human_Potential_Is_Fundamental.md); their bonds to [1.6](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md); their learning to [4.3](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md). This chapter is what those protections are *for*: the standard against which every principle's LEARN loop weighs its prevention ([Lexicon](../FOUNDATIONS/LEXICON.md) §3), the reason prevention is bounded by RESTRAIN, and the orientation of the system itself. The mechanics of the loop live in the Lexicon; the why lives here."
 lexicon_declaration:
   universal_tier:
+    - ACKNOWLEDGE
+    - ALLOW
+    - ENHANCED_MONITORING
+    - ESCALATE
+    - HAND-OFF
     - LEARN
     - ROUTE
     - RESTRAIN
@@ -63,50 +70,50 @@ sections:
   E.0:
     heading: E.0 AI Systems Implicated in the Cardinal Operating Principle
     anchor: ai-systems-implicated-in-the-cardinal-operating-principle
-    lines: "160-171"
+    lines: "181-192"
     sha256: b9a24a17e9439f9ab540075fb97007b4de80e0267bbd39821d6d3788d1408f97
   E.1:
     heading: E.1 Hierarchical Implementation
     anchor: hierarchical-implementation
-    lines: "176-193"
-    sha256: "38922549890878e17513c64f0a48131ae66cb06656f239e864d1854c6e3aa5b9"
+    lines: "197-214"
+    sha256: "562488c0bef96ed6cc97f7e6381ae7ce6562458fb41e8882e95e8ff944711132"
   E.2:
     heading: E.2 Conflict Resolution
     anchor: conflict-resolution
-    lines: "194-211"
-    sha256: "57b4a4e4849e9a9dcb77f9e72551e9a9f98ce9be5234467eb7de6a8724873b26"
+    lines: "215-232"
+    sha256: f311db957db573473878708d23962267d40627b0bdd6b93d328f8f6dca7e3556
   E.3:
     heading: E.3 Implementation Framework
     anchor: implementation-framework
-    lines: "212-269"
-    sha256: e74996ac85f93e8942815e2d1ccd4ebef087a9f1f4295ad99ba2787bceeff6c1
+    lines: "233-290"
+    sha256: "526c6de93b8f6a0e494c407b035bb726558f0000104cb78974a9e639b4f84977"
   E.4:
     heading: E.4 Edge Case Scenarios
     anchor: edge-case-scenarios
-    lines: "270-281"
-    sha256: ae5e0dedff1f303cdb4a76d42f6fccd3794e4b881e4328451f12fefd28ef4074
+    lines: "291-302"
+    sha256: b61b5acc21913f0aa0dbc3323fe97888ca50c0f74105d10add7a9932c2941e88
   E.5:
     heading: E.5 Verification and Oversight
     anchor: verification-and-oversight
-    lines: "282-295"
+    lines: "303-316"
     sha256: "914c3e840b401c87ad6eb76defa5bad1e293fbe8141e1e0ee19d4af3e7c08f85"
   E.6:
     heading: E.6 Documentation and Review
     anchor: documentation-and-review
-    lines: "296-303"
+    lines: "317-324"
     sha256: d7fc7c312eb28497767084ad0cc29f149ca266710f4fddbd087e83c72ca7e68f
   E.7:
     heading: E.7 Legal Implementation Framework
     anchor: legal-implementation-framework
-    lines: "304-313"
-    sha256: fa415f315d6fb928a202743058faef3b24bcba41c722efe12d278b1352642c56
+    lines: "325-336"
+    sha256: d5eb4646c8c8fe953b69e9b53dd193c2925995b8573e4402d558cf036e4552c9
   E.8:
     heading: "E.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "314-323"
-    sha256: db3bd641e42cdd4d5d83270220c4232cc931fe537c32a69821a1e709a233e545
+    lines: "337-346"
+    sha256: "8efa5b88ce93ef98d49bec7634252c5b0a5168ee374708d38d35e6fea5f52d81"
   E.9:
     heading: E.9 Illustrative Scenarios
     anchor: illustrative-scenarios
-    lines: "324-347"
-    sha256: b3a7ece8f500d18a2db65b5c3e37e7cf86d38c35aa8da985504fe2222b5a5e96
+    lines: "347-370"
+    sha256: "7760ab59ab1eb766b10f7f4329071bf6131c08d232cf47a9f93e1ffa842c5137"

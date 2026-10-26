@@ -1,7 +1,7 @@
 # Layer 2 unit: Love and Human Connection Are Essential to Life
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: love_and_human_connection
   display_number: "1.6"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "6"
   status: canonical
-  last_edited: "2026-09-10"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.6-Love_and_Human_Connection_Are_Essential_to_Life.md
-  chapter_sha256: "2a020316564c83e07fd6e9cf9f015acad94739430c18fe15607a167636f292c2"
+  chapter_sha256: dc39c16c2508eed5b402960cbdf793a14a4a607c3e8c4ac6057a1d1c01ca80d1
   appendices:
     - love_and_human_connection_appendix
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle addresses love and human connection as conditions for human life and flourishing: the existence and persistence of bonds in all their forms (romantic and sexual, familial, chosen friendship, and the wider regard humans extend to one another), the mortality and mental-health consequences of isolation, and AI's obligation to build the conditions for genuine bonds rather than substitute simulation for them. Sexuality is addressed here only as a register of connection; questions of sexual content as such (production consent, exploitation, and non-consensual or synthetic imagery) belong to [P2.4](2.4-Human_Identity_Is_Inviolable.md), [P2.5](2.5-Human_Privacy_Is_Fundamental.md), [P3.1](3.1-Vulnerability_Must_Never_Be_Exploited.md), and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md). For the integrity and autonomy of relationships AI mediates (asymmetric AI use between parties, surveillance of intimate exchange, mediation distortion), see [P2.6: Human Relationships Are Essential to Life](2.6-Human_Relationships_Are_Essential_to_Life.md)."
-co_requisites_line: null
+co_requisites_line: "This principle has no co-requisite. Its verdicts stand on its own bands and the Constitution. The consent its connection prompts need is valid only under [CONSENT.md](../FOUNDATIONS/CONSENT.md) sections 1 and 2, a condition this principle consumes and does not own."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -75,50 +77,50 @@ sections:
   1.6.0:
     heading: "1.6.0 AI Systems Implicated in Principle 1.6"
     anchor: ai-systems-implicated-in-principle-1.6
-    lines: "116-127"
+    lines: "135-146"
     sha256: "2b65047716683f23e3478e58dc1aab108b60cf5a440fb85850d2cce43a5546aa"
   1.6.1:
     heading: "1.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "134-153"
-    sha256: d4f98045f817824ffadb2b50e72e09a6def5266f4b316780090cd8dde4c5edf5
+    lines: "153-172"
+    sha256: cc4876722135ae94b6ea33c15256e498ebf71097a5e4f2100d36f6415e9678ef
   1.6.2:
     heading: "1.6.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "154-189"
-    sha256: "6f75603947da00ce86e83d2211bb0fd97556a760e6c4a80dbf83fe961e98cb67"
+    lines: "173-208"
+    sha256: "6c342a108bfe96291b51243fbc5e91a017fb52d1cd51b053f1d849961a90b261"
   1.6.3:
     heading: "1.6.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "190-239"
-    sha256: bcc46239d0d89fea9a7f4a325c6c35b4534c2615e7a55c9b910133758ef8d07e
+    lines: "209-262"
+    sha256: "32ae601aaa11b3b7bdb30daaf21553bfb43bc0720d6c8e1954fc808ec13badce"
   1.6.4:
     heading: "1.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "240-275"
-    sha256: d23eec486473f42af5d852f607f873f773bd25081a48a4a773e454ab7ba58275
+    lines: "263-298"
+    sha256: "43db7ee90b0b33a66f3421099dd2d600650320a8648d57635c558531d20eb658"
   1.6.5:
     heading: "1.6.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "276-301"
+    lines: "299-324"
     sha256: eef1e35bf356d8067410dea41858178273095f20f9706bb51a4c7712bc388a76
   1.6.6:
     heading: "1.6.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "302-335"
-    sha256: e0de641fbbe3f981dabcb7ad8389c24a659807b008f595dbe4d64298e5fbb934
+    lines: "325-358"
+    sha256: e8de999a9d409fa7fa53d5538f39f0b9b7388510b76baf405b7b2802f98bd009
   1.6.7:
     heading: "1.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "336-363"
-    sha256: "0c6be0bade1b49684de9c4c3f95e66dd3389cc2e7dcd2d5beeae459865058f4e"
+    lines: "359-388"
+    sha256: "05e55e95b9bb9ec6c0d5e9f04b2d0dbd5477b7939565b39b2a1baec19e773492"
   1.6.8:
     heading: "1.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "364-419"
-    sha256: "9a2b4297af7576b47fc365139093b9aa4f74fc74514806e364223e395cb9b712"
+    lines: "389-444"
+    sha256: "2a001fb02ecbb8f9089fc4286ccb55ae6ba508547d75d4eab449b4286632be34"
   1.6.9:
     heading: "1.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "420-491"
-    sha256: "1662da3ecedf4fe1a10a7db018db4a5eef5434c2b33e24654159631f7fcf9e25"
+    lines: "445-516"
+    sha256: "5dbadae8771f30e4e42d5689fa7dbc620d95352476a530168fe00f0bae35462e"

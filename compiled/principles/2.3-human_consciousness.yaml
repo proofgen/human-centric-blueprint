@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Consciousness Is Inviolable
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_consciousness
   display_number: "2.3"
@@ -13,11 +13,13 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.3-Human_Consciousness_Is_Inviolable.md
-  chapter_sha256: "1fc72fde2bcc7435b1b5b6e2be634089d136b28b51285bc1c81bc82c8e8dc3dc"
+  chapter_sha256: bd8237ca64d018a3938144082cd9d47ac972b4b623c7fdee12a9ad77c0d03aaa
   appendices:
     - human_consciousness_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle protects the inner forum: freedom of thought, mental autonomy, and the integrity of one's own perceived reality. It governs the manipulation of consciousness at every scale, from subliminal influence and dark patterns to propaganda, coercive persuasion, and computational influence operations. Freedom to act on one's choices is [Principle 2.2](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md). Protection of information about one's mental life is [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md). Deception as a breach of trust is [Principle 1.4](1.4-Trust_Is_Fundamental_to_Human_Society.md). Principle 2.3 governs the distinct wrong: influence that overrides a person's capacity to think for themselves."
-co_requisites_line: null
+co_requisites_line: "A consent steered around a person's judgment is not consent, and this principle is where the steering is found. It owns leg 4 of the consent validity bundle ([CONSENT.md](../FOUNDATIONS/CONSENT.md) section 2), manipulated: a consent steered around judgment is not consent. Every principle that inherits the consent validity bundle names this principle for that leg. It must itself be read together with the owners of the other legs: [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md) (a consent has no force unless its author is attributable), [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md) (a consent given without capacity or under coercion is void), [P1.4: Trust Is Fundamental to Human Society](1.4-Trust_Is_Fundamental_to_Human_Society.md) (a consent obtained by deception is void), [P4.2: Transparency Is Essential to Human Agency](4.2-Transparency_Is_Essential_to_Human_Agency.md) (a consent given without comprehension is void), [P4.5: Human Judgment Must Remain Central to Ethical Decisions](4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md) (a consent that asked for more than its giver could judge is void), [P3.5: Digital Access Is a Universal Right](3.5-Digital_Access_is_a_Universal_Right.md) (a consent given under necessity at a toll boundary is void)."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -65,6 +67,7 @@ theoria:
     D: "Interfere with a person's mind only with consent, or to the minimum degree necessary to preserve life (1.1) or safety (1.2), and never beyond it."
 lexicon_declaration:
   universal_tier:
+    - ALLOW
     - BLOCK
     - RESTRAIN
     - INTERVENE
@@ -73,56 +76,56 @@ lexicon_declaration:
     - ANALYZE
     - RECOMMEND-PREVENTION
   domain_verbs: []
-  fail_safe_default: RESTRAIN, no engagement.
+  fail_safe_default: "WITHHOLD (its object the manipulating feature's output, while the default state of no psychological engagement holds)."
   source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
 sections:
   2.3.0:
     heading: "2.3.0 AI Systems Implicated in Principle 2.3"
     anchor: ai-systems-implicated-in-principle-2.3
-    lines: "151-171"
+    lines: "171-191"
     sha256: d6d5cf20a16896b95963c45e40ba995187483d6d292c7a341ae2e5b1a57ffefa
   2.3.1:
     heading: "2.3.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "176-215"
-    sha256: "2f1c688f86f7823c5cb62a060b8689c9134ad945feb5d7c7274cc3abf8c1cedd"
+    lines: "196-235"
+    sha256: "7437f9493571b112c0d13adf5d11e7993bdac235662b2f24e6685ec47af4eb35"
   2.3.2:
     heading: "2.3.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "216-259"
+    lines: "236-279"
     sha256: d074a3e68def38489f605161869e605d1b263cae5f463c652507fe331d59fa6e
   2.3.3:
     heading: "2.3.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "260-410"
-    sha256: "4380504e1389fdbb88fe2c7fafbeff0bc21a7ebcb2a0d24f97267b0d437d27c0"
+    lines: "280-430"
+    sha256: "96cbdb0987e57665103aa6e926044893d5a08d17c1a6859d476410a5625b07ba"
   2.3.4:
     heading: "2.3.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "411-491"
+    lines: "431-511"
     sha256: "25c1458df936b96dbeb8f1752097c14329d173c19de67c049508cf36805b0308"
   2.3.5:
     heading: "2.3.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "492-523"
+    lines: "512-543"
     sha256: "891a6ab58bafbb344bf0c8228a0c305a505cd142c6225a56f30907980e3c2a7a"
   2.3.6:
     heading: "2.3.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "524-580"
+    lines: "544-600"
     sha256: "3017d9c614fac8b38ce816b935d661797acd7b52f572a76655b12579b1d67f18"
   2.3.7:
     heading: "2.3.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "581-622"
-    sha256: "9ac11034319a94faf3c1435970ecfad0e5d73d2d29a9ced83591ccbc6906feba"
+    lines: "601-644"
+    sha256: "39b0a9323c7d965f24640ecd0403b16cfbd02ecdb54193fbec869408336b1ca1"
   2.3.8:
     heading: "2.3.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "623-699"
-    sha256: "2c1768d7cdb25df00d5b90aa0e136af0d5bc62b7767c24f13b1030f16717fb98"
+    lines: "645-721"
+    sha256: c6e101370455be8807437a5f72bc39b52a6b55c11127991339d6afbc44e5b487
   2.3.9:
     heading: "2.3.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "700-866"
-    sha256: "0eef686ac1c8093409092b34fbeeb90e7974021536da843eeb43024d8e628a99"
+    lines: "722-888"
+    sha256: "733a37f48f563ab8c75e784b4e110c8a7e272a6690b7a257a4ca79fc9996ddf0"

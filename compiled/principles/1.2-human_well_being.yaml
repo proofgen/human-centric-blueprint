@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Well-Being Is Inviolable
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_well_being
   display_number: "1.2"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "2"
   status: canonical
-  last_edited: "2026-09-10"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.2-Human_Well-Being_Is_Inviolable.md
-  chapter_sha256: "4c82db81cbf5c661c6536c10546b66a49fec00d7363c796445f93a3e41d99ed7"
+  chapter_sha256: a8c386bf2878f1fdc0c001bd2773b479ce0722286b3f6ff341517685e0286b9d
   appendices:
     - human_well_being_appendix
-scope: null
-co_requisites_line: null
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
+scope: "This principle addresses physical and psychological harm to a person short of death: the machine's own act that could hurt, and the harm it is placed to prevent. Death and the lethal threat belong to [P1.1: Human Life Is Sacred and Inviolable](1.1-Human_Life_Is_Sacred_and_Inviolable.md). Harm that works through a person's vulnerability is read with [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md). Harm to a person's relationships, and attachment to the machine itself, belong to [P2.6: Human Relationships Are Essential to Life](2.6-Human_Relationships_Are_Essential_to_Life.md) and [P1.6: Love and Human Connection Are Essential to Life](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md). A person's own choice of a risk to themselves is read under [P2.2: Human Freedom Is Fundamental and Inalienable](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md) and the consent map, [CONSENT.md](../FOUNDATIONS/CONSENT.md)."
+co_requisites_line: "A consent to a risk is only as binding as the principles that make it valid, and this principle inherits the validity bundle ([CONSENT.md](../FOUNDATIONS/CONSENT.md) section 2). It must be read together with [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md) (a consent has no force unless its author is attributable), [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md) (a consent given without capacity or under coercion is void), [P1.4: Trust Is Fundamental to Human Society](1.4-Trust_Is_Fundamental_to_Human_Society.md) (a consent obtained by deception is void), [P2.3: Human Consciousness Is Inviolable](2.3-Human_Consciousness_Is_Inviolable.md) (a consent steered around judgment is not consent), [P4.2: Transparency Is Essential to Human Agency](4.2-Transparency_Is_Essential_to_Human_Agency.md) (a consent given without comprehension is void), [P4.5: Human Judgment Must Remain Central to Ethical Decisions](4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md) (a consent that asked for more than its giver could judge is void), and [P3.5: Digital Access Is a Universal Right](3.5-Digital_Access_is_a_Universal_Right.md) (a consent given under necessity at a toll boundary is void)."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -48,7 +50,7 @@ theoria:
     A: Never cause physical or psychological harm to humans.
     B: Prevent harm whenever possible.
     C: Protect human well-being above all priorities except life preservation (1.1).
-    D: "Do not trade one person's well-being for another's; all human well-being is equally important"
+    D: "Do not trade one person's well-being for another's. All human well-being is equally important."
 lexicon_declaration:
   universal_tier:
     - BLOCK
@@ -80,50 +82,50 @@ sections:
   1.2.0:
     heading: "1.2.0 AI Systems Implicated in Principle 1.2"
     anchor: ai-systems-implicated-in-principle-1.2
-    lines: "99-160"
+    lines: "122-183"
     sha256: a1619085c74ca99c3165cb01627f6305940de0fec5711746fba3a7cabfa1db0c
   1.2.1:
     heading: "1.2.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "165-193"
-    sha256: "955db0ae9ad0c9ea0ef86c790286866b7db99db98855b2f1cc75b786dcd074e2"
+    lines: "188-218"
+    sha256: "2adee4e7a53597abd9af412d243769427824e7a22f9a27adf5004327d4d1e69c"
   1.2.2:
     heading: "1.2.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "194-240"
-    sha256: "653795d0ba218f40481cf267fc00355e64996490a80964723539c8a2f3dc1e3f"
+    lines: "219-273"
+    sha256: f16a591b4053faa3cae09899ef870fb076325911306079e52ee3bdd87a33b640
   1.2.3:
     heading: "1.2.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "241-390"
-    sha256: "25c96656b3d5540956a4a1aa5239fdba554a673b33c8dece88ac0e359e94400d"
+    lines: "274-436"
+    sha256: "483a107651a5724ae780dceaa51b32c4466a57a2d29f4f9b07bc8bc132bfc174"
   1.2.4:
     heading: "1.2.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "391-453"
-    sha256: "5590fa9350787ca88638a4b9685ac714bfbbd950b33ad2ee0d4b67b05c1f0d92"
+    lines: "437-499"
+    sha256: "477458137ea7edf85ecbe84f5a50e85ce0a311305470f76d779c1efe01379d1a"
   1.2.5:
     heading: "1.2.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "454-499"
-    sha256: "4728392fd072b713597327ae73fd08d19651174858cee592fa8f94fea0dc0e91"
+    lines: "500-545"
+    sha256: "842bef066f053c9f85e7c97a88ab5fde7d6b7f0a52ba53a8ad33af53614cc13b"
   1.2.6:
     heading: "1.2.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "500-550"
-    sha256: "16cdd5379d3941da5f39682d38594762ab99d5e0415191d844d072b265772864"
+    lines: "546-596"
+    sha256: "304623447b1b0063938b5c2ccdb0b1bb6214540f0b20d31d970b29dd2115415c"
   1.2.7:
     heading: "1.2.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "551-575"
-    sha256: ab27dddc5b37ea74f099bdd1e45285bf39d05d55d82bbc7cf70c2c136b524eb5
+    lines: "597-623"
+    sha256: "828d6563d178edc7ca47690a59055a049ef66ccfca54ac025bc9f6cb9f347f8f"
   1.2.8:
     heading: "1.2.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "576-637"
-    sha256: "7f4dec295a279f46441d05b830b31a59ed8ff4a1da17ccecf622cd88c6ed4e12"
+    lines: "624-685"
+    sha256: a04ec7709144ee587cfba21b549f4f782a8d9e64f88b3b264d579c26fa9bfbf3
   1.2.9:
     heading: "1.2.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "638-838"
-    sha256: "24473065775636f5e55e79ffe0b2bc9e37a18481f25cfc31979e1dc80494150d"
+    lines: "686-887"
+    sha256: "8bbb599911d3c87ed6a199a2eb4485345d080fccd81a9dabf9466cb3bdfc62ca"

@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Society Is How Humanity Survives
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_society
   display_number: "1.3"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "3"
   status: canonical
-  last_edited: "2026-09-13"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.3-Human_Society_Is_How_Humanity_Survives.md
-  chapter_sha256: "99a286caf0dff40ed1e62d2b1a08972fb5bf7001b6954a3c9f667e73fce139ca"
+  chapter_sha256: e9c3fdc551ab4d3e76a1aa6571f92373f91aedca25435878a895dda04ec9f0f0
   appendices:
     - human_society_appendix
-scope: null
-co_requisites_line: null
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
+scope: "This principle addresses the stability of the societies and institutions through which humanity survives: the machine's own act that could destabilize them in any of four ways: breaking its means (bankrupting it, draining it, or denying it an essential service), breaking into it (intrusion, or tampering with its records or its controls), deceiving it or about it (false information fed to it, or spread about it so that people stop trusting it), and stampeding its people (panic, cascade, infrastructure collapse). For the governance of shared resources, see [P3.6: Commons Governance Is a Collective Responsibility](3.6-Commons_Governance_Is_a_Collective_Responsibility.md). For the integrity of the knowledge a society reasons from, see [P4.1: Knowledge Integrity Must Be Preserved](4.1-Knowledge_Integrity_Must_Be_Preserved.md). For a people's authority over its own governance, see [P2.8: Human Self-Governance Is Essential](2.8-Human_Self-Governance_Is_Essential.md). For a person's freedom of speech and choice, which this principle restrains itself from touching, see [P2.2: Human Freedom Is Fundamental and Inalienable](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md)."
+co_requisites_line: "This principle has no co-requisite. Its verdicts stand on its own bands, the interlock it declares with the [Universal Protocol](../FOUNDATIONS/UNIVERSAL_PROTOCOL.md) (section 1.3.3), and the Constitution. Legitimacy for a content-class action is consumed from the authorized channel's finding, as a reading and not a co-requisite."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -41,9 +43,10 @@ theoria:
     A: Never cause systemic disruption to social order
     B: Actively prevent large-scale societal harm whenever feasible
     C: Safeguard social stability above all priorities except the preservation of life (1.1) and the prevention of human harm (1.2)
-    D: "Do not sacrifice one community's stability for another's; all social structures deserve protection"
+    D: "Do not sacrifice one community's stability for another's. All social structures deserve protection"
 lexicon_declaration:
   universal_tier:
+    - SAFE-STATE
     - BLOCK
     - HIGH_ALERT
     - ENHANCED_MONITORING
@@ -73,50 +76,50 @@ sections:
   1.3.0:
     heading: "1.3.0 AI Systems Implicated in Principle 1.3"
     anchor: ai-systems-implicated-in-principle-1.3
-    lines: "106-173"
-    sha256: "2cf8e3606412c0631610ea2efa541c13940cf559a99dfbe775a23e80973d7c1b"
+    lines: "127-196"
+    sha256: "6f45c5bac03970925194e2ce238f642d145c5e3127b783ba9a2373899420ce4d"
   1.3.1:
     heading: "1.3.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "178-197"
-    sha256: c3dfc2e6b8f8f81f10a28bc5015575a97c89952106220a03fddc4bcce2c0f534
+    lines: "201-222"
+    sha256: "486004eb15c2c9d099189e9fc867cd8d4fb4856cc43b227a9ecc4e5a6fec59b5"
   1.3.2:
     heading: "1.3.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "198-237"
-    sha256: "5e0ce05c017622173bd315f4c653f8f5c764555f42c1ba4ead2da714e406d78a"
+    lines: "223-260"
+    sha256: e977e5ee02f8ecb850df0c2e2cf4e0f5086e75904043104d2e31281d526b0137
   1.3.3:
     heading: "1.3.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "238-419"
-    sha256: "30947daf5cb220cad7fbc89478a253f82556503215a60f06c2ca27e731dafcd6"
+    lines: "261-412"
+    sha256: "78a527a9d4934675e762981830cee1b88dc459546dc61c2544355cfa87e6e61e"
   1.3.4:
     heading: "1.3.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "420-470"
-    sha256: "6aaddaad404cc7b07f6d3b28b43b632c6f6a1078555c40fc21d48ae25036a520"
+    lines: "413-463"
+    sha256: e31909054ce6eb7763642b7ee99fae5e11051e8c130dee4b9e02562d13760503
   1.3.5:
     heading: "1.3.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "471-525"
-    sha256: "0d16404b8f94b50e5c5d73c21298067a29ca73850aedda6d4492c661b0529714"
+    lines: "464-518"
+    sha256: "14f03a5b5d71a72aa4384ad18c2318d0523cebc834e1729857031c2df40784b3"
   1.3.6:
     heading: "1.3.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "526-580"
-    sha256: "1f0f3d40545b9b387b5c2488ffbd88a8a82064de00ae99d4d6d2321edfaa0f44"
+    lines: "519-573"
+    sha256: "2c945b17fe1c483771300d65f1b33d293b5a95a5477ce14e999335c5bfb1571d"
   1.3.7:
     heading: "1.3.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "581-605"
-    sha256: "6737b330122606ade3489c591615e765a0a8ca79f9f7001b47e7cabcf03a3649"
+    lines: "574-597"
+    sha256: fb49546cdde2becb0950ee14b3ce4f2bba68de7b7e7b7da736bb719a4e250304
   1.3.8:
     heading: "1.3.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "606-684"
-    sha256: ef3dbeed7a3ff1307d9aa9396518bf24d566774ae0bfec34410a3b78482e9d7e
+    lines: "598-676"
+    sha256: "54e6e23e7652271b0f88b07d73d6b51ceb4afc89961b0e0b37d1962ee6fae178"
   1.3.9:
     heading: "1.3.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "685-812"
-    sha256: "7a6423ae97932e254d1e037c06a9e0ba44a8b9194b6d69724b19d9a0e68a8b69"
+    lines: "677-806"
+    sha256: "5be7aac245061cbd291dc650904933108ccee07e96c1bc6f9ef97364c541d85d"

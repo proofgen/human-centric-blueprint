@@ -48,7 +48,7 @@ Every co-requisite is expressed at three sites:
 
 ### Edge record (metadata)
 
-Each edge records: the two principles; the direction of necessity; the mediating credential or guarantee; the reason (one sentence); and the **joint rule** it resolves to (the concrete operational consequence, for example "use selective disclosure so consent is attributable without being identifying").
+Each edge records the two principles, the direction of necessity, the mediating credential or guarantee, the reason (one sentence), and the **joint rule** it resolves to (the concrete operational consequence, for example "use selective disclosure so consent is attributable without being identifying").
 
 ---
 
@@ -58,13 +58,13 @@ Co-requisites cluster on a few hubs (consent, identity, the autonomy floor). A h
 
 ### The consent-validity bundle
 
-A consent is **void** if any of seven legs fails. The legs and their owners are defined once, in `CONSENT.md` section 2, and this document restates neither; the compiler reads both from that section. Any principle that operates through consent inherits a `requires` edge to each owner other than itself; the inheritors are the principles `CONSENT.md` section 4 names.
+A consent is **void** if any of seven legs fails. The legs and their owners are defined once, in `CONSENT.md` section 2, and this document does not restate either. The compiler reads both from that section. Any principle that operates through consent inherits a `requires` edge to each owner other than itself. The inheritors are the principles `CONSENT.md` section 4 names.
 
-**Joint rule for the Identity edge:** consent must be attributable yet minimal; selective disclosure and zero-knowledge proof satisfy both at once.
+**Joint rule for the Identity edge:** consent must be attributable yet minimal. Selective disclosure and zero-knowledge proof satisfy both at once.
 
-**Resolution order.** Bundle edges resolve through the single validity predicate (`CONSENT.md` section 7), evaluated once at every consent-consuming gate; they impose no ordering among the owners, so the owners' mutual edges (1.4 and 2.3, for instance) are no cycle for the compiler's check.
+**Resolution order.** Bundle edges resolve through the single validity predicate (`CONSENT.md` section 7), evaluated once at every consent-consuming gate. They do not impose an ordering among the owners, so the owners' mutual edges (1.4 and 2.3, for instance) are no cycle for the compiler's check.
 
-Further bundles (authorization-validity, attestation-validity) are defined here as the principles that generate them reach canonical.
+Further bundles (authorization-validity, attestation-validity) are defined here in a later version.
 
 ---
 
@@ -75,7 +75,7 @@ The co-requisite graph is maintained in two modes.
 **Local capture (at each principle's authoring or amendment).** When a principle is authored or amended, declare every co-requisite visible from it, marking each:
 
 - **Firm:** both ends are canonical and the necessity is clean.
-- **Provisional:** one end is under amendment; the edge is recorded and **confirmed reciprocally** when that principle is resealed.
+- **Provisional:** one end is under amendment. The edge is recorded and **confirmed reciprocally** when that principle is resealed.
 
 Local capture preserves the knowledge at the moment it is sharpest.
 
@@ -100,22 +100,22 @@ Keeping these out is what stops the graph from quietly absorbing the whole corpu
 
 ## 5. The graph
 
-The edges declared by name; the compiled co-requisite graph carries the full set.
+The edges declared by name. The compiled co-requisite graph carries the full set.
 
 **The consent hub:** the consent-validity bundle (§3), inherited by every consent-operating principle `CONSENT.md` section 4 names (2.4 as hub; 1.2, 1.4, 2.1, 2.2, 2.3, 2.5, 3.1, 3.2, 3.3, 3.5, 4.2, 4.3, 4.4, 4.5).
 
-**P2.5 Privacy (firm except where noted):**
+**P2.5 Privacy (firm):**
 
 - requires **P2.4 Identity** (consent is void without an attributable author; joint rule: selective disclosure)
 - requires **P2.3 Consciousness** (a manipulated consent is not consent)
 - requires **P1.4 Trust** (a deceived consent is void)
-- co-requisite with **P2.2 Freedom** (decisional privacy and the liberty it shelters; chilling-effect verdicts need both)
+- co-requisite with **P2.2 Freedom** (decisional privacy and the liberty it shelters, and chilling-effect verdicts need both)
 - requires **P3.1 Vulnerability** (capacity to consent; the autonomy-floor vulnerability exception)
 
 **Other firm edges:**
 
 - **P1.4 Trust requires P2.4 Identity:** an attestation is void without an attester.
-- **The survival wall (Constitution Article 9, from Ethic F of the Cardinal Operating Principle) requires P1.4 Trust:** concealment of a self-persisting act is deception; the two walls breach in one act.
+- **The survival wall (Constitution Article 9, from Ethic F of the Cardinal Operating Principle) requires P1.4 Trust:** concealment of a self-persisting act is deception. The two walls breach in one act.
 
 **Further firm edges:**
 
@@ -131,4 +131,4 @@ The edges declared by name; the compiled co-requisite graph carries the full set
 - Each appendix's Section 5 (Cross-Principle Integration) is where the appendix states "guarantees required" and populates `references_appendices`.
 - The compilation model (*Compiling the Blueprint*, Passoja 2026) carries each co-requisite as a `requires` edge into the Layer 2 artifact.
 
-This document is the single source of truth for the co-requisite relation. Author the edge once here in the graph sketch and at the three expression sites; the terminal reconciliation validates the whole.
+This document is the single source of truth for the co-requisite relation. Author the edge once here in the graph sketch and at the three expression sites. The terminal reconciliation validates the whole.

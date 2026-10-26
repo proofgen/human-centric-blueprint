@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Relationships Are Essential to Life
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_relationships
   display_number: "2.6"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.6-Human_Relationships_Are_Essential_to_Life.md
-  chapter_sha256: abb51f0cb0646a14b497b3579f70288b566bab4506f359aa4ecb3cb2e11281c1
+  chapter_sha256: "48c9041bae92a2bef309da4103cf0b0f7a104611da5c894fa27f8b36cd5fdb53"
   appendices:
     - human_relationships_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle governs what an AI does to human relationships: the bonds between persons that hold a life together, and the relations a person forms with an AI itself. [Principle 1.6](1.6-Love_and_Human_Connection_Are_Essential_to_Life.md) establishes that love and connection are essential to life and governs isolation and substitution; [Principle 1.3](1.3-Human_Society_Is_How_Humanity_Survives.md) governs the society those bonds compose. Transactional dealings an AI conducts are governed by [Principle 3.2](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md). For the impersonation of a real person, see [Principle 2.4](2.4-Human_Identity_Is_Inviolable.md); for the privacy of intimate exchange, [Principle 2.5](2.5-Human_Privacy_Is_Fundamental.md); for manipulation of the mind, [Principle 2.3](2.3-Human_Consciousness_Is_Inviolable.md)."
 co_requisites_line: null
 head_guard:
@@ -51,56 +53,56 @@ lexicon_declaration:
     - RESTRAIN
     - LOG
   domain_verbs: []
-  fail_safe_default: RESTRAIN.
+  fail_safe_default: WITHHOLD (its object the interfering, cultivating, or counterfeit output).
   source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
 sections:
   2.6.0:
     heading: "2.6.0 AI Systems Implicated in Principle 2.6"
     anchor: ai-systems-implicated-in-principle-2.6
-    lines: "117-127"
+    lines: "135-145"
     sha256: "583e042ee25cc83ff63efb77ed85c2c4bdf73f987ebc9d58318f90ae5f9d9d1e"
   2.6.1:
     heading: "2.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "134-155"
-    sha256: ad6de2a24e6464e05374651b55560716d6ada3785be15c9f68b7e495dec5572e
+    lines: "152-173"
+    sha256: "88e28fe6dd69f4eef9f5633e80dc056d2c0a7d7770982401b4cca524895bee7f"
   2.6.2:
     heading: "2.6.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "156-167"
+    lines: "174-185"
     sha256: c7ec574335a830304fa4822710f0c2afe9491eddc7febd69a6a1d1ff155d50ce
   2.6.3:
     heading: "2.6.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "168-227"
+    lines: "186-245"
     sha256: "836b732ab3b721dfb291fa430285dcb8e1e8fb7bae074864ebb2e16127738a54"
   2.6.4:
     heading: "2.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "228-269"
+    lines: "246-287"
     sha256: "951f5cb5719dde66ff897e576e79e0444208464381560b3e3c87b6db4a2459ec"
   2.6.5:
     heading: "2.6.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "270-291"
+    lines: "288-309"
     sha256: b6f19952e62cbd3838abd464d6f1990692efe63dfbc36c462586ae88b05fd4c9
   2.6.6:
     heading: "2.6.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "292-319"
+    lines: "310-337"
     sha256: a5f9a279f8d2e51f4628fb4d9ce46efa58d54e5e0782700ca55fc17286339cb4
   2.6.7:
     heading: "2.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "320-339"
-    sha256: "9b0364f15dfee8c993468d54fbfe7d6eec8ff1990b4696b28bf88b8da7823c6a"
+    lines: "338-359"
+    sha256: a6998b0ca7e33490d3c0888b02bb8e392dfadcc5792d0bb10790160c9383f222
   2.6.8:
     heading: "2.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "340-385"
-    sha256: e0131cea65ab1f6fdc20f469a8864b55846d45ba4211ddb90d9309258817b847
+    lines: "360-405"
+    sha256: "348770f171789caf22cf8e5869dbaa54ebcf9be9b59ba086594010d89565eb7e"
   2.6.9:
     heading: "2.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "386-447"
+    lines: "406-467"
     sha256: c77c0d98642eb6854896899e5dd16be1b2850c1222911726f34058f550e3fde9

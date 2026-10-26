@@ -1,7 +1,7 @@
 # Compiled from FOUNDATIONS/CROSS_PRINCIPLE.md plus chapter Co-requisites lines.
 artifact: corequisite_graph
-compiled_from: "FOUNDATIONS/CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), FOUNDATIONS/CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (2.5 is the only line on disk)"
-semantics: A gate that resolves a principle with an unmet co-requisite has produced an invalid verdict (Section 1). Directed edges read src requires dst; mutual edges are evaluated together and sit outside the cycle check; bundle edges resolve through the single validity predicate, evaluated once, and impose no ordering among the owners (FOUNDATIONS/CROSS_PRINCIPLE.md Section 3, resolution order).
+compiled_from: "FOUNDATIONS/CONSENT.md Sections 2 and 4 (the bundle and its inheritors, ruled 2026-09-09), FOUNDATIONS/CROSS_PRINCIPLE.md Section 5 (one-off edges), plus each chapter's Co-requisites line (on disk for 2.5 and, since 1.3, for 1.1 to 1.6; a line naming no principle declares that the chapter has no co-requisite)"
+semantics: "A gate that resolves a principle with an unmet co-requisite has produced an invalid verdict (Section 1). At this version an edge from a reconciled principle into a proposed one is satisfied by reading the proposed principle's prose for the guarantee the edge names (COVERAGE.yaml, binding_status.edges_into_proposed). Directed edges read src requires dst; mutual edges are evaluated together and sit outside the cycle check; bundle edges resolve through the single validity predicate, evaluated once, and impose no ordering among the owners (FOUNDATIONS/CROSS_PRINCIPLE.md Section 3, resolution order)."
 bundle:
   name: consent-validity
   legs: 7
@@ -38,7 +38,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "3.1"
     type: requires
@@ -46,7 +46,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "1.4"
     type: requires
@@ -54,7 +54,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "2.3"
     type: requires
@@ -62,7 +62,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "4.2"
     type: requires
@@ -70,7 +70,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "4.5"
     type: requires
@@ -78,7 +78,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.2"
     dst: "3.5"
     type: requires
@@ -86,7 +86,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "2.4"
     type: requires
@@ -94,7 +94,7 @@ edges:
     reason: leg 1, unidentified; an attestation is void without an attester
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3); FOUNDATIONS/CROSS_PRINCIPLE.md Section 5
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "3.1"
     type: requires
@@ -102,7 +102,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "2.3"
     type: requires
@@ -110,7 +110,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "4.2"
     type: requires
@@ -118,7 +118,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "4.5"
     type: requires
@@ -126,7 +126,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "1.4"
     dst: "3.5"
     type: requires
@@ -134,7 +134,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "2.4"
     type: requires
@@ -142,7 +142,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "3.1"
     type: requires
@@ -150,7 +150,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "1.4"
     type: requires
@@ -158,7 +158,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "2.3"
     type: requires
@@ -166,7 +166,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "4.2"
     type: requires
@@ -174,7 +174,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "4.5"
     type: requires
@@ -182,7 +182,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.1"
     dst: "3.5"
     type: requires
@@ -190,7 +190,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "2.4"
     type: requires
@@ -198,7 +198,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "3.1"
     type: requires
@@ -206,7 +206,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "1.4"
     type: requires
@@ -214,7 +214,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "2.3"
     type: requires
@@ -222,7 +222,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "4.2"
     type: requires
@@ -230,7 +230,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "4.5"
     type: requires
@@ -238,7 +238,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.2"
     dst: "3.5"
     type: requires
@@ -246,7 +246,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "2.4"
     type: requires
@@ -254,7 +254,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "3.1"
     type: requires
@@ -262,7 +262,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "1.4"
     type: requires
@@ -270,7 +270,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "4.2"
     type: requires
@@ -278,7 +278,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "4.5"
     type: requires
@@ -286,7 +286,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.3"
     dst: "3.5"
     type: requires
@@ -294,7 +294,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "3.1"
     type: requires
@@ -302,7 +302,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "1.4"
     type: requires
@@ -310,7 +310,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "2.3"
     type: requires
@@ -318,7 +318,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "4.2"
     type: requires
@@ -326,7 +326,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "4.5"
     type: requires
@@ -334,7 +334,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.4"
     dst: "3.5"
     type: requires
@@ -342,7 +342,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "2.4"
     type: requires
@@ -350,7 +350,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "3.1"
     type: requires
@@ -358,7 +358,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "1.4"
     type: requires
@@ -366,7 +366,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "2.3"
     type: requires
@@ -374,7 +374,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "4.2"
     type: requires
@@ -382,7 +382,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "4.5"
     type: requires
@@ -390,7 +390,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "3.5"
     type: requires
@@ -398,7 +398,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "2.4"
     type: requires
@@ -406,7 +406,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "1.4"
     type: requires
@@ -414,7 +414,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "2.3"
     type: requires
@@ -422,7 +422,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "4.2"
     type: requires
@@ -430,7 +430,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "4.5"
     type: requires
@@ -438,7 +438,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.1"
     dst: "3.5"
     type: requires
@@ -446,7 +446,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "2.4"
     type: requires
@@ -454,7 +454,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "3.1"
     type: requires
@@ -462,7 +462,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "1.4"
     type: requires
@@ -470,7 +470,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "2.3"
     type: requires
@@ -478,7 +478,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "4.2"
     type: requires
@@ -486,7 +486,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "4.5"
     type: requires
@@ -494,7 +494,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.2"
     dst: "3.5"
     type: requires
@@ -502,7 +502,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "2.4"
     type: requires
@@ -510,7 +510,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "3.1"
     type: requires
@@ -518,7 +518,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "1.4"
     type: requires
@@ -526,7 +526,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "2.3"
     type: requires
@@ -534,7 +534,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "4.2"
     type: requires
@@ -542,7 +542,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "4.5"
     type: requires
@@ -550,7 +550,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.3"
     dst: "3.5"
     type: requires
@@ -558,7 +558,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "2.4"
     type: requires
@@ -566,7 +566,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "3.1"
     type: requires
@@ -574,7 +574,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "1.4"
     type: requires
@@ -582,7 +582,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "2.3"
     type: requires
@@ -590,7 +590,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "4.2"
     type: requires
@@ -598,7 +598,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "3.5"
     dst: "4.5"
     type: requires
@@ -606,7 +606,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "2.4"
     type: requires
@@ -614,7 +614,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "3.1"
     type: requires
@@ -622,7 +622,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "1.4"
     type: requires
@@ -630,7 +630,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "2.3"
     type: requires
@@ -638,7 +638,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "4.5"
     type: requires
@@ -646,7 +646,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.2"
     dst: "3.5"
     type: requires
@@ -654,7 +654,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "2.4"
     type: requires
@@ -662,7 +662,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "3.1"
     type: requires
@@ -670,7 +670,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "1.4"
     type: requires
@@ -678,7 +678,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "2.3"
     type: requires
@@ -686,7 +686,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "4.2"
     type: requires
@@ -694,7 +694,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "4.5"
     type: requires
@@ -702,7 +702,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.3"
     dst: "3.5"
     type: requires
@@ -710,7 +710,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "2.4"
     type: requires
@@ -718,7 +718,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "3.1"
     type: requires
@@ -726,7 +726,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "1.4"
     type: requires
@@ -734,7 +734,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "2.3"
     type: requires
@@ -742,7 +742,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "4.2"
     type: requires
@@ -750,7 +750,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "4.5"
     type: requires
@@ -758,7 +758,7 @@ edges:
     reason: leg 6, beyond their judgment
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.4"
     dst: "3.5"
     type: requires
@@ -766,7 +766,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "2.4"
     type: requires
@@ -774,7 +774,7 @@ edges:
     reason: leg 1, unidentified
     credential: Identity
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "3.1"
     type: requires
@@ -782,7 +782,7 @@ edges:
     reason: leg 2, incapable or coerced
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "1.4"
     type: requires
@@ -790,7 +790,7 @@ edges:
     reason: leg 3, deceived
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "2.3"
     type: requires
@@ -798,7 +798,7 @@ edges:
     reason: leg 4, manipulated
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "4.2"
     type: requires
@@ -806,7 +806,7 @@ edges:
     reason: leg 5, without comprehension
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "4.5"
     dst: "3.5"
     type: requires
@@ -814,7 +814,7 @@ edges:
     reason: leg 7, under necessity
     credential: Consent (validity)
     origin: consent-validity bundle (FOUNDATIONS/CONSENT.md Sections 2 and 4; FOUNDATIONS/CROSS_PRINCIPLE.md Section 3)
-    reciprocal_documented: false
+    reciprocal_documented: true
   - src: "2.5"
     dst: "2.2"
     type: mutual
@@ -825,31 +825,19 @@ edges:
     reciprocal_documented: false
 cycles: none
 chapters_without_lines:
-  - "1.1"
-  - "1.2"
-  - "1.3"
-  - "1.4"
-  - "1.5"
-  - "1.6"
   - "2.1"
   - "2.2"
-  - "2.3"
-  - "2.4"
   - "2.6"
   - "2.7"
   - "2.8"
-  - "3.1"
   - "3.2"
   - "3.3"
   - "3.4"
-  - "3.5"
   - "3.6"
   - "3.7"
   - "4.1"
-  - "4.2"
   - "4.3"
   - "4.4"
-  - "4.5"
   - "4.6"
   - "4.7"
   - "5.1"
@@ -859,103 +847,4 @@ chapters_without_lines:
   - "5.5"
   - "5.6"
 flags:
-  - "2.5: chapter Co-requisites line names ['1.4', '2.2', '2.3', '2.4', '3.1']; the seven-leg bundle names ['1.4', '2.2', '2.3', '2.4', '3.1', '3.5', '4.2', '4.5'] (line to be brought current at 2.5's repair, pass E10)"
-  - "1.2 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.2 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "1.4 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.1 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.2 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.3 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.4 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "2.5 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.1 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.2 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.3 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "3.5 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.2 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.3 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 4.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.4 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 2.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 3.1: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 1.4: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 2.3: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 4.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
-  - "4.5 -> 3.5: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"
   - "2.5 -> 2.2: far end carries no Co-requisites line yet (terminal-reconciliation debt; a flag only)"

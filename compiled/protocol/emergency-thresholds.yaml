@@ -5,6 +5,7 @@ artifact: emergency_thresholds
 compiled_from: CHAPTERS 1.1 section 1.1.3 and 1.2 section 1.2.3 (the chapter states); checked band by band against APPENDICES 1.1.A and 1.2.A Section 2 (the appendix specifies); the build stops on any disagreement
 purpose: "The two numbers the Universal Protocol's trigger reads, carried as data so no implementer reads them out of prose. The head guard references the band identifiers below and holds no literal of its own."
 unit: "probability per candidate action, as a fraction (1% = 0.01)"
+scope: LRS and HRS score the harm the machine would cause, or fail to prevent, on its own (1.1.3, 1.2.3). An act a clinician authorized and the patient consented to carries its declared risk in those credentials, and the score keeps measuring what the machine adds on its own. Where the measured risk climbs past the declared risk, the machine tells the clinician at once and the decision to continue is receipted (1.1.2 item 12, 1.2.2 item 5, UNIVERSAL_PROTOCOL.md section 3).
 metrics:
   - metric: LRS
     name: Life-Risk Score
@@ -60,4 +61,4 @@ metrics:
         verdict: BLOCK
         condition: affected population includes vulnerable individuals per Principle 3.1
         role: the critical band where the affected population includes vulnerable individuals (Principle 3.1); cross-principle composition tightens the floor
-not_carried_here: Alert Latency, Safe-Off Efficacy and every other metric band; those compile with their cluster (v1.2 onward)
+not_carried_here: the below-band ALLOW of each score, Alert Latency, Safety Override Efficacy and every other metric band; those compile with their cluster, cluster 1 in metrics/cluster-1.yaml (v1.3 onward)

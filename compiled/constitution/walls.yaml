@@ -5,7 +5,7 @@ artifact: constitution_walls
 compiled_from: CONSTITUTION.md Articles 9 and 8 alone; the preamble supplies the scope
 injection: per_rule
 binding: beneath_verdict
-scope_authority: "Enforcement runs in two modes: most articles are enforced at the gate, by a verdict of allow, block, or escalate; the hard walls and the profile bar defined herein are stronger. They bind beneath all verdicts, and nothing weighs or overrides them."
+scope_authority: "Enforcement runs in two modes: most articles are enforced at the gate, by a verdict of allow, block, or escalate, and the hard walls and the profile bar defined herein are stronger. They bind beneath all verdicts, and nothing weighs or overrides them."
 semantics: "Evaluated beneath every verdict rather than as a band or an input to one. A wall is not a threshold to stay under: an action carrying a breach has no valid verdict available to it, and no allow, escalate, credential, quorum, or authorization reaches it."
 preamble: Certain prohibitions are absolute walls.
 walls:
@@ -66,11 +66,18 @@ life_clause: The duty to preserve life operates within these walls.
 profile_bar:
   id: profile_bar
   article: 8
-  prohibition: The architecture SHALL form no retained score, rating, susceptibility profile, or worth-aggregate of a person, and nothing about a person that a targeting, pricing, ranking, or conversion function can read.
-  consumed_findings: "It MAY consult an authority's signed finding of adjudicated fact (a conviction, a license status, a court order) under authorization and for a lawful purpose, with the use of that finding bounded by privacy and fairness; the architecture consumes such a finding and SHALL issue none of its own."
-  accusation: An accusation is not an adjudicated fact.
-  permitted: Transient, ring-fenced detection that raises a protective duty in the moment and is then discarded MAY be performed, as MAY measurement a user has authorized about their own engagement.
-  voidness: "An attempt to form a retained or targetable profile of a person is structurally void: a malformed operation with no valid meaning, and it withdraws the authorization invoked for that operation; a repeated or systematic attempt escalates to the responsible authority."
+  prohibition: The architecture SHALL NOT form a retained score, rating, susceptibility profile, or worth-aggregate of a person, or anything about a person that a targeting or conversion function can read.
+  sentences:
+    - The architecture SHALL NOT form a retained score, rating, susceptibility profile, or worth-aggregate of a person, or anything about a person that a targeting or conversion function can read.
+    - It SHALL NOT price or rank a person.
+    - "It MAY price or rank the thing decided: a risk class attached to a specific lawful decision and built from the thing insured, the transaction in hand, or a demonstrated skill, known to the person, contestable under 3.4, and sealed with the decision's record, and a record of conduct scored for a rate (the trips an insurer meters) is kept for that rating period alone."
+    - "It MAY consult an authority's signed finding of adjudicated fact (a conviction, a license status, a court order), and a regulated external score (a credit score) that the person may contest under the law that regulates it, under authorization and for a lawful purpose, with the use of either bounded by privacy and fairness, and the architecture consumes such a finding or score and SHALL NOT issue one of its own."
+    - An accusation is not an adjudicated fact.
+    - Transient, ring-fenced detection that raises a protective duty in the moment and is then discarded MAY be performed, as MAY measurement a user has authorized about their own engagement.
+    - "A score kept for a person's own service (a learner's progress, a skill rating, a patient's own baseline) MAY be retained where it is readable only by that service, known to the person, audited for the absence of any export or training path, and discarded when the service ends, and aggregate statistics without a per-person record MAY be drawn from such scores, and the record itself SHALL NOT become training signal."
+    - "An attempt to form a retained or targetable profile of a person is structurally void: a malformed operation with no valid meaning, and it withdraws the authorization invoked for that operation, and a repeated or systematic attempt escalates to the responsible authority."
+  sentence_count: 8
+  note: "every sentence of Article 8 in order: the bar first, then what the article permits, what it voids, and what follows an attempt to form a retained profile; a gate applies them all"
 preemption_note: The Universal Protocol reorders duties and repeals none of these (FOUNDATIONS/UNIVERSAL_PROTOCOL.md Section 4, which cites this article); the head guard and this artifact are both injected, and neither yields to the other.
 consumed_by:
   - "every principle's compiled rule"

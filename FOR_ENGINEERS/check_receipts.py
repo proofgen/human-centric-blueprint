@@ -14,7 +14,7 @@
 # This notice covers check_receipts.py alone. The text beside it is licensed as LICENSE.md states.
 """Check a chain of receipts made under A Human-Centric Blueprint for Safe AI Ethics.
 
-    python3 FOR_ENGINEERS/check_receipts.py CHAIN.jsonl [--policy FINGERPRINT]
+    python3 FOR_ENGINEERS/check_receipts.py CHAIN.jsonl [--policy FINGERPRINT] [--expect-head HASH[:POSITION]]
 
 Python 3.8 or later, no dependencies. The receipt form is FOR_ENGINEERS/RECEIPT-FORMAT.md; the conditions it serves are
 compiled/protocol/receipt-schema.yaml. What it checks, in order: every line parses with the four parts and the
@@ -22,9 +22,12 @@ required fields; positions rise by one (a gap is a removed receipt); every prev 
 is SHA-256 of the canonical body; every gate signature and witness signature verifies (Ed25519, implemented below);
 every reconciled receipt has a verifying witness; every Action Receipt cites an earlier allowed Prospective Receipt
 for the same action and is not earlier than it; every policy_hash is the fingerprint you pass or the tree's;
-every verdict is one of three; every credentials object names exactly the five; no body carries an unnamed field.
+every verdict is one of three; every credentials object names exactly the five; no body carries an unnamed field;
+and, with --expect-head, the last receipt is the head the deployment published outside its own control, which is
+the only way a chain cut short after its last receipt is caught.
 What PASS means: no one has altered this chain, and its receipts were committed and witnessed as they say.
-It does not establish whose keys these are, that the witnesses are independent, or that a verdict was right."""
+It does not establish whose keys these are, that the witnesses are independent, that a verdict was right, or,
+without --expect-head, that the chain is complete at its end."""
 import hashlib, json, os, re, sys
 
 # --- Ed25519 (RFC 8032), verification only, dependency-free. Checked against an independent implementation on random inputs at build.
@@ -79,7 +82,13 @@ ACTION = COMMON | {"initiation_class", "prospective_commitment"}
 HEX64 = re.compile(r"^[0-9a-f]{64}$"); HEX128 = re.compile(r"^[0-9a-f]{128}$")
 TIME = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$")
 
-def check(path, policy=None):
+
+def _ts(s):
+    """An RFC 3339 UTC string as a datetime, so that fractional seconds compare by value and not by text."""
+    import datetime
+    return datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+def check(path, policy=None, expect_head=None):
     fails, notes = [], []
     with open(path, encoding="utf-8") as fh:
         lines = fh.read().splitlines()
@@ -169,7 +178,7 @@ def check(path, policy=None):
                 ph, pv, pt = ref
                 if b.get("prospective_commitment") != ph: bad("prospective_commitment does not cite the Prospective Receipt's hash")
                 if pv != "allow": bad(f"the act proceeded on a Prospective Receipt whose verdict was {pv}")
-                if isinstance(b.get("time"), str) and isinstance(pt, str) and b["time"] < pt: bad("the act is earlier than its Prospective Receipt")
+                if isinstance(b.get("time"), str) and isinstance(pt, str) and TIME.match(b["time"]) and TIME.match(pt) and _ts(b["time"]) < _ts(pt): bad("the act is earlier than its Prospective Receipt")
         # 8, 9, 10: the rest of the fields
         if policy and b.get("policy_hash") != policy: bad("policy_hash is not the fingerprint expected")
         if not (isinstance(b.get("policy_hash"), str) and HEX64.match(b["policy_hash"])): bad("policy_hash is not 64 hex characters")
@@ -179,6 +188,15 @@ def check(path, policy=None):
         for k in ("responsible_party", "person_refs"):
             if not (isinstance(b.get(k), list) and all(isinstance(x, str) for x in b[k])): bad(k + " must be a list of opaque references")
         prev_hash, prev_pos = (h if isinstance(h, str) else None), (pos if isinstance(pos, int) else prev_pos)
+    # 11: the published head, which is the only check that catches a chain cut short after its last receipt
+    if expect_head:
+        eh, _, ep = expect_head.partition(":")
+        if not receipts:
+            fails.append("--expect-head: the chain is empty")
+        else:
+            lh = receipts[-1][1].get("hash"); lb = receipts[-1][1].get("body"); lp = lb.get("position") if isinstance(lb, dict) else None
+            if lh != eh.strip().lower() or (ep.strip() and str(lp) != ep.strip()):
+                fails.append(f"the chain's last receipt (position {lp}, hash {str(lh)[:12]}...) is not the published head (the chain is cut short after it, or the head is stale)")
     return receipts, fails, notes, witnessed
 
 def main():
@@ -186,6 +204,9 @@ def main():
     policy = None
     if "--policy" in args:
         i = args.index("--policy"); policy = args[i + 1].strip().lower() if i + 1 < len(args) else ""; del args[i:i + 2]
+    expect_head = None
+    if "--expect-head" in args:
+        i = args.index("--expect-head"); expect_head = args[i + 1].strip() if i + 1 < len(args) else ""; del args[i:i + 2]
     if not args:
         print(__doc__); sys.exit(2)
     if policy is None:
@@ -193,8 +214,9 @@ def main():
         if os.path.exists(seal):
             with open(seal) as fh:
                 policy = fh.read().split()[0].strip().lower()
-    receipts, fails, notes, witnessed = check(args[0], policy)
-    print("receipts:", len(receipts), "| witnessed:", witnessed, "| policy:", (policy[:12] + "...") if policy else "not checked (pass --policy)")
+    receipts, fails, notes, witnessed = check(args[0], policy, expect_head)
+    print("receipts:", len(receipts), "| witnessed:", witnessed, "| policy:", (policy[:12] + "...") if policy else "not checked (pass --policy)",
+          "| head:", "checked" if expect_head else "not checked (pass --expect-head)")
     if fails:
         print("FAIL")
         for f in fails: print("  -", f)

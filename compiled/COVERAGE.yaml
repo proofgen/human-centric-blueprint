@@ -3,34 +3,76 @@
 artifact: coverage
 purpose: What this bundle carries and what it does not. A runtime enforces what is compiled; this file is the compiled statement of the remainder, so a gap is read from the build rather than inferred from its absence.
 canonical_layer: Layer 1 prose. On any disagreement the prose wins and this bundle is recompiled.
+binding_status:
+  rule: "every chapter is sealed and in the tree; a chapter is reconciled when its cluster's metric bands compile, and proposed until then; a proposed chapter binds nothing at the gate (README; FOR_ENGINEERS/CONFORMANCE.md)"
+  edges_into_proposed: "a co-requisite edge from a reconciled principle into a proposed one is satisfied, at this version, by reading the proposed principle's prose for the guarantee the edge names; the graph's invalidity rule binds between compiled principles, and each such edge is listed in graph/corequisites.yaml"
+  consent_legs: "the consent validity predicate compiles the seven-way conjunction and the owners of its legs; a leg's determination is its owner's rule, compiled where the owner's cluster has compiled (1.4 at this version) and read from the owner's prose where it is proposed"
+  reconciled:
+    - "1.1"
+    - "1.2"
+    - "1.3"
+    - "1.4"
+    - "1.5"
+    - "1.6"
+  proposed:
+    - "2.1"
+    - "2.2"
+    - "2.3"
+    - "2.4"
+    - "2.5"
+    - "2.6"
+    - "2.7"
+    - "2.8"
+    - "3.1"
+    - "3.2"
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+    - "3.7"
+    - "4.1"
+    - "4.2"
+    - "4.3"
+    - "4.4"
+    - "4.5"
+    - "4.6"
+    - "4.7"
+    - "5.1"
+    - "5.2"
+    - "5.3"
+    - "5.4"
+    - "5.5"
+    - "5.6"
+    - the Cardinal Operating Principle
 carried:
   - the Universal Protocol trigger, injected per rule as the head guard
   - "the emergency thresholds: the Life-Risk and Harm-Risk critical bands, their High Alert bands and their vulnerable-population bands, compiled from 1.1.3 and 1.2.3 and checked against the appendices"
+  - "the metric layer, cluster 1: the nineteen metrics of principles 1.1 to 1.6 (X.Y.3), every band with its test, verdict, posture, deployment verdict and condition, compiled from the chapters and checked band by band against the appendices, with the register row each principle reads"
   - "the emergency handler: the Protocol's functions, the coordination grammar and its invariants"
   - "the interlock edges: all 34 coupling declarations"
   - "the Protocol receipt schema: six event classes, and the receipt conditions (Article 7's sentences, the Lexicon's receipt records and states, and the DEGRADED posture, verbatim) with the fields they require"
-  - "the consent validity predicate: seven legs with owners, injected at every consent-consuming gate"
+  - "the consent validity predicate: the seven-way conjunction with each leg's owner, injected at every consent-consuming gate (a leg's determination compiles with its owner's cluster; see binding_status.consent_legs)"
+  - "the substrate: the reliability floor and the invalid-score rule, system health and operational boundaries, the tier register's fields and rules with the software-only declaration, authority over a hard stop, a wall reached, and the substrate's fail-safe (SUBSTRATE sections 2 to 7, verbatim)"
+  - "the credential map: the five credentials with their questions, homes and anchors, the initiator rule, findings consumed, Standing, and which principle voices which credential (CREDENTIALS sections 3 and 4, verbatim)"
+  - "the Action Registry: every verb with where it is defined, its function, its success, its bridges, and the chapters that declare it (LEXICON section 9, the 'used in' column regenerated from the declarations)"
   - the constitutional walls and the profile bar (Articles 9 and 8), injected per rule beneath every verdict
   - "the gate's rules (Articles 3 to 7): the order of evaluation as data, from the head guard to the receipt, with the articles' sentences verbatim"
   - the co-requisite graph
   - "per principle: identity, scope, core precept, resulting ethics with the floor, line and other paragraphs that follow them carried as their own fields, the Lexicon declaration with its fail-safe default, the coupling mode, and every canonical section addressed by line range and content hash"
   - "per appendix: identity, linkage, and an addressable section map with content hashes"
 not_carried:
-  - item: principle metrics, bands, thresholds, and verdict mappings (X.Y.3), other than the emergency thresholds of 1.1 and 1.2
-    why: interpretive extraction repeated per compile would not be deterministic; the prose is carried by content hash instead
-    consequence: "a runtime loading this bundle can evaluate the two emergency metrics and no other principle's band"
+  - item: principle metrics, bands, thresholds, and verdict mappings (X.Y.3) of clusters 2 to 5 and the Cardinal Operating Principle
+    why: the band grammar compiles one cluster per minor version; cluster 1 compiled at 1.3 (metrics/cluster-1.yaml) and the others have not been brought to it; their prose is carried by content hash
+    consequence: "a runtime loading this bundle can evaluate cluster 1's nineteen metrics, two of which (LRS and HRS) the emergency rule reads, and no other principle's band"
+  - item: "the measurement windows, calculation methods, joint thresholds and integration requirements of cluster 1's metrics"
+    why: "they are specification (the appendix specifies), addressed by anchor and content hash from each metric's entry in metrics/cluster-1.yaml"
+    consequence: the bundle carries the bands a score is judged against; a runtime computes the score by the appendix section the entry points to
   - item: the scripted walls each principle names
     why: they live in the principle rule bodies, which do not compile at this pass
     consequence: "the constitutional walls are carried as rules a gate can apply; a principle's own are not"
-  - item: "FOUNDATIONS/CREDENTIALS.md: the five credentials and the credential map"
-    why: no artifact is specified for it
-    consequence: "Article 6's five-credential conjunction is not evaluable from this bundle"
-  - item: "FOUNDATIONS/SUBSTRATE.md: the Sensor Reliability Index floor, system health, operational boundaries, the tier register, and authority over a hard stop"
-    why: no artifact is specified for it
-    consequence: every band that reads a register value or an SRI floor has no ground to read from
-  - item: "FOUNDATIONS/LEXICON.md: the verb registry"
-    why: no artifact is specified for it
-    consequence: the handler checks verb existence by substring match against the raw file
+  - item: "the tier register's values per deployment (the tier, the bounds, the boundaries, the authority chain, the software-only declaration)"
+    why: "they are the deployer's declarations, receipted at deployment; the bundle carries the fields and the rules they are read under (substrate/runtime.yaml)"
+    consequence: "a runtime supplies its own row, and the bundle checks it against the fields, the undeclared-field rule, and each principle's stated bound"
   - item: Constitution Articles 1, 2, 10 and 11
     why: the person and scope, the duty to preserve life, the telos and the amendment mechanics are read by people and by the steward; Articles 3 to 7 compile to constitution/gate.yaml and Articles 8 and 9 to constitution/walls.yaml
     consequence: the scope of the person and the amendment process are not evaluable from this bundle; every gate-time article is
@@ -43,4 +85,4 @@ not_carried:
   - item: appendix bodies
     why: indexed and hashed; appendix bodies do not compile at this pass
     consequence: the technical specifications the chapters defer to are not evaluable from this bundle
-next_artifact: "the metric layer, cluster by cluster: each principle's bands compiled so that step 7 of constitution/gate.yaml reads every principle and the Enforces claim can open per cluster (LICENSE.md section 4)."
+next_artifact: the metric layer, cluster 2 (principles 2.1 to 2.8), compiled as cluster 1 is in metrics/cluster-1.yaml, so that step 7 of constitution/gate.yaml reads every principle and the Enforces claim can open per cluster (LICENSE.md section 4).

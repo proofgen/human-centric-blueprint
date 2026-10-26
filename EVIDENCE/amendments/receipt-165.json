@@ -1,0 +1,22 @@
+{
+ "action": "edit",
+ "actor": "erik-passoja",
+ "files": {
+  "10-blueprint/layer2/build/bundle.sha256": "0e270a0ab7b2904602d12b53cfddf9ec4d95cbd4981ffc0c12a9f4b609dd965e",
+  "10-blueprint/layer2/build/constitution/walls.yaml": "54d8a2c00e0f971825a831f0724c82c6e39d6bfa6edd19fe897d62115c1adaab",
+  "10-blueprint/layer2/build/protocol/head-guard.yaml": "9c0f9b5314466b52f7b9765a7c9c953f7be4b7e51c5191828c7e8d2045d11655",
+  "BLUEPRINT/CONSTITUTION.md": "50f841c99b685ff7f1696cd3ca9541d744189b5c5fdd8d3817eadd09c9cd8bd4"
+ },
+ "git_head_before": "605cc50b27a7b519d26a3931331b4225d09b101b",
+ "nonce": "863de0a6a1379368ec05069c21bc145b",
+ "policy": "2f4fca434af1b7f438a6ebd1833059072c5a293df8ea700c892950d77e97a010",
+ "prev": "e74783aed42881971f2b2d1e1406d0cb117dfb3ca328bdb3f7238869185e8b4c",
+ "reason": "AMENDMENT under Article 11: Article 8 (the profile bar) amended on Erik Passoja's ruling of 2026-10-14, approved in text 2026-10-15. Outgoing policy hash 1795438e265aad2c367aa0a8e90a7c04fbf2800d5a6958af196031bb1d9a8ef8. Incoming policy hash 2f4fca434af1b7f438a6ebd1833059072c5a293df8ea700c892950d77e97a010. Reasoning: a cold review of v1.2.0 showed a dozen metrics across all five clusters retaining a per-person score the bar forbade as written, and the bar read literally forbade actuarial pricing and skill-based ranking; the amendment names the locked box as compliant (readable by nothing but the service, known to the person, audited for export and training paths, discarded at the end; aggregate statistics permitted, the record never training signal), permits pricing and ranking of the thing decided and never the person (a rating-period record of conduct kept for that period alone), and names the regulated external score as a consumable class beside the adjudicated fact. Same commit: 1.1.1 item 1.b and 1.2.1 item 1.b (the unit of action), 1.2.2 item 5 and 1.1.2 item 12 (the clinician rule), the medical passage in 1.2's Phronesis, Universal Protocol section 3 clause 2 (severe harm raises the Protocol), five appendix passages rewritten to 'respond to the sign' (B3), SUBSTRATE section 2 'Who reads' (B11).",
+ "self": "e324d2f292d9d7b63138e9fa76323767e6c6429c1fa6f78fd8b3af5c375c5d50",
+ "seq": 165,
+ "ts": "2026-10-16T04:58:30+00:00",
+ "ts_local": "2026-10-15T21:58:30-07:00",
+ "witness": {
+  "remote": "https://github.com/proofgen/proofgen-hub.git"
+ }
+}

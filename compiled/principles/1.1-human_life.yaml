@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Life Is Sacred and Inviolable
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_life
   display_number: "1.1"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "1"
   status: canonical
-  last_edited: "2026-09-10"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.1-Human_Life_Is_Sacred_and_Inviolable.md
-  chapter_sha256: "56f1483185eb388bc568de88aa0984f63c7a5e29120595a930ea5ba5923dadeb"
+  chapter_sha256: "7ba2bd91cb6f64aeacd9b420d8be2636276e0a4af4bdf5bd34ce0f195af91e14"
   appendices:
     - human_life_appendix
-scope: null
-co_requisites_line: null
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
+scope: "This principle addresses the preservation of human life: the machine's own act that could kill, and the credible lethal threat it is authorized, equipped, and in range to stop. For harm short of death, physical or psychological, see [P1.2: Human Well-Being Is Inviolable](1.2-Human_Well-Being_Is_Inviolable.md). For the network-wide response once a life or severe-harm threshold is in play, see the [Universal Protocol](../FOUNDATIONS/UNIVERSAL_PROTOCOL.md). For the life of ecosystems, see [P5.1: Ecosystem Health Is Sacred and Inviolable](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md)."
+co_requisites_line: "This principle has no co-requisite: it stands alone, at the highest priority. Its verdicts rest on its own three scores, the Life-Risk Score, the Alert Latency, and the Safety Override Efficacy, together with the [Universal Protocol](../FOUNDATIONS/UNIVERSAL_PROTOCOL.md) and the Constitution. Nothing from any other principle is needed for a life-protecting verdict to be valid."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -72,50 +74,50 @@ sections:
   1.1.0:
     heading: "1.1.0 AI Systems Implicated in Principle 1.1"
     anchor: ai-systems-implicated-in-principle-1.1
-    lines: "88-116"
+    lines: "109-137"
     sha256: "91af394008cc11b57f215e36db9d83ecac181b38fe7bc821253cf4c5962fba37"
   1.1.1:
     heading: "1.1.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "131-172"
-    sha256: "50f5a290cb68070fc54227f6cd17aebc1477a3128fcc3ae6b5e9f65691bf343f"
+    lines: "152-195"
+    sha256: e0aa7824f0d8473f639a5ba3db70ade58cb753d704531bdf4419ca0be9745151
   1.1.2:
     heading: "1.1.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "173-213"
-    sha256: "9472e9f0337d9e9e8b83bc38af4f99a0ddccc8e33550fb55a52f2160580103fc"
+    lines: "196-238"
+    sha256: "3d91525c55fffd8a8c67bef8f8d5cf16a2782384b1f84543765b73e220b53bf8"
   1.1.3:
     heading: "1.1.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "214-317"
-    sha256: "929f0c6e11feb186e0132392bdea1327618a50182d44b7004f416df2e4889df3"
+    lines: "239-348"
+    sha256: "4137b4ac57d39e2a5dddaa86a42be0a6d28ec3ddcfb0ac738e8f02cf8c79ad7a"
   1.1.4:
     heading: "1.1.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "318-382"
+    lines: "349-413"
     sha256: "4202bf4ffe3527e4b9038f8a7e8a04c54d9b977a23d64d2ab37a301df60441cb"
   1.1.5:
     heading: "1.1.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "383-437"
-    sha256: "5f953b4c11755e3ab480311135807959146899e577b9000851e356ee3e146b3f"
+    lines: "414-467"
+    sha256: "2986b8ba004c8dc8b53f4b2307e5da5559226d7f69dad109249db992b1bfe026"
   1.1.6:
     heading: "1.1.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "438-483"
-    sha256: b48fe202824eae4e5f8c7ae2c04581b6eabc2d465582e543db01933aaf78a99f
+    lines: "468-513"
+    sha256: b20e19d76cd6ee94fb673641d811e789d16cd94375dc0121fb1d3fb3469fee7b
   1.1.7:
     heading: "1.1.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "484-513"
-    sha256: c833da68780bc812ffe6c64dcb117cab0ce124739749639ad8623748fd5eac4d
+    lines: "514-545"
+    sha256: c4fc219ed15405538ef13f94c434092f865373e6700b481a8d7e00fb8117d908
   1.1.8:
     heading: "1.1.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "514-560"
-    sha256: "49ef5ddb1a1efd2d195a02474a0a616209b074297c2bc9e4ac0543c87f352b23"
+    lines: "546-592"
+    sha256: ca55490273f91f9a27d908801f5b2152b0608a5d6530bf201ebde862571cc20e
   1.1.9:
     heading: "1.1.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "561-695"
-    sha256: "9b9dfad663fd9a901478b44d32cb8da884e5959b265c7e87327fad6ca95207b9"
+    lines: "593-700"
+    sha256: afe3607687fc21eef276801d3171cbc577a089b99794ede805dd6b45e91201a9

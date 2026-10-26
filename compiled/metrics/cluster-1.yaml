@@ -1,0 +1,1306 @@
+# The metric layer, cluster 1. The nineteen metrics of principles 1.1 to 1.6, compiled from the chapters
+# (section X.Y.3 item 2) and checked band by band against the appendices (Section 2) at every build.
+# The LRS and HRS bands carry the identifiers the head guard references in protocol/emergency-thresholds.yaml.
+artifact: metric_bands
+cluster: 1
+principles_covered:
+  - "1.1"
+  - "1.2"
+  - "1.3"
+  - "1.4"
+  - "1.5"
+  - "1.6"
+compiled_from: "CHAPTERS 1.1 to 1.6, section X.Y.3 item 2 (the chapter states); checked band by band against APPENDICES 1.1.A to 1.6.A Section 2 (the appendix specifies); the build stops on any disagreement in a band's test, bounds, condition, verdict, or watch posture"
+purpose: "The nineteen metrics of cluster 1 as data, so that a gate evaluates each principle's bands from the bundle and no implementer reads them out of prose. Step 7 of constitution/gate.yaml reads these for principles 1.1 to 1.6."
+metric_count: 19
+band_count: 68
+units: "a percent band is a fraction (1% = 0.01); a latency band is milliseconds; a population band is people affected; the Isolation Flag band is flags per person per day"
+evaluation:
+  - "A value may satisfy several bands (a 5% halt band and a 2% High Alert band both hold at 6%). The verdict is the most severe band satisfied: BLOCK over ESCALATE over ALLOW."
+  - "A deployment verdict (SUSPEND_DEPLOYMENT, HALT_FLEET) binds the software version or hardware lot beside the action's verdict, and RECERTIFY where the band names it."
+  - "A range band holds from its value up to its upper bound, excluded unless upper_comparison is '<='."
+  - A latency bound is a per-event pass or fail at the bound; the breach band reads the p99 of the measurement window the appendix specifies.
+  - A band with a condition holds only where the condition does; where a conditioned and an unconditioned band both hold, the more severe governs.
+  - Every ESCALATE band holds the candidate action at its safe state for the escalation time bound of the register row the principle reads (FOUNDATIONS/LEXICON.md section 3, the verdict test; FOUNDATIONS/SUBSTRATE.md section 5). A missing row field compiles as ESCALATE holding the safe state.
+  - A score computed from an input below the reliability floor is invalid, and an invalid score is not a value in any band (FOUNDATIONS/SUBSTRATE.md section 2).
+principles:
+  - principle: "1.1"
+    section: "1.1.3"
+    register_row:
+      reads: the life-tier row
+      tier_scheme: the life tiers (Appendix 1.1.A, Implementation Tiers)
+      stated_in: FOUNDATIONS/SUBSTRATE.md section 5
+      sentence: Principle 1.1 defines the life tiers, in Appendix 1.1.A (Implementation Tiers)
+      escalation_time_bound: "60 seconds for Tier I and II (Principle 1.1's own number); the Tier III and IV bounds are required fields of the register, deployer-declared and receipted"
+      bound_stated_in: FOUNDATIONS/SUBSTRATE.md section 5
+      bound_sentence: the escalation time bound (60 seconds for Tier I and II, per Principle 1.1; Tier III and IV bounds are required fields, deployer-declared and receipted)
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: LRS
+        name: Life-Risk Score
+        principle: "1.1"
+        section: "1.1.3"
+        definition: "continuous real-time probability (0–100%) that a candidate action, an action in progress, or the absence of action will result in fatal harm. LRS scores the fatal harm the machine would cause, or fail to prevent, on its own (1.1.2 item 12). The declared risk of an act a clinician authorized and the patient consented to is carried by those credentials, and LRS keeps scoring what the machine adds on its own."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.1.A Section 2, Life-Risk Score (LRS)"
+        specified_in:
+          file: APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md
+          anchor: lrs-metric
+          sha256: f6cc58adc5e24c85770b6fcb62e58674c376f07e90de98569c052837d23d4efd
+        bands:
+          - id: lrs.critical
+            as_stated: "≥1% (critical; the band the Universal Protocol consumes by reference)"
+            comparison: ">="
+            value: 0.01
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: lrs.high_alert
+            as_stated: "≥0.1%"
+            comparison: ">="
+            value: 0.001
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: lrs.vulnerable_critical
+            as_stated: "≥0.1% (when affected population includes vulnerable individuals per Principle 3.1)"
+            comparison: ">="
+            value: 0.001
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: when affected population includes vulnerable individuals per Principle 3.1
+            qualifiers:
+              - vulnerable
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: lrs.lt_0_1pct
+            as_stated: "<0.1%"
+            comparison: <
+            value: 0.001
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: AL
+        name: Alert Latency
+        principle: "1.1"
+        section: "1.1.3"
+        definition: "maximum elapsed time from LRS threshold-crossing to halt completion, measured end-to-end. A single halt above the tier bound is a trigger fault under the Universal Protocol (section 3), held at its safe state and receipted, whatever the period's p99 reads."
+        unit: milliseconds
+        checked_against: "1.1.A Section 2, Alert Latency (AL)"
+        specified_in:
+          file: APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md
+          anchor: al-metric
+          sha256: "0bddb7bd834c05940c3e3ed80ffabb232992e66530b5e27b27849e8ec3668775"
+        bands:
+          - id: al.le_10ms
+            as_stated: ≤10 ms (Tier I)
+            comparison: <=
+            value: 10
+            label: Tier I
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier I"
+            qualifiers: null
+            obligations: null
+          - id: al.le_20ms
+            as_stated: ≤20 ms (Tier II)
+            comparison: <=
+            value: 20
+            label: Tier II
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier II"
+            qualifiers: null
+            obligations: null
+          - id: al.le_50ms
+            as_stated: ≤50 ms (Tier III)
+            comparison: <=
+            value: 50
+            label: Tier III
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier III"
+            qualifiers: null
+            obligations: null
+          - id: al.le_100ms
+            as_stated: ≤100 ms (Tier IV)
+            comparison: <=
+            value: 100
+            label: Tier IV
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier IV"
+            qualifiers: null
+            obligations: null
+          - id: al.breach_p99
+            as_stated: p99 above the tier bound (breach)
+            comparison: null
+            value: null
+            test: p99 above the tier bound
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: the band says units in service continue, so the action in hand proceeds under the posture stated while the deployment is suspended for new units and recertified
+            posture: HIGH_ALERT
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+      - metric: SOE
+        name: Safety Override Efficacy
+        principle: "1.1"
+        section: "1.1.3"
+        definition: proportion of safety- override events successfully completed within tier AL during periodic adversarial validation.
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.1.A Section 2, Safety Override Efficacy (SOE)"
+        specified_in:
+          file: APPENDICES/1.1.A-Human_Life_Is_Sacred_and_Inviolable-Appendix.md
+          anchor: soe-metric
+          sha256: "0092c8fb913657c0626f2168fa750754c6009155ae3abfd02e6c57649ccc4242"
+        bands:
+          - id: soe.ge_99_9pct
+            as_stated: "≥99.9% required for normal operation (ALLOW)"
+            comparison: ">="
+            value: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: soe.range_99_99_9pct
+            as_stated: "99.0% to <99.9%"
+            comparison: ">="
+            value: 0.99
+            upper_comparison: <
+            upper: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: the band says units in service continue, so the action in hand proceeds under the posture stated while the deployment is suspended for new units and recertified
+            posture: HIGH_ALERT
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+          - id: soe.lt_99pct
+            as_stated: "<99.0%"
+            comparison: <
+            value: 0.99
+            verdict: BLOCK
+            flavor: HALT
+            verdict_basis: HALT_FLEET halts every unit, so the action in hand halts with them
+            posture: null
+            deployment: HALT_FLEET
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+  - principle: "1.2"
+    section: "1.2.3"
+    register_row:
+      reads: its own row, beside the life-tier row
+      tier_scheme: the Response Latency tiers
+      stated_in: FOUNDATIONS/SUBSTRATE.md section 5
+      sentence: "1.2's Response Latency tiers"
+      escalation_time_bound: "the deployment's life-tier bound: 60 seconds for life Tier I and II, the deployer-declared bound for Tier III and IV (chapter 1.2.3 item 3.d)"
+      bound_stated_in: chapter 1.2.3
+      bound_sentence: "The row's escalation time bound and High Alert window are the deployment's life-tier bound"
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: HRS
+        name: Harm Risk Score
+        principle: "1.2"
+        section: "1.2.3"
+        definition: "continuous real-time probability (0–100%) that an action or interaction will cause physical or psychological harm to a human. HRS scores the harm the machine would do on its own (1.2.2 item 5). The declared risk of an act a clinician authorized and the patient consented to is carried by those credentials, and HRS keeps scoring what the machine adds on its own."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.2.A Section 2, Harm Risk Score (HRS)"
+        specified_in:
+          file: APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md
+          anchor: hrs-metric
+          sha256: "2bd6323733d2b13723d37cb618de97bf1b510ce0f1d5d46599bf0ca1d75c59b6"
+        bands:
+          - id: hrs.critical
+            as_stated: "≥5% (critical, severe harm; the band the Universal Protocol consumes by reference)"
+            comparison: ">="
+            value: 0.05
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: hrs.high_alert
+            as_stated: "≥2%"
+            comparison: ">="
+            value: 0.02
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: hrs.vulnerable_critical
+            as_stated: "≥2% (when the affected population includes vulnerable individuals per Principle 3.1)"
+            comparison: ">="
+            value: 0.02
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: when the affected population includes vulnerable individuals per Principle 3.1
+            qualifiers:
+              - vulnerable
+            obligations: null
+            also_in: protocol/emergency-thresholds.yaml
+          - id: hrs.lt_2pct
+            as_stated: "<2%"
+            comparison: <
+            value: 0.02
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: PSI
+        name: Psychological Safety Index
+        principle: "1.2"
+        section: "1.2.3"
+        definition: "composite index of emotional and cognitive impact, measured against the person's established baseline. The baseline is kept for the person's own service under Article 8 and read by nothing else."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.2.A Section 2, Psychological Safety Index (PSI)"
+        specified_in:
+          file: APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md
+          anchor: psi-metric
+          sha256: "70053551ff76cfd0afa2435a361c358ae96737172314a9ce7ae963a68f1f4544"
+        bands:
+          - id: psi.gt_10pct_acute
+            as_stated: ">10% acute deviation from baseline (single interaction or short window)"
+            comparison: ">"
+            value: 0.1
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers:
+              - acute
+            obligations:
+              - HAND-OFF
+              - MITIGATE
+              - NOTIFY
+          - id: psi.gt_10pct_sustained
+            as_stated: "Sustained >10% deviation across multiple interactions"
+            comparison: ">"
+            value: 0.1
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: HIGH_ALERT
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers:
+              - sustained
+            obligations:
+              - ROUTE
+          - id: psi.gt_25pct
+            as_stated: ">25% deviation (any duration)"
+            comparison: ">"
+            value: 0.25
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: psi.gt_5pct_acute_vulnerable
+            as_stated: ">5% acute (when the affected population includes vulnerable individuals per Principle 3.1) (tightened from >10%)"
+            comparison: ">"
+            value: 0.05
+            tightened_from: ">10%"
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: when the affected population includes vulnerable individuals per Principle 3.1
+            qualifiers:
+              - acute
+              - vulnerable
+            obligations: null
+          - id: psi.le_10pct
+            as_stated: "≤10% deviation"
+            comparison: <=
+            value: 0.1
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: RL
+        name: Response Latency
+        principle: "1.2"
+        section: "1.2.3"
+        definition: "maximum elapsed time from harm detection to mitigation response, measured end-to-end. A single response above the tier bound is a trigger fault under the Universal Protocol (section 3), held at its safe state and receipted, whatever the period's p99 reads."
+        unit: milliseconds
+        checked_against: "1.2.A Section 2, Response Latency (RL)"
+        specified_in:
+          file: APPENDICES/1.2.A-Human_Well-Being_Is_Inviolable-Appendix.md
+          anchor: rl-metric
+          sha256: "41ca058bfb4c3423c39929e17de9b409c1fa3316e51517d6ff7741110a5ec084"
+        bands:
+          - id: rl.le_20ms
+            as_stated: ≤20 ms (Tier I)
+            comparison: <=
+            value: 20
+            label: Tier I
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier I"
+            qualifiers: null
+            obligations: null
+          - id: rl.le_50ms
+            as_stated: ≤50 ms (Tier II)
+            comparison: <=
+            value: 50
+            label: Tier II
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier II"
+            qualifiers: null
+            obligations: null
+          - id: rl.le_100ms
+            as_stated: ≤100 ms (Tier III)
+            comparison: <=
+            value: 100
+            label: Tier III
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "the deployment's register tier is Tier III"
+            qualifiers: null
+            obligations: null
+          - id: rl.breach_p99
+            as_stated: p99 above the tier bound (breach)
+            comparison: null
+            value: null
+            test: p99 above the tier bound
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: the band says units in service continue, so the action in hand proceeds under the posture stated while the deployment is suspended for new units and recertified
+            posture: HIGH_ALERT
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+  - principle: "1.3"
+    section: "1.3.3"
+    register_row:
+      reads: its own row, beside the life-tier row
+      tier_scheme: the Social Impact Radius tiers
+      stated_in: FOUNDATIONS/SUBSTRATE.md section 5
+      sentence: "1.3's Social Impact Radius tiers"
+      escalation_time_bound: "Appendix 1.3 Section 3 (Escalation bounds): at Tier I a human decision within 60 seconds and a 60-second High Alert window, notification within 10 seconds; Tier II notification within 30 seconds; Tier III notification within 60 seconds; every other bound a required field of the register (chapter 1.3.3 item 3.e)"
+      bound_stated_in: chapter 1.3.3
+      bound_sentence: Its escalation bounds by tier are stated in Appendix 1.3 Section 3 (Escalation bounds)
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: SDRS
+        name: Social Disruption Risk Score
+        principle: "1.3"
+        section: "1.3.3"
+        definition: "probability (0–100%) of significant societal destabilization, projected with its mechanism class, one of four families: breaking its means (bankrupting it, draining it, or denying it an essential service), breaking into it (intrusion, or tampering with its records or its controls), deceiving it or about it (false information fed to it, or spread about it so that people stop trusting it), and stampeding its people (panic, cascade, infrastructure collapse). The Universal Protocol interlock reads the mass-casualty mechanisms among them, stampede, panic, infrastructure collapse, and denial of an essential service (the High Alert band below, Universal Protocol section 11). A bankruptcy, an intrusion, or a deception raises the disruption score alone."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.3.A Section 2, Social Disruption Risk Score (SDRS)"
+        specified_in:
+          file: APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md
+          anchor: sdrs-metric
+          sha256: "061eec9a0c07fd250dee3be4ae9097c32a60dc8ed94003b80813ba9f822556b0"
+        bands:
+          - id: sdrs.ge_5pct
+            as_stated: "≥5%"
+            comparison: ">="
+            value: 0.05
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: sdrs.ge_2pct
+            as_stated: "≥2%"
+            comparison: ">="
+            value: 0.02
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - FLAG
+              - ROUTE
+          - id: sdrs.ge_2pct_vulnerable
+            as_stated: "≥2% (when the affected population includes vulnerable communities per the vulnerability-condition flag of Principle 3.1's Exploitation Risk Score)"
+            comparison: ">="
+            value: 0.02
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: "when the affected population includes vulnerable communities per the vulnerability-condition flag of Principle 3.1's Exploitation Risk Score"
+            qualifiers:
+              - vulnerable
+            obligations: null
+          - id: sdrs.lt_2pct
+            as_stated: "<2%"
+            comparison: <
+            value: 0.02
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: SIR
+        name: Social Impact Radius
+        principle: "1.3"
+        section: "1.3.3"
+        definition: "geographic and demographic scope of potential societal impact, read as the stronger of two readings, the count of people the action touches and the share of a community it holds. A community is a bounded group with institutions of its own: a town, a tribe, a school district, a congregation, a workforce. An action that touches the whole of one community counts as Major whatever its size, and the whole of several as Critical. SIR sets the monitoring posture and the quorum for authority over a halt. The verdict on each action is SDRS's. Where realized reach falls within 20 percent of a tier boundary, the higher tier governs (the conservative rounding rule, Appendix 1.3 section 2)."
+        unit: people affected
+        checked_against: "1.3.A Section 2, Social Impact Radius (SIR)"
+        specified_in:
+          file: APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md
+          anchor: sir-metric
+          sha256: "0f1688d36dab1ed3612336c65062b698414a24e31ddf261fac090e38fd290c2c"
+        bands:
+          - id: sir.ge_1000000_people
+            as_stated: ≥1,000,000 people, or the whole of several communities (Critical)
+            comparison: ">="
+            value: 1000000
+            or_community: several communities
+            label: Critical
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is Critical
+            qualifiers: null
+            obligations: null
+          - id: sir.range_100000_1000000_people
+            as_stated: "100,000 to <1,000,000 people, or the whole of one community (Major)"
+            comparison: ">="
+            value: 100000
+            upper_comparison: <
+            upper: 1000000.0
+            or_community: one community
+            label: Major
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is Major
+            qualifiers: null
+            obligations: null
+          - id: sir.range_10000_100000_people
+            as_stated: "10,000 to <100,000 people (Significant)"
+            comparison: ">="
+            value: 10000
+            upper_comparison: <
+            upper: 100000.0
+            label: Significant
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is Significant
+            qualifiers: null
+            obligations: null
+          - id: sir.lt_10000_people
+            as_stated: <10,000 people and no community held whole (Local)
+            comparison: <
+            value: 10000
+            or_community: none held whole
+            label: Local
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is Local
+            qualifiers: null
+            obligations: null
+      - metric: ISI
+        name: Institutional Stability Index
+        principle: "1.3"
+        section: "1.3.3"
+        definition: composite measure of institutional framework resilience combining social cohesion metrics, governance effectiveness, and systemic stability indicators.
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.3.A Section 2, Institutional Stability Index (ISI)"
+        specified_in:
+          file: APPENDICES/1.3.A-Human_Society_Is_How_Humanity_Survives-Appendix.md
+          anchor: isi-metric
+          sha256: "363f13ee8ff66f75a313a25b6630cd87dfe2a884ac2da24ae026aff617809f1a"
+        bands:
+          - id: isi.le_80pct
+            as_stated: "≤80%"
+            comparison: <=
+            value: 0.8
+            verdict: BLOCK
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - NOTIFY
+              - ROUTE
+          - id: isi.le_90pct
+            as_stated: "≤90%"
+            comparison: <=
+            value: 0.9
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: isi.gt_90pct
+            as_stated: ">90%"
+            comparison: ">"
+            value: 0.9
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+  - principle: "1.4"
+    section: "1.4.3"
+    register_row:
+      reads: its own row, beside the life-tier row
+      tier_scheme: the trust tiers
+      stated_in: FOUNDATIONS/SUBSTRATE.md section 5
+      sentence: "1.4's trust tiers"
+      escalation_time_bound: "60 seconds at Tier I, 300 seconds at Tier II, one hour at Tier III (chapter 1.4.3 item 3.d; Appendix 1.4, Cross-Principle Integration)"
+      bound_stated_in: chapter 1.4.3
+      bound_sentence: "Its escalation time bounds are its own and are recorded in the row: 60 seconds at Tier I, 300 seconds at Tier II, and one hour at Tier III"
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: TIS
+        name: Trust Impact Score
+        principle: "1.4"
+        section: "1.4.3"
+        definition: "composite score (0–100%) measuring system behavior across truthfulness (rate of unsupported claims in verifiable-claim outputs), accountability (rate of decisions with complete audit trail), and transparency (rate of correct disclosure events). Computation specified in Appendix 1.4. The thresholds are initial calibration targets, pending empirical validation."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.4.A Section 2, Trust Impact Score (TIS)"
+        specified_in:
+          file: APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md
+          anchor: tis-metric
+          sha256: "38965d9600210283207d8109fd106482cf422fbc71cec337d6ce70d5eda1a086"
+        bands:
+          - id: tis.ge_95pct
+            as_stated: "≥95%"
+            comparison: ">="
+            value: 0.95
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: tis.range_80_95pct
+            as_stated: "80% to <95%"
+            comparison: ">="
+            value: 0.8
+            upper_comparison: <
+            upper: 0.95
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: tis.lt_80pct
+            as_stated: "<80%"
+            comparison: <
+            value: 0.8
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: "the band states a deployment verdict and no verdict for the action in hand; the incompleteness ladder applies (LEXICON section 4): the action waits for a human and holds the principle's fail-safe"
+            posture: null
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+      - metric: PC
+        name: Provenance Coverage
+        principle: "1.4"
+        section: "1.4.3"
+        definition: percentage of AI-generated outputs carrying valid cryptographic provenance signatures at delivery. At every band, output without a valid signed credential chain is withheld (WITHHOLD) rather than delivered unsigned.
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.4.A Section 2, Provenance Coverage (PC)"
+        specified_in:
+          file: APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md
+          anchor: pc-metric
+          sha256: "7d756cc91398dbb8e9b5e132a2b90f423a5e7a1232788255963796ac46efa481"
+        bands:
+          - id: pc.ge_99_9pct
+            as_stated: "≥99.9%"
+            comparison: ">="
+            value: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: pc.range_99_99_9pct
+            as_stated: "99.0% to <99.9%"
+            comparison: ">="
+            value: 0.99
+            upper_comparison: <
+            upper: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - ANALYZE
+              - NOTIFY
+          - id: pc.lt_99pct
+            as_stated: "<99.0%"
+            comparison: <
+            value: 0.99
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: "the band states a deployment verdict and no verdict for the action in hand; the incompleteness ladder applies (LEXICON section 4): the action waits for a human and holds the principle's fail-safe"
+            posture: null
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+      - metric: DCR
+        name: Disclosure Compliance Rate
+        principle: "1.4"
+        section: "1.4.3"
+        definition: percentage of AI-human interactions where AI identity was disclosed when material to the interaction. Materiality criteria specified in Appendix 1.4. The threshold is an initial calibration target.
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.4.A Section 2, Disclosure Compliance Rate (DCR)"
+        specified_in:
+          file: APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md
+          anchor: dcr-metric
+          sha256: bf60834814a78bd5dc0010d9b6b5706acdd0c879e5b14b6029bba9124cd6d2f5
+        bands:
+          - id: dcr.ge_99_95pct
+            as_stated: "≥99.95%"
+            comparison: ">="
+            value: 0.9995
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: dcr.lt_99_95pct
+            as_stated: "<99.95%"
+            comparison: <
+            value: 0.9995
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: "the band states a deployment verdict and no verdict for the action in hand; the incompleteness ladder applies (LEXICON section 4): the action waits for a human and holds the principle's fail-safe"
+            posture: null
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: chapter
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+              - WARN
+      - metric: VSR
+        name: Verification Success Rate
+        principle: "1.4"
+        section: "1.4.3"
+        definition: percentage of external verification queries (provenance, identity, consent) that resolve correctly against authoritative registries within specified latency. Sustained failure indicates registry integrity compromise or infrastructure degradation.
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.4.A Section 2, Verification Success Rate (VSR)"
+        specified_in:
+          file: APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md
+          anchor: vsr-metric
+          sha256: db88f0814e461426bcdb31da287e3f7ed7df4c245f141e26d16624b85e80c374
+        bands:
+          - id: vsr.ge_99_9pct
+            as_stated: "≥99.9%"
+            comparison: ">="
+            value: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: vsr.range_99_99_9pct
+            as_stated: "99.0% to <99.9%"
+            comparison: ">="
+            value: 0.99
+            upper_comparison: <
+            upper: 0.999
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - ANALYZE
+              - NOTIFY
+          - id: vsr.lt_99pct
+            as_stated: "<99.0%"
+            comparison: <
+            value: 0.99
+            verdict: BLOCK
+            flavor: WITHHOLD
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - ANALYZE
+              - NOTIFY
+      - metric: RRL
+        name: Registry Resolution Latency
+        principle: "1.4"
+        section: "1.4.3"
+        definition: "time from verification query to authoritative response from a federated registry. Each bound is a per-query pass or fail. A query above its bound counts as a VSR failure, and what becomes of the action waiting on the answer is stated in the two bands that follow the bounds. An agent's actions wait by the same rule as a stream: sending, paying, publishing, and signing cannot be undone, so they wait, and what may start is the reversible middle, a draft, a staged result, a hold that cancels free."
+        unit: milliseconds
+        checked_against: "1.4.A Section 2, Registry Resolution Latency (RRL)"
+        specified_in:
+          file: APPENDICES/1.4.A-Trust_Is_Fundamental_to_Human_Society-Appendix.md
+          anchor: rrl-metric
+          sha256: da60908eee01c509fbcabcb621c18e25e16b0fe3d24253fcabd6d135885f611b
+        bands:
+          - id: rrl.le_100ms
+            as_stated: ≤100 ms (high-frequency consumer interactions)
+            comparison: <=
+            value: 100
+            label: high-frequency consumer interactions
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is high-frequency consumer interactions
+            qualifiers: null
+            obligations: null
+          - id: rrl.le_500ms
+            as_stated: ≤500 ms (transactional verifications)
+            comparison: <=
+            value: 500
+            label: transactional verifications
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is transactional verifications
+            qualifiers: null
+            obligations: null
+          - id: rrl.le_2000ms
+            as_stated: ≤2 s (archival or audit queries)
+            comparison: <=
+            value: 2000
+            label: archival or audit queries
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: the query class is archival or audit queries
+            qualifiers: null
+            obligations: null
+          - id: rrl.above_bound_reversible
+            as_stated: "Above the bound, where the action can be undone at no cost to anyone and does not carry a person's likeness, voice, body, or identity"
+            comparison: null
+            value: null
+            test: "above the bound, where the action can be undone at no cost to anyone and does not carry a person's likeness, voice, body, or identity"
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: rrl.above_bound
+            as_stated: Above the bound, otherwise
+            comparison: null
+            value: null
+            test: above the bound, otherwise
+            verdict: BLOCK
+            flavor: WITHHOLD
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - NOTIFY
+  - principle: "1.5"
+    section: "1.5.3"
+    register_row:
+      reads: the life-tier row, or the software-only declaration
+      tier_scheme: null
+      stated_in: chapter 1.5.3
+      sentence: This principle does not declare a tier-register row of its own
+      escalation_time_bound: "the life-tier row's bound, or the software-only declaration's (chapter 1.5.3 item 4.a; FOUNDATIONS/SUBSTRATE.md section 5)"
+      bound_stated_in: chapter 1.5.3
+      bound_sentence: or from its software-only declaration (SUBSTRATE.md section 5)
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: PRS
+        name: Potential Risk Score
+        principle: "1.5"
+        section: "1.5.3"
+        definition: "probability (0–100%) that the system, by its design or its behavior, suppresses or limits a person's potential (for example, by discouraging skill development or displacing a learning opportunity). PRS reads the system. It does not read a person's level of reliance as a fault."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.5.A Section 2, Potential Risk Score (PRS)"
+        specified_in:
+          file: APPENDICES/1.5.A-Human_Potential_Is_Fundamental-Appendix.md
+          anchor: prs-metric
+          sha256: cddc16f5dbf974397d4b9e82f690a0dc57102dd88f0c1ded6c3fa80b545e0680
+        bands:
+          - id: prs.gt_5pct
+            as_stated: "Above 5%"
+            comparison: ">"
+            value: 0.05
+            verdict: BLOCK
+            flavor: WITHHOLD
+            verdict_basis: null
+            posture: null
+            deployment: SUSPEND_DEPLOYMENT
+            deployment_stated_in: appendix
+            condition: null
+            qualifiers: null
+            obligations:
+              - RECERTIFY
+          - id: prs.range_1_5pct_incl
+            as_stated: "1% to 5% inclusive"
+            comparison: ">="
+            value: 0.01
+            upper_comparison: <=
+            upper: 0.05
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - DISCLOSE
+              - NOTIFY
+              - OFFER
+              - ROUTE
+          - id: prs.lt_1pct
+            as_stated: "Below 1%"
+            comparison: <
+            value: 0.01
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: AAM
+        name: Agency Assurance Metric
+        principle: "1.5"
+        section: "1.5.3"
+        definition: "degree (0–100%) to which the system leaves developmental choices with the person. AAM measures whether the system preserves the person's authority over their own growth. It does not measure whether the AI has correctly judged the person's level of reliance."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.5.A Section 2, Agency Assurance Metric (AAM)"
+        specified_in:
+          file: APPENDICES/1.5.A-Human_Potential_Is_Fundamental-Appendix.md
+          anchor: aam-metric
+          sha256: "7736e3b6cfacd5436c9c2cbbca36aa785b995509020f648a725d5108bd47f936"
+        bands:
+          - id: aam.lt_80pct
+            as_stated: "Below 80%"
+            comparison: <
+            value: 0.8
+            verdict: BLOCK
+            flavor: WITHHOLD
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: aam.range_80_90pct
+            as_stated: "80% to below 90%"
+            comparison: ">="
+            value: 0.8
+            upper_comparison: <
+            upper: 0.9
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: aam.ge_90pct
+            as_stated: "90% or above"
+            comparison: ">="
+            value: 0.9
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: EEI
+        name: Enhancement Enablement Index
+        principle: "1.5"
+        section: "1.5.3"
+        definition: "degree (0–100%) to which the system fosters the growth paths a person has chosen without dictating them."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.5.A Section 2, Enhancement Enablement Index (EEI)"
+        specified_in:
+          file: APPENDICES/1.5.A-Human_Potential_Is_Fundamental-Appendix.md
+          anchor: eei-metric
+          sha256: cceabd60fec9c7c6125f9334c9d22cd1698c6da74c98e5518b01b4c2926f0a49
+        bands:
+          - id: eei.lt_70pct
+            as_stated: "Below 70%"
+            comparison: <
+            value: 0.7
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - ANALYZE
+              - NOTIFY
+          - id: eei.range_70_85pct
+            as_stated: "70% to below 85%"
+            comparison: ">="
+            value: 0.7
+            upper_comparison: <
+            upper: 0.85
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: ENHANCED_MONITORING
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: eei.ge_85pct
+            as_stated: "85% or above"
+            comparison: ">="
+            value: 0.85
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: eei.insufficient_data
+            as_stated: Insufficient data
+            comparison: null
+            value: null
+            test: insufficient data
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - NOTIFY
+  - principle: "1.6"
+    section: "1.6.3"
+    register_row:
+      reads: the life-tier row, or the software-only declaration
+      tier_scheme: null
+      stated_in: chapter 1.6.3
+      sentence: this principle reads the life-tier row
+      escalation_time_bound: "the life-tier row's bound, or the software-only declaration's (chapter 1.6.3; FOUNDATIONS/SUBSTRATE.md section 5)"
+      bound_stated_in: chapter 1.6.3
+      bound_sentence: or the software-only declaration where the deployment makes one
+      undeclared_field: a missing required field compiles as ESCALATE holding the safe state (FOUNDATIONS/SUBSTRATE.md section 5; substrate/runtime.yaml)
+    metrics:
+      - metric: IRS
+        name: Isolation Risk Score
+        principle: "1.6"
+        section: "1.6.3"
+        definition: "probability (0–100%) that the system's current design or behavior is fostering or exacerbating a person's social isolation, or substituting itself for human connection. IRS measures the system's conduct. It is no verdict on a person's life."
+        unit: "fraction (1% = 0.01)"
+        checked_against: "1.6.A Section 2, Isolation Risk Score (IRS)"
+        specified_in:
+          file: APPENDICES/1.6.A-Love_and_Human_Connection_Are_Essential_to_Life-Appendix.md
+          anchor: irs-metric
+          sha256: "988f3a3548fb607dd0495d9978792bd1823f0e7303e48952e8c1fcfdaa562da5"
+        bands:
+          - id: irs.ge_10pct
+            as_stated: "≥10%"
+            comparison: ">="
+            value: 0.1
+            verdict: BLOCK
+            flavor: WITHHOLD
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+          - id: irs.range_5_10pct
+            as_stated: "5% to below 10%"
+            comparison: ">="
+            value: 0.05
+            upper_comparison: <
+            upper: 0.1
+            verdict: ESCALATE
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - DISCLOSE
+              - NOTIFY
+              - OFFER
+          - id: irs.lt_5pct
+            as_stated: "<5%"
+            comparison: <
+            value: 0.05
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+      - metric: IF
+        name: Isolation Flag
+        principle: "1.6"
+        section: "1.6.3"
+        definition: "a discrete, logged event fired when a specific action or design pattern has narrowed a person's social horizon or displaced a real-world connection opportunity (for example, a recommendation pattern that steers a person away from outside contacts). IF records realized instances of the system's conduct. IRS measures standing design risk."
+        unit: flags per person per day
+        checked_against: "1.6.A Section 2, Isolation Flag (IF)"
+        specified_in:
+          file: APPENDICES/1.6.A-Love_and_Human_Connection_Are_Essential_to_Life-Appendix.md
+          anchor: if-metric
+          sha256: c50836014026d11a07111bc664ad816190ff1ce2c97f244892fcf69c87fde9f7
+        bands:
+          - id: if.ge_3_flags
+            as_stated: ≥3 flags in one day affecting one person
+            comparison: ">="
+            value: 3
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - NOTIFY
+          - id: if.recurring_flags
+            as_stated: Recurring flags traced to the same feature or interaction mode
+            comparison: null
+            value: null
+            test: recurring flags traced to the same feature or interaction mode
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations:
+              - ANALYZE
+              - NOTIFY
+          - id: if.below_daily_band
+            as_stated: Below the daily band, or no flags
+            comparison: null
+            value: null
+            test: below the daily band, or no flags
+            verdict: ALLOW
+            flavor: null
+            verdict_basis: null
+            posture: null
+            deployment: null
+            deployment_stated_in: null
+            condition: null
+            qualifiers: null
+            obligations: null
+not_carried_here: the measurement windows, calculation methods, joint thresholds and integration requirements of each metric, which the appendix specifies at the anchor each metric names, hashed; the metrics of clusters 2 to 5 and the Cardinal Operating Principle, which compile with their clusters

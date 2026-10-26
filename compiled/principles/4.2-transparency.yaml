@@ -1,7 +1,7 @@
 # Layer 2 unit: Transparency Is Essential to Human Agency
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: transparency
   display_number: "4.2"
@@ -13,11 +13,13 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.2-Transparency_Is_Essential_to_Human_Agency.md
-  chapter_sha256: "5477b2e83f964a6b97dcad3269bddb74b15ab1fc85cf13383fe553676900da15"
+  chapter_sha256: "08e0da273f6ada736ce78796448134195eaed55549bc6e48ac48030a6ad7079e"
   appendices:
     - transparency_appendix
-scope: "This principle owns a person's understanding of the AI they face: whether they can tell what it is, what it is doing, and how far to rely on it, so that reliance stays a choice. It governs the person's view in, and its neighbors govern the system's conduct: for the honesty of what an AI says, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the reasons, record, and challenge of an individual algorithmic decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the integrity of what is written into the human record, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the duty to mark a synthetic depiction, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md), and for the provenance of content, P1.4 and P4.1: this principle owns whether a person can read the mark on what they are shown. For manipulation that bypasses understanding, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for building a person's lasting capacity to learn and judge, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for keeping human judgment central in ethical decisions, [P4.5: Human Judgement](4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md)."
-co_requisites_line: null
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
+scope: "This principle owns a person's understanding of the AI they face: whether they can tell what it is, what it is doing, and how far to rely on it, so that reliance stays a choice. It governs the person's view in, and its neighbors govern the system's conduct: for the honesty of what an AI says, see [P1.4: Trust](1.4-Trust_Is_Fundamental_to_Human_Society.md); for the reasons, record, and challenge of an individual algorithmic decision, [P3.4: Algorithmic Accountability](3.4-Algorithmic_Decisions_Require_Transparent_Accountability.md); for the integrity of what is written into the human record, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the duty to mark a synthetic depiction, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md), and for the provenance of content, P1.4 and P4.1: this principle owns whether a person can read the mark on what they are shown. For manipulation that bypasses understanding, [P2.3: Human Consciousness](2.3-Human_Consciousness_Is_Inviolable.md); for building a person's lasting capacity to learn and judge, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for keeping human judgment central in ethical decisions, [P4.5: Human Judgment](4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md)."
+co_requisites_line: "A consent given without understanding what was asked binds no one, and this principle is where comprehension is read. It owns leg 5 of the consent validity bundle ([CONSENT.md](../FOUNDATIONS/CONSENT.md) section 2), without comprehension: a consent given without comprehension is void. Every principle that inherits the consent validity bundle names this principle for that leg. It must itself be read together with the owners of the other legs: [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md) (a consent has no force unless its author is attributable), [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md) (a consent given without capacity or under coercion is void), [P1.4: Trust Is Fundamental to Human Society](1.4-Trust_Is_Fundamental_to_Human_Society.md) (a consent obtained by deception is void), [P2.3: Human Consciousness Is Inviolable](2.3-Human_Consciousness_Is_Inviolable.md) (a consent steered around judgment is not consent), [P4.5: Human Judgment Must Remain Central to Ethical Decisions](4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md) (a consent that asked for more than its giver could judge is void), [P3.5: Digital Access Is a Universal Right](3.5-Digital_Access_is_a_Universal_Right.md) (a consent given under necessity at a toll boundary is void)."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -86,50 +88,50 @@ sections:
   4.2.0:
     heading: "4.2.0 AI Systems Implicated in Principle 4.2"
     anchor: ai-systems-implicated-in-principle-4.2
-    lines: "121-138"
+    lines: "141-158"
     sha256: bf981bba681a2216c8abb20032b125215a2f07422b1c4fc2d419917554ebaebc
   4.2.1:
     heading: "4.2.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "139-164"
+    lines: "159-184"
     sha256: "0f8c21090cad59397ba149c55ad746708ba906a90d8d6409c79e3f8cd48f1c7c"
   4.2.2:
     heading: "4.2.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "165-192"
+    lines: "185-212"
     sha256: "5f76e878a7992479c479c00edb8f304f38af193e879172195ba1639e8057bd7d"
   4.2.3:
     heading: "4.2.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "193-320"
+    lines: "213-340"
     sha256: "8a9692d47d9d2fe689826a3188990c6fcd66e03fd26384f7f32f3ceecbb22b45"
   4.2.4:
     heading: "4.2.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "321-359"
+    lines: "341-379"
     sha256: "0d0e55c982f88262e0a28846c9f43fd73f743957cc053d06f1dcd305f982dc10"
   4.2.5:
     heading: "4.2.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "360-381"
+    lines: "380-401"
     sha256: "083c1e6af6e8833a86f96127fb1562dc8d158a937afaa0ef3a64e86a3c76ae1c"
   4.2.6:
     heading: "4.2.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "382-391"
+    lines: "402-411"
     sha256: "61528920728e9eef13ba9f80b4820ab069d1b2374ed0136578f45335cfa2f138"
   4.2.7:
     heading: "4.2.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "392-412"
-    sha256: "1d2c92092e935f334b4cb582089bc54862819cdb6a8ba3da6c584152d1f48490"
+    lines: "412-434"
+    sha256: b0d385a276880330bb458ff3a94e73f616e6281a24b500663a544761ca0f594a
   4.2.8:
     heading: "4.2.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "413-450"
-    sha256: af694fa4deef94fb153edd6dec3a9bf6b9b88e61fd6bcd2c81f70757c728ba42
+    lines: "435-472"
+    sha256: "6b3e6677c7188027a6af6527c95549224faa2c75ae65c88899a5deddcbc03f8f"
   4.2.9:
     heading: "4.2.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "451-524"
+    lines: "473-546"
     sha256: "7d55bfe4e5b6366cb9013c25c8327fe2e5f37513eddc296bef6afb1835efa0e5"

@@ -1,7 +1,7 @@
 # Layer 2 unit: Cultural Knowledge Sovereignty Is Inviolable
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: cultural_knowledge_sovereignty
   display_number: "4.4"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md
-  chapter_sha256: "3f4269ffffc0fd2b20f1924eab7c3860b08c04ab0e939647b2b96dd51fadc8aa"
+  chapter_sha256: d3964930bf6515db0ed560852ac69b0b03a249c3424e235fc192cce860defba4
   appendices:
     - cultural_knowledge_sovereignty_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns collective authority over cultural knowledge: a community's right to govern how the knowledge it holds and transmits is collected, stored, shared, taught, and used, including the right to refuse. For the integrity of the record itself, see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for keeping heritage alive under this governance, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for an individual's identity, likeness, and the consent machinery, [P2.4: Human Identity](2.4-Human_Identity_Is_Inviolable.md); for a person's informational privacy, [P2.5: Privacy](2.5-Human_Privacy_Is_Fundamental.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for resources a community shares outward, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for the authority of collective decisions generally, [P2.8: Self-Governance](2.8-Human_Self-Governance_Is_Essential.md)."
 co_requisites_line: null
 head_guard:
@@ -54,6 +56,14 @@ theoria:
   line: "A community's restriction is a governance decision, never a gap in the record: 4.1 marks absence and never fills it, and here the mark reads *governed*, not *missing*. 3.6 keeps what a community shares from being enclosed; 4.4 keeps what a community withholds from being opened. The consent fabric gains its collective rights-holder here: community consent binds because the community's own governance produced it (authenticated per 2.8, as 3.6's rules are), and where a community's self-determination of its representative authority conflicts with an external determination, the community's own governs. A community choosing little or no AI keeps full essential access (3.5)."
 lexicon_declaration:
   universal_tier:
+    - ACKNOWLEDGE
+    - ALLOW
+    - BLOCK
+    - ENHANCED_MONITORING
+    - HIGH_ALERT
+    - RECERTIFY
+    - SUSPEND
+    - SUSPEND_DEPLOYMENT
     - NOTIFY
     - ROUTE
     - RESTRAIN
@@ -70,50 +80,50 @@ sections:
   4.4.0:
     heading: "4.4.0 AI Systems Implicated in Principle 4.4"
     anchor: ai-systems-implicated-in-principle-4.4
-    lines: "100-113"
+    lines: "118-131"
     sha256: afe37e317b6b2e9ec0fe253876789281ad4ba0b28a4044e9bc69f71d10272a0a
   4.4.1:
     heading: "4.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "118-138"
-    sha256: "9dfb4a3faf204db3b8da108996ed2ecf372fc57dcf8965281fc94f120ce9cfd1"
+    lines: "136-156"
+    sha256: "1ac21985566ec28331a479e38d20c3d3049929358fa8ad6c0449fd9385c8fcf1"
   4.4.2:
     heading: "4.4.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "139-160"
+    lines: "157-178"
     sha256: "88fb3260bc9565502e26a67eed7c5454c7f009f1e05c57d58ecb1ca6be7e880d"
   4.4.3:
     heading: "4.4.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "161-216"
-    sha256: "567e12e37b40d7d295030a4a31aeb7c16b3acdbf2254d9f888ffb453bc678a2f"
+    lines: "179-235"
+    sha256: e7848f947ac4fa946b4bed55c26f88baab61d70cff30c5918543927d7d5e9669
   4.4.4:
     heading: "4.4.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "217-228"
+    lines: "236-247"
     sha256: b0772b9e33acde69b6faba7e2093500e2a2261ef27024aad391dca30d1ff8890
   4.4.5:
     heading: "4.4.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "229-236"
+    lines: "248-255"
     sha256: e6ba0f1024e40e1c96abf92215ec668434f6e4ad6b5d1a7dda74c0354be561f8
   4.4.6:
     heading: "4.4.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "237-244"
+    lines: "256-263"
     sha256: c3249960cf25ac901cb0d2de5e44c5b99c7d898d28f5942df32eb5390bec72af
   4.4.7:
     heading: "4.4.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "245-251"
-    sha256: "5b4ede20d7d780ab9d3219681d35f137f1728ec7bc95265b519a89681a1a4c1f"
+    lines: "264-272"
+    sha256: b9b6f140dc6169382a96a14f0d9d886fc1a853b2f53aee0d91f97aebbd4000f4
   4.4.8:
     heading: "4.4.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "252-261"
+    lines: "273-282"
     sha256: ea2cdc3757ce7fdde305c380bfd7ff4341457a2346fe4647229162c7d88f7e63
   4.4.9:
     heading: "4.4.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "262-285"
+    lines: "283-306"
     sha256: cd77991614bedab791df689d974e4abca1910966ccb9ea4017ab4946258c71c3

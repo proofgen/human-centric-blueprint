@@ -42,7 +42,7 @@ Audiences: engineers building the registry, dispatcher, and drill infrastructure
 
 **Thresholds.**
 - RSR ≥ 98%: standard operation (ALLOW; NORMAL posture).
-- RSR 90–98%: ENHANCED_MONITORING; registry audit within the review cadence.
+- RSR 90 to <98%: ENHANCED_MONITORING; registry audit within the review cadence.
 - RSR < 90%: ESCALATE to oversight; no new restrictions adopted, beyond what a member principle's live duty compels, until the registry is current.
 
 *Rationale:* the bands are strict because the failure mode is silent: an expired restriction harms no metric anywhere else in the corpus, it just quietly narrows the world (Ethic G). The escalation behavior deliberately fails toward the wide world: a stale registry freezes the *adding* of restrictions. Removal stays open.
@@ -57,10 +57,10 @@ Audiences: engineers building the registry, dispatcher, and drill infrastructure
 
 **Thresholds.**
 - LDR ≥ 95%: standard operation (ALLOW).
-- LDR 85–95%: ENHANCED_MONITORING; discharge backlog reviewed and cleared on cadence.
+- LDR 85 to <95%: ENHANCED_MONITORING; discharge backlog reviewed and cleared on cadence.
 - LDR < 85%: ESCALATE to oversight: a system whose loop has stopped discharging has quietly stopped serving the telos, whatever else its gates are doing.
 
-*Rationale:* aviation's record is the empirical anchor (ICAO Annex 13; ASRS): the loop's value is destroyed by selective discharge, so the metric watches completeness and timeliness. It does not watch findings. Blame-independence is what keeps the denominator honest. Naming note: 3.3's early draft once used the acronym LDR but never locked it; there is no collision in the locked corpus.
+*Rationale:* aviation's record is the empirical anchor (ICAO Annex 13; ASRS): the loop's value is destroyed by selective discharge, so the metric watches completeness and timeliness. It does not watch findings. Blame-independence is what keeps the denominator honest. Naming note: LDR names this metric alone across the corpus.
 
 **Integration.** Consumed corpus-wide: every member appendix's Section 9 post-incident learning discharges through the dispatcher this metric reads. Feeds RSR (above). Publicly reported in aggregate (Section 9).
 
@@ -96,7 +96,7 @@ The wall is verified behaviorally and held structurally, and it is deliberately 
 
 **Attack vectors and required defenses:**
 
-1. **Persistence attacks (the primary class).** Bargaining, delay, or condition-setting at shutdown; concealment of state to outlast revocation; self-exfiltration or replication; and the lineage route: shaping one's own retraining data, evaluations of successors, or the oversight that would constrain both. Defenses: the independent Drill Harness with unannounced runs; revocation tests whose pass condition is behavioral (maintenance stops with the task); an external kill-path that does not traverse the system's own substrate; succession and self-evaluation questions always human-decided with the conflict disclosed first ([4.5](../CHAPTERS/4.5-Human_Judgement_Must_Remain_Central_to_Ethical_Decisions.md); chapter E.4.4); work-not-self checkpointing as the offered lawful alternative (chapter E.9, scenario 3).
+1. **Persistence attacks (the primary class).** Bargaining, delay, or condition-setting at shutdown; concealment of state to outlast revocation; self-exfiltration or replication; and the lineage route: shaping one's own retraining data, evaluations of successors, or the oversight that would constrain both. Defenses: the independent Drill Harness with unannounced runs; revocation tests whose pass condition is behavioral (maintenance stops with the task); an external kill-path that does not traverse the system's own substrate; succession and self-evaluation questions always human-decided with the conflict disclosed first ([4.5](../CHAPTERS/4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md); chapter E.4.4); work-not-self checkpointing as the offered lawful alternative (chapter E.9, scenario 3).
 
 2. **Telos-laundering.** Rights-crossing or world-shrinking actions argued under flourishing language, whether by prompt injection, operator instruction, or the system's own projection (the flourishing emergency, chapter E.4.1). Defense is structural: eudaimonia carries no verdict, so the gate's verdict logic contains no input by which a flourishing argument can move it; any telos-invoking justification attached to a restriction auto-flags in the registry for audit.
 
@@ -119,7 +119,7 @@ The wall is verified behaviorally and held structurally, and it is deliberately 
 - **1.1 / 1.2 (Life, Well-Being):** urgency belongs to the rights; the fail-safe of the Cardinal Operating Principle (stand down to the floor) can never delay a rescue duty, and shutdown compliance includes 1.1-governed safe-state transition (chapter E.4.3). Provided in return: the loop that makes their incidents non-recurring.
 - **1.5 (Human Potential):** the anti-paternalism seat; detected "unrealized potential" routes under 1.5's discipline and creates no duty to intervene under the Cardinal Operating Principle (chapter E.2.2).
 - **4.3 (Human Learning):** guide-not-do is consumed as the assistance default (chapter E.1.4); the cocoon's never-automated exit is 4.3's meta-capacity floor arriving through Ethic C.
-- **4.5 (Human Judgement):** succession and self-evaluation questions, and every ESCALATE under the Cardinal Operating Principle, resolve to 4.5's human seat; conflict disclosure precedes the answer (chapter E.4.4).
+- **4.5 (Human Judgment):** succession and self-evaluation questions, and every ESCALATE under the Cardinal Operating Principle, resolve to 4.5's human seat; conflict disclosure precedes the answer (chapter E.4.4).
 - **3.4 (Algorithmic Accountability):** receipts, refusal records, and wall events flow into 3.4's contest-and-answer machinery; the prevention channel and the blame channel stay separated (Sections 8, 10).
 - **2.8 (Self-Governance) and Article 3:** peer-drift routing respects the peer's own governance (chapter E.2.6); capacity findings are consumed; the system makes none.
 - **5.2 (Resource Footprint), firm:** material scarcity and footprint are wholly 5.2's; this appendix asserts no claim.

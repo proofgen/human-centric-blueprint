@@ -1,7 +1,7 @@
 # Layer 2 unit: Commons Governance Is a Collective Responsibility
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: commons_governance
   display_number: "3.6"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/3.6-Commons_Governance_Is_a_Collective_Responsibility.md
-  chapter_sha256: "1dba9e724c1822643960ccf00c1253a6c9a17b1eaad9ceeb4f6173fcc694106c"
+  chapter_sha256: "9c11c933507fa7b67b7e5282adfe5758c668c06f492224dbad29a89a6672aebf"
   appendices:
     - commons_governance_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns the commons: the resources a community holds and governs in common, and an AI's conduct toward them. For a community's right to govern itself in general, see [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); 2.8 owns the community's authority, 3.6 the shared resources that authority stewards. For privately owned things and fair exchange, see [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); the line between them, enclosure, is this principle's to guard. For a person's access to the digital channel, see [P3.5: Digital Access](3.5-Digital_Access_is_a_Universal_Right.md); 3.5 owns the person's door, 3.6 the shared infrastructure behind it and its governance. For duties to future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for ecosystems protected in their own right, [P5.1](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for the truthfulness of shared knowledge, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
 co_requisites_line: null
 head_guard:
@@ -47,6 +49,9 @@ theoria:
   reach: "The governing community sits at whatever scale actually governs the resource: an acequia, a fishery council, an open-source project, the community of nations under treaty. Ethics C through E bind wherever such a body exists, at any scale; where none exists or none reaches, Ethics A and B bind in full, and a living resource is further protected by HR5. An ungoverned commons is not an unprotected one."
 lexicon_declaration:
   universal_tier:
+    - ANALYZE
+    - RECERTIFY
+    - RECOMMEND-PREVENTION
     - ALLOW
     - ESCALATE
     - BLOCK
@@ -64,50 +69,50 @@ sections:
   3.6.0:
     heading: "3.6.0 AI Systems Implicated in Principle 3.6"
     anchor: ai-systems-implicated-in-principle-3.6
-    lines: "109-119"
+    lines: "127-137"
     sha256: "2ede1f41d29502c01ede1dec45fa006dd7f40b897c2239f50073607fd6700227"
   3.6.1:
     heading: "3.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "124-145"
-    sha256: e445cace70115e3c0a77417211f3133a0f235d2581fe365ae5bdf810c70320ca
+    lines: "142-163"
+    sha256: fb7e9e8642a3a7eed0af6e2d34655512c22534bee14debef8195c73e81148410
   3.6.2:
     heading: "3.6.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "146-161"
-    sha256: "56255efbf6c9720e21b1f4cf0c2b88a11873be27b52c4a64ad49ffa6bfb593ff"
+    lines: "164-179"
+    sha256: b9b4e2d3fdf9951243b4a69fe0f0e1cf5bb2f1c68694155308a580a45ed22fc8
   3.6.3:
     heading: "3.6.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "162-251"
+    lines: "180-269"
     sha256: bbeac115112f32c71c1eb5f53d88dd197f7482d3380781b1a35d95a0bc1db998
   3.6.4:
     heading: "3.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "252-283"
+    lines: "270-301"
     sha256: "26cdb1ec988c061ba07c46eab30288694758dbee504b7da6035d22c32b38eefd"
   3.6.5:
     heading: "3.6.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "284-291"
+    lines: "302-309"
     sha256: "0f1069f41daf14f6f490888cb8dd4fa9f265852fac1e33e9360550a93ebbb7b0"
   3.6.6:
     heading: "3.6.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "292-301"
+    lines: "310-319"
     sha256: "43ebce4d640b7ae980aed52ecf96240c33a4ef54972ebce7f697c1fd085a846d"
   3.6.7:
     heading: "3.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "302-309"
-    sha256: e6a0da07c87f0732209676caf52c511d2063aaead9baae404c5b9827a8a6e8c1
+    lines: "320-329"
+    sha256: c2a73d65de23f171f9eb8d799c85aef81c42c5faca70ec49088cfbaa3c043a2a
   3.6.8:
     heading: "3.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "310-347"
+    lines: "330-367"
     sha256: "7e70880aa667a7ea394f805cbdf842c974d7283fe40802b526b4489800163213"
   3.6.9:
     heading: "3.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "348-387"
+    lines: "368-407"
     sha256: b023d14d7de4f270781f484062e833805854aa59154145beb49297fe55e51abe

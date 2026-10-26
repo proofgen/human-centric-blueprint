@@ -1,22 +1,20 @@
 # A Human-Centric Blueprint for Safe AI Ethics
 
-By Erik Passoja. Version 1.2.0, sealed 2026-10-13. Fingerprint: `79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb`. DOI: 10.5281/zenodo.23356105.
+By Erik Passoja. Version 1.3.0, sealed 2026-10-25. Fingerprint: `2d20121b8afbf0e99b52755003b6d7fe4fab2d21e4e6f19d34f15e500aac429e`. DOI: pending. Zenodo assigns this version's DOI at the release, and a metadata tag records it. The concept DOI for all versions is 10.5281/zenodo.22743046.
 
 This document is a rulebook for machines that act in the world: the AI that prescribes a medication, drives a car, executes a financial transaction, or tutors a child. The Human-Centric Blueprint states what such a machine may do, what it may not do under any authority, and what record it must leave so that anyone can check it afterward.
 
 These rules bind machines alone and not humans. People have human laws.
 
-This document is a specification. The rules are here in two forms:
+**What this is.** A complete, written standard of conduct for machines and the philosophy behind it. A Cardinal Operating Principle, above a Constitution, above thirty-four Cardinal Ethical Principles. Part of it compiles to data a program can load: the walls, the gate's order of evaluation, the two emergency thresholds, the metric bands of the first six principles, the consent test, the reliability floor and the tier register's fields, the credential map, and the verb registry. The rest is text, indexed by section and hash, and [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) says which is which.
 
-(1) text a person can read, and
+**What it is not yet.** Reconciled in full, validated in operation, or shown running in public. Each chapter is marked reconciled or proposed in [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml), and a proposed chapter does not bind at the gate until its cluster compiles. At this version, the reconciled set is Principles 1.1 to 1.6, the place to read first. The governance and enforcement that hold a machine to these rules, a gate before every consequential act and a receipt behind it, are being built separately.
 
-(2) data a program can load.
-
-The governance and enforcement that hold a machine to these rules, including a gate before every consequential AI action and a receipt behind it, are being built separately. None of it has been shown publicly yet.
+**What it is for.** A head start. This project is a preliminary foray and a living document that has to change. It is published so that a network of ethical machines can be built, navigated by one North Star, *eudaimonia* (human flourishing).
 
 ## Read in this order
 
-1. [`INTRODUCTION.md`](INTRODUCTION.md): why this exists, the idea, and a map of the whole. About thirteen minutes.
+1. [`INTRODUCTION.md`](INTRODUCTION.md): the author's foreword on how this was written, why this exists, the idea, and a map of the whole. About fourteen minutes.
 2. [`CONSTITUTION.md`](CONSTITUTION.md): the law, in eleven articles. About ten minutes.
 3. Any chapter in [`CHAPTERS/`](CHAPTERS/) that concerns you.
 
@@ -30,9 +28,9 @@ The receipt a governed machine must leave is Article 7 of the Constitution. What
 
 ## Check your copy
 
-    python3 compiled/verify.py --expect 79887915e0a289a706f1d10c0e2a9883d9d9aa71b9c01bbcac9235b52c5372fb
+    python3 compiled/verify.py --expect 2d20121b8afbf0e99b52755003b6d7fe4fab2d21e4e6f19d34f15e500aac429e
 
-Python 3.8 or later, and nothing to install. Take the fingerprint from a source other than this download, such as the DOI record. PASS means every file here is the file the sealed version describes.
+Python 3.8 or later, and nothing to install. Take the fingerprint from a source other than this download, such as the DOI record. PASS means every file here is the file the sealed version describes. To check that the data was compiled from the text, [`FOR_ENGINEERS/README.md`](FOR_ENGINEERS/README.md) section 1 shows how to regenerate it with the published compiler and compare.
 
 ---
 
@@ -43,8 +41,8 @@ Readers often report as missing what is here and unfound. This table answers the
 | If you are looking for | It is here |
 |---|---|
 | The philosophy: Aristotle, Asimov, the purpose | [`INTRODUCTION.md`](INTRODUCTION.md), then [`CHAPTERS/AI_Eudaimonia.md`](CHAPTERS/AI_Eudaimonia.md) |
-| How the technology is licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments operated without commercial gain, published terms for commercial ones, and verification free to all |
-| Who controls the text, and what follows the author | [`LICENSE.md`](LICENSE.md) sections 6 and 7, and Constitution, Article 11 |
+| How the technology is licensed to other implementers | [`LICENSE.md`](LICENSE.md) section 5: royalty-free for deployments operated without commercial gain, an agreement with the steward for deployments operated for profit, with the price confidential and every agreement listed by name, and verification free to all |
+| Who controls the text, who will after the author, and the Council | [`GOVERNANCE.md`](GOVERNANCE.md), [`LICENSE.md`](LICENSE.md) sections 6 and 7, and Constitution, Article 11 |
 | Which versions are accepted, and what changed | `RELEASES.md` |
 | What the compiled bundle can and cannot evaluate today | [`compiled/COVERAGE.yaml`](compiled/COVERAGE.yaml) |
 | The lever and the footbridge: side effect versus means | Constitution, Article 2, and chapter 1.1, the necessity test |
@@ -61,4 +59,4 @@ Readers often report as missing what is here and unfound. This table answers the
 
 ## License and feedback
 
-The text is licensed CC BY-ND 4.0, and the two checking programs Apache 2.0. The terms are in [`LICENSE.md`](LICENSE.md), and verification is free to everyone. Questions, corrections, and challenges are welcome as issues: https://github.com/proofgen/human-centric-blueprint/issues. The text changes only by a new version with a new fingerprint, and each version cites the one before it.
+The text is licensed CC BY-ND 4.0, and the three programs (the checker, the receipt checker, and the compiler) Apache 2.0. The terms are in [`LICENSE.md`](LICENSE.md), and verification is free to everyone. Questions, corrections, and challenges are welcome as issues: https://github.com/proofgen/human-centric-blueprint/issues. The text changes only by a new version with a new fingerprint, and each version cites the one before it.

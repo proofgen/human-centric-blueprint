@@ -1,6 +1,6 @@
 # Glossary of metric names
 
-*For anyone who meets an abbreviation in a chapter. Version 1.2.0. Built from the chapters and appendices at every release, so it cannot drift from them: 153 names across 35 principles.*
+*For anyone who meets an abbreviation in a chapter. Version 1.3.0. Built from the chapters and appendices at every release, so it cannot drift from them: 153 names across the thirty-four principles and the Cardinal Operating Principle.*
 
 Each chapter measures its principle with named metrics, and the text abbreviates them. A chapter's section X.Y.3 states each metric and its bands, and the appendix's Section 2 specifies it. Two chapters sometimes use the same letters for different measures. Both are listed, each with its chapter.
 

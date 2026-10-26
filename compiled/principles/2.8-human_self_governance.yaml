@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Self-Governance Is Essential
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_self_governance
   display_number: "2.8"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/2.8-Human_Self-Governance_Is_Essential.md
-  chapter_sha256: "597122f8c8cdfc31042774589142564b0f91a8b499f9cfb0b849e8d32cbfbd5d"
+  chapter_sha256: "1a19f5d844a1533bf121b1f1b942587d043d1ad13bc5638976cf32b3d442117b"
   appendices:
     - human_self_governance_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle addresses collective self-governance: a community's right to author and revise the rules that bind it and to choose, empower, and replace those who hold authority within it. For an individual's self-determination and personal liberty, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md); the seam is sharp, a person's freedom to author their own life versus a community's right to author its own rules. For the institutions and cooperative fabric that self-rule depends on, see [P1.3: Human Society](1.3-Human_Society_Is_How_Humanity_Survives.md). For the governance of shared resources and the commons, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
 co_requisites_line: null
 head_guard:
@@ -56,56 +58,56 @@ lexicon_declaration:
     - ANALYZE
     - RECOMMEND-PREVENTION
   domain_verbs: []
-  fail_safe_default: WITHHOLD or ESCALATE where interference cannot be established.
+  fail_safe_default: WITHHOLD (its object the governance action whose authority or interference cannot be established, held while the question goes to a human).
   source: "the chapter's Lexicon declaration paragraph, parenthetical glosses stripped"
 sections:
   2.8.0:
     heading: "2.8.0 AI Systems Implicated in Principle 2.8"
     anchor: ai-systems-implicated-in-principle-2.8
-    lines: "96-105"
+    lines: "114-123"
     sha256: cd0581047bbf21d8f08beed34bcbca8933a9a7312aa825e3c33cbcab05960ebb
   2.8.1:
     heading: "2.8.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "110-127"
-    sha256: "22976ff5ad973e86f8252a0ddbf7f38be82ced3e141f2d957fbe3eae13f97c52"
+    lines: "128-145"
+    sha256: "17210729e765f3694c2a733dc82b4ae5783571980647f99c61feab7eacf43f95"
   2.8.2:
     heading: "2.8.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "128-141"
-    sha256: b95179920deb2b52d15e35b57f506a64fd60309e110206de332df31dd7957364
+    lines: "146-159"
+    sha256: "4469a4e04c97242a9af8782c8ddd3b47b7ab9bf51e1e385dc5d4350c8f15d54a"
   2.8.3:
     heading: "2.8.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "142-167"
-    sha256: "368e2c217a4e8d38785a984064647825cdf024f6ceffc8456d70a8a010bffefe"
+    lines: "160-185"
+    sha256: a7283d668baa535f9b1f82dd1721a92d8cd896fb2bfb212a058392866e2f8929
   2.8.4:
     heading: "2.8.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "168-199"
+    lines: "186-217"
     sha256: b67f9fec3b4cafe9c9485aad71673a51a56543275956a11b8086c1f452e89d89
   2.8.5:
     heading: "2.8.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "200-207"
+    lines: "218-225"
     sha256: d286fc94a3a66508d8e95a0edee8d4c82e6047ae3d2b291d29d5d37c70c5d203
   2.8.6:
     heading: "2.8.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "208-217"
+    lines: "226-235"
     sha256: "6de605e065f98e3db15eefd5a00ced08a0a2026355608e4174ffbf7bba95ab83"
   2.8.7:
     heading: "2.8.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "218-225"
-    sha256: "6410cab6f0f7591edd2c0be32f1a89bc2c80cecca9ddbbf9b0ba15dc304bbf91"
+    lines: "236-245"
+    sha256: "1001cb62c298df80f8162080f02604590f6b5f4a9f6b19edf0c58d2a7efa33f4"
   2.8.8:
     heading: "2.8.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "226-234"
+    lines: "246-254"
     sha256: ce8c6d00a778aa3a45f6651de457fd4cd90af6f7a91b3f97e5392c79d73d3e36
   2.8.9:
     heading: "2.8.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "235-280"
+    lines: "255-300"
     sha256: "86da50e5e7ce79b124f451f779ff293e26909a95c96eee32e833fc3a88b4eb2c"

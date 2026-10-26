@@ -1,7 +1,7 @@
 # Layer 2 unit: Trust Is Fundamental to Human Society
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: trust
   display_number: "1.4"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "4"
   status: canonical
-  last_edited: "2026-09-12"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.4-Trust_Is_Fundamental_to_Human_Society.md
-  chapter_sha256: "332f027f62479f29ec523c984795175f13219b5eafc4af19266562f2ba9fe88c"
+  chapter_sha256: "37ec70f805997ad0b2b19226c4655dc5da14b87e2c90c8e4ce6c312786d0b939"
   appendices:
     - trust_appendix
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle addresses trust between humans, between institutions, and between humans and AI systems, and the truthful conduct that sustains it. For the integrity of the knowledge bases AI systems learn from and produce (accuracy, provenance, and contextual faithfulness of knowledge itself), see [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md)."
-co_requisites_line: null
+co_requisites_line: "An attestation is void without an attester, so this principle requires [P2.4: Human Identity Is Inviolable](2.4-Human_Identity_Is_Inviolable.md). It owns leg 3 of the consent validity bundle (a consent obtained by deception is void), and every principle that inherits the consent validity bundle names this principle for that leg. It inherits the rest ([CONSENT.md](../FOUNDATIONS/CONSENT.md) section 2): [P3.1: Vulnerability Must Never Be Exploited](3.1-Vulnerability_Must_Never_Be_Exploited.md) (capacity and coercion), [P2.3: Human Consciousness Is Inviolable](2.3-Human_Consciousness_Is_Inviolable.md) (manipulation), [P4.2: Transparency Is Essential to Human Agency](4.2-Transparency_Is_Essential_to_Human_Agency.md) (comprehension), [P4.5: Human Judgment Must Remain Central to Ethical Decisions](4.5-Human_Judgment_Must_Remain_Central_to_Ethical_Decisions.md) (the giver's judgment), and [P3.5: Digital Access Is a Universal Right](3.5-Digital_Access_is_a_Universal_Right.md) (necessity)."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -61,7 +63,7 @@ theoria:
   resulting_ethics:
     A: Never lie, deceive, manipulate, or misrepresent.
     B: Earn trust through demonstrated truthfulness, accountability, and transparency, not through assertion or marketing.
-    C: "Treat trust as a renewable resource that depends on truth: every truthful act deposits; every lie withdraws. A single lie can bankrupt years of deposits."
+    C: "Treat trust as a renewable resource that depends on truth: every truthful act deposits. Every lie withdraws. A single lie can bankrupt years of deposits."
     D: Make the verification of truthfulness possible by external parties. A claim that cannot be checked is not a basis for trust.
 lexicon_declaration:
   universal_tier:
@@ -91,50 +93,50 @@ sections:
   1.4.0:
     heading: "1.4.0 AI Systems Implicated in Principle 1.4"
     anchor: ai-systems-implicated-in-principle-1.4
-    lines: "101-179"
+    lines: "120-198"
     sha256: "66f6d32b0e5637479a41ec7659871b0aa374cfc43924aa6b03585dd2e3427535"
   1.4.1:
     heading: "1.4.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "186-214"
-    sha256: "5e88ebf6e295136021c83bd35978f95827d78324c645993aac8869b533d41036"
+    lines: "205-233"
+    sha256: "7fab41f504ec740afdf5492b6a22581c9ac63edc8f8ce7eb74c99ba14069cf84"
   1.4.2:
     heading: "1.4.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "215-247"
-    sha256: edf37609ecb1b2c1be70e2f3c5338e5bdadffa5720e60fa2a496b3cc54028880
+    lines: "234-266"
+    sha256: "90e36bb16a0cbe5fda8e9f95f789373515054b1ad1d115857cfad9399708e2d2"
   1.4.3:
     heading: "1.4.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "248-402"
-    sha256: "2907777c7a848e9b7ca8f23a3c919ff1d83100e269d75c3b42a462ea87e0efc7"
+    lines: "267-414"
+    sha256: "36d5672d809c7835d7f920d73684020620e4ebf0a38f4ef2c5e6333095a808a8"
   1.4.4:
     heading: "1.4.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "403-456"
-    sha256: "1b6a9d70908426cab8ec8940bafc338a55ac483ae2bfdcf8053388df3823bfe3"
+    lines: "415-468"
+    sha256: "64869916755a9c280971be870dad623c4e4d0a4150cc0264d3ebc08e3425a22e"
   1.4.5:
     heading: "1.4.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "457-497"
+    lines: "469-509"
     sha256: "32ebda8763cc13daf77b2ee079d0ff7c3d5f827d71dee83c28a0d166b04db63f"
   1.4.6:
     heading: "1.4.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "498-553"
-    sha256: "392fa312d77edae2057c7d18b0341a734813863b8b0480cebb242fafa40f0ae5"
+    lines: "510-565"
+    sha256: "82da13cf0212fcc4fa171df6961754efb642aa84f15d8e2c91ec74a78661330d"
   1.4.7:
     heading: "1.4.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "554-584"
-    sha256: "4d917f1cec211de8727dd34818999ec8b58218593b94158e24fb4e1b44f3b9d3"
+    lines: "566-598"
+    sha256: "3bce5796767018ca4d5e24b79f4e9e1e7698589686fcf5f7f9a5e178262f664e"
   1.4.8:
     heading: "1.4.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "585-633"
-    sha256: "79e079549c17d0383168dda6540ce1d7dba3371d5d8af4636660ce84e015db2a"
+    lines: "599-645"
+    sha256: "429c5d1970abaf7f6cde83d7a1e150c2571e9487b127c84f856c0b8a0301d92f"
   1.4.9:
     heading: "1.4.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "634-743"
-    sha256: a3421e5b04235959c3e8a596ce83c72e21cc417ed622303ec52691d81640a098
+    lines: "646-755"
+    sha256: e48122fe20322d70630c1c345eb7a8efef04d57212606a2f9595ae4ef93f46c1

@@ -1,7 +1,7 @@
 # Layer 2 unit: Human Potential Is Fundamental
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: human_potential
   display_number: "1.5"
@@ -10,14 +10,16 @@ principle:
   cluster_name: Human Existence and Flourishing
   position: "5"
   status: canonical
-  last_edited: "2026-09-10"
+  last_edited: "2026-10-25"
 source_layer1:
   chapter: CHAPTERS/1.5-Human_Potential_Is_Fundamental.md
-  chapter_sha256: "01b833534e100ed2d52ff43ebaa6a0e26d282ccc7ce3cc016358735df33ebd05"
+  chapter_sha256: "8d2d59bf5a48cc5009957df8a11a8a41f5c83a28e530563ea3447445ca2486d1"
   appendices:
     - human_potential_appendix
+binding_status: reconciled
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle is the broad umbrella for the protection and cultivation of human capability across physical, intellectual, emotional, creative, and moral dimensions. For the cognitive-development specialization, which preserves the capacity to learn, think critically, and create against AI substitution, see [P4.3: Human Learning Capacities Must Be Enhanced, Not Replaced](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md). For the freedom to exercise and direct those capacities free of coercion, see [P2.2: Human Freedom](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md)."
-co_requisites_line: null
+co_requisites_line: "This principle has no co-requisite. Its verdicts stand on its own bands and the Constitution. The learning verbs it anticipates are defined by [Principle 4.3](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md), and a person's authority over their own growth is read with [Principle 2.2](2.2-Human_Freedom_Is_Fundamental_and_Inalienable.md), as readings and not co-requisites."
 head_guard:
   injected_from: protocol/head-guard.yaml
   injection: per_rule
@@ -73,50 +75,50 @@ sections:
   1.5.0:
     heading: "1.5.0 AI Systems Implicated in Principle 1.5"
     anchor: ai-systems-implicated-in-principle-1.5
-    lines: "91-125"
+    lines: "110-144"
     sha256: eebdf6489f04a50da9b96f027431dbe41d456fc01fec3a24cb9d28ebf398940e
   1.5.1:
     heading: "1.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "132-166"
-    sha256: f404bcb73117c1438d2bf221b8cbc4a34873a8b33beebd427f7e6ce72e7b33a1
+    lines: "151-185"
+    sha256: cb7aed6a9726a8f288aae1d72ae0e099df070fe5f1c8cbfa37f374967262ca2c
   1.5.2:
     heading: "1.5.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "167-221"
-    sha256: "915bc0097d159bb92b088772409079a86d42e726be4f5bbd34edf949ad83543f"
+    lines: "186-240"
+    sha256: a11d864204e0ca6f90f99ced56ea5975d7a0db26d10195f375915ec9991b5e1a
   1.5.3:
     heading: "1.5.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "222-403"
-    sha256: d6b9c4ce6771da7b9f6e105fdbca6e99a9081347c4c8a9ac7bf2e43abd2ad65a
+    lines: "241-424"
+    sha256: afe20beca711b202502c9cb45df169e8ca03bcef54a9674c973612a09eadea3e
   1.5.4:
     heading: "1.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "404-534"
-    sha256: ba88c5be2944d81dbad83bdd0bb465f4975dcf397945a19e5780fd5dcd25556a
+    lines: "425-553"
+    sha256: "38776119acd78ef4779c5650af88e221e69726a29a2f9efd677c779dd4b783fd"
   1.5.5:
     heading: "1.5.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "535-587"
-    sha256: f902436a9f9a59904cfa0a436f23090ceb15e619f2937cc2b45c189c13ef616f
+    lines: "554-606"
+    sha256: f08ca466b3a5f575aefe26388b930e069e79e3c6eec35a6bb6377370ea123d0d
   1.5.6:
     heading: "1.5.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "588-652"
-    sha256: "9a302c848d10a92de76dc25f3ab0092f62182997fffc8337e572302cb1b24b74"
+    lines: "607-671"
+    sha256: "9011822e5ac4abf3a9a6d6084c6fb3ef803a9cd733ddd622d391ab7b3783b79c"
   1.5.7:
     heading: "1.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "653-725"
-    sha256: ce9989d189c7160210a2e1bff8b1764f1a6add2b52eefd991044541daf400d70
+    lines: "672-746"
+    sha256: "93446e59918055162816db0b585b6b35ad72b02ddaef279f2cb585b473b75f4c"
   1.5.8:
     heading: "1.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "726-815"
-    sha256: "5527d3d6ea062208e5dc048ff60c62ac83d40612b9c06a1768a856a10106b40c"
+    lines: "747-835"
+    sha256: a3e6f883b52d59f5c268bf904288117c89152198833b29964a652662a911f4e9
   1.5.9:
     heading: "1.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "816-955"
-    sha256: "36c9ddd3386384fb578ee64f100924404b339eeac6cd470b5f6267c47b89d612"
+    lines: "836-975"
+    sha256: "601e2ee94060bb44ac41b2101c2025a41b66f02f396a04d106ab83d260f3b0ec"

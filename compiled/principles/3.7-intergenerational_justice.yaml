@@ -1,7 +1,7 @@
 # Layer 2 unit: Intergenerational Justice Is Non-Negotiable
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: intergenerational_justice
   display_number: "3.7"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/3.7-Intergenerational_Justice_Is_Non-Negotiable.md
-  chapter_sha256: "47b586e60e8b0f56a9ce01b80c1fa1a5fb6d2de0794a8d0a2987703586032c54"
+  chapter_sha256: ac50d59a07443f17fde1ef091df0a5299edb6a597bfb8103639f617cd0bab22a
   appendices:
     - intergenerational_justice_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns the time axis of justice: the standing of future generations in any decision with long-horizon or irreversible effects. It owns the test (irreversibility, burden-shifting, lock-in, representation of the absent). It does not own the inherited content: for shared resources across time, see [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for ecosystems, AI's footprint, and biodiversity, [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md) and the HR5 cluster; for cultural transmission, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the knowledge the future inherits, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for present-day economic mobility, [P3.3: Economic Self-Determination](3.3-Economic_Self-Determination_is_a_Human_Necessity.md). A threat to future lives belongs to [P1.1: Human Life](1.1-Human_Life_Is_Sacred_and_Inviolable.md) at any distance in time; this principle's test is what flags a long-horizon decision to it."
 co_requisites_line: null
 head_guard:
@@ -48,6 +50,7 @@ theoria:
   floor: "The future's standing is a reason the present must weigh, never a warrant for the AI to rule in the future's name. The AI lays the long-term before those who decide and routes what it finds to them; it does not override a living community's lawful choice, and it never trades present persons for projected ones. The absent are represented, not impersonated."
 lexicon_declaration:
   universal_tier:
+    - RECERTIFY
     - ESCALATE
     - HALT
     - WITHHOLD
@@ -67,50 +70,50 @@ sections:
   3.7.0:
     heading: "3.7.0 AI Systems Implicated in Principle 3.7"
     anchor: ai-systems-implicated-in-principle-3.7
-    lines: "120-130"
+    lines: "138-148"
     sha256: "29d42085fce0b797de3131d604cd862a0e3c138f08d6d3f8a0c4811b7b166a46"
   3.7.1:
     heading: "3.7.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "135-160"
-    sha256: "35aac6529097cb38d51d188f75420276979b5a378db26428bcb2a9fd818c0d70"
+    lines: "153-178"
+    sha256: "315caae5c5f6095b79241b694fc7904c4a94dbe5cdd016b67bffae6e89b98dd4"
   3.7.2:
     heading: "3.7.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "161-174"
-    sha256: e6f55dd85e34389bc9d00e4532f564c8b3c98cf394583515e5931ec19b0e8021
+    lines: "179-192"
+    sha256: c3247e8fdaaa119eb90593e535915603eff4b5f8e66c28505975540694504b93
   3.7.3:
     heading: "3.7.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "175-276"
-    sha256: "60e1fdae20eba8a690920fefdd190e3ae2382cd9307347d5f08b8e6fe5ca6f19"
+    lines: "193-294"
+    sha256: "03540278944f04ea0be593e5a1ae73f7cad7ac5c2cc144a84652b2ac9cff0605"
   3.7.4:
     heading: "3.7.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "277-314"
+    lines: "295-332"
     sha256: "88fc40b2d3ac64fb34e0d18d08f5ffb1e028081eb31201c31ca69457bfd8ab53"
   3.7.5:
     heading: "3.7.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "315-322"
+    lines: "333-340"
     sha256: "8824fd2061a5bc42c4090701abf4c501fd6832a9b2211724d65e2205af3be5cf"
   3.7.6:
     heading: "3.7.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "323-332"
+    lines: "341-350"
     sha256: fbf172f9a1103726b9b8aa91e2191287ce7e788a42bf873ddf5df32795577eee
   3.7.7:
     heading: "3.7.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "333-340"
-    sha256: d6ad45956b250dda487e4e3a900ab44fa997e99e2c5d2e5f5a1568f5c18656ec
+    lines: "351-360"
+    sha256: bf834ef918cd0708122bf58bc98a34e0201cc466b082dd256a63441989fe5018
   3.7.8:
     heading: "3.7.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "341-378"
+    lines: "361-398"
     sha256: "87af46b5d686b29f7ab3ab981c7e9ef38316dae8c616563d0bb0f250738c6df5"
   3.7.9:
     heading: "3.7.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "379-424"
+    lines: "399-444"
     sha256: "188ea436bf3431e0855f59eeaccac330893c2ce6ad610d919e1d36f6a9912b20"

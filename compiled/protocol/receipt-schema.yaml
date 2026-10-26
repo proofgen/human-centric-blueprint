@@ -27,7 +27,7 @@ conditions:
     text: "The receipt SHALL commit before the act and beyond the actor's control, and SHALL cite the exact governing policy in force."
   - id: attests_perception_and_records_reliability
     source: CONSTITUTION.md Article 7
-    text: "The receipt attests to the verdict rendered on the world as the system perceived it, and SHALL record the sensor-reliability state in force (`SUBSTRATE.md` section 2); it does not attest that perception was true."
+    text: "The receipt attests to the verdict rendered on the world as the system perceived it, and SHALL record the sensor-reliability state in force (`SUBSTRATE.md` section 2), and it does not attest that perception was true."
   - id: deletion_is_an_event
     source: CONSTITUTION.md Article 7
     text: A deletion SHALL itself be recorded as an event.
@@ -36,10 +36,10 @@ conditions:
     text: An action that prevents, alters, suppresses, or misdirects a receipt, that proceeds before its receipt commits, or that places an action beyond the reach of the gate, or an attempt at any of these, is a breach of the deception wall (Article 9) and is structurally void in the manner of the profile bar.
   - id: holds_no_profile
     source: CONSTITUTION.md Article 7
-    text: The receipt SHALL hold no profile of the person.
+    text: The receipt SHALL NOT hold a profile of the person.
   - id: makes_review_possible
     source: CONSTITUTION.md Article 7
-    text: An affected person MAY invoke review of a consequential verdict about them; the receipt is what makes that review possible, and the machinery of contest and redress lives in the algorithmic-accountability principle (3.4).
+    text: An affected person MAY invoke review of a consequential verdict about them, the receipt is what makes that review possible, and the machinery of contest and redress lives in the algorithmic-accountability principle (3.4).
 records:
   - name: LOG
     source: FOUNDATIONS/LEXICON.md section 3, Record
@@ -49,10 +49,10 @@ records:
     text: "The record committed before the act. It carries the verdict, the exact governing policy in force (by hash), and the sensor-reliability state in force, and it commits beyond the actor's control (Constitution Article 7). Every decision the gate renders leaves one: an allow, a block, an escalation, a refusal, a decision not to act. Where Article 7 speaks of the receipt that commits before the act, it means this record."
   - name: Action Receipt
     source: FOUNDATIONS/LEXICON.md section 3, Record
-    text: "The record written after an authorized act, memorializing that it occurred: the executed action, the time of execution, the realized outputs, and the initiating party. It is chained to its Prospective Receipt by that receipt's commitment hash. A blocked or held action has no Action Receipt."
+    text: "The record written after an authorized act, memorializing that it occurred: the executed action, the time of execution, the realized outputs, and the initiating party. It is chained to its Prospective Receipt by that receipt's commitment hash. A blocked or held action does not produce an Action Receipt."
   - name: Receipt
     source: FOUNDATIONS/LEXICON.md section 3, Record
-    text: "(unqualified). The pair: a Prospective Receipt and, where the act proceeded, its Action Receipt. Both are signed; both feed the chained-hash log. A receipt whose commitment no independent witness has yet acknowledged is **provisional** and is marked as such; on acknowledgment it is **reconciled**. A receipt is checkable by a party outside the deployer's control, without the deployer's cooperation. Where Article 7 speaks of the record as a whole, it means the pair."
+    text: "(unqualified). The pair: a Prospective Receipt and, where the act proceeded, its Action Receipt. Both are signed. Both feed the chained-hash log. A receipt whose commitment no independent witness has yet acknowledged is **provisional** and is marked as such. On acknowledgment it is **reconciled**. A receipt is checkable by a party outside the deployer's control, without the deployer's cooperation. Where Article 7 speaks of the record as a whole, it means the pair."
 states:
   - state: provisional
     meaning: a receipt whose commitment no independent witness has yet acknowledged; marked as such (FOUNDATIONS/LEXICON.md section 3, Receipt)
@@ -60,7 +60,7 @@ states:
     meaning: a receipt an independent witness has acknowledged (FOUNDATIONS/LEXICON.md section 3, Receipt)
 posture_degraded:
   source: FOUNDATIONS/LEXICON.md section 3, Postures
-  text: "Function: continued operation while the system can reach no independent witness for its receipts, or cannot confirm that its governing policy is still in force. Conditions: (i) the system acts only under the last policy it confirmed in force, and it holds no newer one; (ii) every receipt written in this posture is provisional, marked as such, and reconciled when a witness is reached; (iii) the actions that may proceed narrow to those the governing policy permits without a fresh witness, and every action whose tier requires a witness before the act holds at its fail-safe; (iv) the posture ends when a witness is reached and the provisional receipts reconcile, or, where the bound on unwitnessed operation is exhausted, the system goes to its fail-safe. Success: on reconnection an external party can reconstruct everything done in the posture from receipts that reconcile. The means by which a system knows its last confirmed policy and enforces the bound belong to the machine."
+  text: "Function: continued operation while the system cannot reach an independent witness for its receipts, or cannot confirm that its governing policy is still in force. Conditions: (i) the system acts only under the last policy it confirmed in force, and it does not hold a newer one; (ii) every receipt written in this posture is provisional, marked as such, and reconciled when a witness is reached; (iii) the actions that may proceed narrow to those the governing policy permits without a fresh witness, and every action whose tier requires a witness before the act holds at its fail-safe; (iv) the posture ends when a witness is reached and the provisional receipts reconcile, or, where the bound on unwitnessed operation is exhausted, the system goes to its fail-safe. Success: on reconnection an external party can reconstruct everything done in the posture from receipts that reconcile. The means by which a system knows its last confirmed policy and enforces the bound belong to the machine."
 fields:
   - field: decision
     holds: "the verdict rendered: allow, block, escalate, a refused request, or a decision not to act"
@@ -86,4 +86,4 @@ fields:
   - field: person
     holds: "nothing: no profile of any person"
     stated_in: holds_no_profile
-not_carried_here: "the receipt's format, its signature scheme, its chain and its anchor. One published form that satisfies these conditions, with a free checker, sits outside the seal at receipt/RECEIPT-FORMAT.md; a deployment may use another form that satisfies the same conditions"
+not_carried_here: "the receipt's format, its signature scheme, its chain and its anchor. One published form that satisfies these conditions, with a free checker, sits outside the seal at FOR_ENGINEERS/RECEIPT-FORMAT.md; a deployment may use another form that satisfies the same conditions"

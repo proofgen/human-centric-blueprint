@@ -1,7 +1,7 @@
 # Layer 2 unit: The Earth Is One Environmental System, and No Border Contains It
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: global_environmental_cooperation
   display_number: "5.6"
@@ -12,10 +12,12 @@ principle:
   status: canonical
   last_edited: "2026-09-09"
 source_layer1:
-  chapter: CHAPTERS/5.6-Global_Environmental_Cooperation_is_Essential.md
-  chapter_sha256: "81cf68b3323783840466b39a82120ca0a08cd6bccf487556e61a4db1796c29d7"
+  chapter: CHAPTERS/5.6-The_Earth_Is_One_Environmental_System_and_No_Border_Contains_It.md
+  chapter_sha256: d8f9cf386843e973088088e5117157d788cdface73accb4d908221f616b22400
   appendices:
     - global_environmental_cooperation_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns the scale mismatch: what an AI owes when the system its decision affects is larger than any authority that governs it, and its own contribution is one among many that compose the result. For the irreversibility threshold, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for the connections short of it, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for the AI's own draw on the biosphere, [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for who bears an environmental burden and why, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for species, habitats, and genetic lines, [P5.5: Biodiversity](5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md); for a resource a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md); for a community's authority to govern itself, [P2.8: Human Self-Governance](2.8-Human_Self-Governance_Is_Essential.md); for the standing of future generations, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for the integrity of the scientific record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md). A fragmentation reaching human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol."
 co_requisites_line: null
 head_guard:
@@ -47,6 +49,8 @@ theoria:
     - "Ethic C's standing is [5.1](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md)'s Ethic D, carried here rather than re-founded; what C adds is that the duty does not wait for a treaty, as 5.1's does not wait for a traceable victim. That standing is an enforcement structure and never an extension of the corpus's human-only personhood ([Article 1](../CONSTITUTION.md)): a shared system is not a person and holds no rights against one. And [5.2](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md)'s Ethic A answers an allocated share rather than the ocean, which is not A's opposite but its dependent, since an allocation derives from a whole-system reading someone performed first. As a last-cluster principle ([Article 4](../CONSTITUTION.md)) 5.6 outranks nothing, and being the coordination principle gives it no claim over what it coordinates."
 lexicon_declaration:
   universal_tier:
+    - RECERTIFY
+    - SUSPEND_DEPLOYMENT
     - ALLOW
     - ENHANCED_MONITORING
     - ESCALATE
@@ -64,50 +68,50 @@ sections:
   5.6.0:
     heading: "5.6.0 AI Systems Implicated in Principle 5.6"
     anchor: ai-systems-implicated-in-principle-5.6
-    lines: "97-108"
+    lines: "114-125"
     sha256: "0993325f65bb2eddf32c37cf8edbd082f11db9686619627360c7b2539075f6c7"
   5.6.1:
     heading: "5.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "113-139"
-    sha256: e7fbacaa4eb65f70cb869daf830af32eeb5d8c40bd1130e908213bec3f25c27d
+    lines: "130-156"
+    sha256: e256e1ec584a2b7555d21409662bbeb43b31b4af7e76b86585c75afee11a74ad
   5.6.2:
     heading: "5.6.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "140-163"
-    sha256: a3145f2d933d7724565bed9dead075b60fb00e12de692a56ac6650630c64b4f8
+    lines: "157-180"
+    sha256: "78ff62123e69c698a19f9b455956ae877419a6dadf00b3806d0fcc670e5db5aa"
   5.6.3:
     heading: "5.6.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "164-229"
-    sha256: "72432f9e2dca4abf7f032a5bb618085ebd923f712e5a0a7e7e0649223d96f96c"
+    lines: "181-246"
+    sha256: "2a898f0a4784d4ea5427a9d8edd2a2640f34297e9c949959c99acac05adc865a"
   5.6.4:
     heading: "5.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "230-241"
+    lines: "247-258"
     sha256: "8524187cec57356b96b785328d163481aadd9691f3ec3ee805fdf2d361a6fee0"
   5.6.5:
     heading: "5.6.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "242-254"
-    sha256: fc04e9a28727020442cae9158950b4cfc71fd7cc72263f82c309448e84febbf2
+    lines: "259-271"
+    sha256: c10cc24368e7f55663c54d1161ca6b88c29cfe3444852ef3c4d9df420cf66b8b
   5.6.6:
     heading: "5.6.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "255-264"
+    lines: "272-281"
     sha256: "1ec77c4397d7d7509a7fb50992bde06a23541ec713ebebe20d29116b9f5ad4d8"
   5.6.7:
     heading: "5.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "265-272"
-    sha256: fb3a490a1ec56bd3376a900bfa4b13fd10f41b46674b99ce6c87f3c6456ccbcd
+    lines: "282-291"
+    sha256: "05f26287052e514569ecffb2b2abad86935f4b5224d63d8b1fd1e917b908280c"
   5.6.8:
     heading: "5.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "273-286"
+    lines: "292-305"
     sha256: "7a125c4a7d1bb0ea3d15a95dca5950d2d04a37f5618d77adf2d9f6284e3e33e8"
   5.6.9:
     heading: "5.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "287-305"
-    sha256: "595f6a0aa3fd9b8e0539f907b0a6b77eccc57af70223e8788541ee3c7ee2fd32"
+    lines: "306-324"
+    sha256: "6c71f038a65dc68308f2b3851b9a36f8642e0942475f411d7d4c4bd5942bda4c"

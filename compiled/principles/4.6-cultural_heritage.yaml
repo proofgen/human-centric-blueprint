@@ -1,7 +1,7 @@
 # Layer 2 unit: Cultural Heritage Deserves Active Preservation
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: cultural_heritage
   display_number: "4.6"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-09"
 source_layer1:
   chapter: CHAPTERS/4.6-Cultural_Heritage_Deserves_Active_Preservation.md
-  chapter_sha256: f61180c6fa3720f6d04bcd06157bc80ae87dca0a6767c97e0e2b321df7f6eeb8
+  chapter_sha256: ecbb39f51eee4b5d6b132642bf0a551f2f0e11c78ab9395b9764c2fc8c9e1a01
   appendices:
     - cultural_heritage_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns keeping heritage alive: the survival and living transmission of the languages, traditions, arts, crafts, ceremonies, and practices a community carries, and the duty never to let AI output replace that transmission. For who governs cultural knowledge, including the right to refuse preservation, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for the encounter between cultures, [P4.7: Cross-Cultural Exchange](4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md); for duties to future generations at large, [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md); for a person's own learning capacity, [P4.3: Human Learning](4.3-Human_Learning_Capacities_Must_Be_Enhanced_Not_Replaced.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md)."
 co_requisites_line: null
 head_guard:
@@ -49,6 +51,7 @@ theoria:
   line: "4.4 is prior: preservation of governed knowledge moves only inside community consent, and a refusal ends the project. Active preservation is help offered, never imposed: a community that lets a practice rest, or keeps it unrecorded, has governed, not failed. 4.1 keeps the record honest; 4.6 keeps alive the practice from which the record comes. 4.7 governs what moves between cultures; 3.7 carries the general duty to the future, of which this principle is the cultural instance."
 lexicon_declaration:
   universal_tier:
+    - ROUTE
     - WITHHOLD
     - ALLOW
     - ENHANCED_MONITORING
@@ -73,50 +76,50 @@ sections:
   4.6.0:
     heading: "4.6.0 AI Systems Implicated in Principle 4.6"
     anchor: ai-systems-implicated-in-principle-4.6
-    lines: "117-129"
+    lines: "135-147"
     sha256: "5240ac3c1a5cd76617e5eb7ea0f095d56030c999a1a3a609007a2142ae61e0ac"
   4.6.1:
     heading: "4.6.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "134-156"
-    sha256: "82f0e4ab1ebe5c5525f2877ab26f20e781aa5159f065186c388780d37c303c92"
+    lines: "152-174"
+    sha256: "9ed18d8cb10c6219845f110e83205156098e8d6d840445c70fb96ae7ca79dda1"
   4.6.2:
     heading: "4.6.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "157-190"
+    lines: "175-208"
     sha256: "44060a2e7440c5474b55cab39b717cbbc4fca3c0d7e56cff20a5439780763521"
   4.6.3:
     heading: "4.6.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "191-272"
+    lines: "209-290"
     sha256: c16a42c8983d3dc61a84d25e861c9ea1963e55016c4a45fb15b502063d7459ec
   4.6.4:
     heading: "4.6.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "273-323"
+    lines: "291-341"
     sha256: "8e5285539869e65faf30cb8c05eb67c7ea9c922a1a38c7632ee313107ab26e0a"
   4.6.5:
     heading: "4.6.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "324-343"
+    lines: "342-361"
     sha256: "866cece5b2b4ebc1092df00ad6aeced0edc94c1b558e7ca52167eecb051b048f"
   4.6.6:
     heading: "4.6.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "344-353"
+    lines: "362-371"
     sha256: c69f25ab73d636e34eae5d0e3418dbccf8031f8856fb7c1f74973d55112a5730
   4.6.7:
     heading: "4.6.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "354-361"
-    sha256: "2150d73d7cfe5142ddf5484cf8a5d3afe11e6cb1d0485b3c8a28d04fe8045260"
+    lines: "372-381"
+    sha256: "585140e36ec1c55d4a86b18734d72df533836f1ee8cc14d067648347ad6df424"
   4.6.8:
     heading: "4.6.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "362-399"
+    lines: "382-419"
     sha256: d35cb5ae704e207d514fa2550a97c3e69dc08287b5b2aeb70325133ebba6c831
   4.6.9:
     heading: "4.6.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "400-453"
+    lines: "420-473"
     sha256: f4b6a06ea9397dc5687f10fcd58fe0bdf02ae7c5a92b0dd5c21b8af4ac19a21a

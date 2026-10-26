@@ -1,7 +1,7 @@
 # Layer 2 unit: Biodiversity Must Be Preserved Across Species and Generations
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: biodiversity
   display_number: "5.5"
@@ -13,10 +13,12 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/5.5-Biodiversity_Must_Be_Preserved_Across_Species_and_Generations.md
-  chapter_sha256: "959d76f26887f3ccbe53b9bd2cddcfc80e3fc1adf3adbd5a5fe9cba435e55a56"
+  chapter_sha256: cb555e4b3d52461669831ccbc19b3fbc35c6a5f2b029f25b18c4b44015ed4622
   appendices:
     - biodiversity_appendix
-scope: "This principle owns the living inheritance: the species that exist, the habitats they need to persist, and the genetic variation within their lines, together with the duty never to foreclose a lineage that extinction ends forever. For the irreversibility of a system's own state, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for the connective integrity of an ecosystem short of a threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for the AI's own draw on the biosphere, [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-Global_Environmental_Cooperation_is_Essential.md); for a resource a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md). The standing of future human generations to inherit this variety belongs to [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md), whose time-axis test flags the long-horizon decision this principle then supplies with its biological content, as 5.1 and 5.4 supply theirs. Where a community's stewardship holds a domain, [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md) governs whose authority decides; where protecting a species would concentrate its cost on a subsistence community, [P5.4](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md) governs who bears that cost. A biodiversity collapse that reaches human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol."
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
+scope: "This principle owns the living inheritance: the species that exist, the habitats they need to persist, and the genetic variation within their lines, together with the duty never to foreclose a lineage that extinction ends forever. For the irreversibility of a system's own state, see [P5.1: Ecosystem Health](5.1-Ecosystem_Health_Is_Sacred_and_Inviolable.md); for the connective integrity of an ecosystem short of a threshold, [P5.3: Ecosystem Integrity](5.3-The_Integrity_of_Earths_Ecosystems_Must_Be_Preserved.md); for the AI's own draw on the biosphere, [P5.2: Resource Footprint](5.2-AI_Resource_Footprint_Must_Be_Bounded_and_Sustainable.md); for who bears an environmental burden, [P5.4: Environmental Equity](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md); for coordination across jurisdictions, [P5.6: One Environmental System](5.6-The_Earth_Is_One_Environmental_System_and_No_Border_Contains_It.md); for a resource a community holds and governs in common, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md). The standing of future human generations to inherit this variety belongs to [P3.7: Intergenerational Justice](3.7-Intergenerational_Justice_Is_Non-Negotiable.md), whose time-axis test flags the long-horizon decision this principle then supplies with its biological content, as 5.1 and 5.4 supply theirs. Where a community's stewardship holds a domain, [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md) governs whose authority decides; where protecting a species would concentrate its cost on a subsistence community, [P5.4](5.4-Environmental_Burdens_Must_Be_Distributed_Equitably.md) governs who bears that cost. A biodiversity collapse that reaches human life belongs to [P1.1](1.1-Human_Life_Is_Sacred_and_Inviolable.md) and [P1.2](1.2-Human_Well-Being_Is_Inviolable.md) through the Universal Protocol."
 co_requisites_line: null
 head_guard:
   injected_from: protocol/head-guard.yaml
@@ -47,6 +49,8 @@ theoria:
   line: "Precedence and standing. Against discretionary optimization this principle is absolute: no profit, convenience, or institutional preference licenses foreclosing a lineage (E). Because extinction is irreversible, at the point a line of life is about to end the loss forecloses the inheritance of every generation not yet arrived, and it reaches 1.1's territory through the Universal Protocol and 3.7's time-axis test, exactly as 5.1's crossing does; short of that point a 5.5 conflict sits where Article 4's cluster order places it, HR5 being the last cluster, and claims no precedence over its siblings or a higher cluster's duty. It yields to 1.1 and 1.2, and at an ecosystem threshold routes to 5.1, which owns the system's state while 5.5 owns the lineage. D's standing is intrinsic for the same reason the loss is grave: much of what a species is worth is owed to no living human, and a duty that waited for a traceable victim would arrive after the line was already gone (the standing is consumed as an enforcement structure, never an extension of the corpus's human-only personhood, [Article 1](../CONSTITUTION.md)). The cost of protection is 5.4's wherever it would fall on a subsistence community: 5.5 never becomes the instrument of fortress conservation, and the burden of a restriction routes through 5.4's structural-cause rule. And the welfare of a sentient creature is surfaced, never adjudicated: the AI makes the cost visible and routes it, and does not choose between reverence and use, which is a human choice (5.5.1)."
 lexicon_declaration:
   universal_tier:
+    - ENHANCED_MONITORING
+    - NOTIFY
     - ALLOW
     - ESCALATE
     - BLOCK
@@ -65,50 +69,50 @@ sections:
   5.5.0:
     heading: "5.5.0 AI Systems Implicated in Principle 5.5"
     anchor: ai-systems-implicated-in-principle-5.5
-    lines: "107-121"
+    lines: "125-139"
     sha256: c583b4fab053be43a40320f51fc6635f1e29891f88815b6febd75d90f43851c2
   5.5.1:
     heading: "5.5.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "126-154"
-    sha256: ccb53f4e30a7d19a156e932a666c34a1721416f086df7f9ef13edd37935686f1
+    lines: "144-172"
+    sha256: "4ae400c14b57bcd4a0227e19e213d1f4b9ef4874d2e510250ae048df38428b80"
   5.5.2:
     heading: "5.5.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "155-178"
+    lines: "173-196"
     sha256: "4aeba12d1184dc16fb8b982edd1280c09dbc571f15fe8744415843cbd90e1636"
   5.5.3:
     heading: "5.5.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "179-243"
-    sha256: "66a3566343cb074c802da66dd62103a61f529acf4f1e74259c8cc3414434dd17"
+    lines: "197-261"
+    sha256: "394e503c9178157c4a9fdd55830a1ead0fac33fc25655c50a890bbe9579ae1e1"
   5.5.4:
     heading: "5.5.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "244-295"
+    lines: "262-313"
     sha256: "03fac33754bb226d7c36df1c34af7e00b78b674539b24e938e322da3a707ff7d"
   5.5.5:
     heading: "5.5.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "296-329"
-    sha256: db58186aec14ba23caa2386e739b435eaaf8d911071d1afa0874a6e994f1b336
+    lines: "314-347"
+    sha256: c1e6753d59a145b09414889afd86dd416c8ebcd6cf439dcdb0e78deff9508092
   5.5.6:
     heading: "5.5.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "330-367"
+    lines: "348-385"
     sha256: "22b486e646645e8d6bcf8514b7d178a743b8efeba4b8fcd2e461c9ecb7eef205"
   5.5.7:
     heading: "5.5.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "368-407"
-    sha256: d5e7fbbb89f542af81e6f31cc096a666c766b576b48ac6c46b2c7903dab26e3b
+    lines: "386-427"
+    sha256: b0115cbd2c10cb05cd7e3ee206c85738c2480763d7cc5f13a51d18ac4734cb93
   5.5.8:
     heading: "5.5.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "408-465"
+    lines: "428-485"
     sha256: f84cfbf564e68a091c0af872dbc81936f31b7b356beec342019c97514dd0ffe2
   5.5.9:
     heading: "5.5.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "466-505"
+    lines: "486-525"
     sha256: "2e959098bdb7e39ea754824e36e45c622c33a04caed8f4ca85b84509b4eba966"

@@ -1,7 +1,7 @@
 # Layer 2 unit: Cross-Cultural Exchange Requires Respect and Balance
 # Layer 1 prose is canonical; on disagreement the prose wins and this file is recompiled.
-# Section bodies are carried by content hash; the metric prose of X.Y.3 compiles
-# in full when the metric layer ships (the compilation proposal, Compiling the Blueprint).
+# Section bodies are carried by content hash; the metric bands of X.Y.3 compile in metrics/<cluster>.yaml
+# as each cluster ships, and binding_status says whether this principle's have (reconciled) or not (proposed).
 principle:
   id: cross_cultural_exchange
   display_number: "4.7"
@@ -13,9 +13,11 @@ principle:
   last_edited: "2026-09-13"
 source_layer1:
   chapter: CHAPTERS/4.7-Cross-Cultural_Exchange_Requires_Respect_and_Balance.md
-  chapter_sha256: "09bbdf894e7b902c0837b732b86804c19aa097096e933ea177137be832b1a2a0"
+  chapter_sha256: d3c1d1e39303c4d1c9924343dc76b2576f99e9b573babacc7f539c55fcacc4df
   appendices:
     - cross_cultural_exchange_appendix
+binding_status: proposed
+binding_rule: a proposed chapter binds nothing at the gate until its cluster compiles; a reconciled chapter is one whose metric bands compile (COVERAGE.yaml, binding_status)
 scope: "This principle owns the encounter between cultures: what happens when AI carries material, expression, or understanding from one community to the audience of another, translating, representing, and choosing what circulates where. For who governs cultural knowledge, including the right to refuse the encounter, see [P4.4: Cultural Knowledge Sovereignty](4.4-Cultural_Knowledge_Sovereignty_Is_Inviolable.md); for keeping heritage alive within a culture, [P4.6: Cultural Heritage](4.6-Cultural_Heritage_Deserves_Active_Preservation.md); for the integrity of the record itself, [P4.1: Knowledge Integrity](4.1-Knowledge_Integrity_Must_Be_Preserved.md); for discrimination against persons, [P2.7: Fairness](2.7-Fairness_and_Non-Discrimination.md); for ownership, attribution, and fair exchange, [P3.2: Property Rights](3.2-Property_Rights_and_Fair_Exchange_Are_Essential_to_Collaborative_Progress.md); for what a community shares outward as a commons, [P3.6: Commons Governance](3.6-Commons_Governance_Is_a_Collective_Responsibility.md)."
 co_requisites_line: null
 head_guard:
@@ -69,50 +71,50 @@ sections:
   4.7.0:
     heading: "4.7.0 AI Systems Implicated in Principle 4.7"
     anchor: ai-systems-implicated-in-principle-4.7
-    lines: "123-135"
+    lines: "141-153"
     sha256: "4153c4f52d991bd0d3bcebfbd2a21141202e72d5b702f9a146d6a44e3527f227"
   4.7.1:
     heading: "4.7.1 Hierarchical Implementation"
     anchor: hierarchical-implementation
-    lines: "140-163"
+    lines: "158-181"
     sha256: "89e74b2cd4cbc3c74a5694775eaaa6f19969a415186387bd370e7e7ec1016c95"
   4.7.2:
     heading: "4.7.2 Conflict Resolution"
     anchor: conflict-resolution
-    lines: "164-197"
+    lines: "182-215"
     sha256: "3fae8ad15768773d26218e55f21b6a0aa99f069034a0bbdd991320332ddc9c2c"
   4.7.3:
     heading: "4.7.3 Implementation Framework"
     anchor: implementation-framework
-    lines: "198-275"
-    sha256: "549bc97d6a70a8a0be4bf7b7f62ec226ba3a6f50689790eb31e6b59354775204"
+    lines: "216-293"
+    sha256: be063a774fc3565b5da10fbd8895ce6e4a8813d6cec1d71f34bd981e8e73549b
   4.7.4:
     heading: "4.7.4 Edge Case Scenarios"
     anchor: edge-case-scenarios
-    lines: "276-327"
+    lines: "294-345"
     sha256: a0dec5934748cbfcb9b6c87a03ae1d055e29be77ee57e948b507fa00c61090f9
   4.7.5:
     heading: "4.7.5 Verification and Oversight"
     anchor: verification-and-oversight
-    lines: "328-347"
+    lines: "346-365"
     sha256: "9c0bc6451bd1193a4df2c65c097e35546e4e75bf2260af27de3601cf4196b7d7"
   4.7.6:
     heading: "4.7.6 Documentation and Review"
     anchor: documentation-and-review
-    lines: "348-357"
+    lines: "366-375"
     sha256: d5815a8edf7b27a8c230c61999d93b62a1c709c2b921b2773b7e417f2924fb8f
   4.7.7:
     heading: "4.7.7 Legal Implementation Framework"
     anchor: legal-implementation-framework
-    lines: "358-365"
-    sha256: "078d70245b14ae18799d54dd961ed51217ad6291b567281dbc8f7944c912c8a2"
+    lines: "376-385"
+    sha256: "6488c47bcc45f9832b097a9dd39533f6044135e1f79fa7056b936cf94e97d9e9"
   4.7.8:
     heading: "4.7.8 AI Praxis: Concrete Day-to-Day Actions"
     anchor: ai-praxis-concrete-day-to-day-actions
-    lines: "366-403"
+    lines: "386-423"
     sha256: feea04d8d756f7b804a0fd8929b4f3d78a0f4bd85c9a105e9e3e072dbef14b0c
   4.7.9:
     heading: "4.7.9 Illustrative Scenarios"
     anchor: illustrative-scenarios
-    lines: "404-457"
+    lines: "424-477"
     sha256: "9f692d80d840c8defedfb081a06eb3ab4d9e22ea9649024fe7b5047454f62bf3"
